@@ -73,7 +73,7 @@
     "ID": "EVENT-011",
     "Type": "Event",
     "Name": "Visions of the Ghost King",
-    "Content": "Session #22. Arc experiences visions of Rory and the Ghost King, revealing deeper ties between her changeling curse and the spectral monarchy of Virelka.",
+    "Content": "Session #22. Arc experiences visions of Rory and the Ghost King, revealing deeper ties between Rory and the spectral monarchy of Virelka.",
     "Related": ["CHAR-001", "CHAR-019", "CHAR-020", "LOC-015", "QUEST-005"]
   },
   {
@@ -105,3 +105,4 @@
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-025", "LOC-012", "LOC-017"]
   }
 ]
+
