@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "arkini_character",
+      "type": "character",
+      "name": "Arkini",
+      "content": "Tiefling Warlock, follower of the Raven Queen. Cunning, flirtatious, pragmatic survivor. Uses charm and manipulation as weapons. Goal: Survive Barovia and gain power to save her mother from poverty. Secretly dreams of controlling the domain. Beautiful, blue-skinned, keeps a detailed diary. Carries a sentimental whip and has a pet salamander named Hexagon. Obsessed with collecting 'blood red' makeup. Relationships: Considers Eclipse her 'best sister.' Flirts with Mykieal ('Sunshine') and Davi ('My Knight') but is growing infatuated with the Abbot.",
+      "tags": ["tiefling", "warlock", "raven queen", "manipulative", "survivor", "blue skin", "hexagon", "diary"]
+    },
+    {
+      "id": "barovia_village_location",
+      "type": "location", 
+      "name": "Village of Barovia",
+      "content": "The miserable, fog-bound capital of Barovia. A place of decay and despair. Key Spots: Blood of the Vine Tavern (grim social hub), Bildrath's Mercantile (notoriously overpriced store), The Church (dilapidated, with a grieving priest and vampire spawn in basement), Death House (sentient haunted mansion). Significance: The party's introduction to Barovia. Where they met Ismark and Ireena and received their first major quest.",
+      "tags": ["capital", "foggy", "decaying", "tavern", "church", "death house", "starting area"]
+    },
+    {
+      "id": "death_house_event",
+      "type": "event",
+      "name": "Death House",
+      "content": "The party's first dungeon crawl in a haunted mansion. Plot: Lured by ghost children, Rose and Thorn, to find their baby brother and kill the 'monster in the basement.' Outcome: The party uncovered a dark history of sacrifice and starvation, defeated a spectral monster, and barely escaped as the house itself tried to kill them. Consequence: Forged the party together and set the tone of danger and tragedy for Barovia.",
+      "tags": ["haunted mansion", "ghost children", "first dungeon", "rose and thorn", "sacrifice", "starvation", "escape"]
+    },
+    {
+      "id": "meeting_abbot_event",
+      "type": "event", 
+      "name": "Meeting the Abbot",
+      "content": "The party defied warnings and investigated the mysterious Abbey. Discovery: Found the Abbot is not a villain, but a Deva (celestial angel) trying to help Barovia. Revelation: He confirmed Ireena is a reincarnation of Strahd's lost love, Tatyana, and revealed Strahd's tragic backstory from the Tome of Strahd. Consequence: Gained a powerful ally and crucial lore. Arkini became infatuated with the Abbot, changing her personal goals.",
+      "tags": ["abbey", "deva", "celestial", "ireena", "tatyana", "tome of strahd", "revelation", "ally"]
+    }
+  ],
+  "search_config": {
+    "fuzzy_matching": true,
+    "searchable_fields": ["name", "content", "tags", "type"],
+    "min_score": 0.3
+  }
+}
