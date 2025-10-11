@@ -3,7 +3,7 @@
     "ID": "CHAR-001",
     "Type": "PC",
     "Name": "Arc en Ciel",
-    "Content": "A changeling rogue introduced in Session #1 at Thunder’s Respite. Known for her disguises, irreverent humor, and fascination with cooking. Her ghostly past with Rory and connection to the Ghost King define her darker arc. She views the party as her chosen family and is often the first to improvise or act morally gray.",
+    "Content": "A changeling monk introduced in Session #1 at Thunder’s Respite. Known for her disguises, irreverent humor, and fascination with cooking. Her ghostly past with Rory and connection to the Ghost King define her darker arc. She views the party as her chosen family and is often the first to improvise or act morally gray.",
     "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-021", "LOC-001", "LOC-008", "EVENT-009", "QUEST-003"]
   },
   {
@@ -210,3 +210,4 @@
     "Related": ["CHAR-003", "CHAR-004", "LOC-013"]
   }
 ]
+
