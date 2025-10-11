@@ -6,6 +6,7 @@ class CampaignWiki {
         this.fuse = null;
         this.currentNode = null;
         this.dataLoaded = false;
+        this.currentSort = 'name'; // Track current sort method
     }
 
     async init() {
@@ -17,52 +18,50 @@ class CampaignWiki {
     }
 
     async loadAllCampaigns() {
-    try {
-        console.log('📂 Loading campaign data from JSON files...');
-        
-        // Wait for the JSON data to be loaded
-        this.dataLoaded = await loadCampaignData();
-
-        if (!this.dataLoaded || typeof CAMPAIGN_DATABASE === 'undefined') {
-            console.error('❌ Campaign data not loaded properly');
-            this.showError('Failed to load campaign data. Check console for details.');
-            return;
-        }
-
-        this.campaigns.clear();
-        let totalNodes = 0;
-
-        console.log('📋 Available campaigns:', Object.keys(CAMPAIGN_DATABASE));
-
-        for (const [campaignName, campaignData] of Object.entries(CAMPAIGN_DATABASE)) {
-            console.log(`📖 Processing campaign: ${campaignName}`);
+        try {
+            console.log('📂 Loading campaign data from JSON files...');
             
-            const nodes = this.parseCampaignNodes(campaignData);
-            totalNodes += nodes.length;
-
-            const parsedData = {
-                dm: campaignData.dm || "Unknown DM",
-                lorekeeper: campaignData.lorekeeper || "Unknown Lorekeeper",
-                nodes: nodes
-            };
-
-            if (nodes.length > 0) {
-                this.campaigns.set(campaignName, parsedData);
-                console.log(`✅ Loaded ${campaignName}: ${nodes.length} nodes`);
-            } else {
-                console.warn(`⚠️ No nodes found for campaign: ${campaignName}`);
-                // Still add the campaign even if no nodes, so it shows in selector
-                this.campaigns.set(campaignName, parsedData);
+            // Wait for the JSON data to be loaded
+            if (typeof loadCampaignData !== 'undefined') {
+                this.dataLoaded = await loadCampaignData();
             }
-        }
 
-        console.log(`🎉 Successfully loaded ${this.campaigns.size} campaigns with ${totalNodes} total nodes`);
-        
-    } catch (error) {
-        console.error('❌ Error loading campaigns:', error);
-        this.showError('Failed to load campaign data: ' + error.message);
+            if (!this.dataLoaded || typeof CAMPAIGN_DATABASE === 'undefined' || Object.keys(CAMPAIGN_DATABASE).length === 0) {
+                throw new Error('Failed to load campaign data from JSON files');
+            }
+
+            this.campaigns.clear();
+            let totalNodes = 0;
+
+            for (const [campaignName, campaignData] of Object.entries(CAMPAIGN_DATABASE)) {
+                console.log(`📖 Processing campaign: ${campaignName}`);
+                
+                const nodes = this.parseCampaignNodes(campaignData);
+                totalNodes += nodes.length;
+
+                const parsedData = {
+                    dm: campaignData.dm || "Unknown DM",
+                    lorekeeper: campaignData.lorekeeper || "Unknown Lorekeeper",
+                    nodes: nodes
+                };
+
+                if (nodes.length > 0) {
+                    this.campaigns.set(campaignName, parsedData);
+                    console.log(`✅ Loaded ${campaignName}: ${nodes.length} nodes`);
+                } else {
+                    console.warn(`⚠️ No nodes found for campaign: ${campaignName}`);
+                    // Still add the campaign even if no nodes, so it shows in selector
+                    this.campaigns.set(campaignName, parsedData);
+                }
+            }
+
+            console.log(`🎉 Successfully loaded ${this.campaigns.size} campaigns with ${totalNodes} total nodes`);
+            
+        } catch (error) {
+            console.error('❌ Error loading campaigns:', error);
+            this.showError('Failed to load campaign data: ' + error.message);
+        }
     }
-}
 
     parseCampaignNodes(campaignData) {
         const nodes = [];
@@ -236,6 +235,7 @@ class CampaignWiki {
         
         this.updateHeaderInfo(campaignData.dm, campaignData.lorekeeper);
         this.initSearch();
+        this.setupSortControls();
         this.renderIndex();
         this.enableUI();
         
@@ -263,6 +263,12 @@ class CampaignWiki {
             </div>
         `;
         document.getElementById('relatedList').innerHTML = '<p class="placeholder">Select an entry to see related content</p>';
+        
+        // Remove sort controls if they exist
+        const existingSortControls = document.querySelector('.sort-controls');
+        if (existingSortControls) {
+            existingSortControls.remove();
+        }
         
         document.getElementById('searchInput').value = '';
         document.getElementById('searchInput').disabled = true;
@@ -310,19 +316,81 @@ class CampaignWiki {
         console.log('🔍 Search initialized with', this.currentData.length, 'items');
     }
 
+    // ADD THIS METHOD - It was missing!
     renderIndex() {
+        this.sortIndex('name'); // Default to alphabetical sort
+    }
+
+    setupSortControls() {
+        // Remove existing sort controls if they exist
+        const existingSortControls = document.querySelector('.sort-controls');
+        if (existingSortControls) {
+            existingSortControls.remove();
+        }
+        
+        const sortControls = document.createElement('div');
+        sortControls.className = 'sort-controls';
+        sortControls.innerHTML = `
+            <button class="sort-btn active" data-sort="name">A-Z</button>
+            <button class="sort-btn" data-sort="type">Type</button>
+        `;
+        
+        const leftPanel = document.querySelector('.left-panel');
+        const indexList = document.getElementById('indexList');
+        leftPanel.insertBefore(sortControls, indexList);
+        
+        // Add event listeners for sort buttons
+        sortControls.addEventListener('click', (e) => {
+            if (e.target.classList.contains('sort-btn')) {
+                // Update active state
+                sortControls.querySelectorAll('.sort-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                e.target.classList.add('active');
+                
+                // Sort the data
+                this.sortIndex(e.target.dataset.sort);
+            }
+        });
+    }
+
+    sortIndex(sortBy) {
+        if (!this.currentData.length) return;
+        
+        this.currentSort = sortBy;
+        let sortedNodes;
+        
+        switch (sortBy) {
+            case 'name':
+                sortedNodes = [...this.currentData].sort((a, b) => 
+                    a.name.localeCompare(b.name)
+                );
+                break;
+            case 'type':
+                sortedNodes = [...this.currentData].sort((a, b) => {
+                    const typeCompare = a.type.localeCompare(b.type);
+                    if (typeCompare === 0) {
+                        return a.name.localeCompare(b.name);
+                    }
+                    return typeCompare;
+                });
+                break;
+            default:
+                sortedNodes = [...this.currentData];
+        }
+        
+        this.renderSortedIndex(sortedNodes);
+    }
+
+    renderSortedIndex(sortedNodes) {
         const indexList = document.getElementById('indexList');
         indexList.innerHTML = '';
 
-        if (this.currentData.length === 0) {
+        if (sortedNodes.length === 0) {
             indexList.innerHTML = '<p class="placeholder">No entries found in this campaign</p>';
             this.updateCounts(0, 0);
             return;
         }
-
-        const sortedNodes = [...this.currentData].sort((a, b) => 
-            a.name.localeCompare(b.name)
-        );
 
         sortedNodes.forEach((node, index) => {
             const item = document.createElement('div');
