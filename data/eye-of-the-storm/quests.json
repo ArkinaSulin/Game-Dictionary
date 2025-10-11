@@ -31,7 +31,7 @@
     "ID": "QUEST-005",
     "Type": "Quest",
     "Name": "The Ghost King’s Bargain",
-    "Content": "Status: Ongoing. Involves Arc’s changeling curse and Rory’s ghostly bond to the Roseheart King. Visions from Session #22 suggest Arc may need to enter Virelka to sever this spectral connection.",
+    "Content": "Status: Ongoing. Involves Rory’s ghostly bond to the Roseheart King. Visions from Session #22 suggest Arc may need to enter Virelka to sever this spectral connection.",
     "Related": ["CHAR-001", "CHAR-019", "CHAR-020", "LOC-015", "EVENT-011"]
   },
   {
@@ -56,3 +56,4 @@
     "Related": ["CHAR-002", "CHAR-025", "LOC-012", "LOC-017", "EVENT-015"]
   }
 ]
+
