@@ -17,48 +17,52 @@ class CampaignWiki {
     }
 
     async loadAllCampaigns() {
-        try {
-            console.log('📂 Loading campaign data from JSON files...');
-            
-            // Wait for the JSON data to be loaded
-            if (typeof loadCampaignData !== 'undefined') {
-                this.dataLoaded = await loadCampaignData();
-            }
+    try {
+        console.log('📂 Loading campaign data from JSON files...');
+        
+        // Wait for the JSON data to be loaded
+        this.dataLoaded = await loadCampaignData();
 
-            if (!this.dataLoaded || typeof CAMPAIGN_DATABASE === 'undefined' || Object.keys(CAMPAIGN_DATABASE).length === 0) {
-                throw new Error('Failed to load campaign data from JSON files');
-            }
-
-            this.campaigns.clear();
-            let totalNodes = 0;
-
-            for (const [campaignName, campaignData] of Object.entries(CAMPAIGN_DATABASE)) {
-                console.log(`📖 Processing campaign: ${campaignName}`);
-                
-                const nodes = this.parseCampaignNodes(campaignData);
-                totalNodes += nodes.length;
-
-                const parsedData = {
-                    dm: campaignData.dm || "Unknown DM",
-                    lorekeeper: campaignData.lorekeeper || "Unknown Lorekeeper",
-                    nodes: nodes
-                };
-
-                if (nodes.length > 0) {
-                    this.campaigns.set(campaignName, parsedData);
-                    console.log(`✅ Loaded ${campaignName}: ${nodes.length} nodes`);
-                } else {
-                    console.warn(`⚠️ No nodes found for campaign: ${campaignName}`);
-                }
-            }
-
-            console.log(`🎉 Successfully loaded ${this.campaigns.size} campaigns with ${totalNodes} total nodes`);
-            
-        } catch (error) {
-            console.error('❌ Error loading campaigns:', error);
-            this.showError('Failed to load campaign data: ' + error.message);
+        if (!this.dataLoaded || typeof CAMPAIGN_DATABASE === 'undefined') {
+            console.error('❌ Campaign data not loaded properly');
+            this.showError('Failed to load campaign data. Check console for details.');
+            return;
         }
+
+        this.campaigns.clear();
+        let totalNodes = 0;
+
+        console.log('📋 Available campaigns:', Object.keys(CAMPAIGN_DATABASE));
+
+        for (const [campaignName, campaignData] of Object.entries(CAMPAIGN_DATABASE)) {
+            console.log(`📖 Processing campaign: ${campaignName}`);
+            
+            const nodes = this.parseCampaignNodes(campaignData);
+            totalNodes += nodes.length;
+
+            const parsedData = {
+                dm: campaignData.dm || "Unknown DM",
+                lorekeeper: campaignData.lorekeeper || "Unknown Lorekeeper",
+                nodes: nodes
+            };
+
+            if (nodes.length > 0) {
+                this.campaigns.set(campaignName, parsedData);
+                console.log(`✅ Loaded ${campaignName}: ${nodes.length} nodes`);
+            } else {
+                console.warn(`⚠️ No nodes found for campaign: ${campaignName}`);
+                // Still add the campaign even if no nodes, so it shows in selector
+                this.campaigns.set(campaignName, parsedData);
+            }
+        }
+
+        console.log(`🎉 Successfully loaded ${this.campaigns.size} campaigns with ${totalNodes} total nodes`);
+        
+    } catch (error) {
+        console.error('❌ Error loading campaigns:', error);
+        this.showError('Failed to load campaign data: ' + error.message);
     }
+}
 
     parseCampaignNodes(campaignData) {
         const nodes = [];
