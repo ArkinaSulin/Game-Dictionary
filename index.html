@@ -3,46 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eyes of Storm Memory Aid</title>
+    <title>Campaign Dictionary</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 </head>
 <body>
-    <header>
-        <h1>Eyes of Storm Memory Aid</h1>
-        <p>DM & Session logs author: Morphling</p>
-    </header>
-
-    <div class="container">
-        <!-- Left Panel - Alphabetized Index -->
-        <div class="panel left-panel">
-            <h3>Index</h3>
-            <div class="index-list" id="indexList" tabindex="0">
-                <!-- Alphabetized list will be populated by JavaScript -->
-            </div>
-        </div>
-
-        <!-- Central Panel - Search and Display -->
-        <div class="panel center-panel">
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search characters, locations, events, quests...">
-                <div class="autocomplete-suggestions" id="suggestions"></div>
-            </div>
-            <div class="content-display" id="contentDisplay">
-                <p class="placeholder">Select an entry from search results to view its content</p>
-            </div>
-        </div>
-
-        <!-- Right Panel - Related Entries -->
-        <div class="panel right-panel">
-            <h3>Related Entries</h3>
-            <div class="related-list" id="relatedList">
-                <p class="placeholder">Related entries will appear here</p>
-            </div>
-        </div>
+    <div id="loading" class="loading">
+        <div class="loading-spinner"></div>
+        <p>Loading Campaign Dictionary...</p>
     </div>
 
-    <!-- Load campaign data directly -->
+    <div id="app" style="display: none;">
+        <header>
+            <div class="header-top">
+                <div class="title-section">
+                    <h1 id="mainTitle">Campaign Dictionary</h1>
+                    <div class="game-selector">
+                        <label for="gameSelect">Select Campaign:</label>
+                        <select id="gameSelect">
+                            <option value="">Loading campaigns...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="header-meta">
+                    <span id="dmInfo" class="meta-item">DM: Not selected</span>
+                    <span id="lorekeeperInfo" class="meta-item">Lorekeeper: Not selected</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <!-- Left Panel - Alphabetized Index -->
+            <aside class="panel left-panel">
+                <div class="panel-header">
+                    <h3>Index</h3>
+                    <span class="item-count" id="indexCount">0 items</span>
+                </div>
+                <div class="index-list" id="indexList" tabindex="0">
+                    <p class="placeholder">Select a campaign to begin</p>
+                </div>
+            </aside>
+
+            <!-- Central Panel - Search and Display -->
+            <section class="panel center-panel">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search characters, locations, events, quests..." disabled>
+                    <div class="autocomplete-suggestions" id="suggestions"></div>
+                </div>
+                <div class="content-display" id="contentDisplay">
+                    <div class="welcome-message">
+                        <h2>Welcome to Campaign Dictionary</h2>
+                        <p>Select a campaign from the dropdown to explore characters, locations, events, and quests.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Panel - Related Entries -->
+            <aside class="panel right-panel">
+                <div class="panel-header">
+                    <h3>Related Entries</h3>
+                    <span class="item-count" id="relatedCount">0 related</span>
+                </div>
+                <div class="related-list" id="relatedList">
+                    <p class="placeholder">Select an entry to see related content</p>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Load campaign data -->
     <script src="campaign-data.js"></script>
     <script src="app.js"></script>
 </body>

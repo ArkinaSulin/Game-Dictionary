@@ -1,40 +1,72 @@
-// Paste your complete CoS_campaign_database.json content here
-// Replace this example with your actual data
-const CAMPAIGN_DATABASE = {
-  "nodes": [
-    {
-      "id": "arkini_character",
-      "type": "character",
-      "name": "Arkini",
-      "content": "Tiefling Warlock, follower of the Raven Queen. Cunning, flirtatious, pragmatic survivor. Uses charm and manipulation as weapons. Goal: Survive Barovia and gain power to save her mother from poverty. Secretly dreams of controlling the domain. Beautiful, blue-skinned, keeps a detailed diary. Carries a sentimental whip and has a pet salamander named Hexagon. Obsessed with collecting 'blood red' makeup. Relationships: Considers Eclipse her 'best sister.' Flirts with Mykieal ('Sunshine') and Davi ('My Knight') but is growing infatuated with the Abbot.",
-      "tags": ["tiefling", "warlock", "raven queen", "manipulative", "survivor", "blue skin", "hexagon", "diary"]
-    },
-    {
-      "id": "barovia_village_location",
-      "type": "location", 
-      "name": "Village of Barovia",
-      "content": "The miserable, fog-bound capital of Barovia. A place of decay and despair. Key Spots: Blood of the Vine Tavern (grim social hub), Bildrath's Mercantile (notoriously overpriced store), The Church (dilapidated, with a grieving priest and vampire spawn in basement), Death House (sentient haunted mansion). Significance: The party's introduction to Barovia. Where they met Ismark and Ireena and received their first major quest.",
-      "tags": ["capital", "foggy", "decaying", "tavern", "church", "death house", "starting area"]
-    },
-    {
-      "id": "eclipse_character",
-      "type": "character",
-      "name": "Eclipse",
-      "content": "Half-elf Rogue with a mysterious past. Skilled in stealth and deception. Has a hidden agenda connected to the Shadowfell.",
-      "tags": ["half-elf", "rogue", "stealth", "shadowfell", "mysterious"]
-    },
-    {
-      "id": "mykieal_character", 
-      "type": "character",
-      "name": "Mykieal",
-      "content": "Human Paladin devoted to the Morninglord. Noble and courageous, but struggles with the darkness of Barovia.",
-      "tags": ["human", "paladin", "morninglord", "noble", "courageous"]
+// campaign-data.js - Campaign manifest approach
+const CAMPAIGN_DATABASE = {};
+
+async function loadCampaignData() {
+    try {
+        console.log('📂 Loading campaign manifest...');
+        
+        // Load the campaign manifest
+        const manifest = await fetch('./data/campaign-manifest.json').then(r => {
+            if (!r.ok) throw new Error(`Manifest load failed: ${r.status}`);
+            return r.json();
+        });
+        
+        // Load each campaign defined in the manifest
+        for (const [campaignName, campaignInfo] of Object.entries(manifest.campaigns)) {
+            console.log(`📖 Loading campaign: ${campaignName}`);
+            
+            const campaignData = await loadSingleCampaign(campaignInfo, campaignName);
+            if (campaignData) {
+                CAMPAIGN_DATABASE[campaignName] = campaignData;
+                console.log(`✅ Loaded ${campaignName} from ${campaignInfo.folder}/`);
+            }
+        }
+
+        console.log(`🎉 Successfully loaded ${Object.keys(CAMPAIGN_DATABASE).length} campaigns`);
+        return true;
+        
+    } catch (error) {
+        console.error('❌ Error loading campaign data:', error);
+        return false;
     }
-    // Add all your other nodes here...
-  ],
-  "search_config": {
-    "fuzzy_matching": true,
-    "searchable_fields": ["name", "content", "tags", "type"],
-    "min_score": 0.3
-  }
-};
+}
+
+async function loadSingleCampaign(campaignInfo, campaignName) {
+    try {
+        const basePath = `./data/${campaignInfo.folder}`;
+        
+        // Load all JSON files for this campaign
+        const [characters, locations, events, quests] = await Promise.all([
+            fetch(`${basePath}/characters.json`).then(handleFetchError),
+            fetch(`${basePath}/locations.json`).then(handleFetchError),
+            fetch(`${basePath}/events.json`).then(handleFetchError),
+            fetch(`${basePath}/quests.json`).then(handleFetchError)
+        ]);
+
+        return {
+            dm: campaignInfo.dm,
+            lorekeeper: campaignInfo.lorekeeper,
+            nodes: [
+                {
+                    "Character": characters || [],
+                    "Location": locations || [],
+                    "Event": events || [],
+                    "Quest": quests || []
+                }
+            ]
+        };
+        
+    } catch (error) {
+        console.error(`❌ Failed to load campaign ${campaignName}:`, error);
+        return null;
+    }
+}
+
+// Helper function to handle fetch errors gracefully
+function handleFetchError(response) {
+    if (!response.ok) {
+        console.warn(`File not found: ${response.url}`);
+        return []; // Return empty array if file doesn't exist
+    }
+    return response.json();
+}

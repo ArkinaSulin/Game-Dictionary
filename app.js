@@ -1,131 +1,340 @@
 class CampaignWiki {
     constructor() {
-        this.data = [];
+        this.campaigns = new Map();
+        this.currentCampaign = null;
+        this.currentData = [];
         this.fuse = null;
         this.currentNode = null;
+        this.dataLoaded = false;
     }
 
-    init() {
-        this.loadData();
-        this.initSearch();
-        this.renderIndex();
+    async init() {
+        console.log('🚀 Initializing CampaignWiki...');
+        await this.loadAllCampaigns();
+        this.setupGameSelector();
         this.setupEventListeners();
         this.showApp();
     }
 
+    async loadAllCampaigns() {
+        try {
+            console.log('📂 Loading campaign data from JSON files...');
+            
+            // Wait for the JSON data to be loaded
+            if (typeof loadCampaignData !== 'undefined') {
+                this.dataLoaded = await loadCampaignData();
+            }
+
+            if (!this.dataLoaded || typeof CAMPAIGN_DATABASE === 'undefined' || Object.keys(CAMPAIGN_DATABASE).length === 0) {
+                throw new Error('Failed to load campaign data from JSON files');
+            }
+
+            this.campaigns.clear();
+            let totalNodes = 0;
+
+            for (const [campaignName, campaignData] of Object.entries(CAMPAIGN_DATABASE)) {
+                console.log(`📖 Processing campaign: ${campaignName}`);
+                
+                const nodes = this.parseCampaignNodes(campaignData);
+                totalNodes += nodes.length;
+
+                const parsedData = {
+                    dm: campaignData.dm || "Unknown DM",
+                    lorekeeper: campaignData.lorekeeper || "Unknown Lorekeeper",
+                    nodes: nodes
+                };
+
+                if (nodes.length > 0) {
+                    this.campaigns.set(campaignName, parsedData);
+                    console.log(`✅ Loaded ${campaignName}: ${nodes.length} nodes`);
+                } else {
+                    console.warn(`⚠️ No nodes found for campaign: ${campaignName}`);
+                }
+            }
+
+            console.log(`🎉 Successfully loaded ${this.campaigns.size} campaigns with ${totalNodes} total nodes`);
+            
+        } catch (error) {
+            console.error('❌ Error loading campaigns:', error);
+            this.showError('Failed to load campaign data: ' + error.message);
+        }
+    }
+
+    parseCampaignNodes(campaignData) {
+        const nodes = [];
+        
+        if (!campaignData.nodes || !Array.isArray(campaignData.nodes)) {
+            console.warn('No nodes array found in campaign data');
+            return nodes;
+        }
+
+        // Handle the nested structure
+        const campaignNodes = campaignData.nodes[0];
+        if (campaignNodes && typeof campaignNodes === 'object') {
+            const categories = ['Character', 'Location', 'Event', 'Quest'];
+            
+            categories.forEach(category => {
+                if (Array.isArray(campaignNodes[category])) {
+                    campaignNodes[category].forEach(node => {
+                        if (node && typeof node === 'object') {
+                            const normalizedNode = this.normalizeNode(node, category);
+                            if (normalizedNode) {
+                                nodes.push(normalizedNode);
+                            }
+                        }
+                    });
+                }
+            });
+        }
+
+        console.log(`📊 Parsed ${nodes.length} nodes from campaign`);
+        return nodes;
+    }
+
+    normalizeNode(node, category) {
+        // Handle the Related field which is now an array instead of object
+        const id = node.ID || node.id;
+        const type = node.Type || node.type || category;
+        const name = node.Name || node.name;
+        const content = node.Content || node.content;
+        const related = node.Related || [];
+
+        if (!id || !name || !type) {
+            console.warn('Skipping invalid node:', node);
+            return null;
+        }
+
+        // Extract tags from related entries
+        const tags = this.extractTags(node, category, related);
+
+        return {
+            id: id,
+            type: type,
+            name: name,
+            content: content || 'No description available.',
+            tags: tags,
+            rawData: {
+                ...node,
+                Related: this.normalizeRelatedData(related)
+            }
+        };
+    }
+
+    normalizeRelatedData(relatedArray) {
+        // Convert the simple array into the expected object structure
+        if (!Array.isArray(relatedArray)) {
+            return {
+                Character: [],
+                Location: [],
+                Event: [],
+                Quest: []
+            };
+        }
+
+        // Group related items by their ID prefixes
+        const related = {
+            Character: [],
+            Location: [],
+            Event: [],
+            Quest: []
+        };
+
+        relatedArray.forEach(item => {
+            if (typeof item === 'string') {
+                if (item.startsWith('CHAR-') || item.includes('Character')) {
+                    related.Character.push(item);
+                } else if (item.startsWith('LOC-') || item.includes('Location')) {
+                    related.Location.push(item);
+                } else if (item.startsWith('EVENT-') || item.includes('Event')) {
+                    related.Event.push(item);
+                } else if (item.startsWith('QUEST-') || item.includes('Quest')) {
+                    related.Quest.push(item);
+                } else {
+                    // Default to Character if no prefix detected
+                    related.Character.push(item);
+                }
+            }
+        });
+
+        return related;
+    }
+
+    extractTags(node, category, relatedArray) {
+        const tags = new Set();
+        
+        // Add type and category as tags
+        tags.add(category.toLowerCase());
+        if (node.Type || node.type) {
+            tags.add((node.Type || node.type).toLowerCase().replace(' ', '-'));
+        }
+
+        // Extract related entries as tags
+        if (Array.isArray(relatedArray)) {
+            relatedArray.forEach(item => {
+                if (item && typeof item === 'string') {
+                    // Use the actual ID/name for the tag
+                    tags.add(item.toLowerCase().replace(/\s+/g, '-'));
+                }
+            });
+        }
+
+        return Array.from(tags);
+    }
+
+    setupGameSelector() {
+        const gameSelect = document.getElementById('gameSelect');
+        if (!gameSelect) {
+            console.error('Game select element not found');
+            return;
+        }
+
+        gameSelect.innerHTML = '';
+
+        if (this.campaigns.size === 0) {
+            gameSelect.innerHTML = '<option value="">No campaigns available</option>';
+            gameSelect.disabled = true;
+            return;
+        }
+
+        gameSelect.innerHTML = '<option value="">Select a campaign...</option>';
+        for (const [campaignName] of this.campaigns) {
+            const option = document.createElement('option');
+            option.value = campaignName;
+            option.textContent = campaignName;
+            gameSelect.appendChild(option);
+        }
+
+        gameSelect.disabled = false;
+
+        gameSelect.addEventListener('change', (e) => {
+            this.selectCampaign(e.target.value);
+        });
+
+        // Auto-select if only one campaign
+        if (this.campaigns.size === 1) {
+            const firstCampaign = Array.from(this.campaigns.keys())[0];
+            gameSelect.value = firstCampaign;
+            this.selectCampaign(firstCampaign);
+        }
+    }
+
+    selectCampaign(campaignName) {
+        console.log(`🎯 Selecting campaign: ${campaignName}`);
+        
+        if (!campaignName || !this.campaigns.has(campaignName)) {
+            this.clearUI();
+            return;
+        }
+
+        const campaignData = this.campaigns.get(campaignName);
+        this.currentCampaign = campaignName;
+        this.currentData = campaignData.nodes;
+        
+        this.updateHeaderInfo(campaignData.dm, campaignData.lorekeeper);
+        this.initSearch();
+        this.renderIndex();
+        this.enableUI();
+        
+        document.getElementById('mainTitle').textContent = `${campaignName} Dictionary`;
+        
+        console.log(`✅ Loaded ${this.currentData.length} entries for ${campaignName}`);
+    }
+
+    updateHeaderInfo(dm, lorekeeper) {
+        document.getElementById('dmInfo').textContent = `DM: ${dm}`;
+        document.getElementById('lorekeeperInfo').textContent = `Lorekeeper: ${lorekeeper}`;
+    }
+
+    clearUI() {
+        this.currentCampaign = null;
+        this.currentData = [];
+        this.fuse = null;
+        this.currentNode = null;
+
+        document.getElementById('indexList').innerHTML = '<p class="placeholder">Select a campaign to begin</p>';
+        document.getElementById('contentDisplay').innerHTML = `
+            <div class="welcome-message">
+                <h2>Welcome to Campaign Dictionary</h2>
+                <p>Select a campaign from the dropdown to explore characters, locations, events, and quests.</p>
+            </div>
+        `;
+        document.getElementById('relatedList').innerHTML = '<p class="placeholder">Select an entry to see related content</p>';
+        
+        document.getElementById('searchInput').value = '';
+        document.getElementById('searchInput').disabled = true;
+        
+        document.getElementById('dmInfo').textContent = 'DM: Not selected';
+        document.getElementById('lorekeeperInfo').textContent = 'Lorekeeper: Not selected';
+        document.getElementById('mainTitle').textContent = 'Campaign Dictionary';
+        
+        this.updateCounts(0, 0);
+    }
+
+    enableUI() {
+        document.getElementById('searchInput').disabled = false;
+    }
+
     showApp() {
-        // Hide loading screen and show app
         document.getElementById('loading').style.display = 'none';
         document.getElementById('app').style.display = 'block';
     }
 
-    loadData() {
-        try {
-            console.log('Loading campaign data...');
-            
-            // Check if CAMPAIGN_DATABASE is available
-            if (typeof CAMPAIGN_DATABASE === 'undefined') {
-                console.error('CAMPAIGN_DATABASE is not defined');
-                this.showError('Campaign data not loaded. Please check campaign-data.js');
-                return;
-            }
-
-            let nodes = [];
-            
-            // Handle different possible data structures
-            if (CAMPAIGN_DATABASE.nodes && Array.isArray(CAMPAIGN_DATABASE.nodes)) {
-                nodes = CAMPAIGN_DATABASE.nodes;
-                console.log('Loaded from CAMPAIGN_DATABASE.nodes');
-            } else if (Array.isArray(CAMPAIGN_DATABASE)) {
-                nodes = CAMPAIGN_DATABASE;
-                console.log('Loaded from CAMPAIGN_DATABASE array');
-            } else {
-                // Try to find any array in the data
-                for (const key in CAMPAIGN_DATABASE) {
-                    if (Array.isArray(CAMPAIGN_DATABASE[key])) {
-                        nodes = CAMPAIGN_DATABASE[key].filter(item => item && typeof item === 'object' && item.id);
-                        console.log(`Loaded from CAMPAIGN_DATABASE.${key}`);
-                        if (nodes.length > 0) break;
-                    }
-                }
-            }
-            
-            // Filter valid nodes
-            this.data = nodes.filter(item => 
-                item && 
-                typeof item === 'object' && 
-                item.id && 
-                item.name && 
-                item.type
-            );
-            
-            console.log(`Successfully loaded ${this.data.length} valid nodes`);
-            
-            if (this.data.length === 0) {
-                this.showError('No valid campaign data found. Please check the data format in campaign-data.js');
-            }
-            
-        } catch (error) {
-            console.error('Error loading data:', error);
-            this.showError('Error loading campaign data: ' + error.message);
-            this.data = [];
+    showError(message) {
+        const contentDisplay = document.getElementById('contentDisplay');
+        if (contentDisplay) {
+            contentDisplay.innerHTML = `<p class="placeholder error">${message}</p>`;
         }
     }
 
-    showError(message) {
-        const indexList = document.getElementById('indexList');
-        const contentDisplay = document.getElementById('contentDisplay');
-        const relatedList = document.getElementById('relatedList');
-        
-        if (indexList) indexList.innerHTML = `<p class="placeholder error">${message}</p>`;
-        if (contentDisplay) contentDisplay.innerHTML = `<p class="placeholder error">${message}</p>`;
-        if (relatedList) relatedList.innerHTML = `<p class="placeholder error">${message}</p>`;
-    }
-
     initSearch() {
-        if (this.data.length === 0) {
-            console.warn('No data available for search initialization');
+        if (this.currentData.length === 0) {
+            this.fuse = null;
             return;
         }
 
         const options = {
             includeScore: true,
-            threshold: 0.3,
-            keys: ['name', 'content', 'tags', 'type']
+            threshold: 0.4,
+            keys: [
+                { name: 'name', weight: 0.6 },
+                { name: 'content', weight: 0.3 },
+                { name: 'type', weight: 0.1 }
+            ]
         };
         
-        this.fuse = new Fuse(this.data, options);
-        console.log('Search initialized with', this.data.length, 'items');
+        this.fuse = new Fuse(this.currentData, options);
+        console.log('🔍 Search initialized with', this.currentData.length, 'items');
     }
 
     renderIndex() {
         const indexList = document.getElementById('indexList');
-        if (!indexList) {
-            console.error('indexList element not found');
-            return;
-        }
-
         indexList.innerHTML = '';
 
-        if (this.data.length === 0) {
-            indexList.innerHTML = '<p class="placeholder">No data loaded</p>';
+        if (this.currentData.length === 0) {
+            indexList.innerHTML = '<p class="placeholder">No entries found in this campaign</p>';
+            this.updateCounts(0, 0);
             return;
         }
 
-        // Sort nodes alphabetically by name
-        const sortedNodes = [...this.data].sort((a, b) => 
+        const sortedNodes = [...this.currentData].sort((a, b) => 
             a.name.localeCompare(b.name)
         );
 
-        console.log(`Rendering ${sortedNodes.length} items in index`);
-
-        sortedNodes.forEach(node => {
+        sortedNodes.forEach((node, index) => {
             const item = document.createElement('div');
             item.className = 'index-item';
-            item.textContent = node.name;
-            item.draggable = true;
+            item.innerHTML = `
+                <span class="index-name">${node.name}</span>
+                <span class="index-type">${node.type}</span>
+            `;
             item.dataset.id = node.id;
+            item.dataset.index = index;
             
+            item.addEventListener('click', () => {
+                this.displayNode(node);
+                this.highlightIndexItem(item);
+            });
+
             item.addEventListener('dragstart', (e) => {
                 e.dataTransfer.setData('text/plain', node.name);
                 item.classList.add('dragging');
@@ -135,73 +344,53 @@ class CampaignWiki {
                 item.classList.remove('dragging');
             });
 
-            item.addEventListener('click', () => {
-                this.displayNode(node);
-            });
-
             indexList.appendChild(item);
         });
 
-        // Setup keyboard navigation for index
         this.setupIndexKeyboardNav();
+        this.updateCounts(this.currentData.length, 0);
+    }
+
+    highlightIndexItem(selectedItem) {
+        document.querySelectorAll('.index-item').forEach(item => {
+            item.classList.remove('selected');
+        });
+        selectedItem.classList.add('selected');
     }
 
     setupIndexKeyboardNav() {
         const indexList = document.getElementById('indexList');
-        const items = indexList.getElementsByClassName('index-item');
         let selectedIndex = -1;
 
         indexList.addEventListener('keydown', (e) => {
-            if (e.key.length === 1 && e.key.match(/[a-z]/i)) {
-                // Find first item starting with the typed letter
-                const letter = e.key.toLowerCase();
-                for (let i = 0; i < items.length; i++) {
-                    if (items[i].textContent.toLowerCase().startsWith(letter)) {
-                        this.selectIndexItem(i);
-                        items[i].scrollIntoView({ block: 'center' });
-                        break;
-                    }
-                }
+            const items = indexList.getElementsByClassName('index-item');
+            
+            if (e.key === 'ArrowDown') {
                 e.preventDefault();
-            } else if (e.key === 'ArrowDown') {
                 selectedIndex = Math.min(selectedIndex + 1, items.length - 1);
                 this.selectIndexItem(selectedIndex);
-                e.preventDefault();
             } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
                 selectedIndex = Math.max(selectedIndex - 1, 0);
                 this.selectIndexItem(selectedIndex);
-                e.preventDefault();
             } else if (e.key === 'Enter' && selectedIndex >= 0) {
-                items[selectedIndex].click();
                 e.preventDefault();
-            }
-        });
-
-        indexList.addEventListener('click', (e) => {
-            if (e.target.classList.contains('index-item')) {
-                const index = Array.from(items).indexOf(e.target);
-                this.selectIndexItem(index);
+                items[selectedIndex].click();
             }
         });
     }
 
     selectIndexItem(index) {
         const items = document.getElementById('indexList').getElementsByClassName('index-item');
-        Array.from(items).forEach(item => item.classList.remove('selected'));
-        
         if (index >= 0 && index < items.length) {
-            items[index].classList.add('selected');
+            items[index].scrollIntoView({ block: 'nearest' });
+            this.highlightIndexItem(items[index]);
         }
     }
 
     setupEventListeners() {
         const searchInput = document.getElementById('searchInput');
-        if (!searchInput) {
-            console.error('searchInput element not found');
-            return;
-        }
         
-        // Search input events
         searchInput.addEventListener('input', (e) => {
             this.handleSearch(e.target.value);
         });
@@ -211,14 +400,13 @@ class CampaignWiki {
         });
 
         searchInput.addEventListener('blur', () => {
-            // Hide suggestions after a short delay to allow clicking
             setTimeout(() => {
                 const suggestions = document.getElementById('suggestions');
                 if (suggestions) suggestions.style.display = 'none';
             }, 200);
         });
 
-        // Drag and drop for search input
+        // Drag and drop support
         searchInput.addEventListener('dragover', (e) => {
             e.preventDefault();
             searchInput.classList.add('drop-zone');
@@ -239,20 +427,18 @@ class CampaignWiki {
 
     handleSearch(query) {
         const suggestions = document.getElementById('suggestions');
-        if (!suggestions) return;
         
-        if (query.length < 1) {
-            suggestions.style.display = 'none';
+        if (!query.trim()) {
+            if (suggestions) suggestions.style.display = 'none';
             return;
         }
 
         if (!this.fuse) {
-            console.warn('Search not initialized');
             return;
         }
 
         const results = this.fuse.search(query);
-        this.showSuggestions(results.slice(0, 10)); // Show top 10 results
+        this.showSuggestions(results.slice(0, 8));
     }
 
     showSuggestions(results) {
@@ -270,14 +456,13 @@ class CampaignWiki {
             const item = document.createElement('div');
             item.className = 'suggestion-item';
             item.innerHTML = `
-                ${result.item.name}
+                <span>${result.item.name}</span>
                 <span class="suggestion-type">${result.item.type}</span>
             `;
             
             item.addEventListener('click', () => {
                 this.displayNode(result.item);
-                const searchInput = document.getElementById('searchInput');
-                if (searchInput) searchInput.value = result.item.name;
+                document.getElementById('searchInput').value = result.item.name;
                 suggestions.style.display = 'none';
             });
 
@@ -288,12 +473,10 @@ class CampaignWiki {
     }
 
     displayNode(node) {
+        console.log('📄 Displaying node:', node);
         this.currentNode = node;
         
-        // Update content display
         const contentDisplay = document.getElementById('contentDisplay');
-        if (!contentDisplay) return;
-        
         contentDisplay.innerHTML = `
             <div class="content-header">
                 <h2 class="content-title">${node.name}</h2>
@@ -302,54 +485,61 @@ class CampaignWiki {
             <div class="content-body">
                 <p>${node.content}</p>
             </div>
+            ${node.tags.length > 0 ? `
             <div class="content-tags">
-                ${node.tags ? node.tags.map(tag => `<span class="tag">#${tag}</span>`).join('') : ''}
+                ${node.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
             </div>
+            ` : ''}
         `;
 
-        // Update related entries
         this.updateRelatedEntries(node);
+        this.scrollToTop();
     }
 
     updateRelatedEntries(currentNode) {
         const relatedList = document.getElementById('relatedList');
-        if (!relatedList) return;
         
-        if (!currentNode || !currentNode.tags || currentNode.tags.length === 0) {
-            relatedList.innerHTML = '<p class="placeholder">No related entries found</p>';
+        if (!currentNode || !currentNode.rawData || !currentNode.rawData.Related) {
+            relatedList.innerHTML = '<p class="placeholder">No related entries</p>';
+            this.updateCounts(this.currentData.length, 0);
             return;
         }
 
-        // Find nodes that share at least one tag with the current node
-        const relatedNodes = this.data.filter(node => 
-            node.id !== currentNode.id && 
-            node.tags && 
-            node.tags.some(tag => currentNode.tags.includes(tag))
+        const related = currentNode.rawData.Related;
+        const allRelatedNames = [
+            ...(related.Character || []),
+            ...(related.Location || []),
+            ...(related.Event || []),
+            ...(related.Quest || [])
+        ];
+
+        if (allRelatedNames.length === 0) {
+            relatedList.innerHTML = '<p class="placeholder">No related entries</p>';
+            this.updateCounts(this.currentData.length, 0);
+            return;
+        }
+
+        // Find actual node objects for related names
+        const relatedNodes = this.currentData.filter(node => 
+            allRelatedNames.some(name => 
+                node.name.toLowerCase() === name.toLowerCase() || 
+                node.id.toLowerCase() === name.toLowerCase()
+            )
         );
 
-        // Sort by number of matching tags (most matches first)
-        relatedNodes.sort((a, b) => {
-            const aMatches = a.tags.filter(tag => currentNode.tags.includes(tag)).length;
-            const bMatches = b.tags.filter(tag => currentNode.tags.includes(tag)).length;
-            return bMatches - aMatches;
-        });
-
-        // Take top 20
-        const topRelated = relatedNodes.slice(0, 20);
-
-        if (topRelated.length === 0) {
-            relatedList.innerHTML = '<p class="placeholder">No related entries found</p>';
-            return;
-        }
-
         relatedList.innerHTML = '';
-        topRelated.forEach(node => {
+        relatedNodes.forEach(node => {
             const item = document.createElement('div');
             item.className = 'related-item';
-            item.textContent = node.name;
-            item.draggable = true;
-            item.dataset.id = node.id;
+            item.innerHTML = `
+                <span class="related-name">${node.name}</span>
+                <span class="related-type">${node.type}</span>
+            `;
             
+            item.addEventListener('click', () => {
+                this.displayNode(node);
+            });
+
             item.addEventListener('dragstart', (e) => {
                 e.dataTransfer.setData('text/plain', node.name);
                 item.classList.add('dragging');
@@ -359,20 +549,29 @@ class CampaignWiki {
                 item.classList.remove('dragging');
             });
 
-            item.addEventListener('click', () => {
-                this.displayNode(node);
-                const searchInput = document.getElementById('searchInput');
-                if (searchInput) searchInput.value = node.name;
-            });
-
             relatedList.appendChild(item);
         });
+
+        this.updateCounts(this.currentData.length, relatedNodes.length);
+    }
+
+    updateCounts(total, related) {
+        document.getElementById('indexCount').textContent = `${total} items`;
+        document.getElementById('relatedCount').textContent = `${related} related`;
+    }
+
+    scrollToTop() {
+        const contentDisplay = document.getElementById('contentDisplay');
+        if (contentDisplay) {
+            contentDisplay.scrollTop = 0;
+        }
     }
 }
 
-// Initialize the application when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded, initializing CampaignWiki...');
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', async () => {
+    console.log('🏁 DOM loaded, starting CampaignWiki...');
     const wiki = new CampaignWiki();
-    wiki.init();
+    window.campaignWiki = wiki; // Make available globally for debugging
+    await wiki.init();
 });
