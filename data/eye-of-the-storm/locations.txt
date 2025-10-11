@@ -1,0 +1,121 @@
+[
+  {
+    "ID": "LOC-001",
+    "Type": "Location",
+    "Name": "Thunder’s Respite",
+    "Content": "Tavern in the outskirts of Stormhaven where the party first met Lyza Truefoot in Session #1. A warm, storm-beaten inn serving as the campaign’s starting point. Acts as the adventurers’ origin and informal base of operations during early missions.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "EVENT-001"]
+  },
+  {
+    "ID": "LOC-002",
+    "Type": "Location",
+    "Name": "The Shaded Warrens",
+    "Content": "District outside Stormhaven’s city walls known for its poverty and clay-built hovels. Home to Meriss Tealeaf and The Mothlight Inn. The party’s exploration here revealed Brea Tealeaf’s family and Johnny Whisper’s influence. Symbolizes the hidden underbelly of Stormhaven.",
+    "Related": ["LOC-003", "CHAR-018", "CHAR-017", "CHAR-007", "EVENT-003"]
+  },
+  {
+    "ID": "LOC-003",
+    "Type": "Location",
+    "Name": "The Mothlight Inn",
+    "Content": "Shadowy tavern within the Shaded Warrens, haunted by ghostly moths. In Session #9 the party met Reve, Shay, and Johnny Whisper here, receiving their first major job. Serves as the gateway to Stormhaven’s criminal network.",
+    "Related": ["CHAR-007", "CHAR-008", "CHAR-009", "QUEST-001", "EVENT-004"]
+  },
+  {
+    "ID": "LOC-004",
+    "Type": "Location",
+    "Name": "Stormhaven",
+    "Content": "Capital city of Eryndor, built around magical storm channels and divided into districts like The Emberlight Quarter, The Pinnacle, and The Crystal Ward. The central hub for early arcs involving Johnny Whisper, Hargrave Manor, and The Archivum. Known for its noble intrigues, arcane institutions, and underworld ties.",
+    "Related": ["LOC-003", "LOC-005", "LOC-010", "CHAR-007", "CHAR-012", "EVENT-006"]
+  },
+  {
+    "ID": "LOC-005",
+    "Type": "Location",
+    "Name": "Hargrave Manor",
+    "Content": "An old noble estate in Stormhaven’s Pinnacle district. Once home to Lord Edwin and Lady Eleanor Hargrave. The target of the Keledar Codex heist, the manor conceals disturbing experiments and southern religious relics. Site of multiple investigations by the party.",
+    "Related": ["CHAR-015", "CHAR-016", "CHAR-017", "CHAR-018", "QUEST-001", "EVENT-005"]
+  },
+  {
+    "ID": "LOC-006",
+    "Type": "Location",
+    "Name": "The Stormrune Conservatory",
+    "Content": "Arcane academy within the Emberlight Quarter of Stormhaven. Visited by Mask, Fauda, and Sili in Session #10 for research on Varethis, The Hollow Year, and Lady Eleanor’s homeland. Represents scholarly knowledge and magical elitism.",
+    "Related": ["CHAR-004", "CHAR-003", "CHAR-005", "EVENT-006"]
+  },
+  {
+    "ID": "LOC-007",
+    "Type": "Location",
+    "Name": "The Gilded Larder",
+    "Content": "Upscale grocer in Stormhaven’s noble quarter, key to tracking Brea Tealeaf’s deliveries to Hargrave Manor (Session #10). The party scouted here to learn about insect imports for Lady Eleanor’s strange meals.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-017", "CHAR-015", "EVENT-006"]
+  },
+  {
+    "ID": "LOC-008",
+    "Type": "Location",
+    "Name": "The Archivum",
+    "Content": "Towering magical archive beneath Stormhaven. Its lowest levels, Mortimer’s Maze, contain horrifying laboratories and imprisoned souls. Discovered during Sessions #16–17 after the party fell through collapsing floors. Site of Lady Seriss’s rescue.",
+    "Related": ["CHAR-010", "CHAR-012", "CHAR-013", "CHAR-014", "EVENT-007", "QUEST-002"]
+  },
+  {
+    "ID": "LOC-009",
+    "Type": "Location",
+    "Name": "The Cracked Mug",
+    "Content": "Modest inn in the Crystal Ward where the party and Lady Seriss regrouped after escaping Mortimer’s Maze. Symbol of temporary safety and the transition to the Stormheart Gem arc.",
+    "Related": ["CHAR-010", "CHAR-014", "EVENT-008"]
+  },
+  {
+    "ID": "LOC-010",
+    "Type": "Location",
+    "Name": "Mortimer’s Maze",
+    "Content": "Underground complex beneath the Archivum. Filled with golems, flesh constructs, and imprisoned victims. The party battled here to free Lady Seriss Stormrider and faced Mortimer himself. Represents the corruption of Stormhaven’s Order.",
+    "Related": ["CHAR-010", "CHAR-012", "CHAR-013", "CHAR-014", "EVENT-007"]
+  },
+  {
+    "ID": "LOC-011",
+    "Type": "Location",
+    "Name": "The Greenmurk Forest",
+    "Content": "Ancient forest south of Stormhaven, home to elves of Hollowcoil Village and the lightning serpent known as The Protector. Explored in Sessions #22–23 during Thandor Greenbow’s hunt. Lush, perilous, and tied to Everbound symbols.",
+    "Related": ["CHAR-021", "CHAR-022", "CHAR-003", "EVENT-010", "QUEST-004"]
+  },
+  {
+    "ID": "LOC-012",
+    "Type": "Location",
+    "Name": "Drifthold",
+    "Content": "A colossal walking city of metal and stone, perpetually in motion across Eryndor’s plains. Introduced after Session #17 and expanded in Sessions #30–32. Controlled by mage lords and mercenary legions. Currently serves as the party’s main hub.",
+    "Related": ["CHAR-002", "CHAR-011", "CHAR-025", "EVENT-015", "QUEST-006"]
+  },
+  {
+    "ID": "LOC-013",
+    "Type": "Location",
+    "Name": "Tempest’s Refuge",
+    "Content": "Storm-scarred city on Eryndor’s coast visited around Sessions #27–29. Center of Vy’s personal arc involving Shieldweaver’s Forge and Dragonborn thieves. Also home to Flora’s church of Yondar and a hub of redemption after Elandra’s death.",
+    "Related": ["CHAR-002", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-029", "CHAR-030", "EVENT-014", "QUEST-006"]
+  },
+  {
+    "ID": "LOC-014",
+    "Type": "Location",
+    "Name": "Gloomwatch Sanctum",
+    "Content": "Hidden temple or refuge connected to Mask’s past and Jin’s messages. Not yet visited physically but serves as a narrative beacon tied to Mask’s redemption arc.",
+    "Related": ["CHAR-004", "CHAR-024", "QUEST-007"]
+  },
+  {
+    "ID": "LOC-015",
+    "Type": "Location",
+    "Name": "Virelka",
+    "Content": "Ruined ancient kingdom south of the Blackstorm Peaks. Once ruled by the Roseheart King. Central to Arc’s ghost arc and the Ghost King’s prophecy. Said to contain the king’s tomb.",
+    "Related": ["CHAR-019", "CHAR-020", "QUEST-005", "EVENT-011"]
+  },
+  {
+    "ID": "LOC-016",
+    "Type": "Location",
+    "Name": "Tempest’s Watch",
+    "Content": "Mountain-side Dragonborn enclave and Vyphira’s birthplace. Mentioned in her personal history and in connection with her rivals Kharzid Tazek, Shavara Sablefang, and Voraxik Valarnn. Represents lost heritage and unresolved rivalry.",
+    "Related": ["CHAR-002", "CHAR-026", "CHAR-028", "CHAR-029"]
+  },
+  {
+    "ID": "LOC-017",
+    "Type": "Location",
+    "Name": "The Gull and Gasket",
+    "Content": "Tavern and restaurant in Drifthold where the party reunited with Gloriosa and Gloriosa’s daughter was discussed (Session #30). Known for its elaborate seafood menu and raucous clientele. A place of camaraderie and reflection.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-025", "EVENT-015"]
+  }
+]

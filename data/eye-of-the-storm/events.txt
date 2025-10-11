@@ -1,0 +1,107 @@
+[
+  {
+    "ID": "EVENT-001",
+    "Type": "Event",
+    "Name": "The Gathering at Thunder’s Respite",
+    "Content": "Session #1 (12/17/2024). The party first meets at Thunder’s Respite, recruited by Lyza Truefoot to investigate strange disappearances in the outskirts of Stormhaven. The group officially forms here.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-001", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-002",
+    "Type": "Event",
+    "Name": "The Missing Miners of Stormhaven",
+    "Content": "Session #2. The new party investigates missing miners near Stormhaven’s outskirts. They discover evidence of corruption and underground experimentation, hinting at greater plots beneath the city.",
+    "Related": ["CHAR-001", "CHAR-003", "LOC-004", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-003",
+    "Type": "Event",
+    "Name": "Meeting Meriss Tealeaf",
+    "Content": "Session #8. The party meets Meriss Tealeaf in the Shaded Warrens, learning her daughter Brea works for the Hargraves. This encounter exposes the growing tension between Stormhaven’s lower classes and nobility.",
+    "Related": ["CHAR-017", "CHAR-018", "LOC-002", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-004",
+    "Type": "Event",
+    "Name": "The Mothlight Job",
+    "Content": "Session #9. The party meets Johnny Whisper, Reve, and Shay at The Mothlight Inn and accepts the Keledar Codex job. This marks the group’s first major underworld contract.",
+    "Related": ["CHAR-007", "CHAR-008", "CHAR-009", "LOC-003", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-005",
+    "Type": "Event",
+    "Name": "The Hargrave Manor Heist",
+    "Content": "Sessions #10–12. The group infiltrates Hargrave Manor, uncovering Lady Eleanor’s monstrous nature and retrieving the Keledar Codex. The mission exposes hints of a southern cult.",
+    "Related": ["CHAR-015", "CHAR-016", "CHAR-017", "LOC-005", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-006",
+    "Type": "Event",
+    "Name": "Research at the Stormrune Conservatory",
+    "Content": "Session #13. The party researches Lady Eleanor’s condition, uncovering the Hollow Year myth and hints of necromantic influence within Stormhaven’s magical elite.",
+    "Related": ["CHAR-003", "CHAR-004", "CHAR-005", "LOC-006", "LOC-004"]
+  },
+  {
+    "ID": "EVENT-007",
+    "Type": "Event",
+    "Name": "The Fall into the Archivum",
+    "Content": "Session #16. The party descends into the Archivum’s lower levels, fighting Mortimer’s constructs and discovering Lady Seriss imprisoned. They defeat Mortimer and barely escape.",
+    "Related": ["CHAR-010", "CHAR-012", "CHAR-013", "LOC-008", "LOC-010", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-008",
+    "Type": "Event",
+    "Name": "Escape from Mortimer’s Maze",
+    "Content": "Session #17. After defeating Mortimer, the party rescues Lady Seriss and retreats to The Cracked Mug, nursing injuries and revelations. They begin their alliance with Seriss Stormrider.",
+    "Related": ["CHAR-010", "CHAR-014", "LOC-009", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-009",
+    "Type": "Event",
+    "Name": "The Stormheart Gem Revelation",
+    "Content": "Session #18. Lady Seriss reveals her mission to recover the Stormheart Gem stolen by Zephara Moonveil. The group decides to assist her, beginning the Stormheart Arc.",
+    "Related": ["CHAR-010", "CHAR-011", "LOC-008", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-010",
+    "Type": "Event",
+    "Name": "The Hunt for the Protector",
+    "Content": "Sessions #22–23. The party joins Thandor Greenbow in hunting the lightning serpent known as The Protector in the Greenmurk. The battle tests faith and courage as Fauda invokes Everbound blessings.",
+    "Related": ["CHAR-021", "CHAR-022", "LOC-011", "QUEST-004"]
+  },
+  {
+    "ID": "EVENT-011",
+    "Type": "Event",
+    "Name": "Visions of the Ghost King",
+    "Content": "Session #22. Arc experiences visions of Rory and the Ghost King, revealing deeper ties between her changeling curse and the spectral monarchy of Virelka.",
+    "Related": ["CHAR-001", "CHAR-019", "CHAR-020", "LOC-015", "QUEST-005"]
+  },
+  {
+    "ID": "EVENT-012",
+    "Type": "Event",
+    "Name": "Echoes of the Twin",
+    "Content": "Session #23–24. Mira’s voice returns to Fauda, warning of her twin sister Gloriosa’s peril. Mask also receives messages from Jin, hinting at emotional unfinished business.",
+    "Related": ["CHAR-003", "CHAR-023", "CHAR-024", "LOC-014"]
+  },
+  {
+    "ID": "EVENT-013",
+    "Type": "Event",
+    "Name": "The Journey South",
+    "Content": "Sessions #25–27. The group departs Stormhaven, traveling through borderlands and storm-swept coasts. This marks the transition from the Stormhaven arc to Tempest’s Refuge.",
+    "Related": ["CHAR-001", "CHAR-002", "LOC-004", "LOC-013"]
+  },
+  {
+    "ID": "EVENT-014",
+    "Type": "Event",
+    "Name": "The Shieldweaver Heist",
+    "Content": "Sessions #27–29. Vy confronts her rivals at Shieldweaver’s Forge, uncovering the theft of her tools and confronting Voraxik Valarnn. The party aids her in restoring her honor.",
+    "Related": ["CHAR-002", "CHAR-026", "CHAR-027", "LOC-013", "QUEST-006"]
+  },
+  {
+    "ID": "EVENT-015",
+    "Type": "Event",
+    "Name": "Arrival in Drifthold",
+    "Content": "Sessions #30–32. The adventurers arrive in the walking city Drifthold, reuniting with Gloriosa. They establish a new base at The Gull and Gasket and begin preparing for the next expedition.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-025", "LOC-012", "LOC-017"]
+  }
+]

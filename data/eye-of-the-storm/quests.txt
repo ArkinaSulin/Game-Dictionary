@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "QUEST-001",
+    "Type": "Quest",
+    "Name": "The Keledar Codex Heist",
+    "Content": "Status: Completed. Given by Johnny Whisper in Session #9 at The Mothlight Inn. The party was hired to infiltrate Hargrave Manor and steal the Keledar Codex. They succeeded, discovering Lady Eleanor Hargrave’s corruption and links to southern cults.",
+    "Related": ["CHAR-007", "CHAR-015", "CHAR-016", "CHAR-017", "LOC-005", "LOC-003", "EVENT-004", "EVENT-005"]
+  },
+  {
+    "ID": "QUEST-002",
+    "Type": "Quest",
+    "Name": "Rescue Lady Seriss Stormrider",
+    "Content": "Status: Completed. Unofficially accepted in Session #16 during the fall into the Archivum. The party freed Lady Seriss from Mortimer’s Maze and learned of her stolen Stormheart Gem. The mission solidified the group’s alliance with her.",
+    "Related": ["CHAR-010", "CHAR-012", "CHAR-013", "LOC-008", "LOC-010", "EVENT-007", "EVENT-008"]
+  },
+  {
+    "ID": "QUEST-003",
+    "Type": "Quest",
+    "Name": "Recover the Stormheart Gem",
+    "Content": "Status: Ongoing. Given by Lady Seriss in Session #18 after her rescue. The Stormheart Gem was stolen by Zephara Moonveil. The party pledged to aid Seriss in reclaiming it, a task that led to further political and planar intrigue.",
+    "Related": ["CHAR-010", "CHAR-011", "LOC-008", "EVENT-009"]
+  },
+  {
+    "ID": "QUEST-004",
+    "Type": "Quest",
+    "Name": "The Everbound’s Call",
+    "Content": "Status: Ongoing. Stemming from Fauda’s visions and her connection to the Everbound faith. Propelled by Mira’s messages and the discovery of her twin Gloriosa’s plight. Explored further in the Greenmurk and Drifthold arcs.",
+    "Related": ["CHAR-003", "CHAR-021", "CHAR-023", "CHAR-025", "LOC-011", "LOC-012", "EVENT-010", "EVENT-012", "EVENT-015"]
+  },
+  {
+    "ID": "QUEST-005",
+    "Type": "Quest",
+    "Name": "The Ghost King’s Bargain",
+    "Content": "Status: Ongoing. Involves Arc’s changeling curse and Rory’s ghostly bond to the Roseheart King. Visions from Session #22 suggest Arc may need to enter Virelka to sever this spectral connection.",
+    "Related": ["CHAR-001", "CHAR-019", "CHAR-020", "LOC-015", "EVENT-011"]
+  },
+  {
+    "ID": "QUEST-006",
+    "Type": "Quest",
+    "Name": "Forged in Storm and Flame",
+    "Content": "Status: Completed. Personal quest for Vyphira spanning Sessions #27–29. She confronted her rivals and reclaimed her stolen smithing tools from Shieldweaver’s Forge in Tempest’s Refuge, reconciling part of her past.",
+    "Related": ["CHAR-002", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-029", "LOC-013", "EVENT-014"]
+  },
+  {
+    "ID": "QUEST-007",
+    "Type": "Quest",
+    "Name": "The Flicker Within",
+    "Content": "Status: Ongoing. Tied to Mask’s warlock patron and past with Jin. Hints from Gloomwatch Sanctum indicate an unresolved emotional and spiritual contract that may demand confrontation.",
+    "Related": ["CHAR-004", "CHAR-024", "LOC-014", "EVENT-012"]
+  },
+  {
+    "ID": "QUEST-008",
+    "Type": "Quest",
+    "Name": "Storms over Drifthold",
+    "Content": "Status: Ongoing. Emerging during Sessions #30–32. The party uncovers growing unrest in Drifthold as the mage-lords vie for control of the walking city. Their alliances and loyalties will shape the next arc.",
+    "Related": ["CHAR-002", "CHAR-025", "LOC-012", "LOC-017", "EVENT-015"]
+  }
+]
