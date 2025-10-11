@@ -1,0 +1,14 @@
+{
+  "campaigns": {
+    "Eye of the Storm": {
+      "folder": "eye-of-the-storm",
+      "dm": "Morphling",
+      "lorekeeper": "Morphling"
+    },
+    "Curse of Strahd": {
+      "folder": "curse-of-strahd",
+      "dm": "Munchkin",
+      "lorekeeper": "Arkini"
+    }
+  }
+}
