@@ -86,7 +86,7 @@
   {
   "ID": "LOC-013",
   "Type": "Location",
-  "Name": "Sian&#39dorai",
+  "Name": "Sian'dorai",
   "Content": "The hidden kingdom of the Pallid Elves, carved deep beneath the Starsong Hills. The city is a marvel of elven architecture, with glowing quartz-and-crystal spires illuminated by enchanted braziers that create an eternal, starry twilight. Zara was raised here by her mother and step-father, the ruling Pallid Elf monarchs. The kingdom holds a dark secret: a gateway to the Nine Hells exists within its depths, which is tied to the mystery of Zara's birth father.",
   "Related": ["CHAR-001", "CHAR-029"]
   }
