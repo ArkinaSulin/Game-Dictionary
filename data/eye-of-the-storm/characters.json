@@ -35,11 +35,11 @@
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-008", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-019", "LOC-041", "EVENT-001", "EVENT-002", "EVENT-006", "EVENT-009", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "QUEST-003", "QUEST-004", "QUEST-011"]
   },
   {
-    "ID": "CHAR-006",
-    "Type": "PC",
-    "Name": "Lady Seriss",
-    "Content": "Noblewoman from House Stormrider, elegant and composed despite danger. Primary goal is to survive and maintain her noble responsibilities while being targeted by various factions. Currently held captive by The Gale operative. Affiliation with House Stormrider remains strong. Notable capabilities include noble diplomacy, strategic thinking, and resilience under pressure. Key contributions include providing noble connections, strategic advice, and maintaining composure during captivity.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-007", "CHAR-008", "CHAR-025", "CHAR-060", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-031", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-007", "EVENT-031", "EVENT-035", "EVENT-037", "QUEST-003", "QUEST-005", "QUEST-013"]
+  "ID": "CHAR-006",
+  "Type": "NPC",
+  "Name": "Lady Seriss",
+  "Content": "Met in Sessions 16-18 when she joined the party. Noblewoman from House Stormrider, elegant and composed despite danger. Primary goal is to survive and maintain her noble responsibilities while being targeted by various factions. Currently held captive by The Gale operative. Affiliation with House Stormrider remains strong. Notable capabilities include noble diplomacy, strategic thinking, and resilience under pressure. During encounters, she provided noble connections and strategic advice, was nearly killed by cannibals (saved by Sili's healing), and was taken hostage by The Gale operative who seems to harbor particular hatred toward her. Current status: Alive, held captive by The Gale.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-008", "CHAR-025", "CHAR-060", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-031", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-007", "EVENT-031", "EVENT-035", "EVENT-037", "QUEST-003", "QUEST-005", "QUEST-013"]
   },
   {
     "ID": "CHAR-007",
@@ -419,4 +419,5 @@
     "Content": "Never encountered as organization, represented by Lady Seriss. Noble house from Caeloria kingdom, rapid growth attracted The Gale's attention. Lady Seriss carries their signet ring. Mask was sent to infiltrate them originally. Current status: Active, Lady Seriss is member.",
     "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "LOC-031", "EVENT-035", "QUEST-013"]
   }
+
 ]
