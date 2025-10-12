@@ -1,0 +1,422 @@
+[
+  {
+    "ID": "CHAR-001",
+    "Type": "PC",
+    "Name": "Mask",
+    "Content": "Changeling who appears as a shifting humanoid figure with no fixed appearance. Former agent of The Gale who rebelled after gaining magical abilities from being struck by lightning. Suffers from fractured mind and memory issues. Primary goal is to break free from The Gale's control, understand their origins, and heal their fractured mind. Affiliation with The Gale has been severed after slashing their tattoo and openly defying them. Notable capabilities include powerful fire magic (Fireball), spellcasting, and the ability to shift between multiple distinct personas: Flicker (talkative male Kender), Sage (male Gnome scholar), Dahlia (beautiful female Elf), Grit (strong male Giff), and Granny (old female Human). Key contributions include revealing The Gale's operations, protecting changeling refugees, and confronting the parasitic persona Fendril in mindscape battles.",
+    "Related": ["CHAR-007", "CHAR-008", "CHAR-021", "CHAR-025", "CHAR-026", "CHAR-027", "CHAR-028", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-012", "LOC-013", "LOC-015", "LOC-017", "LOC-028", "LOC-029", "LOC-030", "LOC-031", "LOC-035", "LOC-036", "LOC-037", "LOC-038", "LOC-039", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-014", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-022", "EVENT-023", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "EVENT-036", "EVENT-037", "QUEST-001", "QUEST-003", "QUEST-005", "QUEST-006", "QUEST-011", "QUEST-012", "QUEST-013"]
+  },
+  {
+    "ID": "CHAR-002",
+    "Type": "PC",
+    "Name": "Fauda",
+    "Content": "Tiefling with distinctive horns and red skin, though her sister Gloriosa now has blue skin. Skilled spellcaster who grew up on a farm near Tallyport with her twin sister. Carries guilt over Elandra Hallowheart's murder. Primary goal is to protect her friends and reconcile with her sister Gloriosa. Affiliation with The Gale through former romantic involvement with Pinglin Gale, now severed. Notable capabilities include enchantment magic (Hypnotic Pattern, Cloud of Daggers), communication spells (Sending), deception, and loyalty to her companions. Key contributions include strategic spellcasting in combat, gathering information, and maintaining party cohesion during crises.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-012", "CHAR-021", "CHAR-029", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-018", "LOC-019", "LOC-021", "LOC-022", "LOC-030", "LOC-032", "LOC-033", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-013", "EVENT-014", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-025", "EVENT-028", "EVENT-029", "EVENT-030", "EVENT-031", "EVENT-037", "QUEST-001", "QUEST-002", "QUEST-003", "QUEST-007", "QUEST-008", "QUEST-011"]
+  },
+  {
+    "ID": "CHAR-003",
+    "Type": "PC",
+    "Name": "Vyphira",
+    "Content": "Dragonborn with distinctive scales, skilled artisan and warrior. Practical and determined, with a strong sense of justice. Primary goal is to recover her stolen craftsmanship and tools, and understand her Dragonborn heritage. Notable capabilities include exceptional armor craftsmanship, combat skills, Draconic language knowledge, and armor creation. Key contributions include crafting armor for the party, combat prowess, and translating Draconic texts and conversations that revealed crucial plot information about dragon cults and ancient history.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "LOC-001", "LOC-002", "LOC-004", "LOC-005", "LOC-008", "LOC-019", "LOC-027", "LOC-034", "EVENT-001", "EVENT-002", "EVENT-009", "EVENT-011", "EVENT-015", "EVENT-018", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "QUEST-002", "QUEST-003", "QUEST-011"]
+  },
+  {
+    "ID": "CHAR-004",
+    "Type": "PC",
+    "Name": "Arc en Ciel",
+    "Content": "Skilled martial artist with a pragmatic and observant nature. Grew up after parents were killed for poaching, raised by disliked relatives. Primary goal is to protect the party she considers family and find her place in the world. No strong affiliations. Notable capabilities include hand-to-hand combat, tactical thinking, cooking skills, and keen observation. Key contributions include combat effectiveness, gathering intelligence through observation, and providing stability to the group during tense situations.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-006", "CHAR-011", "CHAR-038", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-009", "LOC-013", "LOC-019", "LOC-040", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-008", "EVENT-019", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-034", "EVENT-037", "QUEST-003", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-005",
+    "Type": "PC",
+    "Name": "Sili",
+    "Content": "Nature-connected character with bond to animals and the god Azmir. Contemplative and spiritual, struggling with the moral implications of killing innocents. Primary goal is to appease his god Azmir through worthy hunts and protect natural balance. Notable capabilities include nature magic, animal communication, tracking, and the Entangle spell. Key contributions include controlling battlefield terrain, healing party members, and establishing communication with natural creatures.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-008", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-019", "LOC-041", "EVENT-001", "EVENT-002", "EVENT-006", "EVENT-009", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "QUEST-003", "QUEST-004", "QUEST-011"]
+  },
+  {
+    "ID": "CHAR-006",
+    "Type": "PC",
+    "Name": "Lady Seriss",
+    "Content": "Noblewoman from House Stormrider, elegant and composed despite danger. Primary goal is to survive and maintain her noble responsibilities while being targeted by various factions. Currently held captive by The Gale operative. Affiliation with House Stormrider remains strong. Notable capabilities include noble diplomacy, strategic thinking, and resilience under pressure. Key contributions include providing noble connections, strategic advice, and maintaining composure during captivity.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-007", "CHAR-008", "CHAR-025", "CHAR-060", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-031", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-007", "EVENT-031", "EVENT-035", "EVENT-037", "QUEST-003", "QUEST-005", "QUEST-013"]
+  },
+  {
+    "ID": "CHAR-007",
+    "Type": "NPC",
+    "Name": "Elandra Hallowheart",
+    "Content": "Met in Session 26 at Tranquil Hollow Healing House in Tempest's Refuge. Human female, young beautiful healer with staff topped with ever-burning flame, wears sigil of Yondar. Chosen of Yondar, daughter of Luminarch Velma Hallowheart and Lord Preston Hallowheart. Kind, dedicated healer who helped diagnose Mask's condition. Murdered by party in Session 27 but resurrected. Now transformed through rebirth - taller, radiant, impossibly pure. Alive and currently in Tempest's Refuge helping city recover from giant attacks.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-006", "CHAR-009", "CHAR-025", "CHAR-026", "CHAR-027", "CHAR-053", "CHAR-054", "CHAR-055", "LOC-003", "LOC-009", "LOC-012", "LOC-024", "LOC-029", "EVENT-002", "EVENT-005", "EVENT-006", "EVENT-008", "EVENT-017", "QUEST-001", "QUEST-011"]
+  },
+  {
+    "ID": "CHAR-008",
+    "Type": "NPC",
+    "Name": "The Gale Operative (Slender Man)",
+    "Content": "Met in Session 27 in Tempest's Refuge residential district. Tall thin man with low hat, dark sunglasses, scarf over face, unsettling pitch black eyes with white pinpricks. Overwhelming smell of flowers mixed with rotting stench. Covered with Gale tattoos. Angry, manipulative, all-seeing power through scrying. Captured Lady Seriss. Revealed he had been watching party's activities including dealings with Johnny Whispers and Eldar Joven. Forced party to find Flora Mourne. Current status: Alive, holding Lady Seriss captive.",
+    "Related": ["CHAR-001", "CHAR-005", "CHAR-006", "CHAR-009", "CHAR-025", "CHAR-026", "CHAR-056", "CHAR-057", "LOC-003", "LOC-023", "EVENT-007", "EVENT-009", "EVENT-011", "EVENT-032", "EVENT-033", "EVENT-036", "QUEST-004", "QUEST-005"]
+  },
+  {
+    "ID": "CHAR-009",
+    "Type": "NPC",
+    "Name": "Flora Mourne",
+    "Content": "Met in Session 27 outside Tranquil Hollow after witnessing Elandra's murder. Human female with both arms amputated, replaced by magical blue Mage Hands. Wears gold and platinum necklace shaped like Yondar's flame. Close friend and roommate of Elandra Hallowheart. Determined humanitarian smuggling changelings to safety. Uses Dimension Door and ghostly transformation abilities from magic that saved her after accident. Currently alive and continuing her work helping refugees.",
+    "Related": ["CHAR-001", "CHAR-007", "CHAR-008", "CHAR-010", "CHAR-011", "CHAR-025", "CHAR-026", "LOC-003", "LOC-009", "LOC-010", "EVENT-006", "EVENT-008", "EVENT-009", "EVENT-010", "QUEST-005", "QUEST-006"]
+  },
+  {
+    "ID": "CHAR-010",
+    "Type": "NPC",
+    "Name": "Drayce Goldmere",
+    "Content": "Met in Session 28 behind Tranquil Hollow in Tempest's Refuge. Half-human, half-hobgoblin mage, apprentice to Oswin Fellcrest, son of the mayor. In love with Flora Mourne. Helped Flora and Elandra by moving guards for their smuggling operations. Confused but helpful, eventually aided party against The Gale forces. Specializes in stone magic. Currently alive and maintaining his position in Tempest's Refuge.",
+    "Related": ["CHAR-007", "CHAR-009", "CHAR-011", "LOC-003", "LOC-009", "LOC-010", "EVENT-009", "EVENT-010", "EVENT-011", "QUEST-006"]
+  },
+  {
+    "ID": "CHAR-011",
+    "Type": "NPC",
+    "Name": "Oswin Fellcrest",
+    "Content": "Met in Session 28 during investigation of Elandra's murder. Head mage of Tempest's Refuge, uncle to Flora Mourne. Specializes in stone magic, capable of molding and shaping stone at will. Professional and authoritative, but showed attraction to Arc en Ciel. Currently alive and maintaining his position as head mage.",
+    "Related": ["CHAR-004", "CHAR-009", "CHAR-010", "LOC-003", "EVENT-009", "EVENT-010"]
+  },
+  {
+    "ID": "CHAR-012",
+    "Type": "NPC",
+    "Name": "Gloriosa",
+    "Content": "Met in Session 30 in Drifthold magistrate's office. Tiefling, Fauda's twin sister, now with blue skin instead of red. Prophet of Nyxara and head priest of the supposedly dead god. Mother of two children - Faudana (missing) and Rowan (with father Broin). Complicated relationship with Fauda, estranged for nearly 20 years. Religious, determined, carrying deep family burdens. Currently alive and searching for her missing daughter in Solara.",
+    "Related": ["CHAR-002", "CHAR-029", "CHAR-032", "CHAR-033", "CHAR-048", "CHAR-049", "CHAR-059", "LOC-008", "LOC-011", "LOC-018", "LOC-021", "LOC-022", "LOC-026", "LOC-033", "EVENT-012", "EVENT-013", "EVENT-016", "EVENT-025", "EVENT-028", "QUEST-001", "QUEST-007"]
+  },
+  {
+    "ID": "CHAR-013",
+    "Type": "NPC",
+    "Name": "Veil",
+    "Content": "Met in Session 29 in church basement safe-room in Tempest's Refuge. Changeling female, heavily pregnant, scarred at wrists and ankles from prolonged captivity by The Gale. Kind but firm, spent years working for The Gale before being used to produce more changelings. Explained The Gale's brainwashing of changeling children. Currently alive and safely escaped to Drifthold's Tailstride with other changeling refugees.",
+    "Related": ["CHAR-001", "CHAR-014", "CHAR-015", "CHAR-025", "LOC-010", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014", "QUEST-006"]
+  },
+  {
+    "ID": "CHAR-014",
+    "Type": "NPC",
+    "Name": "Shagra Wordbinder",
+    "Content": "Met in Session 29 in church basement. Orcish woman, priestess of Shy'rah, the Tusked Mother (deity of protective motherhood). Protective and distrustful of party initially. Wife of Drath Wordbinder, helping smuggle changelings to safety. Currently alive and safely in Drifthold.",
+    "Related": ["CHAR-013", "CHAR-015", "LOC-010", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014", "QUEST-006"]
+  },
+  {
+    "ID": "CHAR-015",
+    "Type": "NPC",
+    "Name": "Drath Wordbinder",
+    "Content": "Met in Session 29 in church basement. Orcish man, professor and expert in Runic Theory from Drifthold. Husband of Shagra, uses rune-inscribed tent that provides storm protection and invisibility. Little magical ability himself, focuses on runic theory. Currently alive and teaching at Drifthold university.",
+    "Related": ["CHAR-013", "CHAR-014", "LOC-008", "LOC-010", "LOC-020", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014", "EVENT-029", "QUEST-006", "QUEST-008"]
+  },
+  {
+    "ID": "CHAR-016",
+    "Type": "NPC",
+    "Name": "Sorrax Shieldweaver",
+    "Content": "Met in Session 29 at Shieldweaver's Armorer & Forge in Tempest's Refuge. Heavy-set red Dragonborn, devastated by theft of family heirloom tools. Owns one of three known sets of special tools with distinctive maker's mark. Helpful and appreciative when Vyphira promised to recover his tools. Currently alive and running his forge.",
+    "Related": ["CHAR-003", "CHAR-017", "CHAR-018", "CHAR-030", "CHAR-031", "LOC-004", "EVENT-015", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-017",
+    "Type": "NPC",
+    "Name": "Garman",
+    "Content": "Met in Session 29 at Shieldweaver's Armorer & Forge. Slender black Dragonborn with scorch marks, worked at counter. Offered to sell Vyphira's own stolen armor back to her. Employee of Sorrax Shieldweaver. Currently alive.",
+    "Related": ["CHAR-003", "CHAR-016", "LOC-004", "EVENT-015"]
+  },
+  {
+    "ID": "CHAR-018",
+    "Type": "NPC",
+    "Name": "Voraxik Valarnn",
+    "Content": "Never met directly, but discussed in Session 29. Young Dragonborn who stole Vyphira's armor design and tools. Sold Vyphira's armor to Sorrax Shieldweaver. Associated with Kharzid Tazek and Shavara Sablefang. Currently whereabouts unknown, last known heading to Drifthold.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "LOC-004", "LOC-005", "LOC-034", "EVENT-015", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-019",
+    "Type": "NPC",
+    "Name": "Kharzid Tazek",
+    "Content": "Never met directly, but discussed in Session 29. Earth Dragonborn, sandy-colored. Grew up with Vyphira in Tempest's Watch. Known troublemaker with powerful associates. Stole Sorrax Shieldweaver's tools with Shavara Sablefang. Currently whereabouts unknown.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-020", "CHAR-031", "LOC-004", "LOC-034", "EVENT-015", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-020",
+    "Type": "NPC",
+    "Name": "Shavara Sablefang",
+    "Content": "Never met directly, but discussed in Session 29. Gemstone Dragonborn, white with gemstone scales. Grew up with Vyphira in Tempest's Watch. Known troublemaker, partner of Kharzid Tazek. Stole Sorrax Shieldweaver's tools. Currently whereabouts unknown.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-031", "LOC-004", "LOC-034", "EVENT-015", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-021",
+    "Type": "NPC",
+    "Name": "Jin",
+    "Content": "Met in Session 31 in Mask's mindscape during Fendril confrontation. Changeling, Mask's friend from Gale training facility. Parents were present at facility, spent considerable time with Mask. Both received Gale tattoos - Jin's on left hand, Mask's on right. Appeared in memory sequences helping party against Fendril. Current real-world status unknown.",
+    "Related": ["CHAR-001", "CHAR-022", "CHAR-025", "LOC-028", "LOC-035", "EVENT-016", "EVENT-023"]
+  },
+  {
+    "ID": "CHAR-022",
+    "Type": "NPC",
+    "Name": "Fendril",
+    "Content": "Met in Session 31 in Mask's mindscape. Parasitic entity, fragmented version of Mask's original persona that gained sentience and independence. Hideous creature with many rotating faces, covered in mouths. Represented Mask's self-doubt and abandoned identity. Defeated by party in mindscape battle. Status: Destroyed in mindscape, no longer threatening Mask's sanity.",
+    "Related": ["CHAR-001", "CHAR-021", "CHAR-024", "CHAR-051", "LOC-028", "LOC-036", "EVENT-003", "EVENT-016", "QUEST-001"]
+  },
+  {
+    "ID": "CHAR-023",
+    "Type": "NPC",
+    "Name": "Urdesh Darkmoore",
+    "Content": "Met in Session 31 in Mask's mindscape training memory. Shadar-Kai trainer at Gale facility, brutal but fair. Instructed children in knife throwing, disguise, pick-pocketing. Most honorable trainer at facility. Appeared as memory combatant against party. Status: Memory entity, real-world status unknown.",
+    "Related": ["CHAR-001", "CHAR-021", "LOC-028", "LOC-035", "EVENT-016", "EVENT-023"]
+  },
+  {
+    "ID": "CHAR-024",
+    "Type": "NPC",
+    "Name": "Miss Amber",
+    "Content": "Met in Session 31 in Mask's mindscape orphanage memory. Woman who ran orphanage where Mask was left as baby. Called Mask 'Fendril' originally. Appeared as memory figure corrupted by Fendril entity. Status: Memory entity, real-world status unknown.",
+    "Related": ["CHAR-001", "CHAR-022", "LOC-028", "LOC-036", "EVENT-016", "EVENT-023"]
+  },
+  {
+    "ID": "CHAR-025",
+    "Type": "Organization",
+    "Name": "The Gale",
+    "Content": "First encountered in Session 27 through operative in Tempest's Refuge. Organization of spies serving Solara, managing matters on Eryndor to ensure nothing grows out of control. Uses brainwashing and recruitment of changeling children. Headquarters believed to be in Solara. Led by unknown leadership. Current status: Actively hunting Mask and party after their rebellion, relationship hostile.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-006", "CHAR-007", "CHAR-008", "CHAR-009", "CHAR-013", "CHAR-021", "CHAR-029", "CHAR-050", "CHAR-056", "CHAR-057", "LOC-003", "LOC-011", "LOC-023", "LOC-035", "EVENT-007", "EVENT-009", "EVENT-011", "EVENT-032", "EVENT-033", "EVENT-035", "EVENT-036", "QUEST-005", "QUEST-012", "QUEST-013"]
+  },
+  {
+    "ID": "CHAR-026",
+    "Type": "Organization",
+    "Name": "Yondari Faith",
+    "Content": "First encountered in Session 26 through Elandra Hallowheart at Tranquil Hollow. Religious organization worshipping Yondar, the Everflame. Focus on redemption, light, and moral rigidity. Led by Luminarch Velma Hallowheart. Headquarters in Thornheath, northern city. Major temple in Drifthold called The Ever-Burning Temple. Current status: Neutral to party, offering path to redemption despite Elandra's murder.",
+    "Related": ["CHAR-001", "CHAR-007", "CHAR-008", "CHAR-009", "CHAR-027", "CHAR-028", "CHAR-034", "CHAR-052", "CHAR-053", "CHAR-054", "LOC-009", "LOC-012", "LOC-024", "LOC-029", "EVENT-005", "EVENT-006", "EVENT-008", "EVENT-017", "QUEST-001", "QUEST-011"]
+  },
+  {
+    "ID": "CHAR-027",
+    "Type": "NPC",
+    "Name": "Yondar, the Everflame",
+    "Content": "Deity, never physically met but communicated through Elandra Hallowheart and temple flames. God of fire, light, and redemption. Former lover of Tana according to rumors. Twin brother of Yeldur. Forbids his followers from bringing faith to Solara. Offers redemption through three trials. Current status: Divine being, communicating through chosen followers.",
+    "Related": ["CHAR-007", "CHAR-026", "CHAR-028", "CHAR-033", "CHAR-034", "CHAR-043", "CHAR-052", "CHAR-055", "LOC-012", "LOC-029", "EVENT-017", "QUEST-001", "QUEST-011", "QUEST-012"]
+  },
+  {
+    "ID": "CHAR-028",
+    "Type": "NPC",
+    "Name": "Tana",
+    "Content": "Deity, never physically met. Moon goddess worshipped by Mask, shattered but not dead. Essence scattered throughout world, strongest in Solara. Rumored former lover of Yondar, may have produced divine offspring. Shattered herself willingly according to Yondar. Current status: Divine essence scattered, worshipped by followers including Mask.",
+    "Related": ["CHAR-001", "CHAR-026", "CHAR-027", "CHAR-033", "CHAR-034", "CHAR-043", "CHAR-052", "LOC-011", "EVENT-003", "EVENT-017", "EVENT-022", "QUEST-001", "QUEST-012"]
+  },
+  {
+    "ID": "CHAR-029",
+    "Type": "NPC",
+    "Name": "Pinglin Gale",
+    "Content": "Never met directly, discussed by Fauda. Tiefling member of The Gale, former romantic involvement with Fauda. Was using Fauda to try to track down Gloriosa. Current status: Alive, whereabouts unknown.",
+    "Related": ["CHAR-002", "CHAR-012", "CHAR-025"]
+  },
+  {
+    "ID": "CHAR-030",
+    "Type": "NPC",
+    "Name": "Torva Ironhowl",
+    "Content": "Met in Session 39 at Ironhowl Forge in Drifthold. Grizzled black Dragonborn with long white beard, carries three heirloom tools on belt. Owner of Ironhowl Forge, possesses one of three known sets of special tools. From Thunder Wastes, displays dead thieves outside forge. Helped party set trap for Voraxik. Currently alive and running his forge.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "LOC-005", "EVENT-018", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-031",
+    "Type": "NPC",
+    "Name": "Voraxik Valarnn Associates",
+    "Content": "Group of Dragonborn thieves including Voraxik, Kharzid Tazek, and Shavara Sablefang. All grew up with Vyphira in Tempest's Watch. Known troublemakers boasting of powerful associates. Stole Vyphira's armor design and Sorrax's tools. Current status: At large, believed heading to Drifthold.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "LOC-004", "LOC-005", "LOC-034", "EVENT-015", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-032",
+    "Type": "NPC",
+    "Name": "Broin",
+    "Content": "Never met directly, discussed by Gloriosa. High noble of Solara from House Duskvale. Father of Gloriosa's children Faudana and Rowan. Had relationships with both Fauda and Gloriosa without realizing they were twins. Currently alive in Solara with son Rowan, angry with Gloriosa.",
+    "Related": ["CHAR-012", "CHAR-048", "CHAR-049", "LOC-011", "EVENT-025"]
+  },
+  {
+    "ID": "CHAR-033",
+    "Type": "NPC",
+    "Name": "Nyxara",
+    "Content": "Deity, never physically met. Supposedly 'dead god' on Solara but actually alive according to Gloriosa. Connected to Tana's essence and power. Blue-skinned deity, Gloriosa is head priest. Worshippers scattered throughout Solara. Current status: Divine being, actively worshipped by hidden followers.",
+    "Related": ["CHAR-012", "CHAR-027", "CHAR-028", "CHAR-048", "LOC-011", "EVENT-025", "QUEST-007", "QUEST-012"]
+  },
+  {
+    "ID": "CHAR-034",
+    "Type": "NPC",
+    "Name": "Yeldur",
+    "Content": "Deity, never physically met. God of darkness and chaos, Yondar's twin and opposite. Followers are anarchists and terrorists seeking apocalyptic war. Symbol seen on worshippers outside Ever-Burning Temple. Represents darkness, chaos, and the abyss. Current status: Divine being, worshipped by cultists seeking world-ending rebirth.",
+    "Related": ["CHAR-026", "CHAR-027", "CHAR-028", "LOC-012", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-035",
+    "Type": "NPC",
+    "Name": "Lord Halen Crimm (Shaemir)",
+    "Content": "Met in Session 35 at Crimm Manor in Drifthold's Sky Ward. Older refined man in fine clothing, actually ancient copper dragon in human form. Master of Crimm estate, oldest and most powerful of Sky Ward's twelve families. Originally from Solara, smuggled out as young dragon. Patron of arts, filled manor with artists and musicians. Grateful for daughter's rescue. Currently alive and maintaining power in Drifthold.",
+    "Related": ["CHAR-036", "CHAR-037", "CHAR-038", "CHAR-039", "CHAR-040", "CHAR-044", "LOC-008", "LOC-013", "EVENT-019", "EVENT-021", "EVENT-027", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-036",
+    "Type": "NPC",
+    "Name": "Alira Crimm",
+    "Content": "Met in Session 37 in dragon cult basilica. Twenty-year-old daughter of Lord Crimm, actually young copper dragon. Sweet, naïve, magically gifted, tutored by Teren Vallin. Sheltered upbringing, longed to create art. Kidnapped by dragon cult for blood ritual. Transformed to dragon form during rescue. Currently alive and safe at Crimm Manor.",
+    "Related": ["CHAR-035", "CHAR-037", "CHAR-039", "CHAR-040", "CHAR-044", "LOC-013", "LOC-014", "EVENT-019", "EVENT-020", "EVENT-021", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-037",
+    "Type": "NPC",
+    "Name": "Teren Vallin",
+    "Content": "Met in Session 35 at Crimm Manor. Purple-skinned man, Alira's magic tutor. Quiet, harbors personal feelings for Alira beyond tutoring. Mistrusts bards, particularly Derron Thane. Led party on dragonflies through Drifthold tiers. Currently alive and continuing as tutor.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-039", "LOC-013", "EVENT-019", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-038",
+    "Type": "NPC",
+    "Name": "Tolliver",
+    "Content": "Met in Session 35 at Crimm Manor. Elderly kobold butler, refined despite primitive origins. Secured room when party revealed knowledge of Crimm's dragon nature. Appreciated Arc's raw liver snack offering. Currently alive and serving as Crimm Manor butler.",
+    "Related": ["CHAR-004", "CHAR-035", "LOC-013", "EVENT-019", "EVENT-026"]
+  },
+  {
+    "ID": "CHAR-039",
+    "Type": "NPC",
+    "Name": "Derron Thane",
+    "Content": "Met in Session 36 at The Silver Vein tavern. White-haired elf bard with mandolin, very handsome. Deep gambling debts, forced by Seroth Kael to seduce and kidnap Alira Crimm. Turned invisible during fights, transformed into Giant Ape when threatened. Feeling guilty, helped party rescue Alira. Currently alive, working for Lord Crimm to pay off debts.",
+    "Related": ["CHAR-001", "CHAR-035", "CHAR-036", "CHAR-037", "CHAR-040", "CHAR-041", "LOC-013", "LOC-015", "EVENT-020", "EVENT-021", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-040",
+    "Type": "NPC",
+    "Name": "Seroth Kael",
+    "Content": "Met in Session 35 at The Ashen Ledger. Finely dressed man, rude and condescending, actually horned draconian creature. Owner of The Ashen Ledger antiquities business. Introduced Derron Thane to Crimm household. Leader of dragon cult The Ashen Coil, planning to sacrifice Alira for ritual. Killed by party during rescue. Status: Deceased.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-039", "CHAR-041", "CHAR-044", "LOC-014", "LOC-016", "EVENT-020", "EVENT-021", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-041",
+    "Type": "NPC",
+    "Name": "Brenna Kael",
+    "Content": "Met in Session 35 at The Ashen Ledger. Wife of Seroth Kael, arranging items on shelves. Arrogant but curious, discovered Derron Thane at The Silver Vein tavern. Involved in dragon cult activities with husband. Current status: Presumably deceased with husband during cult confrontation.",
+    "Related": ["CHAR-039", "CHAR-040", "CHAR-044", "LOC-016", "EVENT-020", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-042",
+    "Type": "NPC",
+    "Name": "The Black Dove",
+    "Content": "Met in Session 38 when summoned by Fauda's feather. Powerful entity from Stormhaven, arrives in flash of feathers. Bored demeanor, painting nails black when summoned. Helped party fight dragon cult and Ghost Dragon. Left another feather for future summons. Current status: Available for future summoning.",
+    "Related": ["CHAR-002", "EVENT-021"]
+  },
+  {
+    "ID": "CHAR-043",
+    "Type": "NPC",
+    "Name": "Liora Quillheart",
+    "Content": "Met in Session 39 at Mossgate Hollow penthouse. Elegant elven romance novelist, formerly history professor. Gaudy but immaculate fashion, deeply sensual demeanor. Author of Burning Moon trilogy about Tana and Yondar. Provided historical information about deities and The Lovers cult. Currently alive and writing in Drifthold.",
+    "Related": ["CHAR-001", "CHAR-027", "CHAR-028", "CHAR-052", "LOC-017", "EVENT-022", "QUEST-001", "QUEST-012"]
+  },
+  {
+    "ID": "CHAR-044",
+    "Type": "Organization",
+    "Name": "The Ashen Coil",
+    "Content": "First encountered in Session 36 through masked attackers at Silver Vein tavern. Dragon cult worshipping earth dragon Khaimyrax. Members have draconic features - scales, tails, breath weapons. Led by Seroth Kael, planning to raise Ghost Dragon using Alira Crimm's blood. Used Dragonborn blood supplements for rituals. Current status: Leadership destroyed, remnants possibly still active.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-041", "CHAR-045", "LOC-014", "LOC-015", "LOC-016", "EVENT-020", "EVENT-021", "QUEST-009"]
+  },
+  {
+    "ID": "CHAR-045",
+    "Type": "NPC",
+    "Name": "Khaimyrax",
+    "Content": "Never met alive, encountered as skeleton in Session 37. Ancient earth dragon, deity worshipped by The Ashen Coil. Massive skeleton in Hollow Basilica temple. Ghost form raised during ritual, defeated by party. Current status: Deceased, ghost form destroyed.",
+    "Related": ["CHAR-044", "LOC-014", "EVENT-021"]
+  },
+  {
+    "ID": "CHAR-046",
+    "Type": "NPC",
+    "Name": "Jorren and Megara Vale",
+    "Content": "Never met directly, discussed as masters in Session 30. Gnome mage twins controlling one of Drifthold's walking legs. Brutal leaders with army of goblins and orcs. Killed previous leg mage to claim control. Party bound to them by blood pact for city entry. Considered vile and unpredictable by Gloriosa. Current status: Alive, controlling leg of Drifthold.",
+    "Related": ["CHAR-012", "LOC-008", "LOC-026", "EVENT-012", "QUEST-010"]
+  },
+  {
+    "ID": "CHAR-047",
+    "Type": "NPC",
+    "Name": "Goblin Entry Master",
+    "Content": "Met in Session 30 at Drifthold entry platform. Elderly goblin woman in charge of city entry. Gleeful about combat entry requirement, verified Stormrider sigil pendant. Arranged blood pact with Vale mages. Current status: Alive, managing Drifthold entry.",
+    "Related": ["CHAR-046", "LOC-008", "EVENT-012"]
+  },
+  {
+    "ID": "CHAR-048",
+    "Type": "NPC",
+    "Name": "Faudana",
+    "Content": "Never met, discussed by Gloriosa. Gloriosa's missing daughter, blue-skinned like Nyxara's light. Named after Fauda. Vanished during lunar ceremony at age twelve. Believed connected to Nyxara, appears in dreams in blue place with silver pool. Current status: Missing for five years, whereabouts unknown.",
+    "Related": ["CHAR-002", "CHAR-012", "CHAR-032", "CHAR-033", "LOC-011", "EVENT-025", "QUEST-007"]
+  },
+  {
+    "ID": "CHAR-049",
+    "Type": "NPC",
+    "Name": "Rowan",
+    "Content": "Never met, discussed by Gloriosa. Gloriosa's son, red-skinned like family. Seventeen years old, angry with mother, living with father Broin in Solara. Current status: Alive in Solara with father.",
+    "Related": ["CHAR-012", "CHAR-032", "LOC-011", "EVENT-025"]
+  },
+  {
+    "ID": "CHAR-050",
+    "Type": "NPC",
+    "Name": "Shasta",
+    "Content": "Never met, discussed by Mask in Session 30. Mask's handler at The Gale, became surrogate mother. Accepted Mask's leave of absence request unaware it wasn't allowed. Current status: Whereabouts unknown.",
+    "Related": ["CHAR-001", "CHAR-025", "LOC-035", "EVENT-023"]
+  },
+  {
+    "ID": "CHAR-051",
+    "Type": "NPC",
+    "Name": "Solenne",
+    "Content": "Met in Session 32 in Mask's mindscape memory of Stormsurge. Important memory figure from Mask's past, possibly romantic interest. Eyes pulsed between dull and bright as Mask and Fendril fought for control. Rescued from gallows fantasy by party. Current status: Memory entity, real-world status unknown.",
+    "Related": ["CHAR-001", "CHAR-022", "LOC-028", "LOC-037", "EVENT-016"]
+  },
+  {
+    "ID": "CHAR-052",
+    "Type": "Organization",
+    "Name": "The Lovers",
+    "Content": "Never encountered directly, discussed by Liora Quillheart. Religious faction derogatorily called 'The Lovers' - heretical sect of Tana worshippers obsessed with love between Tana and Yondar. Seek to speak with Yondar for answers about Tana's shattering. Clash with orthodox Yondari worshippers. Current status: Active, found near Yondari holy sites.",
+    "Related": ["CHAR-026", "CHAR-027", "CHAR-028", "CHAR-043", "LOC-012", "EVENT-022", "QUEST-001", "QUEST-012"]
+  },
+  {
+    "ID": "CHAR-053",
+    "Type": "NPC",
+    "Name": "Velma Hallowheart",
+    "Content": "Never met, discussed by Radiant priest. Luminarch, Voice of the Flame, highest priest of Yondar in entire church. Mother of Elandra, somewhat displeased with party for daughter's murder. Current status: Alive, leading Yondari faith.",
+    "Related": ["CHAR-007", "CHAR-026", "LOC-024"]
+  },
+  {
+    "ID": "CHAR-054",
+    "Type": "NPC",
+    "Name": "Preston Hallowheart",
+    "Content": "Never met, discussed by Radiant priest. Lord of Thornheath, northern city and birthplace of Yondar's faith. Father of Elandra, deeply devout, resentful of party for daughter's murder. Current status: Alive, noble in Thornheath.",
+    "Related": ["CHAR-007", "CHAR-026", "LOC-024"]
+  },
+  {
+    "ID": "CHAR-055",
+    "Type": "NPC",
+    "Name": "Darren Maximus",
+    "Content": "Never met, discussed by Elandra. Other living Chosen of Yondar, southerner from Lightning Fields. Destined to marry Elandra and produce children who might become Yondar's Champion. Current status: Alive, whereabouts unknown.",
+    "Related": ["CHAR-007", "CHAR-027"]
+  },
+  {
+    "ID": "CHAR-056",
+    "Type": "NPC",
+    "Name": "Johnny Whispers",
+    "Content": "Never met, discussed by Gale operative. Previous contact in Stormhaven who warned about The Gale. Had slashed his Gale tattoo like Mask later did. Current status: Whereabouts unknown.",
+    "Related": ["CHAR-001", "CHAR-008", "CHAR-025", "LOC-023", "EVENT-032"]
+  },
+  {
+    "ID": "CHAR-057",
+    "Type": "NPC",
+    "Name": "Eldar Joven",
+    "Content": "Never met, discussed by Gale operative. Previous confrontation mentioned by slender man, indicating Gale's surveillance of party. Current status: Whereabouts unknown.",
+    "Related": ["CHAR-008", "CHAR-025", "EVENT-033"]
+  },
+  {
+    "ID": "CHAR-058",
+    "Type": "NPC",
+    "Name": "Olga Patter",
+    "Content": "Never met, discussed by Fauda. Orcish woman, Fauda's friend and surrogate sister after leaving Gloriosa. Lived with Fauda in The Haven. Current status: Whereabouts unknown.",
+    "Related": ["CHAR-002", "LOC-032"]
+  },
+  {
+    "ID": "CHAR-059",
+    "Type": "NPC",
+    "Name": "Gloriosa's Acolytes",
+    "Content": "Met in Sessions 30-31 with Gloriosa. Entourage including Sir Donovan (whispered to Gloriosa), Thorn (giant man), Onyx (short pug-man), and blue-robed woman who prepared sleeping tonic. Support Gloriosa as prophet of Nyxara. Current status: Alive, traveling with Gloriosa.",
+    "Related": ["CHAR-012", "EVENT-012", "EVENT-013"]
+  },
+  {
+    "ID": "CHAR-060",
+    "Type": "Organization",
+    "Name": "House Stormrider",
+    "Content": "Never encountered as organization, represented by Lady Seriss. Noble house from Caeloria kingdom, rapid growth attracted The Gale's attention. Lady Seriss carries their signet ring. Mask was sent to infiltrate them originally. Current status: Active, Lady Seriss is member.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "LOC-031", "EVENT-035", "QUEST-013"]
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "ID": "LOC-001",
+    "Type": "location",
+    "Name": "Cloudfoot Keep",
+    "Content": "The party's home base and bastion located in the wilderness. Fortified keep where characters have personal quarters and can develop their resources. Contains Arc's mushroom garden, Vyphira's barracks with cloud-energy defenders, Fauda's stocked storehouse, Mask's spy network, and Sili's animal nests and outposts. Serves as a safe haven between adventures, currently well-maintained by servants. Controlled by the party. Key characters include all party members and keep servants. During visits, characters received updates on their bastion developments and planned their next moves.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "EVENT-001", "QUEST-002"]
+  },
+  {
+    "ID": "LOC-002",
+    "Type": "location",
+    "Name": "Travel Route to Tempest's Refuge",
+    "Content": "Overland route through plains northwest of Greenmurk Forest, about two days travel on foot. Features open fields, foothills with caves, and known traveler shelters. Significant as the path where party experienced Imminent Convergence storm and cannibal cave encounter. Points of interest include storm-shelter caves. Key characters encountered include cannibals and storm refugees. During travel, party survived massive storm through Epic Skill Challenge, took shelter in cannibal cave, fought cannibals, and continued toward Tempest's Refuge.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "EVENT-001", "QUEST-003"]
+  },
+  {
+    "ID": "LOC-003",
+    "Type": "location",
+    "Name": "Tempest's Refuge",
+    "Content": "Mountain settlement carved into mountainsides bearing large glowing storm runes. More subdued than Stormhaven, serves as refuge from storms. Contains stone gates, market districts, residential areas, and tunnel systems. Significant as location where Mask's healing attempt turned into murder investigation. Controlled by city guards and mages. Key characters include Elandra Hallowheart, Flora Mourne, Drayce Goldmere, Oswin Fellcrest, and Gale operative. During visits, party sought healing for Mask, murdered Elandra, fled authorities, confronted Gale operative, and helped changeling refugees escape.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-007", "CHAR-008", "CHAR-009", "CHAR-010", "CHAR-011", "EVENT-002", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "QUEST-001", "QUEST-005", "QUEST-006"]
+  },
+  {
+    "ID": "LOC-004",
+    "Type": "location",
+    "Name": "Shieldweaver's Armorer & Forge",
+    "Content": "Armorer shop in Tempest's Refuge, only known armorer in the city. Contains display counter, workshop area, and loom. Significant as location where Vyphira discovered her stolen armor for sale. Controlled by Sorrax Shieldweaver. Key characters include Sorrax Shieldweaver, Garman, and discussed Voraxik Valarnn. During visit, Vyphira confronted Garman about her stolen armor, learned about tool theft from Sorrax, and promised to recover stolen tools.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-017", "CHAR-018", "EVENT-015", "QUEST-002"]
+  },
+  {
+    "ID": "LOC-005",
+    "Type": "location",
+    "Name": "Ironhowl Forge",
+    "Content": "Blacksmith forge in Drifthold located in The Forestride leg of the city. Contains custom-made safe under burning forge for valuable tools. Significant as target for Voraxik's attempted theft and location of third known set of special tools. Controlled by Torva Ironhowl. Key characters include Torva Ironhowl. During planned visit, party will set trap for thieves during Torva's 6-9pm dinner break.",
+    "Related": ["CHAR-003", "CHAR-030", "EVENT-018", "QUEST-002"]
+  },
+  {
+    "ID": "LOC-006",
+    "Type": "location",
+    "Name": "Cannibal Cave",
+    "Content": "Cave along travel route, well-known shelter used by travelers. Contains fire pit, roasting spit, and hidden human bone chime outside. Significant as location of brutal cannibal encounter. Temporarily controlled by cannibals posing as travelers. Key characters include five cannibal men. During visit, party accepted false hospitality, discovered cannibalism through half-dismembered corpse, fought brutal battle where Lady Seriss was nearly killed, and barricaded entrance for night.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "EVENT-001", "QUEST-003"]
+  },
+  {
+    "ID": "LOC-007",
+    "Type": "location",
+    "Name": "Greenmurk Forest",
+    "Content": "Forest area party traveled through before reaching plains. Starting point of journey to Tempest's Refuge. Contains dense woodland paths. Significant as departure point from civilization. No key characters specifically mentioned. During travel, party left forest and entered storm-prone plains.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "QUEST-003"]
+  },
+  {
+    "ID": "LOC-008",
+    "Type": "location",
+    "Name": "Drifthold",
+    "Content": "Massive six-legged stone city built on high stone shelf with trailing mobile extension called The Tailstride. Divided into tiers: base level, Stormforged Ring (market tier), Sky Ward (noble tier). Contains universities, temples, markets, and residential districts. Significant as current major hub for refugees and location of major plot developments. Controlled by king and leg mages including Vale twins. Key characters include Gloriosa, Torva Ironhowl, Lord Crimm, and various job providers. During visits, party entered through brutal combat requirement, met Gloriosa, pursued various jobs, studied runes, and investigated dragon cult.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-030", "CHAR-035", "CHAR-046", "EVENT-012", "EVENT-013", "EVENT-018", "EVENT-019", "QUEST-002", "QUEST-007", "QUEST-008", "QUEST-009"]
+  },
+  {
+    "ID": "LOC-009",
+    "Type": "location",
+    "Name": "Tranquil Hollow Healing House & Hospital",
+    "Content": "Healing facility in quieter market district of Tempest's Refuge. Contains stone pedestal for diagnostic rituals, healing supplies, and records. Significant as location where Elandra Hallowheart diagnosed Mask and was subsequently murdered. Controlled by Elandra Hallowheart. Key characters include Elandra Hallowheart and Flora Mourne. During visit, Elandra used flame ritual to diagnose Mask's fractured mind, then was murdered by party, leading to city-wide manhunt.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-007", "CHAR-009", "EVENT-002", "EVENT-008"]
+  },
+  {
+    "ID": "LOC-010",
+    "Type": "location",
+    "Name": "Multi-faith Church (Tempest's Refuge)",
+    "Content": "Church in Tempest's Refuge used by multiple faiths. Contains altar with liftable floor tile leading to basement safe-room. Significant as changeling refugee hiding place and location of confrontation with Gale forces. Controlled by Flora Mourne and refugees. Key characters include Flora Mourne, Veil, Shagra Wordbinder, Drath Wordbinder, and changeling refugees. During visits, party found refugee safe-room, confronted Flora about Elandra's murder, helped refugees escape, and fought Gale goblins.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-009", "CHAR-010", "CHAR-013", "CHAR-014", "CHAR-015", "EVENT-010", "EVENT-014", "QUEST-006"]
+  },
+  {
+    "ID": "LOC-011",
+    "Type": "location",
+    "Name": "Solara",
+    "Content": "Floating city above Eryndor, also called The Land of a Thousand Kingdoms. Contains myriad kingdoms within bottles, entire worlds existing side by side. Ruled by ancient Greatwyrms and powerful nobles. Significant as origin of changelings, headquarters of The Gale, and location of Gloriosa's search for her daughter. Controlled by Solaran rulers and Greatwyrms. Key characters include Broin, House Duskvale, and ancient dragon Voryxia. Not yet visited by party, but destination for future travels.",
+    "Related": ["CHAR-012", "CHAR-025", "CHAR-032", "CHAR-033", "QUEST-007"]
+  },
+  {
+    "ID": "LOC-012",
+    "Type": "location",
+    "Name": "The Ever-Burning Temple",
+    "Content": "Great temple to Yondar in Drifthold, tallest in temple district. Contains carved stone entrance depicting Yondar's history, massive braziers, column of fire rising to glowing sphere tower. Significant as location where party communicated with Elandra through flames and learned about Yondari faith. Controlled by Yondari clergy. Key characters include Radiant priest, Flamebearer paladins, and Yeldur worshippers outside. During visit, party learned about Yondar-Yeldur prophecy, communicated with resurrected Elandra, and received offer of redemption trials.",
+    "Related": ["CHAR-001", "CHAR-007", "CHAR-026", "CHAR-027", "CHAR-034", "EVENT-017", "QUEST-001"]
+  },
+  {
+    "ID": "LOC-013",
+    "Type": "location",
+    "Name": "Crimm Manor",
+    "Content": "Massive stone manor in Drifthold's Sky Ward with crest featuring large 'C'. Contains grand study with bookshelves, paintings, sculptures, ornate chair on dais, enormous organ, fine desk, and leather workshops. Significant as home of copper dragon lord and location where party received draconic boons. Controlled by Lord Halen Crimm. Key characters include Lord Crimm, Alira Crimm, Teren Vallin, Tolliver, and various artists. During visits, party accepted rescue mission, returned with rescued Alira, received draconic boons and information about Solara.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-037", "CHAR-038", "EVENT-019", "QUEST-009"]
+  },
+  {
+    "ID": "LOC-014",
+    "Type": "location",
+    "Name": "The Hollow Basilica",
+    "Content": "Ancient chapel dedicated to earth dragon Khaimyrax beneath The Ashen Ledger warehouse. Contains enormous calcified dragon eggs, massive dragon skeleton, pool of blood, tall pedestal with staircase. Significant as dragon cult ritual site and location of major battle. Controlled by The Ashen Coil cult. Key characters include Seroth Kael, Brenna Kael, cultists, and Ghost Dragon. During visit, cult attempted blood ritual using Alira, party intervened, fought cultists and Ghost Dragon, rescued Alira.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-040", "CHAR-044", "CHAR-045", "EVENT-020", "EVENT-021", "QUEST-009"]
+  },
+  {
+    "ID": "LOC-015",
+    "Type": "location",
+    "Name": "The Silver Vein Tavern",
+    "Content": "Workman's bar in Drifthold's base level. Contains bar, tables, kitchen, brewery. Significant as location where party found Derron Thane and fought dragon cult attackers. Controlled by barkeep who takes 10% of bard earnings. Key characters include Derron Thane and dragon cult attackers. During visit, party located Derron, learned about his debt and Alira's kidnapping, fought cult members including transformed kobolds.",
+    "Related": ["CHAR-039", "CHAR-044", "EVENT-020"]
+  },
+  {
+    "ID": "LOC-016",
+    "Type": "location",
+    "Name": "The Ashen Ledger",
+    "Content": "Antiquities import and export business in Drifthold's Stormforged Ring. Contains counter, ledger, shelves with artifacts, warehouse with magical crates, hidden trapdoor to basilica. Significant as front for dragon cult operations. Controlled by Seroth and Brenna Kael. Key characters include Seroth Kael, Brenna Kael, kobold guards, and cat-dragon creature. During visit, party confronted rude Seroth, learned from Brenna about Derron's discovery, later raided warehouse and discovered hidden basilica.",
+    "Related": ["CHAR-039", "CHAR-040", "CHAR-041", "CHAR-044", "EVENT-020"]
+  },
+  {
+    "ID": "LOC-017",
+    "Type": "location",
+    "Name": "Mossgate Hollow",
+    "Content": "Luxury apartment building in Drifthold's Titan's Crown district. Contains hand-drawn elevator operated by ogre, penthouse suite with lavish sitting room. Significant as home of romance novelist Liora Quillheart. Controlled by Liora Quillheart. Key characters include Liora Quillheart and refined butler. During visit, party learned about Tana-Yondar history, The Lovers cult, and received directions to Ever-Burning Temple.",
+    "Related": ["CHAR-001", "CHAR-043", "EVENT-022"]
+  },
+  {
+    "ID": "LOC-018",
+    "Type": "location",
+    "Name": "The Gull and Gasket",
+    "Content": "Tavern and restaurant in Drifthold with extensive menu featuring storm-themed food and drinks. Contains job board with various postings. Significant as location where party reunited with Gloriosa and selected retrieval job. Controlled by tavern owners. Key characters include Gloriosa and her acolytes. During visit, party ate storm-themed meal, discussed childhood with Gloriosa, examined job board, and selected Crimm retrieval job.",
+    "Related": ["CHAR-002", "CHAR-012", "EVENT-013"]
+  },
+  {
+    "ID": "LOC-019",
+    "Type": "location",
+    "Name": "The Silver Hearth Inn",
+    "Content": "High-end well-guarded inn in Drifthold. Contains suites for group accommodation, minibar, option for personal servants. Significant as party's temporary residence in Drifthold. Controlled by inn management. No key characters specifically mentioned. During stay, party rested, Vyphira acquired snacks, Mask taught Arc sign language, and they prepared for retrieval job.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005"]
+  },
+  {
+    "ID": "LOC-020",
+    "Type": "location",
+    "Name": "Drifthold University",
+    "Content": "Educational institution in Drifthold where Drath Wordbinder teaches. Contains classrooms, research facilities for runic theory. Significant as location where party studied storm rune theory. Controlled by university administration. Key characters include Drath Wordbinder. During visit, party spent several hours studying runic theory under Drath's guidance, improving their understanding of magical runes.",
+    "Related": ["CHAR-015", "QUEST-008"]
+  },
+  {
+    "ID": "LOC-021",
+    "Type": "location",
+    "Name": "The Tether's End Tavern",
+    "Content": "Tavern located at far end of Drifthold, rowdy and crowded. Contains main bar area, back rooms leading to alleys. Significant as initial meeting place where party expected to find Gloriosa. Controlled by tavern owners. Key characters include sneering man and pink-haired elf who observed party. During visit, party found Gloriosa wasn't present, were observed suspiciously, then led to magistrate's office.",
+    "Related": ["CHAR-002", "CHAR-012", "EVENT-012"]
+  },
+  {
+    "ID": "LOC-022",
+    "Type": "location",
+    "Name": "Magistrate's Office & Courtroom",
+    "Content": "Unlit magistrate's office in Drifthold leading into courtroom through winding alleys and stairs. Contains judge's chair, courtroom seating. Significant as location where party reunited with Gloriosa and began Mask's mind healing. Controlled by Gloriosa and her followers. Key characters include Gloriosa and her acolytes. During visit, party had emotional reunion with Gloriosa, discussed Mask's condition, and prepared for mindscape journey.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-012", "EVENT-012", "EVENT-013"]
+  },
+  {
+    "ID": "LOC-023",
+    "Type": "location",
+    "Name": "Stormhaven",
+    "Content": "City mentioned but not visited in current sessions. Larger and less subdued than Tempest's Refuge. Significant as location where party previously dealt with Johnny Whispers and had other adventures referenced by Gale operative. Controlled by city authorities. Key characters include Johnny Whispers (previous contact). Not visited in sessions 26-40, but referenced as previous location.",
+    "Related": ["CHAR-008", "CHAR-056"]
+  },
+  {
+    "ID": "LOC-024",
+    "Type": "location",
+    "Name": "Thornheath",
+    "Content": "Northern city, birthplace and capital of Yondar's faith. Contains main Yondari temple complex. Significant as home of Hallowheart family and center of Yondari religion. Controlled by Yondari church and Lord Preston Hallowheart. Key characters include Velma Hallowheart and Preston Hallowheart. Not visited by party, but referenced as important religious center.",
+    "Related": ["CHAR-007", "CHAR-026", "CHAR-053", "CHAR-054"]
+  },
+  {
+    "ID": "LOC-025",
+    "Type": "location",
+    "Name": "The Tailstride",
+    "Content": "Trailing mobile extension following behind main Drifthold city. Contains residential areas for refugees and less wealthy residents. Significant as safe location where Drath and Shagra brought changeling refugees. Controlled by city authorities. Key characters include Drath Wordbinder, Shagra Wordbinder, and Veil. During escape, refugees were brought here for safety away from main city scrutiny.",
+    "Related": ["CHAR-013", "CHAR-014", "CHAR-015", "QUEST-006"]
+  },
+  {
+    "ID": "LOC-026",
+    "Type": "location",
+    "Name": "The Echoing Spire",
+    "Content": "Location in Drifthold controlled by Jorren and Megara Vale. One of the six walking legs of the city. Contains Vale residence and operations center. Significant as headquarters of Vale mages who hold party's blood pact. Controlled by Vale twins. Key characters include Jorren and Megara Vale. Not visited by party yet, but obligation exists to visit due to blood pact.",
+    "Related": ["CHAR-046", "QUEST-010"]
+  },
+  {
+    "ID": "LOC-027",
+    "Type": "location",
+    "Name": "The Clockspindle",
+    "Content": "Shop in Drifthold displaying inverted King's Crown symbol of the Underking. Contains black market connections and stolen goods. Significant as location where Vyphira attempted to acquire stolen tools through Thieves' Cant. Controlled by shopkeeper with underworld connections. Key characters include anonymous shopkeeper. During visit, Vyphira indirectly requested acquisition of stolen tools, instructed to return in two days for news.",
+    "Related": ["CHAR-003", "QUEST-002"]
+  },
+  {
+    "ID": "LOC-028",
+    "Type": "location",
+    "Name": "Mask's Mindscape",
+    "Content": "Metaphysical location inside Mask's subconscious during healing ritual. Contains semi-ethereal hallway with doors to memories, orphanage, Gale training facility, Stormsurge town, and crumbling Mind Palace. Significant as battlefield against parasitic persona Fendril. Controlled by Mask's consciousness and invading Fendril entity. Key characters include Fendril, Jin, Urdesh Darkmoore, Miss Amber, and Solenne. During visit, party battled Fendril's manifestations, rescued positive memory entities, and restored Mask's mental stability.",
+    "Related": ["CHAR-001", "CHAR-021", "CHAR-022", "CHAR-023", "CHAR-024", "CHAR-051", "EVENT-003", "EVENT-016", "QUEST-001"]
+  },
+  {
+    "ID": "LOC-029",
+    "Type": "location",
+    "Name": "Yondar's Flame Realm",
+    "Content": "Endless realm of fire within the Ever-Burning Temple brazier. Contains divine fire landscape where Elandra communicates. Significant as secure communication channel with resurrected Elandra. Controlled by Yondar's divine power. Key characters include Elandra Hallowheart in transformed radiant state. During visit, party learned about redemption trials, Yondar-Yeldur prophecy, and received guidance about Solara and Tana.",
+    "Related": ["CHAR-007", "CHAR-027", "EVENT-017"]
+  },
+  {
+    "ID": "LOC-030",
+    "Type": "location",
+    "Name": "Travel Route to Drifthold",
+    "Content": "Road east from Tempest's Refuge toward Drifthold. Features crowded refugee traffic, families with loaded carts, and Drath's enchanted tent campsite. Significant as escape route for changeling refugees and journey to current hub. Points of interest include Drath's rune-inscribed storm protection tent. Key characters include Drath Wordbinder, Shagra Wordbinder, Veil, and changeling refugees. During travel, party protected refugees, Mask shared true backstory, and group studied runic theory.",
+    "Related": ["CHAR-001", "CHAR-013", "CHAR-014", "CHAR-015", "QUEST-006", "QUEST-008"]
+  },
+  {
+    "ID": "LOC-031",
+    "Type": "location",
+    "Name": "Caeloria",
+    "Content": "The kingdom ruled by House Stormrider. Known for its rapid growth, which attracted the attention of The Gale. Mask's original assignment from The Gale was to infiltrate this kingdom and discover the secret behind its growth. Lady Seriss is a noble from this kingdom. The party was traveling here when Lady Seriss joined them.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-060", "EVENT-035"]
+  },
+  {
+    "ID": "LOC-032",
+    "Type": "location",
+    "Name": "The Haven",
+    "Content": "A settlement or neighborhood where Fauda lived for a time after leaving her sister Gloriosa. It was here that she befriended the orcish woman Olga Patter, who became a surrogate sister to her. Represents a period of relative peace in Fauda's life before the current adventures.",
+    "Related": ["CHAR-002", "CHAR-058"]
+  },
+  {
+    "ID": "LOC-033",
+    "Type": "location",
+    "Name": "Tallyport & Family Farm",
+    "Content": "A coastal settlement near where Fauda and Gloriosa grew up on their parents' farm. They lived an ordinary life working as horse grooms. This was the site of their quiet and peaceful childhood before their paths diverged.",
+    "Related": ["CHAR-002", "CHAR-012"]
+  },
+  {
+    "ID": "LOC-034",
+    "Type": "location",
+    "Name": "Tempest's Watch",
+    "Content": "The Dragonborn enclave where Vyphira, Voraxik Valarnn, Kharzid Tazek, and Shavara Sablefang all grew up together. It's where Vy first learned her craftsmanship and where her parents owned the special tools that were later stolen. The troublemakers Voraxik, Kharzid, and Shavara boasted of powerful associates from outside the enclave.",
+    "Related": ["CHAR-003", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031"]
+  },
+  {
+    "ID": "LOC-035",
+    "Type": "location",
+    "Name": "The Gale Training Facility",
+    "Content": "A secret facility where The Gale trains its changeling agents. Mask was taken here after being purchased from Miss Amber's orphanage at age five. Here, they met Jin and his family, trained under Urdesh Darkmoore, and were indoctrinated into The Gale's operations. Both Mask and Jin received their Gale tattoos here upon graduation.",
+    "Related": ["CHAR-001", "CHAR-021", "CHAR-023", "CHAR-024", "CHAR-025", "CHAR-050", "EVENT-016"]
+  },
+  {
+    "ID": "LOC-036",
+    "Type": "location",
+    "Name": "Miss Amber's Orphanage",
+    "Content": "The orphanage where Mask was left as a baby and lived until age five. Run by a woman named Miss Amber, who called Mask by their original name, Fendril. It was from here that The Gale purchased Mask, beginning their life as an agent.",
+    "Related": ["CHAR-001", "CHAR-024", "EVENT-016"]
+  },
+  {
+    "ID": "LOC-037",
+    "Type": "location",
+    "Name": "Stormsurge",
+    "Content": "A town that appears in Mask's memories and mindscape. It features a central road with shops and a gallows. A woman named Solenne, who was important to Mask, lived here. The town represents a place where Mask feared the consequences of being an openly known changeling.",
+    "Related": ["CHAR-001", "CHAR-051", "EVENT-016"]
+  },
+  {
+    "ID": "LOC-038",
+    "Type": "location",
+    "Name": "The Lightning Strike Site",
+    "Content": "A location along a travel route where Mask was struck by lightning while traveling with a Storm Guide. Instead of dying, Mask gained their magical abilities and had a vision of Solara - a colossal city hidden in storms with a voice whispering about 'the heart of the storm.' This event was a turning point that led Mask to question their life with The Gale.",
+    "Related": ["CHAR-001", "EVENT-023"]
+  },
+  {
+    "ID": "LOC-039",
+    "Type": "location",
+    "Name": "Tiefling Mage's Study",
+    "Content": "The location where Mask studied after taking their unauthorized leave of absence from The Gale. A tiefling mage helped Mask refine their newly acquired magical abilities after the lightning strike. This period of study allowed Mask to gain control over their powers before seeking answers in Stormhaven.",
+    "Related": ["CHAR-001"]
+  },
+  {
+    "ID": "LOC-040",
+    "Type": "location",
+    "Name": "Arc's Childhood Home",
+    "Content": "The location where Arc grew up after her parents were killed for poaching on another changeling's hunting ground. She was sent to live with an aunt, uncle, and cousins whom she disliked. She eventually left them behind to forge her own path.",
+    "Related": ["CHAR-004"]
+  },
+  {
+    "ID": "LOC-041",
+    "Type": "location",
+    "Name": "Sili's Wilderness",
+    "Content": "The natural environment where Sili developed his connection to nature and his god Azmir. This is where he learned his abilities to communicate with animals and use nature magic, establishing his spiritual bond with the natural world.",
+    "Related": ["CHAR-005"]
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "ID": "EVENT-001",
+    "Type": "event",
+    "Name": "Imminent Convergence Storm Survival",
+    "Content": "Session 26 - Travel route plains. Massive storm when multiple pressure systems converged. Party ran across open fields together in Epic Skill Challenge. Vy dragged paralyzed party members to shallow depression for shelter. Found cave in foothills, waited out storm for three hours. Mask's confusion returned during storm, curled in fetal position while Fauda tried to help.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-002", "QUEST-003"]
+  },
+  {
+    "ID": "EVENT-002",
+    "Type": "event",
+    "Name": "Cannibal Cave Encounter",
+    "Content": "Session 26 - Cannibal cave along travel route. Party took shelter with five cannibals posing as friendly travelers. Fauda used Hypnotic Pattern, Mask broke trance with Fireball. Brutal fight where Lady Seriss nearly killed, Sili healed her. Party killed all cannibals, discovered half-dismembered corpse. Leader fixated on Arc, proposed marriage.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-006", "QUEST-003"]
+  },
+  {
+    "ID": "EVENT-003",
+    "Type": "event",
+    "Name": "Mask's Silver Lake Dream",
+    "Content": "Session 26 - During rest in cannibal cave. Mask dreamed of bodiless entity in purple light connecting to Tana, shifting to blue lunarscape. Saw young blue-skinned horned girl drawing on stone tablet at shimmering silver lake. Woke muttering 'Eternal Twilight, Pool of Silver, Child's Reflection.' Brief lucidity before confusion returned.",
+    "Related": ["CHAR-001", "CHAR-028", "LOC-028", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-004",
+    "Type": "event",
+    "Name": "Arrival at Tempest's Refuge",
+    "Content": "Session 26 - Tempest's Refuge gates. Party entered stone gates, found settlement subdued with glowing storm runes. Passed refugee families fleeing giant-controlled lands. Learned about southern female giant, eastern male giant, western three-headed giant. Asked directions to healers, learned of Sanctum of the Storms and Tranquil Hollow.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-003", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-005",
+    "Type": "event",
+    "Name": "Tranquil Hollow Diagnosis",
+    "Content": "Session 26-27 - Tranquil Hollow Healing House. Arc took Lady Seriss outside for privacy. Elandra diagnosed Mask using flame ritual on stone pedestal. Faces appeared in flames including Mask's personas, past friends, unrecognized ethereal woman and elven man. Elandra explained Mask's mind jumbled from shape-shifting, offered patch for 400 gold.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-006", "CHAR-007", "LOC-009", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-006",
+    "Type": "event",
+    "Name": "Elandra Hallowheart Murder",
+    "Content": "Session 27 - Tranquil Hollow Healing House. After Mask's mental patch, Fauda secretly messaged party to 'remove' Elandra for knowing Mask's secret. Fauda cast Cloud of Daggers, Sili used Entangle, Vy moved in. Elandra failed to Banish herself or escape, cut down by exit. Flora Mourne witnessed murder through door, began screaming and fled.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-005", "CHAR-007", "CHAR-009", "LOC-009", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-007",
+    "Type": "event",
+    "Name": "City Lockdown and Gale Confrontation",
+    "Content": "Session 27 - Tempest's Refuge streets and apartment. Arc and Lady Seriss found gates closed due to refugee overflow. Meanwhile, slender Gale operative confronted party in residential district. Revealed all-seeing power, referenced past adventures, demanded they find Flora Mourne. Took Lady Seriss hostage, forced party to cooperate.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-006", "CHAR-008", "LOC-003", "QUEST-005"]
+  },
+  {
+    "ID": "EVENT-008",
+    "Type": "event",
+    "Name": "Flora Mourne Investigation",
+    "Content": "Session 27-28 - Tempest's Refuge streets and alleys. Party returned to crime scene, found guards investigating. Arc overheard Flora called 'Ms. Mourne,' noticed Yondar's flame necklace. Mask as Granny learned Elandra's body under Gentle Repose, powerful cleric arriving in two days. Party followed Flora down alley where stone wall appeared, cutting off pursuit.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-009", "CHAR-010", "CHAR-011", "LOC-003", "LOC-009", "QUEST-005"]
+  },
+  {
+    "ID": "EVENT-009",
+    "Type": "event",
+    "Name": "Alley Confrontation and Stone Magic",
+    "Content": "Session 28 - Alley behind Tranquil Hollow. Vy tackled Drayce Goldmere, Flora dropped key and escaped through hidden tunnel. Fauda cast Silence, Sili and Vy broke through stone wall. Oswin Fellcrest arrived, Dispelled wall. Mask invisible convinced Drayce to talk. Drayce revealed Flora's smuggling operations and connection to Elandra.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-009", "CHAR-010", "CHAR-011", "LOC-003", "QUEST-005"]
+  },
+  {
+    "ID": "EVENT-010",
+    "Type": "event",
+    "Name": "Church Safe-room Discovery",
+    "Content": "Session 28 - Multi-faith church basement. Drayce led party to church where Flora was searching. Party found changeling refugee safe-room with Veil, Shagra, Drath, and changeling children. Mask panicked about undisguised changelings, revealed own true face. Learned about Gale's changeling imprisonment and brainwashing.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-009", "CHAR-010", "CHAR-013", "CHAR-014", "CHAR-015", "LOC-010", "QUEST-006"]
+  },
+  {
+    "ID": "EVENT-011",
+    "Type": "event",
+    "Name": "Gale Betrayal and Tattoo Slashing",
+    "Content": "Session 28 - Multi-faith church. Gale goblins and rune-etched mercenary arrived to capture Flora. Mask realized Gale wouldn't spare anyone, declared disappointment in The Gale, cast Fireball on intruders. Fight ensued, Drayce helped party. Mask asked Vy to tattoo slash through Gale mark, rendering magic useless like Johnny Whispers.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-008", "CHAR-010", "CHAR-025", "LOC-010", "QUEST-005"]
+  },
+  {
+    "ID": "EVENT-012",
+    "Type": "event",
+    "Name": "Drifthold Brutal Entry",
+    "Content": "Session 30 - Drifthold entry platform. Party arrived to find city requiring combat entry against mosquito creatures. Fauda convinced 30 of 40 people to leave. Party used Stormrider sigil pendant for entry instead. Goblin master arranged blood pact with Vale mages. Witnessed mosquito creatures slaughter other entrants.",
+    "Related": ["CHAR-002", "CHAR-046", "CHAR-047", "LOC-008", "QUEST-010"]
+  },
+  {
+    "ID": "EVENT-013",
+    "Type": "event",
+    "Name": "Gloriosa Reunion",
+    "Content": "Session 30 - The Tether's End Tavern and magistrate's office. Party found tavern watched by suspicious figures. Led to magistrate's office where Gloriosa waited. Emotional reunion after 20 years estrangement. Gloriosa revealed blue skin, role as Nyxara's prophet, missing daughter Faudana. Agreed to help Mask's mind healing.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-012", "LOC-018", "LOC-022", "QUEST-001", "QUEST-007"]
+  },
+  {
+    "ID": "EVENT-014",
+    "Type": "event",
+    "Name": "Changeling Refugee Escape",
+    "Content": "Session 29 - Tempest's Refuge to travel route. Party helped Veil, Shagra, Drath, and changelings escape city using magical crate with pocket dimension. Mask and Fauda deceived guards at gates. Successfully exited city, joined refugee caravan toward Drifthold.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-013", "CHAR-014", "CHAR-015", "LOC-003", "LOC-030", "QUEST-006"]
+  },
+  {
+    "ID": "EVENT-015",
+    "Type": "event",
+    "Name": "Stolen Armor Discovery",
+    "Content": "Session 29 - Shieldweaver's Armorer & Forge. Vy recognized her stolen armor for sale. Confronted Sorrax, learned about Voraxik Valarnn stealing tools. Discovered connection to Kharzid Tazek and Shavara Sablefang. Learned about third tool set at Ironhowl Forge in Drifthold.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "LOC-004", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-016",
+    "Type": "event",
+    "Name": "Mindscape Battle Against Fendril",
+    "Content": "Sessions 31-33 - Mask's Mindscape. Party entered Mask's subconscious through sleeping tonic. Battled through orphanage memories, Gale training facility, Stormsurge town. Confronted parasitic persona Fendril in crumbling Mind Palace. Defeated Fendril with Gloriosa's help using Nyxara's blue light. Restored Mask's mental control.",
+    "Related": ["CHAR-001", "CHAR-012", "CHAR-021", "CHAR-022", "CHAR-023", "CHAR-024", "CHAR-051", "LOC-028", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-017",
+    "Type": "event",
+    "Name": "Ever-Burning Temple Communication",
+    "Content": "Session 40 - The Ever-Burning Temple. Party entered Yondari temple, noticed Yeldur worshippers outside. Radiant priest performed flame ritual. Party entered flame realm, communicated with transformed Elandra. Learned about redemption trials, Yondar-Yeldur prophecy, Tana's self-shattering, and Solara restrictions.",
+    "Related": ["CHAR-001", "CHAR-007", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-034", "LOC-012", "LOC-029", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-018",
+    "Type": "event",
+    "Name": "Ironhowl Forge Setup",
+    "Content": "Session 39 - Ironhowl Forge. Party met Torva Ironhowl, confirmed third tool set existence. Learned Voraxik had been there asking questions. Set trap plan for thieves during Torva's 6-9pm dinner break. Vy promised to recover tools if found.",
+    "Related": ["CHAR-003", "CHAR-030", "LOC-005", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-019",
+    "Type": "event",
+    "Name": "Crimm Manor Job Acceptance",
+    "Content": "Session 35 - Crimm Manor study. Party met Lord Halen Crimm, learned about missing daughter Alira. Accepted job to find her, not force return but ensure safety. Noticed Draconic runes throughout manor. Teren Vallin assigned to assist, revealed his feelings for Alira.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-036", "CHAR-037", "CHAR-038", "LOC-013", "QUEST-009"]
+  },
+  {
+    "ID": "EVENT-020",
+    "Type": "event",
+    "Name": "Silver Vein Tavern Fight",
+    "Content": "Session 36 - The Silver Vein Tavern. Party found Derron Thane, learned about his debt and Alira kidnapping. Dragon cult attackers arrived including transformed kobolds. Brutal fight where Vy and Sili repeatedly knocked unconscious. Derron turned invisible, transformed to Giant Ape when threatened.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-039", "CHAR-044", "LOC-015", "QUEST-009"]
+  }
+  {
+    "ID": "EVENT-021",
+    "Type": "event",
+    "Name": "Hollow Basilica Dragon Cult Battle",
+    "Content": "Sessions 37-38 - The Hollow Basilica. Party found Seroth Kael in draconian form preparing to sacrifice Alira. Alira transformed to copper dragon mid-fall. Fauda summoned The Black Dove. Epic battle against cultists and Ghost Dragon of Khaimyrax. Vy and Sili repeatedly knocked unconscious, Derron helped as Giant Ape. Defeated cult, rescued Alira, discovered Dragonborn blood ritual supplements.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-042", "CHAR-044", "CHAR-045", "LOC-014", "QUEST-009"]
+  },
+  {
+    "ID": "EVENT-022",
+    "Type": "event",
+    "Name": "Liora Quillheart Interview",
+    "Content": "Session 39 - Mossgate Hollow penthouse. Party met romance novelist Liora Quillheart. Learned about Tana-Yondar relationship theories, possible divine offspring. Discovered existence of The Lovers cult seeking answers from Yondar. Received information about Yondari redemption and Ever-Burning Temple directions.",
+    "Related": ["CHAR-001", "CHAR-043", "CHAR-052", "LOC-017", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-023",
+    "Type": "event",
+    "Name": "Mask's Backstory Revelation",
+    "Content": "Session 30 - Drath's enchanted tent during travel. Mask gathered everyone and shared true backstory: left at Miss Amber's orphanage, purchased by The Gale at age five, met Jin and his family, trained under Urdesh Darkmoore. Gained magic from lightning strike with vision of Solara. Took unauthorized leave, eventually met party.",
+    "Related": ["CHAR-001", "CHAR-021", "CHAR-023", "CHAR-024", "CHAR-050", "LOC-030", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-024",
+    "Type": "event",
+    "Name": "Bastion Development Updates",
+    "Content": "Session 30 - During travel to Drifthold. Party received updates from Cloudfoot Keep: Arc's furniture and mushroom garden underway, Vy's four new cloud-energy defenders and Climber's Kit completed, Fauda's storehouse stocked and Spyglass completed, Mask's spy network active and Arcane Focus sold, Sili's animal nests established and reported seven humanoids tracking party.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-001"]
+  },
+  {
+    "ID": "EVENT-025",
+    "Type": "event",
+    "Name": "Gloriosa's Family Revelations",
+    "Content": "Session 33 - The Gull and Gasket tavern. Gloriosa revealed complicated family situation: two children with Broin, daughter Faudana (named for Fauda) missing for five years, son Rowan angry with her. Explained blue skin transformation after searching Nyxara temple ruins. Shared dreams of Faudana in silver pool similar to Mask's vision.",
+    "Related": ["CHAR-002", "CHAR-012", "CHAR-032", "CHAR-033", "CHAR-048", "CHAR-049", "LOC-018", "QUEST-007"]
+  },
+  {
+    "ID": "EVENT-026",
+    "Type": "event",
+    "Name": "Arc's Kobold Snack Preparation",
+    "Content": "Session 36 - Crimm Manor kitchens. After Alira rescue, Arc found butler Tolliver and prepared special snack: perfectly cubed raw liver with baby snake wine and charred mushrooms with soil and flower petals. Bridged wild and refined tastes to appreciate Tolliver's origins despite his refined position.",
+    "Related": ["CHAR-004", "CHAR-038", "LOC-013"]
+  },
+  {
+    "ID": "EVENT-027",
+    "Type": "event",
+    "Name": "Draconic Boons Bestowal",
+    "Content": "Session 38 - Crimm Manor study. After Alira rescue, Lord Crimm revealed true dragon nature. Offered Draconic Boons by inscribing runes into flesh with his claw. Also gave Vy magical ring and copper dragon figurine creating illusory Shaemir. Shared information about Solara origins and Dragonborn creation.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "LOC-013", "QUEST-009"]
+  },
+  {
+    "ID": "EVENT-028",
+    "Type": "event",
+    "Name": "Fauda's Charm Bracelet Gift",
+    "Content": "Session 39 - Outside Ironhowl Forge. During farewell with Gloriosa before her departure to Solara, Gloriosa brushed Fauda's charm bracelet and added new blue stone charm. Carved crescent moon with face resembling both sisters, pulsed with lunar and twin magic essence. Symbolic reconciliation gift.",
+    "Related": ["CHAR-002", "CHAR-012", "LOC-005"]
+  },
+  {
+    "ID": "EVENT-029",
+    "Type": "event",
+    "Name": "Runic Theory Study Session",
+    "Content": "Session 40 - Drifthold University. Before heading to Ironhowl Forge trap, party studied storm rune theory with Drath Wordbinder for several hours. Fauda used Wand of Air Glyphs to successfully replicate table-creation rune. Improved understanding of runic magic and its practical applications.",
+    "Related": ["CHAR-002", "CHAR-015", "LOC-020", "QUEST-008"]
+  },
+  {
+    "ID": "EVENT-030",
+    "Type": "event",
+    "Name": "Market District Bodyguard Fight",
+    "Content": "Session 35 - Stormforged Ring market. After leaving Ashen Ledger, Seroth Kael's bodyguards followed party. Confrontation turned into street fight. Two frenzied kobolds joined battle from abandoned stalls. Party defeated attackers, spared one surrendering guard who revealed Seroth's motives for pleasing Lord Crimm.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-008", "QUEST-009"]
+  },
+  {
+    "ID": "EVENT-031",
+    "Type": "event",
+    "Name": "Party Formation in Stormhaven",
+    "Content": "Sessions 1-5 - Stormhaven. The party first came together in the city of Stormhaven. The exact circumstances are unclear, but they formed an adventuring group and began taking on local jobs. This is where they first encountered Johnny Whispers and likely had their initial confrontation with Eldar Joven.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-056", "CHAR-057", "LOC-023"]
+  },
+  {
+    "ID": "EVENT-032",
+    "Type": "event",
+    "Name": "Confrontation with Johnny Whispers",
+    "Content": "Sessions 6-8 - Stormhaven. The party had a significant encounter with Johnny Whispers, a former agent of The Gale who had slashed his tattoo to break free. He warned them about the true nature of The Gale. This event was later referenced by the slender Gale operative as proof of his surveillance.",
+    "Related": ["CHAR-001", "CHAR-008", "CHAR-025", "CHAR-056", "LOC-023"]
+  },
+  {
+    "ID": "EVENT-033",
+    "Type": "event",
+    "Name": "Dealings with Eldar Joven",
+    "Content": "Sessions 9-11 - Location Unknown. The party had dealings with a figure named Eldar Joven. The nature of this interaction is unknown, but it was significant enough for The Gale to take note, as referenced by their operative in Session 27.",
+    "Related": ["CHAR-008", "CHAR-025", "CHAR-057"]
+  },
+  {
+    "ID": "EVENT-034",
+    "Type": "event",
+    "Name": "Securing Cloudfoot Keep",
+    "Content": "Sessions 12-15 - Cloudfoot Keep. The party journeyed to and secured Cloudfoot Keep as their base of operations. They cleared it of previous inhabitants or threats and began establishing their individual bastion developments, such as Arc's mushroom garden and Vy's barracks.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-001"]
+  },
+  {
+    "ID": "EVENT-035",
+    "Type": "event",
+    "Name": "Lady Seriss Joins the Party",
+    "Content": "Sessions 16-18 - Caeloria or Travel. The noblewoman Lady Seriss of House Stormrider joined the party. The circumstances are unclear, but it involved the party's journey toward her kingdom, Caeloria, which was Mask's original Gale assignment to infiltrate.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-008", "CHAR-025", "CHAR-060"]
+  },
+  {
+    "ID": "EVENT-036",
+    "Type": "event",
+    "Name": "The Gale's Growing Interest",
+    "Content": "Sessions 19-21 - Various Locations. The Gale's surveillance of the party intensified, as they were interfering with Mask's original mission and learning too much. This period likely involved paranoia and the party realizing they were being watched.",
+    "Related": ["CHAR-001", "CHAR-008", "CHAR-025"]
+  },
+  {
+    "ID": "EVENT-037",
+    "Type": "event",
+    "Name": "Decision to Seek Help for Mask",
+    "Content": "Session 25 - Cloudfoot Keep. After Mask's mental state continued to deteriorate, the party made the decision to leave Cloudfoot Keep and travel to Tempest's Refuge, hoping to find a healer who could help with Mask's fractured mind and multiple personas. This decision set the stage for Session 26.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-001", "QUEST-001", "QUEST-003"]
+  }
+]
