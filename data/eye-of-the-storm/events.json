@@ -138,7 +138,7 @@
     "Name": "Silver Vein Tavern Fight",
     "Content": "Session 36 - The Silver Vein Tavern. Party found Derron Thane, learned about his debt and Alira kidnapping. Dragon cult attackers arrived including transformed kobolds. Brutal fight where Vy and Sili repeatedly knocked unconscious. Derron turned invisible, transformed to Giant Ape when threatened.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-039", "CHAR-044", "LOC-015", "QUEST-009"]
-  }
+  },
   {
     "ID": "EVENT-021",
     "Type": "event",
@@ -258,4 +258,5 @@
     "Content": "Session 25 - Cloudfoot Keep. After Mask's mental state continued to deteriorate, the party made the decision to leave Cloudfoot Keep and travel to Tempest's Refuge, hoping to find a healer who could help with Mask's fractured mind and multiple personas. This decision set the stage for Session 26.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-001", "QUEST-001", "QUEST-003"]
   }
+
 ]
