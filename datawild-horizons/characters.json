@@ -1,0 +1,198 @@
+[
+  {
+    "ID": "CHAR-001",
+    "Type": "PC",
+    "Name": "Zara",
+    "Content": "Half-elf (raised by elven king and queen). Princess, sent away by her half-brother the regent to 'find someone more useful' while her parents are missing. Observed as capable and sometimes the sober party member. Her goal is to find her identity and her father. Has a mysterious patron communicated through a whispering, glowing bow (Hellish Rebuke). Contributes with combat and arcane abilities.",
+    "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-011", "CHAR-012", "CHAR-019", "CHAR-024", "LOC-001", "LOC-002", "EVENT-001", "EVENT-005", "EVENT-008", "QUEST-001", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-002",
+    "Type": "PC",
+    "Name": "Arya",
+    "Content": "Male Fairy. Unconventional for his kind: stocky, muscular, with a belly and small, stubby wings that make sustained flight difficult. Wears a petal skirt and wields an axe named Winterchill. Born from a large red Daylily, created by the spring goddess Flora. Background: Was a lumberjack for his Guardian Fairy clan for 60 years, feeling like an outcast and failure for never forming a 'binding contract'—a fairy's rite of passage where an intelligent being unknowingly consumes their bodily fluid, creating a magical bond. His observed personality is resilient, self-accepting, and bold, with a hidden depth of longing and insecurity. His goal in the adventure is to finally fulfill his purpose as a Guardian Fairy, prove his worth to himself and his clan, and protect his new party, whom he bonded with when they accidentally consumed his sweat. He is affiliated with his home Guardian Fairy clan, led by Elder Lunimaraevanthorion Draelonar, and feels a strong sense of duty to send fairy dust back to them. He contributes through physical combat (woodcutting, axe attacks), his surprising boldness (licking rocks, eating spicy pie), and his supportive, cheerful nature, using his collected stamina to magically maintain his weapons and shield.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-027", "CHAR-028", "EVENT-001", "EVENT-005", "EVENT-007", "QUEST-001"]
+  },
+  {
+    "ID": "CHAR-003",
+    "Type": "PC",
+    "Name": "Fern",
+    "Content": "Druid. Observed as chill, connected to nature, uses substances. Has a familiar, a Twiddletoad. His primary goal is to find the missing Treant, Billy. Contributes significantly with nature magic, communicating with plants and animals, harvesting, and combat. Won a new magical pipe in a contest.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-005", "CHAR-008", "CHAR-009", "CHAR-010", "CHAR-013", "CHAR-014", "CHAR-015", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-020", "LOC-003", "LOC-004", "LOC-005", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "QUEST-001", "QUEST-003", "QUEST-004"]
+  },
+  {
+    "ID": "CHAR-004",
+    "Type": "PC",
+    "Name": "Colm",
+    "Content": "Has a bounty on their head, accused of poisoning a competition. Later learns his blade was poisoned without his knowledge by a noble named Varyn Crowsblood. Observed as intimidating and direct in approach. Contributes in combat, can be enlarged to huge size for intimidation and power.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-006", "CHAR-023", "EVENT-001", "EVENT-005", "EVENT-008", "QUEST-001"]
+  },
+  {
+    "ID": "CHAR-005",
+    "Type": "PC",
+    "Name": "Nira",
+    "Content": "Half-elf. Searching for a man named Rynn. Spent much time and money to find him. Observed as determined. Contributes to party goals through her personal quest and social interactions.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-006", "CHAR-014", "EVENT-001", "EVENT-008", "EVENT-014", "QUEST-001"]
+  },
+  {
+    "ID": "CHAR-006",
+    "Type": "NPC",
+    "Name": "Aunti Belba Mossfoot",
+    "Content": "Met in Session 01 at the Sunreach Midsummer Festival after the Ogre attack. Gnomish woman, part of a merchant organization that runs Sunreach. Innkeeper of the Gilded Ladle. Friendly, acts as a quest giver. Offered the party jobs and rewards. Alive.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-007", "LOC-001", "LOC-002", "EVENT-001", "QUEST-001", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-007",
+    "Type": "NPC",
+    "Name": "Rynn",
+    "Content": "A half-elven man Nira is searching for. Last seen in Mistlake, then found in Drak'Moru. Met in Session 14 at Snagroot Village. Well-dressed in explorer's gear, excited, living among the Wildrunners and Bee Rexes. Alive.",
+    "Related": ["CHAR-005", "CHAR-014", "LOC-009", "EVENT-014", "QUEST-001"]
+  },
+  {
+    "ID": "CHAR-008",
+    "Type": "NPC",
+    "Name": "Myrtle",
+    "Content": "Met in Session 02 in her swamp hut. A druid. Knowledgeable about the swamp and the rot. Gave the party advice and quests. Has a sister, 'The Watcher of the Mire', who is in a half-hag state. Alive.",
+    "Related": ["CHAR-003", "CHAR-009", "CHAR-010", "CHAR-011", "LOC-003", "EVENT-002", "EVENT-003", "QUEST-001", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-009",
+    "Type": "NPC",
+    "Name": "Billy",
+    "Content": "Met in Session 10. A Treant, Fern's missing walking tree. Found rooted inside the Hollow Spire in Mudwater Bend, acting as the voice for the sentient tree. Came to Drak'Moru months ago to investigate the rot. Now merged with the Spire (Bastion). Alive.",
+    "Related": ["CHAR-003", "CHAR-008", "CHAR-016", "CHAR-017", "CHAR-018", "LOC-005", "EVENT-008", "QUEST-003"]
+  },
+  {
+    "ID": "CHAR-010",
+    "Type": "NPC",
+    "Name": "Yarg",
+    "Content": "Met in Session 02 at the Ogre camp. An Ogre wisewoman, Brakka's grandmother. Knows Myrtle but distrusts her druidism. Gave cryptic warnings about the rot. Alive.",
+    "Related": ["CHAR-008", "CHAR-011", "CHAR-012", "LOC-004", "EVENT-002"]
+  },
+  {
+    "ID": "CHAR-011",
+    "Type": "NPC",
+    "Name": "Gurruk",
+    "Content": "Mentioned in Session 01, encountered as a blighted Ogre attacking the Sunreach festival. Killed by the party. Deceased.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "LOC-001", "EVENT-001"]
+  },
+  {
+    "ID": "CHAR-012",
+    "Type": "NPC",
+    "Name": "Brakka",
+    "Content": "Met in Session 02. Gurruk's wife, an Ogre. Angry about her husband's death but not at the party. Was supposedly a better match for Rukk. Alive.",
+    "Related": ["CHAR-010", "CHAR-011", "LOC-004", "EVENT-002"]
+  },
+  {
+    "ID": "CHAR-013",
+    "Type": "NPC",
+    "Name": "Chester",
+    "Content": "Met in Session 08 in 'the Spirals'. A whimsical, curious Fey creature who challenged the party with riddles and a spiral dance. Gave them a silver coin that reveals hidden paths. Alive.",
+    "Related": ["CHAR-003", "EVENT-007"]
+  },
+  {
+    "ID": "CHAR-014",
+    "Type": "NPC",
+    "Name": "Elder Myla",
+    "Content": "Met in Session 08 in Petalmere. Human elder. Her grandmother was the last Bloom-Keeper for the Ash Thorn Court. Reluctantly accepted the fey bargain after the party's intervention. Rewarded the party. Alive.",
+    "Related": ["CHAR-005", "CHAR-015", "LOC-006", "EVENT-008"]
+  },
+  {
+    "ID": "CHAR-015",
+    "Type": "NPC",
+    "Name": "Tamson",
+    "Content": "Mentioned in Session 08. A human girl from Petalmere with a special connection to flowers. Taken by the Ash Thorn Court into the Feywild and chose to stay. Alive.",
+    "Related": ["CHAR-014", "LOC-006", "EVENT-008"]
+  },
+  {
+    "ID": "CHAR-016",
+    "Type": "NPC",
+    "Name": "Mawmaw Roux",
+    "Content": "Met in Session 10 in Mudwater Bend. 'Everybody's grandma.' Informed the party about Billy's disappearance and gave them the Bullywug quest. Rewarded them. Alive.",
+    "Related": ["CHAR-003", "CHAR-009", "CHAR-017", "LOC-005", "QUEST-004"]
+  },
+  {
+    "ID": "CHAR-017",
+    "Type": "NPC",
+    "Name": "Joonie",
+    "Content": "Met in Session 10 in Mudwater Bend. Noted that the Hollow Spire felt alive again and informed the party about the Rougarou. Alive.",
+    "Related": ["CHAR-009", "CHAR-016", "CHAR-018", "LOC-005"]
+  },
+  {
+    "ID": "CHAR-018",
+    "Type": "NPC",
+    "Name": "Barkle",
+    "Content": "Met in Session 10. A cute dog that delivered the moss key to the party, which allows teleportation to the Bastion (Hollow Spire) once per week. Can carry messages and small items. Alive.",
+    "Related": ["CHAR-003", "CHAR-009", "CHAR-017", "LOC-005"]
+  },
+  {
+    "ID": "CHAR-019",
+    "Type": "NPC",
+    "Name": "Drowzel the Moon Bog Nixie",
+    "Content": "Met in Session 08 at the wishing well in Petalmere. A Fey bound to the well, grants wishes in cryptic ways in exchange for secrets. Alive.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-006", "EVENT-008"]
+  },
+  {
+    "ID": "CHAR-020",
+    "Type": "NPC",
+    "Name": "Brack",
+    "Content": "Met in Session 11. A brewmaster in Mudwater Bend who hired the party to deliver a singing barrel to the Wildrunners. Alive.",
+    "Related": ["CHAR-003", "QUEST-005"]
+  },
+  {
+    "ID": "CHAR-021",
+    "Type": "NPC",
+    "Name": "Zara's Father",
+    "Content": "Not directly met. Seen in a vision from Drowzel in Session 08. A wanderer, now corrupted by the rot ('belongs to the roots'), with vines around his feet, silver eyes, and petals blooming from his fingertips. Status unknown.",
+    "Related": ["CHAR-001", "EVENT-008"]
+  },
+  {
+    "ID": "CHAR-022",
+    "Type": "NPC",
+    "Name": "Varyn Crowsblood",
+    "Content": "Not directly met. Identified in a vision from Drowzel in Session 08 as the noble who paid to have Colm's blade poisoned. Status unknown.",
+    "Related": ["CHAR-004", "EVENT-008"]
+  },
+  {
+    "ID": "CHAR-023",
+    "Type": "Organization",
+    "Name": "Merchant Organization (Sunreach)",
+    "Content": "A merchant organization that runs the city of Sunreach. Aunti Belba Mossfoot is a member. Headquarters/location is Sunreach. They hired the party through Belba to investigate caravan attacks. Relationship is positive, professional, and ongoing.",
+    "Related": ["CHAR-006", "LOC-001", "QUEST-001", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-024",
+    "Type": "Organization",
+    "Name": "Ash Thorn Court",
+    "Content": "A Fey court. Made a bargain with the settlers of Petalmere for protection and bounty in exchange for a Bloom-Keeper from a specific bloodline each generation. The party encountered them in Session 8 when investigating the missing girl Tamson. They entered the Feywild and met the Queen. The relationship is neutral, as the party upheld the ancient bargain.",
+    "Related": ["CHAR-014", "CHAR-015", "LOC-006", "EVENT-008"]
+  },
+  {
+    "ID": "CHAR-025",
+    "Type": "Organization",
+    "Name": "Wildrunners",
+    "Content": "Halfling clans in Drak'Moru who herd Bee Rexes. The party delivered supplies to them and helped with the Emberfang kobold threat. Their main settlement is Snagroot Village. Relationship is very positive, the party are considered allies and helpers.",
+    "Related": ["CHAR-007", "CHAR-020", "LOC-009", "QUEST-005", "QUEST-006"]
+  },
+  {
+    "ID": "CHAR-026",
+    "Type": "Organization",
+    "Name": "Emberfang Kobolds",
+    "Content": "A group of fire-loving kobolds raiding the Wildrunners and poaching Bee Rexes. The party encountered them at multiple outposts and their main camp, 'The Nest'. They were led by a half-red dragon Indominus Rex. The relationship is hostile. The group was largely eradicated by the party.",
+    "Related": ["LOC-009", "LOC-010", "EVENT-015", "QUEST-006"]
+  },
+  {
+    "ID": "CHAR-027",
+    "Type": "NPC",
+    "Name": "Iryna",
+    "Content": "Arya's best friend, a fairy born from a little white lily. They were created together and sent to the same Guardian Fairy clan. She is loyal to Arya, though she teases him occasionally. She flits excitedly and has transparent wings. Alive.",
+    "Related": ["CHAR-002"]
+  },
+  {
+    "ID": "CHAR-028",
+    "Type": "NPC",
+    "Name": "Elder Lunimaraevanthorion Draelonar",
+    "Content": "The leader of Arya's Guardian Fairy clan, appointed by the goddess Flora. His name means 'Radiant guardian of light and dreams, noble in magic.' He is a strong, fair leader who promotes hard work. Arya is somewhat scared of him, feeling he has disappointed him, but the elder consistently encourages Arya. Alive.",
+    "Related": ["CHAR-002"]
+  }
+]

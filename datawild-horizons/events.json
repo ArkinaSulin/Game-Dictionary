@@ -1,0 +1,114 @@
+[
+  {
+    "ID": "EVENT-001",
+    "Type": "Event",
+    "Name": "Festival Ogre Attack",
+    "Content": "Session 01, Sunreach. During the Sunreach Midsummer Festival, a blighted Ogre (Gurruk) and corrupted vines attack. The party (Zara, Arya, Fern, Colm, Nira) meets and fights together for the first time. They also meet Colm, who has a bounty. Major outcome: The party forms, attracts the attention of Aunti Belba, and receives their first quest. The fast decay of the Ogre hints at the unnatural rot.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-011", "LOC-001", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-002",
+    "Type": "Event",
+    "Name": "Meeting the Ogre Clan",
+    "Content": "Session 02, Ogre Camp. The party meets Rukk and the Ogre clan, informing them of Gurruk's death. They speak with Brakka (Gurruk's wife) and the wisewoman Yarg. Yarg gives a cryptic warning: 'A sickness born of night... The fool fell first. He won’t be the last.' Outcome: The party gains potential allies and learns the rot is a wider problem.",
+    "Related": ["CHAR-003", "CHAR-010", "CHAR-011", "CHAR-012", "LOC-004"]
+  },
+  {
+    "ID": "EVENT-003",
+    "Type": "Event",
+    "Name": "First Meeting with Myrtle",
+    "Content": "Session 02, Myrtle's Hut. The party meets the druid Myrtle for tea. She informs them that Billy the Treant was investigating the rot and has gone to Drak'Moru. She warns them about the center of the swamp and asks them to retrieve a Lunar Widow's Bloom. Outcome: The party's main quest to find Billy is clarified, and they get a new objective related to the rot.",
+    "Related": ["CHAR-003", "CHAR-008", "CHAR-009", "LOC-003", "QUEST-001", "QUEST-003"]
+  },
+  {
+    "ID": "EVENT-004",
+    "Type": "Event",
+    "Name": "Swamp Encounters: Bloody Bones & The Cursed Flower",
+    "Content": "Sessions 02-03, The Swamp. The party follows whispers, finds a journal, and fights a Bloody Bones and Bog Bodies. They later find a corrupted humanoid begging to be burned and retrieve a Lunar Widow's Bloom, fighting a Moonshadow Beast to get it. Outcome: The party gathers evidence of the rot's effects on people and retrieves the flower for Myrtle.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-008", "LOC-003", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-005",
+    "Type": "Event",
+    "Name": "The Midsummer Mischief Game",
+    "Content": "Session 05, Sunreach Festival. The party participates in a festival game, completing a list of mischievous tasks including winning an owlbear's trust, capturing a goose, winning a pie-eating contest, and making a bard laugh. Outcome: The party wins a gift basket and 50 gp, strengthening their bond and reputation in Sunreach.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "LOC-001"]
+  },
+  {
+    "ID": "EVENT-006",
+    "Type": "Event",
+    "Name": "Descent into the Singing Tree Cavern",
+    "Content": "Session 06, Emberfell. The party investigates the 'Singing Tree,' discovers a hidden sinkhole, and descends into a mushroom cavern. They fight hostile creatures and find a moon-touched pendant and ancient carvings of a fallen star becoming a seed. Outcome: The party finds direct evidence of lunar influence and corruption underground.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "LOC-007", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-007",
+    "Type": "Event",
+    "Name": "Journey through The Spirals & The Stone Investigation",
+    "Content": "Sessions 07-08, The Spirals & Emberfell. The party meets Chester, solves his riddles, and performs a spiral dance, receiving a path-revealing coin. They then investigate Maeven's farm, speak with chanting sheep, and descend to the mysterious stone, learning it's a corrupted celestial binding point from Nyx. Outcome: The party gains a travel advantage and deeper understanding of the lunar 'rot' as a corrupting force on celestial magic.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-013", "LOC-008", "LOC-011", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-008",
+    "Type": "Event",
+    "Name": "The Fey Bargain and Wishing Well",
+    "Content": "Session 08, Petalmere. The party invokes the Ash Thorn Court, enters the Feywild, and learns Tamson chose to stay. They return with proof of the ancient bargain. Later, they use the wishing well, and Drowzel gives cryptic answers about Billy's location, Zara's father, Rynn's activities, and Colm's framing. Outcome: The Petalmere quest is resolved, and each PC receives crucial, personal information guiding their future goals.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-009", "CHAR-014", "CHAR-015", "CHAR-019", "CHAR-021", "CHAR-022", "CHAR-024", "LOC-006", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-009",
+    "Type": "Event",
+    "Name": "Finding Billy and Claiming the Bastion",
+    "Content": "Session 10, The Hollow Spire, Mudwater Bend. The party finds Billy rooted inside the sentient tree, the Hollow Spire. After discussions, they agree to a trial period, and the tree becomes their personal extradimensional base (Bastion). Outcome: Fern is reunited with Billy, and the party gains a huge strategic asset and a home base.",
+    "Related": ["CHAR-003", "CHAR-009", "CHAR-016", "CHAR-017", "CHAR-018", "LOC-005", "QUEST-003"]
+  },
+  {
+    "ID": "EVENT-010",
+    "Type": "Event",
+    "Name": "Bullywug and Gatorougarou Hunt",
+    "Content": "Session 10, Hollow Pools, Mudwater Bend. The party confronts and kills Bullywugs led by Sage Splup. The fight attracts a Gatorougarou, which they also kill. Outcome: The party earns a reward from Mawmaw Roux and clears a local threat.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-016", "QUEST-004"]
+  },
+  {
+    "ID": "EVENT-011",
+    "Type": "Event",
+    "Name": "Raptor Ambush and Zara's Patron",
+    "Content": "Session 11, Journey to Wildrunner Outpost. The party is ambushed by Raptors. One is sucked into the ground by fiery chains after being hit by Zara's Hellish Rebuke, sparking a conversation about her mysterious patron. Outcome: The party survives an ambush, and more is revealed about Zara's powers and backstory.",
+    "Related": ["CHAR-001"]
+  },
+  {
+    "ID": "EVENT-012",
+    "Type": "Event",
+    "Name": "Encounter with the Leshy",
+    "Content": "Session 14, Ravine near Wildrunner Outpost. The party finds Leshy who explain they took food and tools to build wards against 'the change'—the moon rot. They reveal the Bee Rex Queen is gone and the hive is quiet. Outcome: The party learns the rot is feared even in the Underdark and that the lunar event affected the Bee Rexes, connecting two quest lines.",
+    "Related": ["CHAR-003", "CHAR-025", "QUEST-005", "QUEST-006"]
+  },
+  {
+    "ID": "EVENT-013",
+    "Type": "Event",
+    "Name": "Nira and Rynn Reunited",
+    "Content": "Session 14, Snagroot Village. Nira is finally reunited with Rynn. He explains he was on a side adventure with the Bee Rexes, got stranded, and has been at the village for two weeks. Outcome: Nira's personal quest to find Rynn is completed.",
+    "Related": ["CHAR-005", "CHAR-007", "CHAR-014", "LOC-009", "QUEST-001"]
+  },
+  {
+    "ID": "EVENT-014",
+    "Type": "Event",
+    "Name": "Assault on the Emberfang Outposts",
+    "Content": "Sessions 15-17, Drak'Moru. The party attacks three Emberfang Kobold outposts. They find evidence of Slaad infestations and Tunnel Howlers, free a captured Bee Rex, and discover a map pointing to 'The Nest.' Outcome: The party weakens the kobolds, gains intelligence, and levels up.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-025", "CHAR-026", "QUEST-006"]
+  },
+  {
+    "ID": "EVENT-015",
+    "Type": "Event",
+    "Name": "Clearing The Nest",
+    "Content": "Session 18, The Nest. The party assaults the main Emberfang encampment. They free imprisoned Wildrunners, defeat a half-red dragon Indominus Rex, and clear the complex of kobolds, rescuing young Bee Rexes. Outcome: The Emberfang threat is neutralized, solidifying the party's alliance with the Wildrunners.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-025", "CHAR-026", "LOC-010", "QUEST-006"]
+  },
+  {
+    "ID": "EVENT-016",
+    "Type": "Event",
+    "Name": "Fern's Family Reunion",
+    "Content": "Session 18, Outside The Nest. After clearing the camp, Fern is reunited with his family, who were searching for Billy. After learning Billy is on his own path, the family decides to return home with Fern as their guide. Outcome: Fern's personal story arc reaches a milestone, and he plans to return to his forest.",
+    "Related": ["CHAR-003", "CHAR-009"]
+  }
+]
