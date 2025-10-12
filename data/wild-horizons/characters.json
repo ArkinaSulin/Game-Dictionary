@@ -6,12 +6,12 @@
     "Content": "Half-elf (raised by elven king and queen). Princess, sent away by her half-brother the regent to 'find someone more useful' while her parents are missing. Observed as capable and sometimes the sober party member. Her goal is to find her identity and her father. Has a mysterious patron communicated through a whispering, glowing bow (Hellish Rebuke). Contributes with combat and arcane abilities.",
     "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-011", "CHAR-012", "CHAR-019", "CHAR-024", "LOC-001", "LOC-002", "EVENT-001", "EVENT-005", "EVENT-008", "QUEST-001", "QUEST-002"]
   },
-  {
-    "ID": "CHAR-002",
-    "Type": "PC",
-    "Name": "Arya",
-    "Content": "Male Fairy. Unconventional for his kind: stocky, muscular, with a belly and small, stubby wings that make sustained flight difficult. Wears a petal skirt and wields an axe named Winterchill. Born from a large red Daylily, created by the spring goddess Flora. Background: Was a lumberjack for his Guardian Fairy clan for 60 years, feeling like an outcast and failure for never forming a 'binding contract'—a fairy's rite of passage where an intelligent being unknowingly consumes their bodily fluid, creating a magical bond. His observed personality is resilient, self-accepting, and bold, with a hidden depth of longing and insecurity. His goal in the adventure is to finally fulfill his purpose as a Guardian Fairy, prove his worth to himself and his clan, and protect his new party, whom he bonded with when they accidentally consumed his sweat. He is affiliated with his home Guardian Fairy clan, led by Elder Lunimaraevanthorion Draelonar, and feels a strong sense of duty to send fairy dust back to them. He contributes through physical combat (woodcutting, axe attacks), his surprising boldness (licking rocks, eating spicy pie), and his supportive, cheerful nature, using his collected stamina to magically maintain his weapons and shield.",
-    "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-027", "CHAR-028", "EVENT-001", "EVENT-005", "EVENT-007", "QUEST-001"]
+{
+  "ID": "CHAR-002",
+  "Type": "PC",
+  "Name": "Arya",
+  "Content": "Male Fairy. Unconventional for his kind: stocky, muscular, with a belly and small, stubby wings that make sustained flight difficult. Wears a petal skirt and wields a war hammer. Born from a large red Daylily, created by the spring goddess Flora. Background: Was a lumberjack for his Guardian Fairy clan for 60 years, feeling like an outcast and failure for never forming a 'binding contract'—a fairy's rite of passage where an intelligent being unknowingly consumes their bodily fluid, creating a magical bond. His observed personality is resilient, self-accepting, and bold, with a hidden depth of longing and insecurity. His goal in the adventure is to finally fulfill his purpose as a Guardian Fairy, prove his worth to himself and his clan, and protect his new party, whom he bonded with when they accidentally consumed his sweat. He is affiliated with his home Guardian Fairy clan, led by Elder Lunimaraevanthorion Draelonar, and feels a strong sense of duty to send fairy dust back to them. In combat, he is a formidable and disruptive front-line presence. He aggressively shoves enemies around with his war hammer to control the battlefield, while simultaneously shredding glittering fairy dust over nearby foes, making them significantly easier for his allies to hit.",
+  "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-027", "CHAR-028", "EVENT-001", "EVENT-005", "EVENT-007", "QUEST-001"]
   },
   {
     "ID": "CHAR-003",
