@@ -1,11 +1,11 @@
 [
   {
-    "ID": "CHAR-001",
-    "Type": "PC",
-    "Name": "Zara",
-    "Content": "Half-elf (raised by elven king and queen). Princess, sent away by her half-brother the regent to 'find someone more useful' while her parents are missing. Observed as capable and sometimes the sober party member. Her goal is to find her identity and her father. Has a mysterious patron communicated through a whispering, glowing bow (Hellish Rebuke). Contributes with combat and arcane abilities.",
-    "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-011", "CHAR-012", "CHAR-019", "CHAR-024", "LOC-001", "LOC-002", "EVENT-001", "EVENT-005", "EVENT-008", "QUEST-001", "QUEST-002"]
-  },
+  "ID": "CHAR-001",
+  "Type": "PC",
+  "Name": "Zara",
+  "Content": "Half-elf princess, raised by her Pallid Elf mother and step-father, the Elven King and Queen of Sian'dorai. Sent away by her half-brother the regent to 'find someone more useful' while her parents are missing. Observed as capable and sometimes the sober party member. Her goal is to find her identity and her birth father, an entity of the Nine Hells. Has a mysterious patron communicated through a whispering, glowing bow (Hellish Rebuke). Contributes with combat and arcane abilities.",
+  "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-011", "CHAR-012", "CHAR-019", "CHAR-024", "CHAR-029", "LOC-001", "LOC-002", "LOC-013", "EVENT-001", "EVENT-005", "EVENT-008", "QUEST-001", "QUEST-002"]
+},
 {
   "ID": "CHAR-002",
   "Type": "PC",
@@ -194,5 +194,12 @@
     "Name": "Elder Lunimaraevanthorion Draelonar",
     "Content": "The leader of Arya's Guardian Fairy clan, appointed by the goddess Flora. His name means 'Radiant guardian of light and dreams, noble in magic.' He is a strong, fair leader who promotes hard work. Arya is somewhat scared of him, feeling he has disappointed him, but the elder consistently encourages Arya. Alive.",
     "Related": ["CHAR-002"]
-  }
+  },
+  {
+  "ID": "CHAR-029",
+  "Type": "NPC",
+  "Name": "Zara's Birth Father",
+  "Content": "An entity of the Nine Hells. The mystery of his identity and nature is central to Zara's personal quest. His connection to the Pallid Elf kingdom of Sian'dorai is facilitated by a hidden gateway to the Nine Hells located deep within the mountain realm. Status and current whereabouts are unknown.",
+  "Related": ["CHAR-001", "LOC-013"]
+}
 ]
