@@ -54,5 +54,26 @@
     "Name": "Find the Missing Gatherers (Thick Wildflower Fields)",
     "Content": "Status: Complete. Taken from a job board in Session 5, investigated in Session 8 in Petalmere. The goal was to find Tamson, who went missing in the fey-touched wildflower fields. The party discovered she was taken by the Ash Thorn Court as part of an ancient bargain and chose to stay. They retrieved a scroll proving the bargain. Notable reward: 200 gp each from Elder Myla and free lodging in Petalmere.",
     "Related": ["CHAR-014", "CHAR-015", "CHAR-024", "LOC-006", "EVENT-008"]
+  },
+  {
+    "ID": "QUEST-009",
+    "Type": "Quest",
+    "Name": "Investigate Colm's Bounty Origin", 
+    "Content": "Status: In Progress. Initiated in Session 27 upon arrival at Stonehaven Shores. The goal is to understand why Colm's bounty poster was issued from this distant goliath retirement community and uncover connections to the tournament poisoning. Progress: Records examined revealing Tyber is alive, Colm's blade residue matched royal stores, and records were amended under royal order. Next steps: Investigate local events for connections, particularly the uncovered crypt.",
+    "Related": ["CHAR-004", "CHAR-030", "CHAR-032", "LOC-013", "EVENT-017"]
+  },
+  {
+    "ID": "QUEST-010", 
+    "Type": "Quest",
+    "Name": "Brynd's Soul Inquiry",
+    "Content": "Status: Active. Brynd's personal quest declared in Session 27 after philosophical discussion about snakes and souls. The goal is to find a necromancer who can answer what threshold of intelligence is required to possess a soul, specifically wondering how stupid one must be to lack a soul.",
+    "Related": ["CHAR-002", "EVENT-017"]
+  },
+  {
+    "ID": "QUEST-011",
+    "Type": "Quest", 
+    "Name": "Investigate the Uncovered Crypt",
+    "Content": "Status: Not Started. One of the local events mentioned by Elder Marrin in Session 27. A crypt was uncovered by violent tides, someone poked at it but didn't properly explore it. The party decided this would be their first investigation in Stonehaven Shores.",
+    "Related": ["LOC-013", "EVENT-017"]
   }
 ]
