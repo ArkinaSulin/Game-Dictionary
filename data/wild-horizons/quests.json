@@ -2,78 +2,197 @@
   {
     "ID": "QUEST-001",
     "Type": "Quest",
-    "Name": "Investigate the Rot & Find Rynn",
-    "Content": "Status: Partially Complete (Rynn Found, Rot Investigation Ongoing). Given by Aunti Belba Mossfoot in Session 1, with the initial goal of investigating strange vine attacks and finding Myrtle. The goal expanded to understanding the lunar rot and finding Nira's friend, Rynn. Rynn was found alive in Snagroot Village (Session 14). The larger investigation into the source and nature of the rot is ongoing. Notable reward: 200 gp initially, with future work promised.",
-    "Related": ["CHAR-005", "CHAR-006", "CHAR-007", "CHAR-008", "EVENT-001", "EVENT-003", "EVENT-013"]
+    "Name": "Investigate the Vine Attacks",
+    "Content": "Status: Completed. Given by Auntie Belba Mossfoot in Session 01 after the Ogre attack at the Sunreach Festival. Goal: Investigate rumors about vines attacking carts heading into Sunreach from the west and speak with Myrtle in the swamp. Notable casualties: Gurruk the Ogre (killed in initial attack). Reward: 200 gp total, plus an additional 50 gp for reporting back to Myrtle.",
+    "Related": ["CHAR-011", "CHAR-012", "CHAR-015", "CHAR-023", "LOC-001", "LOC-003", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-004"]
   },
   {
     "ID": "QUEST-002",
     "Type": "Quest",
-    "Name": "Myrtle's Investigations",
-    "Content": "Status: Ongoing. A series of tasks given by Myrtle the druid starting in Session 2. Goals included: retrieve a Lunar Widow's Bloom (done), investigate the Sunken Verge (done, found lunar fault line map), and find more evidence of the rot. The party has acted as messengers between Myrtle and Aunti Belba. Notable rewards: 200 gp from Belba for initial report, plus an additional 50 gp for returning to Myrtle.",
-    "Related": ["CHAR-006", "CHAR-008", "EVENT-003", "EVENT-004", "EVENT-007", "EVENT-008"]
+    "Name": "Find Billy the Treant",
+    "Content": "Status: Completed. Personal quest for Fern, initiated in backstory. Goal: Locate Fern's missing walking tree companion, Billy. Notable casualties: None. Reward: Emotional resolution and reunion; Billy now serves as the voice of the party's Bastion.",
+    "Related": ["CHAR-003", "CHAR-010", "CHAR-011", "CHAR-019", "CHAR-037", "CHAR-048", "CHAR-049", "LOC-003", "LOC-006", "LOC-007", "EVENT-003", "EVENT-007", "EVENT-021", "EVENT-022"]
   },
   {
     "ID": "QUEST-003",
     "Type": "Quest",
-    "Name": "Find Billy the Treant",
-    "Content": "Status: Complete. Fern's personal quest, initiated before Session 1. The goal was to find the missing walking tree. Billy was found in the Hollow Spire in Mudwater Bend (Session 10), now acting as the voice for the sentient tree/Bastion. He is safe and on his own path. Notable reward: Reunion with Billy and the acquisition of the party's Bastion.",
-    "Related": ["CHAR-003", "CHAR-008", "CHAR-009", "EVENT-003", "EVENT-009"]
+    "Name": "Find Rynn",
+    "Content": "Status: Completed. Personal quest for Nira, initiated in Session 01. Goal: Locate the half-elven man named Rynn who was last seen in Mistlake/Drak'Moru. Notable casualties: None. Reward: Emotional reunion; Rynn was found safe in Snagroot Village working with Bee Rexes.",
+    "Related": ["CHAR-005", "CHAR-014", "CHAR-024", "LOC-008", "LOC-020", "EVENT-007", "EVENT-008", "EVENT-029"]
   },
   {
     "ID": "QUEST-004",
     "Type": "Quest",
-    "Name": "Deal with the Bullywugs",
-    "Content": "Status: Complete. Given by Mawmaw Roux in Session 10 in Mudwater Bend. The goal was to clear the Bullywug threat from the Hollow Pools. The party killed the Bullywug leader, Sage Splup, and an attracted Gatorougarou. Notable casualties: Sage Splup and his Bullywugs, the Gatorougarou. Notable reward: Payment and gratitude from Mawmaw Roux.",
-    "Related": ["CHAR-016", "CHAR-017", "EVENT-010"]
+    "Name": "Clear Colm's Name",
+    "Content": "Status: In Progress. Personal quest for Colm, ongoing since Session 01. Goal: Prove Colm was framed for poisoning during the Royal Summit Tournament and identify the true conspirators. Notable casualties: None yet. Reward: Freedom from bounty and revenge; currently learned that Tyber is alive, Noa Youtil may be the real target, and Varyn Crowsblood was involved.",
+    "Related": ["CHAR-004", "CHAR-013", "CHAR-021", "CHAR-028", "CHAR-029", "CHAR-038", "CHAR-050", "CHAR-051", "LOC-009", "LOC-015", "LOC-017", "LOC-018", "EVENT-009", "EVENT-015"]
   },
   {
     "ID": "QUEST-005",
     "Type": "Quest",
-    "Name": "Supply Transport to the Wildrunners",
-    "Content": "Status: Complete. Given by Brewmaster Brack in Session 11. The goal was to deliver a barrel of brew to a Wildrunner outpost without shaking it and to ignore it if it sang. The party successfully delivered the barrel. Notable reward: 100 gp and a Bag of Holding.",
-    "Related": ["CHAR-003", "CHAR-020", "CHAR-025"]
+    "Name": "Deal with the Bullywugs",
+    "Content": "Status: Completed. Given by Mawmaw Roux in Session 10 in Mudwater Bend. Goal: Clear the Bullywugs from the Hollow Pools who were causing trouble. Notable casualties: Sage Splup the Slime and his Bullywugs; a Gatorougarou that appeared during the fight. Reward: Payment and gratitude from Mawmaw Roux and the town.",
+    "Related": ["CHAR-019", "CHAR-031", "CHAR-037", "LOC-006", "LOC-010", "EVENT-007"]
   },
   {
     "ID": "QUEST-006",
     "Type": "Quest",
     "Name": "Stop the Emberfang Kobolds",
-    "Content": "Status: Complete. Given by Elder Branver Emberbrush in Session 14/15. The goal was to stop the Emberfang kobold raids on the Wildrunners and rescue poached Bee Rexes. The party cleared three outposts and the main camp, 'The Nest,' defeating their leaders and a half-red dragon Indominus Rex. Notable casualties: Numerous kobolds, a Red Slaad Broodmaster, Tunnel Howlers, and the half-red dragon Indominus Rex. Notable reward: Personal rewards for each party member and a strengthened alliance with the Wildrunners.",
-    "Related": ["CHAR-025", "CHAR-026", "EVENT-012", "EVENT-014", "EVENT-015"]
+    "Content": "Status: Completed. Given by Branver Emberbrush and the Wildrunner elders in Session 15. Goal: Deal with the fire-loving kobolds who were raiding and bothering the tribe, and rescue captured Bee Rexes. Notable casualties: Multiple Emberfang Kobolds, a Half-red Dragon Allosaurus, Red Slaads, Tunnel Howlers, and a half Red-Dragon Indominus Rex. Reward: Personal rewards for each party member, improved relations with Wildrunner Clan.",
+    "Related": ["CHAR-024", "CHAR-025", "CHAR-032", "CHAR-033", "LOC-008", "LOC-014", "EVENT-007"]
   },
   {
     "ID": "QUEST-007",
     "Type": "Quest",
-    "Name": "Investigate the Mysterious Stone",
-    "Content": "Status: Complete. Taken from a job board in Session 5, investigated in Session 7 in Emberfell. The goal was to investigate a glowing, whispering stone dug up on Maeven's farm. The party discovered it was a piece of Nyx at a corrupted celestial binding point, and they rolled it away from the town to disperse its negative effects. Notable reward: 100 gp from Maeven Thornholt.",
-    "Related": ["LOC-007", "LOC-008", "EVENT-007"]
+    "Name": "Find Tamson in Petalmere",
+    "Content": "Status: Completed. Given by Elder Myla in Session 08 in Petalmere. Goal: Locate Tamson who went missing in the wildflower fields connected to the Feywild. Notable casualties: None. Reward: 200 gp each, free lodging and meals for a week in Petalmere.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-047", "LOC-005", "LOC-013", "EVENT-006"]
   },
   {
     "ID": "QUEST-008",
     "Type": "Quest",
-    "Name": "Find the Missing Gatherers (Thick Wildflower Fields)",
-    "Content": "Status: Complete. Taken from a job board in Session 5, investigated in Session 8 in Petalmere. The goal was to find Tamson, who went missing in the fey-touched wildflower fields. The party discovered she was taken by the Ash Thorn Court as part of an ancient bargain and chose to stay. They retrieved a scroll proving the bargain. Notable reward: 200 gp each from Elder Myla and free lodging in Petalmere.",
-    "Related": ["CHAR-014", "CHAR-015", "CHAR-024", "LOC-006", "EVENT-008"]
+    "Name": "Investigate the Mysterious Stone",
+    "Content": "Status: Completed. Taken from job board in Session 05, investigated in Session 07 in Emberfell. Goal: Investigate the glowing stone dug up on Maeven's farm that was causing strange occurrences. Notable casualties: Creatures in the mushroom cavern, an Ashy Entity. Reward: 100 gp from Maeven Thornholt.",
+    "Related": ["CHAR-042", "LOC-004", "EVENT-005", "EVENT-011"]
   },
   {
     "ID": "QUEST-009",
     "Type": "Quest",
-    "Name": "Investigate Colm's Bounty Origin", 
-    "Content": "Status: In Progress. Initiated in Session 27 upon arrival at Stonehaven Shores. The goal is to understand why Colm's bounty poster was issued from this distant goliath retirement community and uncover connections to the tournament poisoning. Progress: Records examined revealing Tyber is alive, Colm's blade residue matched royal stores, and records were amended under royal order. Next steps: Investigate local events for connections, particularly the uncovered crypt.",
-    "Related": ["CHAR-004", "CHAR-030", "CHAR-032", "LOC-013", "EVENT-017"]
+    "Name": "Deliver Brack's Barrel",
+    "Content": "Status: Completed. Given by brewmaster Brack in Session 11. Goal: Deliver one barrel to the Wildrunner outpost, don't shake it, and ignore it if it sings. Notable casualties: Multiple raptors, Stormseed Broodlings encountered during the journey. Reward: 100 gp and a bag of holding.",
+    "Related": ["CHAR-024", "CHAR-043", "LOC-008", "EVENT-007", "EVENT-014"]
   },
   {
-    "ID": "QUEST-010", 
+    "ID": "QUEST-010",
     "Type": "Quest",
-    "Name": "Brynd's Soul Inquiry",
-    "Content": "Status: Active. Brynd's personal quest declared in Session 27 after philosophical discussion about snakes and souls. The goal is to find a necromancer who can answer what threshold of intelligence is required to possess a soul, specifically wondering how stupid one must be to lack a soul.",
-    "Related": ["CHAR-002", "EVENT-017"]
+    "Name": "Investigate the Lunar Corruption",
+    "Content": "Status: Ongoing. Emergent main story quest developing through multiple sessions. Goal: Understand and stop the lunar rot/night sickness that is corrupting creatures and land, connected to something from the moon that broke off long ago. Notable casualties: Various corrupted creatures including Gurruk, Bloody Bones, Bog Bodies, corrupted humanoid, Echo Wraith, Moonshadow Beast, zombies, Waxling, Candlekin. Reward: Ongoing; crucial for world salvation.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-009", "CHAR-011", "CHAR-015", "CHAR-016", "CHAR-017", "CHAR-033", "CHAR-046", "LOC-003", "LOC-004", "LOC-008", "LOC-019", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-004", "EVENT-011", "EVENT-013"]
   },
   {
     "ID": "QUEST-011",
-    "Type": "Quest", 
-    "Name": "Investigate the Uncovered Crypt",
-    "Content": "Status: Not Started. One of the local events mentioned by Elder Marrin in Session 27. A crypt was uncovered by violent tides, someone poked at it but didn't properly explore it. The party decided this would be their first investigation in Stonehaven Shores.",
-    "Related": ["LOC-013", "EVENT-017"]
+    "Type": "Quest",
+    "Name": "Rescue Stolen Bee Rexes",
+    "Content": "Status: Completed. Taken from job board in Session 05, accomplished during Emberfang campaign. Goal: Find and rescue Bee Rexes that were stolen in the night from the Wildrunners. Notable casualties: Emberfang Kobolds involved in the poaching operation. Reward: Implied gratitude and rewards from Wildrunner Clan, bee balm poultice.",
+    "Related": ["CHAR-024", "CHAR-025", "LOC-008", "LOC-014", "EVENT-007"]
+  },
+  {
+    "ID": "QUEST-012",
+    "Type": "Quest",
+    "Name": "Investigate Thick Wildflower Fields",
+    "Content": "Status: Completed. Taken from job board in Session 05, resolved in Session 08 in Petalmere. Goal: Investigate why wildflower fields are thicker than they should be and missing gatherers. Notable casualties: None. Reward: Integrated into the Tamson rescue reward (200 gp each).",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-047", "LOC-005", "EVENT-006"]
+  },
+  {
+    "ID": "QUEST-013",
+    "Type": "Quest",
+    "Name": "Explore Uncovered Crypt",
+    "Content": "Status: Available. Mentioned by Elder Marrin in Session 27 in Stonehaven Shores. Goal: Investigate a crypt uncovered by violent tides that someone had poked at but not properly explored. Notable casualties: None yet. Reward: Unknown.",
+    "Related": ["CHAR-021", "LOC-009"]
+  },
+  {
+    "ID": "QUEST-014",
+    "Type": "Quest",
+    "Name": "Find Missing Storyteller",
+    "Content": "Status: Partially Resolved. Mentioned in Session 27 regarding Tom Bouldertstep who wandered off and whose walking stick washed up on shore. Goal: Originally to find the missing storyteller. Notable casualties: None. Reward: Unknown; Tom returned naked and confused days later, making the quest moot.",
+    "Related": ["CHAR-021", "CHAR-030", "LOC-009"]
+  },
+  {
+    "ID": "QUEST-015",
+    "Type": "Quest",
+    "Name": "Uncover Zara's Heritage",
+    "Content": "Status: Ongoing. Personal quest for Zara, developing throughout the campaign. Goal: Learn about her infernal father and her Pallid Elf heritage, particularly the connection to the Nine Hells gateway in Sian'dorai. Notable casualties: None directly. Reward: Personal closure and understanding of her powers and destiny.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-045", "CHAR-046", "LOC-002", "LOC-012", "EVENT-008", "EVENT-013"]
+  },
+  {
+    "ID": "QUEST-016",
+    "Type": "Quest",
+    "Name": "Arya's Binding Contract",
+    "Content": "Status: Completed. Personal quest for Arya, spanning 60 years of his life before the campaign. Goal: Form a binding contract with intelligent beings to fulfill his purpose as a Guardian fairy. Notable casualties: None. Reward: Fulfillment of his life's purpose, ability to convert stamina into fairy dust, and acceptance by his clan.",
+    "Related": ["CHAR-002", "CHAR-007", "CHAR-008", "CHAR-022", "EVENT-012"]
+  },
+    {
+    "ID": "QUEST-017",
+    "Type": "Quest",
+    "Name": "Festival Mischief Games",
+    "Content": "Status: Completed. Self-initiated during Session 05 at the Sunreach Midsummer Festival. Goal: Complete a list of mischief tasks including winning an owlbear's trust, hitting a magical dartboard, capturing a goose, pie eating contest, making a bard laugh, finding 'The Egg,' and recapturing escaped waterfowl. Notable casualties: None. Reward: Gift basket and 50 gp from Auntie Belba.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-012", "LOC-001", "EVENT-010"]
+  },
+  {
+    "ID": "QUEST-018",
+    "Type": "Quest",
+    "Name": "Investigate Missing Goat",
+    "Content": "Status: Available. Mentioned in Session 10 in Mudwater Bend. Goal: Find a missing goat in the area. Notable casualties: None yet. Reward: Unknown; potentially superseded by more urgent matters.",
+    "Related": ["CHAR-019", "CHAR-037", "LOC-006"]
+  },
+  {
+    "ID": "QUEST-019",
+    "Type": "Quest",
+    "Name": "Deal with the Rougarou/Gatorougarou",
+    "Content": "Status: Completed. Emergent during Session 10 after the Bullywug fight. Goal: Deal with the wolf-like creature (actually a Gatorougarou) that was attracted by the blood from the Bullywug battle. Notable casualties: The Gatorougarou. Reward: Included in Mawmaw Roux's reward for dealing with the Bullywugs.",
+    "Related": ["CHAR-019", "CHAR-037", "LOC-010", "EVENT-007"]
+  },
+  {
+    "ID": "QUEST-020",
+    "Type": "Quest",
+    "Name": "Find Wishing Well Answers",
+    "Content": "Status: Completed. Self-initiated in Session 08 at Petalmere's wishing well. Goal: Use Drowzel's wishing well to gain crucial information about each party member's personal quests. Notable casualties: None. Reward: Vital information about Billy's location, Zara's father, Rynn's whereabouts, and Colm's framer.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "LOC-005", "EVENT-008"]
+  },
+  {
+    "ID": "QUEST-021",
+    "Type": "Quest",
+    "Name": "Investigate Leshy Mischief",
+    "Content": "Status: Completed. Given by Branver Emberbrush in Session 14. Goal: Investigate who was moving food and tools and leaving rare herbs in return, suspected to be Leshy plant people. Notable casualties: None. Reward: Information about the lunar corruption and medicinal herbs from Murmura.",
+    "Related": ["CHAR-024", "CHAR-032", "CHAR-033", "LOC-008", "EVENT-007"]
+  },
+  {
+    "ID": "QUEST-022",
+    "Type": "Quest",
+    "Name": "Stoneball Classic Tournament",
+    "Content": "Status: Available. Mentioned by Elder Marrin in Session 27 as a local event in Stonehaven Shores. Goal: Participate in or investigate the Stoneball Classic tournament. Notable casualties: None yet. Reward: Unknown.",
+    "Related": ["CHAR-021", "LOC-009"]
+  },
+  {
+    "ID": "QUEST-023",
+    "Type": "Quest",
+    "Name": "Investigate Retired Wrestling Champions Brawl",
+    "Content": "Status: Available. Mentioned by Elder Marrin in Session 27 as a local event in Stonehaven Shores. Goal: Deal with retired wrestling champions who started an open brawl. Notable casualties: None yet. Reward: Unknown.",
+    "Related": ["CHAR-021", "LOC-009"]
+  },
+  {
+    "ID": "QUEST-024",
+    "Type": "Quest",
+    "Name": "Find Brynd's Necromancer",
+    "Content": "Status: Ongoing. Personal quest for Brynd, self-declared in Session 27. Goal: Find a necromancer who can answer how stupid one must be to lack a soul, following philosophical discussions about snakes and goblins having souls. Notable casualties: None yet. Reward: Philosophical answers about soulhood thresholds.",
+    "Related": ["CHAR-026", "EVENT-009", "EVENT-023"]
+  },
+  {
+    "ID": "QUEST-025",
+    "Type": "Quest",
+    "Name": "Protect Noa Youtil",
+    "Content": "Status: Ongoing. Emergent from Session 27 investigation. Goal: Protect Noa Youtil (the duelist who helped Colm escape) who may be the real target of the conspirators who framed Colm. Notable casualties: None yet. Reward: Preventing an innocent person from being harmed and gaining an ally against the conspirators.",
+    "Related": ["CHAR-004", "CHAR-029", "LOC-015", "EVENT-009", "EVENT-015", "QUEST-004"]
+  },
+  {
+    "ID": "QUEST-026",
+    "Type": "Quest",
+    "Name": "Test Skills in Zepharok Arena",
+    "Content": "Status: Available. Mentioned in Session 27 as a potential stop on the way north to Itinit. Goal: Test the party's combat skills in the arena at Zepharok. Notable casualties: None yet. Reward: Arena prizes and reputation.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "LOC-017"]
+  },
+  {
+    "ID": "QUEST-027",
+    "Type": "Quest",
+    "Name": "Find the Glowing Stone from Vaelzareth",
+    "Content": "Status: Completed (as part of Mysterious Stone quest). Taken from job board in Session 05, resolved in Session 07. Goal: Investigate a glowing stone that was dug up on the edge of Vaelzareth that mentioned whispers. Notable casualties: None directly. Reward: Integrated into the Emberfell stone investigation reward.",
+    "Related": ["CHAR-042", "LOC-004", "QUEST-008"]
+  },
+  {
+    "ID": "QUEST-028",
+    "Type": "Quest",
+    "Name": "Supply Transport Mission",
+    "Content": "Status: Available. Mentioned in Session 10 as a potential future mission in Drak'Moru. Goal: Transport supplies to locations in Drak'Moru. Notable casualties: None yet. Reward: Unknown; potentially similar to Brack's barrel delivery.",
+    "Related": ["CHAR-024", "LOC-008"]
   }
 ]

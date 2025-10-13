@@ -3,98 +3,140 @@
     "ID": "LOC-001",
     "Type": "Location",
     "Name": "Sunreach",
-    "Content": "A city on Solvaris. Hosts the Sunreach Midsummer Festival. Controlled by a council and a merchant organization. Points of interest: The Gilded Ladle inn (run by Aunti Belba), festival grounds, various competition tents. Key characters: Aunti Belba Mossfoot, the party. The party started here, fought a blighted Ogre, received their first quest, and returned multiple times to report and enjoy the festival.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-011", "CHAR-023", "EVENT-001", "EVENT-005", "QUEST-001", "QUEST-002"]
+    "Content": "A city in Solvaris where the Sunreach Midsummer Festival takes place. Controlled by Belba's Merchant Organization. Points of interest: The Gilded Ladle inn, festival grounds, various taverns and competition venues. The party first formed here, fought an Ogre attack, met Auntie Belba, and frequently returns to report on quests and enjoy the festival.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-023", "EVENT-001", "EVENT-010", "QUEST-001", "QUEST-017"]
   },
   {
     "ID": "LOC-002",
     "Type": "Location",
-    "Name": "The Gilded Ladle",
-    "Content": "An inn in Sunreach run by Aunti Belba Mossfoot. Served as the party's free lodging during the festival and a meeting place for quests. A private room was used for discussions with Belba. The party stayed here multiple times.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-001", "EVENT-001"]
+    "Name": "Sian'dorai",
+    "Content": "The hidden underground kingdom of the Pallid Elves beneath the Starsong Hills. A marvel of elven architecture with glowing quartz-and-crystal spires creating eternal twilight. Significance: Home to Zara's family, the Pallid Elf royalty. Contains a gateway to the Nine Hells. The party has not visited yet, but it's central to Zara's backstory.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-045", "CHAR-046", "EVENT-013", "QUEST-015"]
   },
   {
     "ID": "LOC-003",
     "Type": "Location",
-    "Name": "Myrtle's Hut",
-    "Content": "A hut located in a swamp near Sunreach. Home of the druid Myrtle. A key location for information about the rot and the blighted Ogres. The party visited multiple times to deliver items, get information, and receive new objectives.",
-    "Related": ["CHAR-003", "CHAR-008", "CHAR-009", "CHAR-010", "EVENT-002", "EVENT-003", "EVENT-004", "QUEST-001", "QUEST-002"]
+    "Name": "The Mire (Swamp)",
+    "Content": "A dangerous swamp near Sunreach containing Myrtle's hut and various supernatural threats. Significance: Site of initial vine attacks and lunar corruption investigations. Points of interest: Myrtle's hut, the Sunken Verge, the sacred center where the Watcher of the Mire resides. The party spent multiple sessions investigating here, encountering Ogres, Bloody Bones, Echo Wraiths, and finding the Lunar Widow's Bloom.",
+    "Related": ["CHAR-003", "CHAR-009", "CHAR-010", "CHAR-011", "CHAR-016", "CHAR-017", "EVENT-002", "EVENT-003", "EVENT-004", "QUEST-001", "QUEST-002", "QUEST-010"]
   },
   {
     "ID": "LOC-004",
     "Type": "Location",
-    "Name": "Ogre Camp",
-    "Content": "A camp in the hills near the swamp. Home to Gurruk's clan, including his wife Brakka, brother Rukk, and wisewoman Yarg. The party visited to deliver the news of Gurruk's death and gained allies and information about the rot.",
-    "Related": ["CHAR-010", "CHAR-011", "CHAR-012", "EVENT-002"]
+    "Name": "Emberfell",
+    "Content": "An old, generational town the party visited on the way to Drak'Moru. Points of interest: The inn run by Bryn Ashwell, the 'Singing Tree' which hid a sinkhole to a mushroom cavern, Maeven's farm with the mysterious stone. The party discovered ancient carvings of a fallen star and fought creatures in the underground caverns.",
+    "Related": ["CHAR-003", "CHAR-041", "CHAR-042", "EVENT-005", "EVENT-011", "EVENT-018", "QUEST-008", "QUEST-027"]
   },
   {
     "ID": "LOC-005",
     "Type": "Location",
-    "Name": "Mudwater Bend / The Hollow Spire",
-    "Content": "A town in Drak'Moru. Points of interest: Mawmaw Roux's home, the Hollow Spire (a sentient, dormant tree that became the party's Bastion). Key characters: Mawmaw Roux, Joonie, Barkle, Billy. The party found Billy here, cleared a Bullywug problem at the Hollow Pools, and gained their own extradimensional base.",
-    "Related": ["CHAR-003", "CHAR-009", "CHAR-016", "CHAR-017", "CHAR-018", "EVENT-008", "QUEST-003", "QUEST-004"]
+    "Name": "Petalmere",
+    "Content": "A village connected to the Feywild, surrounded by thick wildflower fields. Significance: Site of the missing Tamson case and the ancient bargain with the Ash Thorn Court. Points of interest: Elder Myla's cottage, the wildflower fields, the wishing well bound to Drowzel. The party successfully negotiated with the Fey court and resolved the missing person case.",
+    "Related": ["CHAR-018", "CHAR-035", "CHAR-036", "CHAR-047", "EVENT-006", "EVENT-008", "QUEST-007", "QUEST-012", "QUEST-020"]
   },
   {
     "ID": "LOC-006",
     "Type": "Location",
-    "Name": "Petalmere",
-    "Content": "A village connected to the Feywild. Points of interest: Elder Myla's cottage, the wildflower fields, the wishing well. Key characters: Elder Myla, Tamson, Drowzel. The party investigated missing gatherers, learned of the ancient fey bargain, and had their fortunes told at the well.",
-    "Related": ["CHAR-005", "CHAR-014", "CHAR-015", "CHAR-019", "CHAR-024", "EVENT-007", "EVENT-008", "QUEST-002"]
+    "Name": "Mudwater Bend",
+    "Content": "A settlement in Drak'Moru where the party learned about Billy's disappearance. Points of interest: Mawmaw Roux's place, the Hollow Spire tree. The party first encountered Barkle here and took on the Bullywug problem.",
+    "Related": ["CHAR-003", "CHAR-010", "CHAR-019", "CHAR-037", "EVENT-007", "QUEST-002", "QUEST-005", "QUEST-018", "QUEST-019"]
   },
   {
     "ID": "LOC-007",
     "Type": "Location",
-    "Name": "Emberfell",
-    "Content": "An old, small town. Points of interest: The inn run by Bryn Ashwell, the 'Singing Tree' (which hid a sinkhole to a mushroom cavern). The party investigated the Mysterious Stone here, descending into the caverns beneath the tree.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "EVENT-006", "QUEST-002"]
+    "Name": "The Hollow Spire (Bastion)",
+    "Content": "A sentient, dormant tree that became the party's Bastion (extradimensional base) after they agreed to a trial period. Significance: Controlled by the party. Points of interest: Various chambers that respond to the party's needs, including bark figures that study visitors. The tree can change according to the party's needs and serves as their home base via the Moss Key.",
+    "Related": ["CHAR-003", "CHAR-010", "CHAR-020", "CHAR-037", "CHAR-048", "EVENT-007", "EVENT-021", "QUEST-002"]
   },
   {
     "ID": "LOC-008",
     "Type": "Location",
-    "Name": "Maeven's Farm",
-    "Content": "A farm near Emberfell where a mysterious lunar stone landed in a crater. Sheep here were acting strangely, chanting about the moon. The party found the stone and discovered a tunnel leading to an ancient celestial binding point.",
-    "Related": ["EVENT-007", "QUEST-002"]
+    "Name": "Drak'Moru",
+    "Content": "A wild, jungle-like region to the north-east. Significance: Home to the Wildrunner Clan and their Bee Rexes, as well as various dangerous creatures. Points of interest: Snagroot Village, various Wildrunner outposts, the Emberfang kobold camps. The party spent multiple sessions here dealing with raptors, kobolds, and helping the Wildrunners.",
+    "Related": ["CHAR-003", "CHAR-005", "CHAR-014", "CHAR-024", "CHAR-025", "CHAR-032", "CHAR-033", "CHAR-043", "EVENT-007", "EVENT-014", "EVENT-029", "QUEST-003", "QUEST-006", "QUEST-009", "QUEST-011", "QUEST-021", "QUEST-028"]
   },
   {
     "ID": "LOC-009",
     "Type": "Location",
-    "Name": "Snagroot Village",
-    "Content": "The main settlement of the Wildrunner halflings in Drak'Moru. A base for Bee Rex herders. The party stayed here, cooked Raptor stew, met Rynn, and received the quest to deal with the Emberfang kobolds.",
-    "Related": ["CHAR-003", "CHAR-007", "CHAR-014", "CHAR-025", "EVENT-014", "EVENT-015", "QUEST-005", "QUEST-006"]
+    "Name": "Stonehaven Shores",
+    "Content": "A goliath retirement community town on the coast. Significance: Source of Colm's bounty and location of important tournament records. Points of interest: Elder Marrin's record archives, the beach where Tom Bouldertstep's stick washed up, the recently uncovered crypt. The party investigated Colm's framed murder case here and learned crucial information.",
+    "Related": ["CHAR-004", "CHAR-021", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-029", "CHAR-030", "CHAR-038", "EVENT-009", "EVENT-015", "EVENT-023", "EVENT-025", "EVENT-026", "QUEST-004", "QUEST-013", "QUEST-014", "QUEST-022", "QUEST-023", "QUEST-024", "QUEST-025"]
   },
   {
     "ID": "LOC-010",
     "Type": "Location",
-    "Name": "The Nest",
-    "Content": "The main underground encampment of the Emberfang kobolds. A complex of caves containing imprisoned Wildrunners, stolen Bee Rexes, and a half-red dragon Indominus Rex. The party cleared this location, freeing prisoners and defeating the leaders.",
-    "Related": ["CHAR-025", "CHAR-026", "EVENT-015", "QUEST-006"]
+    "Name": "Hollow Pools",
+    "Content": "Location in Drak'Moru where the Bullywugs had taken up residence. The party fought and defeated Sage Splup the Slime and his Bullywugs here, then later dealt with a Gatorougarou that was attracted by the blood.",
+    "Related": ["CHAR-031", "EVENT-007", "QUEST-005", "QUEST-019"]
   },
   {
     "ID": "LOC-011",
     "Type": "Location",
     "Name": "The Spirals",
-    "Content": "A mysterious, fey-touched region of shifting paths and glades. The party met Chester here, solved his riddles, performed a spiral dance, and were gifted a coin that reveals hidden paths, saving them two days of travel.",
-    "Related": ["CHAR-013", "EVENT-007"]
+    "Content": "A mysterious, maze-like Fey area the party encountered on the way to Petalmere. Chester guided them through riddles and a spiral dance, saving them two days of travel. The area has shifting paths and hidden openings that respond to Fey magic.",
+    "Related": ["CHAR-034", "EVENT-005"]
   },
   {
     "ID": "LOC-012",
     "Type": "Location",
-    "Name": "The Sunken Verge",
-    "Content": "A perpetually damp part of the swamp. Myrtle sent the party here to find the body of the Echo Wraith. They found an abandoned campsite, fought zombies and vines, and discovered a map of lunar fault lines and a dream journal.",
-    "Related": ["CHAR-008", "EVENT-004", "QUEST-002"]
+    "Name": "Starsong Hills",
+    "Content": "A vast ancient mountain range born from a celestial cataclysm where a great star fell. Contains veins of glowing quartz and celestial metals. Significance: Home to the Pallid Elves and Sian'dorai. Points of interest: The Fallen Star's Rest, the Starborne Flame (said to grant visions), ancient ruins. Central to Zara's backstory but not yet visited by the party.",
+    "Related": ["CHAR-001", "CHAR-006", "EVENT-013", "QUEST-015"]
   },
   {
-  "ID": "LOC-013",
-  "Type": "Location",
-  "Name": "Sian'dorai",
-  "Content": "The hidden kingdom of the Pallid Elves, carved deep beneath the Starsong Hills. The city is a marvel of elven architecture, with glowing quartz-and-crystal spires illuminated by enchanted braziers that create an eternal, starry twilight. Zara was raised here by her mother and step-father, the ruling Pallid Elf monarchs. The kingdom holds a dark secret: a gateway to the Nine Hells exists within its depths, which is tied to the mystery of Zara's birth father.",
-  "Related": ["CHAR-001", "CHAR-029"]
+    "ID": "LOC-013",
+    "Type": "Location",
+    "Name": "Feywild Glade",
+    "Content": "An impossibly beautiful glade in the Feywild where the Ash Thorn Court resides. The party visited here to confirm Tamson's safety and happiness. Tamson loved it here and chose to stay rather than return home.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-047", "EVENT-006", "QUEST-007", "QUEST-012"]
   },
   {
     "ID": "LOC-014",
-    "Type": "Location", 
-    "Name": "Stonehaven Shores",
-    "Content": "A goliath retirement community on the coast where the sea meets the edge of the wilds. Predominantly populated by elderly goliaths, known for its extremely relaxed atmosphere. The town maintains extensive archives containing records from retired record keepers. Points of interest: record archives, shoreline where Tom's walking stick washed up, local crypt uncovered by tides. Key characters: Valdrek Tidewatcher (leader), Elder Marrin Broadshoulder (record keeper), Tom Bouldertstep. The party arrived here in Session 27 to investigate why Colm's bounty originated from this distant location.",
-    "Related": ["CHAR-004", "CHAR-029", "CHAR-030", "CHAR-031", "EVENT-017"]
+    "Type": "Location",
+    "Name": "The Nest",
+    "Content": "The main underground encampment of the Emberfang Kobolds in Drak'Moru. A complex cave system with multiple levels containing imprisoned Wildrunners and captured Bee Rexes. The party cleared this location, fighting a half Red-Dragon Indominus Rex and freeing captives.",
+    "Related": ["CHAR-024", "CHAR-025", "EVENT-007", "QUEST-006", "QUEST-011"]
+  },
+  {
+    "ID": "LOC-015",
+    "Type": "Location",
+    "Name": "Itinit",
+    "Content": "Colm's homeland in the north, under the Glacier Throne. Significance: Where the Royal Summit Tournament took place and where Colm was framed for murder. The party plans to travel here eventually to clear Colm's name and potentially save Noa Youtil.",
+    "Related": ["CHAR-004", "CHAR-029", "EVENT-009", "EVENT-015", "QUEST-004", "QUEST-025"]
+  },
+  {
+    "ID": "LOC-016",
+    "Type": "Location",
+    "Name": "Thornscar Hold",
+    "Content": "A location the party departed from at the start of Session 27. The text mentions they 'departed Thornscar Hold behind us' when heading to Stonehaven Shores. Appears to be a previous stopping point or settlement.",
+    "Related": ["EVENT-009"]
+  },
+  {
+    "ID": "LOC-017",
+    "Type": "Location",
+    "Name": "Zepharok",
+    "Content": "Mentioned in Session 27 as a land the party would pass through on the way north to Itinit. Known for having an arena where the party could test their skills. Not yet visited.",
+    "Related": ["CHAR-004", "CHAR-026", "QUEST-004", "QUEST-026"]
+  },
+  {
+    "ID": "LOC-018",
+    "Type": "Location",
+    "Name": "Frosthallow",
+    "Content": "Mentioned in tournament records as the home of House Troia. Likely a region or settlement in the northern lands near Itinit. Wesper Troia was listed as an heir of Frosthallow.",
+    "Related": ["CHAR-004", "EVENT-009", "QUEST-004"]
+  },
+  {
+    "ID": "LOC-019",
+    "Type": "Location",
+    "Name": "Sunken Verge",
+    "Content": "A particularly damp part of the swamp that Myrtle directed the party to investigate. The party found an abandoned campsite, fought zombies and vines, and discovered a Waxling and Candlekin guarding a dead body with a black candle.",
+    "Related": ["CHAR-011", "EVENT-004", "QUEST-010"]
+  },
+  {
+    "ID": "LOC-020",
+    "Type": "Location",
+    "Name": "Mistlake",
+    "Content": "Mentioned in Session 01 as the last known location of Rynn, the half-elven man Nira was searching for. The party learned about this location from Auntie Belba but did not visit directly.",
+    "Related": ["CHAR-005", "CHAR-014", "QUEST-001", "QUEST-003"]
   }
 ]

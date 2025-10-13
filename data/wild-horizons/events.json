@@ -2,120 +2,211 @@
   {
     "ID": "EVENT-001",
     "Type": "Event",
-    "Name": "Festival Ogre Attack",
-    "Content": "Session 01, Sunreach. During the Sunreach Midsummer Festival, a blighted Ogre (Gurruk) and corrupted vines attack. The party (Zara, Arya, Fern, Colm, Nira) meets and fights together for the first time. They also meet Colm, who has a bounty. Major outcome: The party forms, attracts the attention of Aunti Belba, and receives their first quest. The fast decay of the Ogre hints at the unnatural rot.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-011", "LOC-001", "QUEST-001"]
+    "Name": "Sunreach Festival Ogre Attack",
+    "Content": "Session 01: During the Sunreach Midsummer Festival in Sunreach, an Ogre and blighted vines disrupted the festivities. The party met and fought together for the first time. Major outcomes: The party formed, met Colm, defeated the Ogre (Gurruk), and met Auntie Belba who offered them their first job. The Ogre's body rotted rapidly, hinting at supernatural corruption.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-015", "LOC-001", "QUEST-001", "QUEST-010"]
   },
   {
     "ID": "EVENT-002",
     "Type": "Event",
-    "Name": "Meeting the Ogre Clan",
-    "Content": "Session 02, Ogre Camp. The party meets Rukk and the Ogre clan, informing them of Gurruk's death. They speak with Brakka (Gurruk's wife) and the wisewoman Yarg. Yarg gives a cryptic warning: 'A sickness born of night... The fool fell first. He won’t be the last.' Outcome: The party gains potential allies and learns the rot is a wider problem.",
-    "Related": ["CHAR-003", "CHAR-010", "CHAR-011", "CHAR-012", "LOC-004"]
+    "Name": "Meeting the Ogre Camp",
+    "Content": "Session 02: The party encountered Rukk and other Ogres looking for Gurruk. They delivered the news of Gurruk's death to his wife Brakka and learned from the wisewoman Yarg that Gurruk was acting strangely due to a 'sickness born of night.' Major outcomes: Established alliance with the Ogre camp, learned more about the rot, and received warnings about Myrtle's druidic practices.",
+    "Related": ["CHAR-009", "CHAR-016", "CHAR-040", "LOC-003", "QUEST-001", "QUEST-010"]
   },
   {
     "ID": "EVENT-003",
     "Type": "Event",
     "Name": "First Meeting with Myrtle",
-    "Content": "Session 02, Myrtle's Hut. The party meets the druid Myrtle for tea. She informs them that Billy the Treant was investigating the rot and has gone to Drak'Moru. She warns them about the center of the swamp and asks them to retrieve a Lunar Widow's Bloom. Outcome: The party's main quest to find Billy is clarified, and they get a new objective related to the rot.",
-    "Related": ["CHAR-003", "CHAR-008", "CHAR-009", "LOC-003", "QUEST-001", "QUEST-003"]
+    "Content": "Session 02: The party met the druid Myrtle in her swamp hut. She provided information about Billy's whereabouts, the Ogre relationships, and the lunar nature of the rot. Major outcomes: Learned Billy went to talk to trees in the east and then to Drak'Moru, received warning about the swamp center, and were tasked with finding a Lunar Widow's Bloom.",
+    "Related": ["CHAR-003", "CHAR-010", "CHAR-011", "CHAR-016", "LOC-003", "QUEST-001", "QUEST-002", "QUEST-010"]
   },
   {
     "ID": "EVENT-004",
     "Type": "Event",
-    "Name": "Swamp Encounters: Bloody Bones & The Cursed Flower",
-    "Content": "Sessions 02-03, The Swamp. The party follows whispers, finds a journal, and fights a Bloody Bones and Bog Bodies. They later find a corrupted humanoid begging to be burned and retrieve a Lunar Widow's Bloom, fighting a Moonshadow Beast to get it. Outcome: The party gathers evidence of the rot's effects on people and retrieves the flower for Myrtle.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-008", "LOC-003", "QUEST-001"]
+    "Name": "Swamp Investigations & Bloody Bones Fight",
+    "Content": "Sessions 02-04: The party followed whispers in the swamp, found a journal, and fought a Bloody Bones and three Bog Bodies. They later encountered a corrupted humanoid surrounded by black vines who begged to be burned, and found an Echo Wraith and Lunar Widow's Bloom guarded by a Moonshadow Beast. Major outcomes: Collected crucial evidence about the rot, obtained the Lunar Widow's Bloom, and began understanding the lunar corruption pattern.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-011", "LOC-003", "LOC-019", "QUEST-001", "QUEST-010"]
   },
   {
     "ID": "EVENT-005",
     "Type": "Event",
-    "Name": "The Midsummer Mischief Game",
-    "Content": "Session 05, Sunreach Festival. The party participates in a festival game, completing a list of mischievous tasks including winning an owlbear's trust, capturing a goose, winning a pie-eating contest, and making a bard laugh. Outcome: The party wins a gift basket and 50 gp, strengthening their bond and reputation in Sunreach.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "LOC-001"]
+    "Name": "Journey to Emberfell & The Spirals",
+    "Content": "Sessions 06-08: The party traveled to Drak'Moru, stopping at Emberfell. They encountered Chester in 'the Spirals' who posed three riddles and guided them through a spiral dance. Major outcomes: Saved two days of travel, received a silver coin that reveals hidden paths in moonlight, and discovered the singing tree and mysterious stone in Emberfell.",
+    "Related": ["CHAR-003", "CHAR-034", "LOC-004", "LOC-011", "QUEST-008"]
   },
   {
     "ID": "EVENT-006",
     "Type": "Event",
-    "Name": "Descent into the Singing Tree Cavern",
-    "Content": "Session 06, Emberfell. The party investigates the 'Singing Tree,' discovers a hidden sinkhole, and descends into a mushroom cavern. They fight hostile creatures and find a moon-touched pendant and ancient carvings of a fallen star becoming a seed. Outcome: The party finds direct evidence of lunar influence and corruption underground.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "LOC-007", "QUEST-002"]
+    "Name": "Petalmere Fey Bargain Resolution",
+    "Content": "Session 08: The party investigated the missing Tamson case in Petalmere, performed a ritual to meet the Ash Thorn Court, and entered the Feywild. Major outcomes: Confirmed Tamson was safe and happy in the Feywild, retrieved the ancient bargain scroll, and helped Elder Myla understand the terms of the ancient agreement. Earned 200 gp each and free lodging.",
+    "Related": ["CHAR-003", "CHAR-035", "CHAR-036", "CHAR-047", "LOC-005", "LOC-013", "QUEST-007", "QUEST-012"]
   },
   {
     "ID": "EVENT-007",
     "Type": "Event",
-    "Name": "Journey through The Spirals & The Stone Investigation",
-    "Content": "Sessions 07-08, The Spirals & Emberfell. The party meets Chester, solves his riddles, and performs a spiral dance, receiving a path-revealing coin. They then investigate Maeven's farm, speak with chanting sheep, and descend to the mysterious stone, learning it's a corrupted celestial binding point from Nyx. Outcome: The party gains a travel advantage and deeper understanding of the lunar 'rot' as a corrupting force on celestial magic.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-013", "LOC-008", "LOC-011", "QUEST-002"]
+    "Name": "Drak'Moru Campaign",
+    "Content": "Sessions 10-18: Extended events in Drak'Moru including finding Billy in the Hollow Spire, dealing with Bullywugs and Gatorougarou, delivering Brack's barrel, fighting raptors and Stormseed Broodlings, investigating Leshy mischief, finding Rynn, and clearing Emberfang kobold outposts and their main camp 'The Nest.' Major outcomes: Gained a Bastion (Hollow Spire), reunited Fern with his family, saved Bee Rexes, eliminated the kobold threat, and leveled up to 5 then 6.",
+    "Related": ["CHAR-003", "CHAR-005", "CHAR-010", "CHAR-014", "CHAR-019", "CHAR-024", "CHAR-025", "CHAR-031", "CHAR-032", "CHAR-033", "CHAR-043", "CHAR-048", "CHAR-049", "LOC-006", "LOC-007", "LOC-008", "LOC-010", "LOC-014", "QUEST-002", "QUEST-003", "QUEST-005", "QUEST-006", "QUEST-009", "QUEST-011", "QUEST-019", "QUEST-021", "QUEST-028"]
   },
   {
     "ID": "EVENT-008",
     "Type": "Event",
-    "Name": "The Fey Bargain and Wishing Well",
-    "Content": "Session 08, Petalmere. The party invokes the Ash Thorn Court, enters the Feywild, and learns Tamson chose to stay. They return with proof of the ancient bargain. Later, they use the wishing well, and Drowzel gives cryptic answers about Billy's location, Zara's father, Rynn's activities, and Colm's framing. Outcome: The Petalmere quest is resolved, and each PC receives crucial, personal information guiding their future goals.",
-    "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-009", "CHAR-014", "CHAR-015", "CHAR-019", "CHAR-021", "CHAR-022", "CHAR-024", "LOC-006", "QUEST-002"]
+    "Name": "Wishing Well Revelations",
+    "Content": "Session 08: The party used Drowzel's wishing well in Petalmere, each making a wish that revealed crucial information. Major outcomes: Fern learned Billy was in danger and moving with shadows following him; Zara saw her father as a figure with vines and unnatural silver eyes; Nira saw Rynn in Drak'Moru with Bee Rexes; Colm learned Varyn Crowsblood framed him with the help of an armorer.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-013", "CHAR-014", "CHAR-018", "CHAR-046", "CHAR-050", "LOC-005", "QUEST-003", "QUEST-015", "QUEST-020"]
   },
   {
     "ID": "EVENT-009",
     "Type": "Event",
-    "Name": "Finding Billy and Claiming the Bastion",
-    "Content": "Session 10, The Hollow Spire, Mudwater Bend. The party finds Billy rooted inside the sentient tree, the Hollow Spire. After discussions, they agree to a trial period, and the tree becomes their personal extradimensional base (Bastion). Outcome: Fern is reunited with Billy, and the party gains a huge strategic asset and a home base.",
-    "Related": ["CHAR-003", "CHAR-009", "CHAR-016", "CHAR-017", "CHAR-018", "LOC-005", "QUEST-003"]
+    "Name": "Stonehaven Shores Investigation",
+    "Content": "Session 27: The party arrived in Stonehaven Shores and investigated Colm's bounty origins. They fought massive anacondas on the journey, and Brynd experimented with snake venom. Major outcomes: Discovered tournament records proving Colm was framed, learned Tyber was sighted alive after the tournament, identified Noa Youtil as the potential real target, and learned about local mysteries including a missing storyteller and uncovered crypt.",
+    "Related": ["CHAR-004", "CHAR-021", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-029", "CHAR-030", "CHAR-038", "CHAR-051", "LOC-009", "LOC-015", "LOC-016", "QUEST-004", "QUEST-013", "QUEST-014", "QUEST-022", "QUEST-023", "QUEST-024", "QUEST-025"]
   },
   {
     "ID": "EVENT-010",
     "Type": "Event",
-    "Name": "Bullywug and Gatorougarou Hunt",
-    "Content": "Session 10, Hollow Pools, Mudwater Bend. The party confronts and kills Bullywugs led by Sage Splup. The fight attracts a Gatorougarou, which they also kill. Outcome: The party earns a reward from Mawmaw Roux and clears a local threat.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-016", "QUEST-004"]
+    "Name": "Sunreach Festival Games",
+    "Content": "Session 05: The party participated in Midsummer Festival games involving mischief, including winning an owlbear's trust, hitting a magical dartboard, capturing a goose, pie eating contests, making a bard laugh, finding 'The Egg,' and recapturing escaped waterfowl. Major outcomes: Won a gift basket and 50 gp from Auntie Belba, gained magical items (pipe, bowstring, kindling companion), and saw job postings for future adventures.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-012", "LOC-001", "QUEST-017"]
   },
   {
     "ID": "EVENT-011",
     "Type": "Event",
-    "Name": "Raptor Ambush and Zara's Patron",
-    "Content": "Session 11, Journey to Wildrunner Outpost. The party is ambushed by Raptors. One is sucked into the ground by fiery chains after being hit by Zara's Hellish Rebuke, sparking a conversation about her mysterious patron. Outcome: The party survives an ambush, and more is revealed about Zara's powers and backstory.",
-    "Related": ["CHAR-001"]
+    "Name": "Mysterious Stone Investigation",
+    "Content": "Session 07: The party investigated the mysterious glowing stone on Maeven's farm in Emberfell. They experienced strange dreams, communicated with possessed sheep, and explored an underground tunnel that opened near the stone. Major outcomes: Discovered the stone was part of Nyx, fought an Ashy Entity, learned it was a celestial binding point being used for corruption, and removed the stone to disperse its negative effects.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-042", "LOC-004", "QUEST-008", "QUEST-010", "QUEST-027"]
   },
   {
     "ID": "EVENT-012",
     "Type": "Event",
-    "Name": "Encounter with the Leshy",
-    "Content": "Session 14, Ravine near Wildrunner Outpost. The party finds Leshy who explain they took food and tools to build wards against 'the change'—the moon rot. They reveal the Bee Rex Queen is gone and the hive is quiet. Outcome: The party learns the rot is feared even in the Underdark and that the lunar event affected the Bee Rexes, connecting two quest lines.",
-    "Related": ["CHAR-003", "CHAR-025", "QUEST-005", "QUEST-006"]
+    "Name": "Arya's Binding Contract",
+    "Content": "Session 01 (implied): Arya finally formed his binding contract with the party when drops of his sweat fell on them while they were traveling. This occurred after 60 years of waiting and failed attempts. Major outcomes: Arya became the party's protector fairy, could collect stamina/magic from them to convert into fairy dust, and fulfilled his lifelong dream.",
+    "Related": ["CHAR-002", "CHAR-007", "CHAR-008", "CHAR-022", "QUEST-016"]
   },
   {
     "ID": "EVENT-013",
     "Type": "Event",
-    "Name": "Nira and Rynn Reunited",
-    "Content": "Session 14, Snagroot Village. Nira is finally reunited with Rynn. He explains he was on a side adventure with the Bee Rexes, got stranded, and has been at the village for two weeks. Outcome: Nira's personal quest to find Rynn is completed.",
-    "Related": ["CHAR-005", "CHAR-007", "CHAR-014", "LOC-009", "QUEST-001"]
+    "Name": "Zara's Heritage Revelations",
+    "Content": "Multiple Sessions: Ongoing revelations about Zara's heritage including learning about her Pallid Elf royalty parents, her infernal father from the Nine Hells, and seeing her father's corrupted form through the wishing well. Major outcomes: Zara learned her father is 'part of the roots now' with vines around his feet and unnatural silver eyes, connecting him to the lunar corruption they're fighting.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-045", "CHAR-046", "LOC-002", "LOC-012", "QUEST-010", "QUEST-015"]
   },
   {
     "ID": "EVENT-014",
     "Type": "Event",
-    "Name": "Assault on the Emberfang Outposts",
-    "Content": "Sessions 15-17, Drak'Moru. The party attacks three Emberfang Kobold outposts. They find evidence of Slaad infestations and Tunnel Howlers, free a captured Bee Rex, and discover a map pointing to 'The Nest.' Outcome: The party weakens the kobolds, gains intelligence, and levels up.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-025", "CHAR-026", "QUEST-006"]
+    "Name": "Barrel Delivery Journey",
+    "Content": "Sessions 11-13: The party delivered Brack's mysterious barrel to the Wildrunners, being warned not to shake it and to ignore it if it sang. They faced river obstacles, multiple raptor attacks, and Stormseed Broodlings. Major outcomes: Successfully delivered the barrel, earned 100 gp and a bag of holding, and established better relations with the Wildrunner clan.",
+    "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-024", "CHAR-043", "LOC-008", "QUEST-009"]
   },
   {
     "ID": "EVENT-015",
     "Type": "Event",
-    "Name": "Clearing The Nest",
-    "Content": "Session 18, The Nest. The party assaults the main Emberfang encampment. They free imprisoned Wildrunners, defeat a half-red dragon Indominus Rex, and clear the complex of kobolds, rescuing young Bee Rexes. Outcome: The Emberfang threat is neutralized, solidifying the party's alliance with the Wildrunners.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-025", "CHAR-026", "LOC-010", "QUEST-006"]
+    "Name": "Colm's Framing Discovery",
+    "Content": "Session 27: Through tournament records in Stonehaven Shores, Colm discovered the full extent of how he was framed. Major outcomes: Learned the poison residue matched samples from royal stores, the records were amended by royal order, the original scribe was removed, and Tyber (the supposed victim) was sighted alive multiple times after the tournament.",
+    "Related": ["CHAR-004", "CHAR-013", "CHAR-021", "CHAR-028", "CHAR-029", "CHAR-038", "CHAR-050", "CHAR-051", "LOC-009", "LOC-015", "QUEST-004", "QUEST-025"]
   },
   {
     "ID": "EVENT-016",
     "Type": "Event",
-    "Name": "Fern's Family Reunion",
-    "Content": "Session 18, Outside The Nest. After clearing the camp, Fern is reunited with his family, who were searching for Billy. After learning Billy is on his own path, the family decides to return home with Fern as their guide. Outcome: Fern's personal story arc reaches a milestone, and he plans to return to his forest.",
-    "Related": ["CHAR-003", "CHAR-009"]
+    "Name": "Strange Travel Encounters",
+    "Content": "Session 06: During travel to Drak'Moru, the party encountered a flock of translucent birds and an empty campsite with delicious smelling foreign food that was still warm but abandoned. During night watches, various strange things happened, and Zara talked in her sleep with her whispering bow. Major outcomes: Established the mysterious atmosphere of their journey and hinted at supernatural elements in the world.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005"]
   },
   {
     "ID": "EVENT-017",
-    "Type": "Event", 
-    "Name": "Arrival at Stonehaven Shores & Record Investigation",
-    "Content": "Session 27, Stonehaven Shores. The party arrived at the goliath retirement community after journeying from Thornscar Hold. En route, they fought anacondas (sparking philosophical debate about souls) and sneaked past dinosaurs. In Stonehaven, they investigated why Colm's bounty originated here. Elder Marrin Broadshoulder revealed: 1) Conflicting reports about the tournament placed the warrant on hold, 2) Tyber was seen alive after the tournament, 3) Tournament records showed Colm's blade residue matched royal store samples, and 4) Records were amended under royal order. Colm described his dream banner and realized Noa might be the poison's actual target. The party learned of local events (Stoneball Classic, missing storyteller, uncovered crypt, champion brawls) and decided to investigate the crypt. Tom Bouldertstep's walking stick washed ashore, but he returned days later naked and confused. Outcome: Major revelations about Colm's framing, decision to stay and investigate local mysteries.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-029", "CHAR-030", "CHAR-031", "CHAR-032", "CHAR-033", "CHAR-034", "CHAR-035", "CHAR-036", "LOC-013", "QUEST-009"]
+    "Type": "Event",
+    "Name": "Ruined Waystation Discovery",
+    "Content": "Session 06: The party found a ruined waystation where Zara revealed more about her background - that her mother and stepfather are Pallid Elf royalty, her half-brother is the current regent who sent her away, and her parents are missing. They also found a magical moon-related coin. Major outcomes: Significant character development for Zara and acquisition of a plot-relevant magical item.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-045", "QUEST-015"]
+  },
+  {
+    "ID": "EVENT-018",
+    "Type": "Event",
+    "Name": "Singing Tree Cavern Exploration",
+    "Content": "Session 06: The party investigated the 'Singing Tree' in Emberfell, discovered a hidden sinkhole, and explored a mushroom cavern below. They fought creatures (which Fern thought they could have talked to) and found a moon-touched pendant and lunar runes. Major outcomes: Discovered ancient carvings depicting a fallen star that becomes a seed, connecting to the larger celestial mystery.",
+    "Related": ["CHAR-003", "CHAR-041", "LOC-004"]
+  },
+  {
+    "ID": "EVENT-019",
+    "Type": "Event",
+    "Name": "Shared Strange Dreams",
+    "Content": "Session 07: During a long rest in Emberfell, the party experienced interconnected strange dreams. Arya and Zara dreamed of ash figures walking into fog with different masks; Colm dreamed of sinking into silver dust soil with something hungry pulsing beneath; Fern dreamed of a cracked sky with a silver moon shard crying liquid light. Major outcomes: Revealed the party's psychic connection and provided cosmic foreshadowing about the lunar threat.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004"]
+  },
+  {
+    "ID": "EVENT-020",
+    "Type": "Event",
+    "Name": "Zara's Bloodlust Manifestation",
+    "Content": "Session 16: After fighting Slaad in the Emberfang caves, Zara's unsatisfied bloodlust caused her to kill mushrooms and attempt to kill a nonexistent fish. This followed earlier discussions about her growing darkness and the party's concerns about her violent tendencies. Major outcomes: Highlighted Zara's internal struggle with her infernal heritage and growing bloodlust.",
+    "Related": ["CHAR-001", "CHAR-004"]
+  },
+  {
+    "ID": "EVENT-021",
+    "Type": "Event",
+    "Name": "Bastion Acquisition Ceremony",
+    "Content": "Session 10: The party formally agreed to give the Hollow Spire tree a 'trial period' as their Bastion. They learned the tree's interior is an extradimensional space that can change according to their needs. Billy would serve as the tree's voice. Major outcomes: The party gained a permanent home base (Bastion) upon reaching level 5, with Barkle providing the Moss Key for weekly access.",
+    "Related": ["CHAR-003", "CHAR-010", "CHAR-020", "CHAR-037", "CHAR-048", "LOC-007", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-022",
+    "Type": "Event",
+    "Name": "Fern's Family Reunion",
+    "Content": "Session 18: After clearing 'The Nest,' Fern was reunited with his family of walking trees who had been searching for Billy. After learning Billy was on his own path, the family decided to return home with Fern guiding them. Major outcomes: Emotional closure for Fern's personal quest, tears and farewells, and Fern's decision to see to his own forest.",
+    "Related": ["CHAR-003", "CHAR-010", "CHAR-049", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-023",
+    "Type": "Event",
+    "Name": "Snake Encounter & Brynd's Venom Experiment",
+    "Content": "Session 27: The party fought massive anacondas on the ridge path to Stonehaven Shores. This sparked a philosophical discussion about whether snakes and goblins have souls. Brynd then recklessly swallowed snake venom to build resistance, resulting in violent illness and foaming at the mouth before partially healing himself with ki energy. Major outcomes: Character development for Brynd, establishment of his reckless nature, and Zara later confirmed snakes do have souls.",
+    "Related": ["CHAR-001", "CHAR-026", "LOC-009", "QUEST-024"]
+  },
+  {
+    "ID": "EVENT-024",
+    "Type": "Event",
+    "Name": "Dinosaur Stealth Passage",
+    "Content": "Session 27: The party encountered a family of broad-shelled, long-necked dinosaurs lounging across the sunny path. Choosing stealth over confrontation, they successfully sneaked past with only one minor stumble. Major outcomes: Demonstrated the party's growing competence and provided a peaceful resolution to a potential combat encounter.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026"]
+  },
+  {
+    "ID": "EVENT-025",
+    "Type": "Event",
+    "Name": "Colm's Bounty Tension in Stonehaven",
+    "Content": "Session 27: Upon arriving in Stonehaven Shores, concern arose about Colm's bounty poster originating from the town. Zara and Brynd suggested disguises, but Colm walked forward with pride and indifference. Zara offered to kill anyone who threatened him, which Colm pointedly ignored. Major outcomes: Highlighted the tension around Colm's bounty and the complex dynamics between party members.",
+    "Related": ["CHAR-001", "CHAR-004", "CHAR-026", "LOC-009"]
+  },
+  {
+    "ID": "EVENT-026",
+    "Type": "Event",
+    "Name": "Arya's Thirst for Civilization",
+    "Content": "Session 27: Upon reaching Stonehaven Shores, Arya felt immediate relaxation and developed a powerful thirst for alcohol. Zara accommodated him by providing coins for drinks. Major outcomes: Character moment highlighting Arya's appreciation for civilization after extended wilderness travel and demonstrating party camaraderie.",
+    "Related": ["CHAR-001", "CHAR-002", "LOC-009"]
+  },
+  {
+    "ID": "EVENT-027",
+    "Type": "Event",
+    "Name": "Zara's Sober Commitment",
+    "Content": "Session 05: After festival activities, Zara committed to being the party's sober member from that point forward. This followed earlier discussions about substance use and her growing concerns about maintaining control. Major outcomes: Character development showing Zara's sense of responsibility and her efforts to control her darker impulses.",
+    "Related": ["CHAR-001"]
+  },
+  {
+    "ID": "EVENT-028",
+    "Type": "Event",
+    "Name": "Fern's Cooking Frustration",
+    "Content": "Session 14: At Snagroot Village, Fern served a fruit and nut platter and cooked Raptor stew and honey baked Raptor ham. Arya was so annoying during the process that it broke Fern's typically chill vibe. Major outcomes: Character interaction showing party dynamics and Fern's limits when it comes to his culinary arts.",
+    "Related": ["CHAR-002", "CHAR-003"]
+  },
+  {
+    "ID": "EVENT-029",
+    "Type": "Event",
+    "Name": "Nira and Rynn's Reunion",
+    "Content": "Session 14: Nira was finally reunited with Rynn at Snagroot Village. She explained she spent lots of time and most of her money following him, worrying about his safety. He explained he went on a sideways adventure involving Bee Rexes and got stranded. Major outcomes: Resolution of Nira's personal quest, emotional reunion, and the party discussing mating rituals during the intimate moment.",
+    "Related": ["CHAR-005", "CHAR-014", "QUEST-003"]
+  },
+  {
+    "ID": "EVENT-030",
+    "Type": "Event",
+    "Name": "Tea Merchant Encounter",
+    "Content": "Session 06: The party came across travelling tea merchants and some members bought magical teas. This provided a moment of commerce and normalcy during their dangerous journey. Major outcomes: Acquisition of potentially useful magical items and a brief respite from the constant threats.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005"]
   }
 ]
