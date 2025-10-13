@@ -207,7 +207,7 @@
   "Type": "PC",
   "Name": "Brynd",
   "Content": "",
-  "Related": [QUEST-010]
+  "Related": ["QUEST-010"]
   },
   {
     "ID": "CHAR-031",
