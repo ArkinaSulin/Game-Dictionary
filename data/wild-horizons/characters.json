@@ -201,5 +201,61 @@
   "Name": "Zara's Birth Father",
   "Content": "An entity of the Nine Hells. The mystery of his identity and nature is central to Zara's personal quest. His connection to the Pallid Elf kingdom of Sian'dorai is facilitated by a hidden gateway to the Nine Hells located deep within the mountain realm. Status and current whereabouts are unknown.",
   "Related": ["CHAR-001", "LOC-013"]
-}
+  },
+  {
+    "ID": "CHAR-029",
+    "Type": "NPC",
+    "Name": "Valdrek Tidewatcher",
+    "Content": "Village leader of Stonehaven Shores, formerly known as 'Granite-Eyes Valdrek'. A goliath elder who leads the retirement community. Met in Session 27.",
+    "Related": ["LOC-013", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-030",
+    "Type": "NPC", 
+    "Name": "Elder Marrin Broadshoulder",
+    "Content": "Female goliath record keeper of Stonehaven Shores. Maintains archives containing records from all retired record keepers. Revealed conflicting reports about Colm's tournament and confirmed Tyber was seen alive after the event. Knowledgeable about souls and confirmed snakes have them. Met in Session 27.",
+    "Related": ["CHAR-004", "LOC-013", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-031", 
+    "Type": "NPC",
+    "Name": "Tom Bouldertstep",
+    "Content": "A resident of Stonehaven Shores who went missing. His walking stick washed up on shore, leading to assumptions of his death. Returned to town days later naked and confused with no memory of his disappearance. Met in Session 27.",
+    "Related": ["LOC-013", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-032",
+    "Type": "NPC",
+    "Name": "Tyber",
+    "Content": "The noble heir Colm was accused of poisoning during the Royal Summit Tournament. According to records examined in Session 27, he has been sighted in multiple locations near Itinit after the tournament, meaning he survived or was resurrected. Status: Alive (sighted post-tournament).",
+    "Related": ["CHAR-004", "CHAR-022", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-033",
+    "Type": "NPC", 
+    "Name": "Noa Youtil",
+    "Content": "Duelist of the High Glacier who participated in the Royal Summit Tournament. Helped Colm escape after the poisoning incident. Now potentially a target since the poison may not have been meant for Tyber. Status: Location unknown, potentially in danger.",
+    "Related": ["CHAR-004", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-034",
+    "Type": "NPC",
+    "Name": "Wesper Troia", 
+    "Content": "Heir of Frosthallow House Troia who participated in the Royal Summit Tournament. Helped Colm escape after the poisoning incident. Status: Location unknown.",
+    "Related": ["CHAR-004", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-035",
+    "Type": "NPC",
+    "Name": "Aeowen Fidl",
+    "Content": "Captain of the Frostguard who participated in the Royal Summit Tournament. Status: Unknown.",
+    "Related": ["CHAR-004", "EVENT-017"]
+  },
+  {
+    "ID": "CHAR-036",
+    "Type": "NPC",
+    "Name": "G. S.",
+    "Content": "Initials found in margin note of tournament records indicating the residue on Colm's halberd matched samples confiscated from royal stores. Identity unknown but likely an investigator or royal official.",
+    "Related": ["CHAR-004", "CHAR-022", "EVENT-017"]
+  }
 ]
