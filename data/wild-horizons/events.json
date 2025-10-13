@@ -110,5 +110,12 @@
     "Name": "Fern's Family Reunion",
     "Content": "Session 18, Outside The Nest. After clearing the camp, Fern is reunited with his family, who were searching for Billy. After learning Billy is on his own path, the family decides to return home with Fern as their guide. Outcome: Fern's personal story arc reaches a milestone, and he plans to return to his forest.",
     "Related": ["CHAR-003", "CHAR-009"]
+  },
+  {
+    "ID": "EVENT-017",
+    "Type": "Event", 
+    "Name": "Arrival at Stonehaven Shores & Record Investigation",
+    "Content": "Session 27, Stonehaven Shores. The party arrived at the goliath retirement community after journeying from Thornscar Hold. En route, they fought anacondas (sparking philosophical debate about souls) and sneaked past dinosaurs. In Stonehaven, they investigated why Colm's bounty originated here. Elder Marrin Broadshoulder revealed: 1) Conflicting reports about the tournament placed the warrant on hold, 2) Tyber was seen alive after the tournament, 3) Tournament records showed Colm's blade residue matched royal store samples, and 4) Records were amended under royal order. Colm described his dream banner and realized Noa might be the poison's actual target. The party learned of local events (Stoneball Classic, missing storyteller, uncovered crypt, champion brawls) and decided to investigate the crypt. Tom Bouldertstep's walking stick washed ashore, but he returned days later naked and confused. Outcome: Major revelations about Colm's framing, decision to stay and investigate local mysteries.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-029", "CHAR-030", "CHAR-031", "CHAR-032", "CHAR-033", "CHAR-034", "CHAR-035", "CHAR-036", "LOC-013", "QUEST-009"]
   }
 ]
