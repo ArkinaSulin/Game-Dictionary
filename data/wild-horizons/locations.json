@@ -89,5 +89,12 @@
   "Name": "Sian'dorai",
   "Content": "The hidden kingdom of the Pallid Elves, carved deep beneath the Starsong Hills. The city is a marvel of elven architecture, with glowing quartz-and-crystal spires illuminated by enchanted braziers that create an eternal, starry twilight. Zara was raised here by her mother and step-father, the ruling Pallid Elf monarchs. The kingdom holds a dark secret: a gateway to the Nine Hells exists within its depths, which is tied to the mystery of Zara's birth father.",
   "Related": ["CHAR-001", "CHAR-029"]
+  },
+  {
+    "ID": "LOC-014",
+    "Type": "Location", 
+    "Name": "Stonehaven Shores",
+    "Content": "A goliath retirement community on the coast where the sea meets the edge of the wilds. Predominantly populated by elderly goliaths, known for its extremely relaxed atmosphere. The town maintains extensive archives containing records from retired record keepers. Points of interest: record archives, shoreline where Tom's walking stick washed up, local crypt uncovered by tides. Key characters: Valdrek Tidewatcher (leader), Elder Marrin Broadshoulder (record keeper), Tom Bouldertstep. The party arrived here in Session 27 to investigate why Colm's bounty originated from this distant location.",
+    "Related": ["CHAR-004", "CHAR-029", "CHAR-030", "CHAR-031", "EVENT-017"]
   }
 ]
