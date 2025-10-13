@@ -148,9 +148,9 @@
   },
   {
     "ID": "CHAR-026",
-    "Type": "NPC",
+    "Type": "PC",
     "Name": "Brynd",
-    "Content": "Met in Session 27. A party member (PC). Philosophical and reckless, he wondered about the souls of snakes and goblins, then attempted to build resistance to snake venom by swallowing it, resulting in violent illness. Uses ki energy. Alive.",
+    "Content": "Met in Session 27. Philosophical and reckless, he wondered about the souls of snakes and goblins, then attempted to build resistance to snake venom by swallowing it, resulting in violent illness. Uses ki energy. Alive.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "LOC-009", "LOC-017", "EVENT-009", "EVENT-023", "EVENT-024", "EVENT-025", "QUEST-024", "QUEST-026"]
   },
   {
