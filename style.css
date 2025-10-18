@@ -190,7 +190,7 @@ header {
     border-radius: 12px;
 }
 
-/* Sort Controls */
+/* Enhanced Sort Controls */
 .sort-controls {
     display: flex;
     gap: 0.5rem;
@@ -199,6 +199,7 @@ header {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     border: 1px solid var(--border-color);
+    flex-wrap: wrap;
 }
 
 .sort-btn {
@@ -211,17 +212,40 @@ header {
     cursor: pointer;
     transition: all 0.3s ease;
     flex: 1;
-}
-
-.sort-btn:hover {
-    background: var(--hover-bg);
-    border-color: var(--primary-color);
+    min-width: 80px;
 }
 
 .sort-btn.active {
     background: var(--selected-bg);
     border-color: var(--primary-color);
     color: var(--primary-color);
+}
+
+.sort-btn.active {
+    background: var(--selected-bg);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* Session Number Styles */
+.index-session {
+    font-size: 0.7em;
+    color: #888;
+    background: rgba(240, 165, 0, 0.2);
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 1px solid rgba(240, 165, 0, 0.4);
+}
+
+.content-session {
+    font-size: 0.8em;
+    color: var(--primary-color);
+    background: rgba(240, 165, 0, 0.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+    border: 1px solid rgba(240, 165, 0, 0.4);
 }
 
 /* Index List */
@@ -249,6 +273,7 @@ header {
     border: 1px solid transparent;
     transition: all 0.3s ease;
     background: rgba(255, 255, 255, 0.05);
+    gap: 8px;
 }
 
 .index-item:hover {
@@ -272,6 +297,7 @@ header {
     flex: 1;
     margin-right: 8px;
     font-size: 0.9rem;
+    min-width: 0; /* Allow text truncation */
 }
 
 .index-type {
@@ -282,6 +308,7 @@ header {
     padding: 3px 6px;
     border-radius: 10px;
     border: 1px solid rgba(240, 165, 0, 0.4);
+    white-space: nowrap;
 }
 
 /* Search and Content */

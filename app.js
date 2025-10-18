@@ -101,6 +101,7 @@ class CampaignWiki {
         const name = node.Name || node.name;
         const content = node.Content || node.content;
         const related = node.Related || [];
+        const session = node.Session || node.session || 0; // Extract session number
 
         if (!id || !name || !type) {
             console.warn('Skipping invalid node:', node);
@@ -116,6 +117,7 @@ class CampaignWiki {
             name: name,
             content: content || 'No description available.',
             tags: tags,
+            session: parseInt(session) || 0, // Add session number to normalized node
             rawData: {
                 ...node,
                 Related: this.normalizeRelatedData(related)
@@ -333,6 +335,8 @@ class CampaignWiki {
         sortControls.innerHTML = `
             <button class="sort-btn active" data-sort="name">A-Z</button>
             <button class="sort-btn" data-sort="type">Type</button>
+            <button class="sort-btn" data-sort="session">Session#</button>
+            <button class="sort-btn" data-sort="session-reverse">Rev. Session#</button>
         `;
         
         const leftPanel = document.querySelector('.left-panel');
@@ -375,6 +379,24 @@ class CampaignWiki {
                     return typeCompare;
                 });
                 break;
+            case 'session':
+                sortedNodes = [...this.currentData].sort((a, b) => {
+                    const sessionCompare = a.session - b.session;
+                    if (sessionCompare === 0) {
+                        return a.name.localeCompare(b.name);
+                    }
+                    return sessionCompare;
+                });
+                break;
+            case 'session-reverse':
+                sortedNodes = [...this.currentData].sort((a, b) => {
+                    const sessionCompare = b.session - a.session;
+                    if (sessionCompare === 0) {
+                        return a.name.localeCompare(b.name);
+                    }
+                    return sessionCompare;
+                });
+                break;
             default:
                 sortedNodes = [...this.currentData];
         }
@@ -395,9 +417,14 @@ class CampaignWiki {
         sortedNodes.forEach((node, index) => {
             const item = document.createElement('div');
             item.className = 'index-item';
+            
+            // Add session number display if available and not zero
+            const sessionInfo = node.session > 0 ? `<span class="index-session">S${node.session}</span>` : '';
+            
             item.innerHTML = `
                 <span class="index-name">${node.name}</span>
                 <span class="index-type">${node.type}</span>
+                ${sessionInfo}
             `;
             item.dataset.id = node.id;
             item.dataset.index = index;
@@ -553,6 +580,7 @@ class CampaignWiki {
             <div class="content-header">
                 <h2 class="content-title">${node.name}</h2>
                 <span class="content-type">${node.type}</span>
+                ${node.session > 0 ? `<span class="content-session">Session ${node.session}</span>` : ''}
             </div>
             <div class="content-body">
                 <p>${node.content}</p>
@@ -578,24 +606,24 @@ class CampaignWiki {
         }
 
         const related = currentNode.rawData.Related;
-        const allRelatedNames = [
+        const allRelatedIds = [
             ...(related.Character || []),
             ...(related.Location || []),
             ...(related.Event || []),
             ...(related.Quest || [])
         ];
 
-        if (allRelatedNames.length === 0) {
+        if (allRelatedIds.length === 0) {
             relatedList.innerHTML = '<p class="placeholder">No related entries</p>';
             this.updateCounts(this.currentData.length, 0);
             return;
         }
 
-        // Find actual node objects for related names
+        // Find actual node objects for related IDs and get their names
         const relatedNodes = this.currentData.filter(node => 
-            allRelatedNames.some(name => 
-                node.name.toLowerCase() === name.toLowerCase() || 
-                node.id.toLowerCase() === name.toLowerCase()
+            allRelatedIds.some(id => 
+                node.name.toLowerCase() === id.toLowerCase() || 
+                node.id.toLowerCase() === id.toLowerCase()
             )
         );
 
