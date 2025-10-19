@@ -3,6 +3,7 @@
     "ID": "QUEST-001",
     "Type": "Quest",
     "Name": "Heal Mask's Fractured Mind",
+    "Session": "25",
     "Content": "Status: Ongoing. Given by the party's collective concern, starting around Session 25. The goal is to find a cure for Mask's mental instability, confusion, and multiple personas. The party sought out Elandra Hallowheart in Tempest's Refuge for an initial diagnosis and patch. Later, Gloriosa performed a dangerous mindscape procedure to remove the parasitic persona Fendril. Mask has regained control, but the quest for complete mental stability and understanding continues, now tied to divine mysteries. Notable reward: Mask's sanity and the revelation of Fendril as a separate entity.",
     "Related": ["CHAR-001", "CHAR-007", "CHAR-012", "CHAR-022", "LOC-003", "LOC-009", "LOC-028", "EVENT-005", "EVENT-016", "QUEST-007"]
   },
@@ -10,13 +11,15 @@
     "ID": "QUEST-002",
     "Type": "Quest",
     "Name": "Recover Vyphira's Stolen Tools and Armor",
-    "Content": "Status: Ongoing. Initiated by Vyphira after discovering her stolen armor for sale in Session 29. The goal is to track down the thieves (Voraxik Valarnn, Kharzid Tazek, and Shavara Sablefang) and recover her stolen craftsmanship and Sorrax Shieldweaver's family heirlooms. The trail has led them to Drifthold and Ironhowl Forge, where they have set a trap. Notable reward: Restoration of Vy's property and potential crafting advancements.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-030", "CHAR-031", "LOC-004", "LOC-005", "LOC-027", "EVENT-015", "EVENT-018"]
+    "Session": "29",
+    "Content": "Status: In Progress (Major Development). A personal quest for Vyphira. She discovered her stolen armor for sale in Session 29. The goal is to track down the thieves and recover her stolen craftsmanship and Sorrax Shieldweaver's family heirlooms. In Session 41, the party ambushed the thieves at Ironhowl Forge, capturing Voraxik and Shavara, and killing Kharzid. They recovered Torva Ironhowl's tool set and learned from Voraxik that a powerful Beholder is forcing them to collect all existing sets of these tools, and that speaking its name would be fatal. The immediate tools are secured, but the mastermind remains.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-055", "LOC-004", "LOC-005", "LOC-027", "LOC-060", "EVENT-015", "EVENT-018", "EVENT-038"]
   },
   {
     "ID": "QUEST-003",
     "Type": "Quest",
     "Name": "Journey to Tempest's Refuge",
+    "Session": "26",
     "Content": "Status: Completed (Session 26). Given by the party's need to find a healer for Mask. The goal was to travel from Cloudfoot Keep, through the Greenmurk Forest and plains, to reach the city of Tempest's Refuge. The journey included surviving an Imminent Convergence storm and a brutal encounter with cannibals. Notable reward: Reaching the city and accessing the healer Elandra Hallowheart.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-001", "LOC-002", "LOC-006", "LOC-007", "EVENT-001", "EVENT-002", "EVENT-004"]
   },
@@ -24,13 +27,15 @@
     "ID": "QUEST-004",
     "Type": "Quest",
     "Name": "Appease Azmir with a Worthy Hunt",
-    "Content": "Status: Ongoing. A personal quest for Sili, crystallized after the unworthy killing of Elandra. The goal is to find and defeat a target deemed worthy by his god Azmir, to atone for the murder of an innocent. Sili has identified the slender man from The Gale as a potential target. Notable reward: Divine favor and personal redemption for Sili.",
+    "Session": "0",
+    "Content": "Status: Ongoing. A personal quest for Sili, crystallized after the unworthy killing of Elandra in Session 27. The goal is to find and defeat a target deemed worthy by his god Azmir, to atone for the murder of an innocent. Sili has identified the slender man from The Gale as a potential target. Notable reward: Divine favor and personal redemption for Sili.",
     "Related": ["CHAR-005", "CHAR-008", "EVENT-006"]
   },
   {
     "ID": "QUEST-005",
     "Type": "Quest",
     "Name": "Rescue Lady Seriss from The Gale",
+    "Session": "27",
     "Content": "Status: Ongoing. Forced upon the party by the slender Gale operative in Session 27. The goal was initially to find Flora Mourne to trade for Lady Seriss, but after Mask's betrayal of The Gale, it became a direct rescue mission. The party knows her location is unknown and that she is alive but captive. Notable reward: Freedom of their noble companion.",
     "Related": ["CHAR-006", "CHAR-008", "CHAR-025", "EVENT-007", "EVENT-009", "EVENT-011"]
   },
@@ -38,27 +43,31 @@
     "ID": "QUEST-006",
     "Type": "Quest",
     "Name": "Aid the Changeling Refugees",
-    "Content": "Status: Completed (Session 29). Given by Flora Mourne and Veil after the party discovered their safe-house. The goal was to help smuggle the changeling refugees, including the pregnant Veil and several children, out of Tempest's Refuge to safety in Drifthold. The party successfully deceived the city guards and escorted them to the road. Notable reward: The gratitude of the refugees and a step toward redemption for Elandra's murder.",
+    "Session": "28",
+    "Content": "Status: Completed (Session 29). Given by Flora Mourne and Veil after the party discovered their safe-house in Session 28. The goal was to help smuggle the changeling refugees, including the pregnant Veil and several children, out of Tempest's Refuge to safety in Drifthold. The party successfully deceived the city guards and escorted them to the road. Notable reward: The gratitude of the refugees and a step toward redemption for Elandra's murder.",
     "Related": ["CHAR-001", "CHAR-009", "CHAR-013", "CHAR-014", "CHAR-015", "LOC-003", "LOC-010", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014"]
   },
   {
     "ID": "QUEST-007",
     "Type": "Quest",
     "Name": "Find Gloriosa's Missing Daughter, Faudana",
-    "Content": "Status: Ongoing. Personal quest for Gloriosa, adopted by Fauda and the party. The goal is to locate Faudana, who vanished at age twelve during a lunar ceremony and is believed to be connected to the goddess Nyxara. Gloriosa has dreams of her in a silver pool, similar to Mask's vision. The trail leads to Solara. Notable reward: Family reunion and potentially key information about Nyxara and Tana.",
+    "Session": "30",
+    "Content": "Status: Ongoing. Personal quest for Gloriosa, adopted by Fauda and the party after their reunion in Session 30. The goal is to locate Faudana, who vanished at age twelve during a lunar ceremony and is believed to be connected to the goddess Nyxara. Gloriosa has dreams of her in a silver pool, similar to Mask's vision. The trail leads to Solara. Notable reward: Family reunion and potentially key information about Nyxara and Tana.",
     "Related": ["CHAR-002", "CHAR-012", "CHAR-033", "CHAR-048", "LOC-011", "EVENT-013", "EVENT-025", "QUEST-001"]
   },
   {
     "ID": "QUEST-008",
     "Type": "Quest",
     "Name": "Master Runic Theory",
-    "Content": "Status: Ongoing. A personal/side quest for the party, particularly Fauda. The goal is to learn the art of runic magic from Drath Wordbinder. The party has begun studying with him, and Fauda has shown aptitude with the Wand of Air Glyphs. Notable reward: New magical capabilities and a deeper understanding of the world's magic system.",
+    "Session": "40",
+    "Content": "Status: Ongoing. A personal/side quest for the party, particularly Fauda, beginning around Session 40. The goal is to learn the art of runic magic from Drath Wordbinder. The party has begun studying with him, and Fauda has shown aptitude with the Wand of Air Glyphs. Notable reward: New magical capabilities and a deeper understanding of the world's magic system.",
     "Related": ["CHAR-002", "CHAR-015", "LOC-020", "LOC-030", "EVENT-029"]
   },
   {
     "ID": "QUEST-009",
     "Type": "Quest",
     "Name": "Find and Rescue Alira Crimm",
+    "Session": "35-38",
     "Content": "Status: Completed (Sessions 35-38). Given by Lord Halen Crimm in Session 35. The goal was to locate his missing daughter, ensure she had left willingly and safely, and convince her to return home. The party tracked her to a dragon cult, discovered she was a copper dragon, and rescued her from being sacrificed in a ritual. Notable reward: Draconic Boons, valuable items, and the favor of a powerful noble (and dragon).",
     "Related": ["CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-044", "LOC-013", "LOC-014", "LOC-015", "LOC-016", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030"]
   },
@@ -66,6 +75,7 @@
     "ID": "QUEST-010",
     "Type": "Quest",
     "Name": "Fulfill the Blood Pact with the Vale Mages",
+    "Session": "30",
     "Content": "Status: Pending. Forced upon the party as a condition of entry into Drifthold in Session 30. The goal is unspecified but involves an obligation to Jorren and Megara Vale, two vile and unpredictable mages who control one of the city's legs. The party is magically bound by a blood pact to meet with them. Notable reward: Avoidance of the dire consequences of breaking a blood pact.",
     "Related": ["CHAR-046", "LOC-008", "LOC-026", "EVENT-012"]
   },
@@ -73,6 +83,7 @@
     "ID": "QUEST-011",
     "Type": "Quest",
     "Name": "Seek Redemption from Yondar",
+    "Session": "",
     "Content": "Status: Ongoing. A quest for moral and spiritual redemption, primarily for Fauda, Vy, and Sili, after the murder of Elandra. Initiated through communication with the resurrected Elandra in Session 40. The goal is to complete three trials of righteousness set by Yondar to earn forgiveness. Notable reward: Atonement for their crime and restored standing with a major deity.",
     "Related": ["CHAR-002", "CHAR-003", "CHAR-005", "CHAR-007", "CHAR-026", "CHAR-027", "LOC-012", "EVENT-006", "EVENT-017", "QUEST-001"]
   },
@@ -80,13 +91,15 @@
     "ID": "QUEST-012",
     "Type": "Quest",
     "Name": "Uncover the Truth About Tana and The Gale",
-    "Content": "Status: Ongoing. A core campaign-spanning quest driven by Mask's devotion to Tana and the party's conflict with The Gale. The goal is to discover the truth behind Tana's shattering, the nature of The Gale and its connection to Solara, and the rumored divine offspring of Tana and Yondar. The party has learned that The Gale serves Solara and that changelings were created there. Notable reward: Understanding the central cosmic and political conflicts of the campaign.",
+    "Session": "28",
+    "Content": "Status: Ongoing. A core campaign-spanning quest driven by Mask's devotion to Tana and the party's conflict with The Gale, beginning around Session 28. The goal is to discover the truth behind Tana's shattering, the nature of The Gale and its connection to Solara, and the rumored divine offspring of Tana and Yondar. The party has learned that The Gale serves Solara and that changelings were created there. Notable reward: Understanding the central cosmic and political conflicts of the campaign.",
     "Related": ["CHAR-001", "CHAR-025", "CHAR-028", "CHAR-033", "CHAR-043", "CHAR-052", "LOC-011", "LOC-017", "EVENT-003", "EVENT-022", "EVENT-023", "QUEST-001", "QUEST-007"]
   },
   {
     "ID": "QUEST-013",
     "Type": "Quest",
     "Name": "Infiltrate House Stormrider (Original Gale Mission)",
+    "Session": "0",
     "Content": "Status: Failed/Abandoned (Pre-Session 1). Mask's original mission from The Gale, mentioned in backstory. The goal was to infiltrate the kingdom of Caeloria, ruled by House Stormrider, to discover the secret behind its rapid growth. Mask abandoned this mission after being struck by lightning and gaining magic, setting them on their current path. Notable reward: N/A - Mission was betrayed.",
     "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "CHAR-060", "LOC-031", "EVENT-035"]
   }
