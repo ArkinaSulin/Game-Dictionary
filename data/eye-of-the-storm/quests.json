@@ -83,7 +83,7 @@
     "ID": "QUEST-011",
     "Type": "Quest",
     "Name": "Seek Redemption from Yondar",
-    "Session": "",
+    "Session": "40",
     "Content": "Status: Ongoing. A quest for moral and spiritual redemption, primarily for Fauda, Vy, and Sili, after the murder of Elandra. Initiated through communication with the resurrected Elandra in Session 40. The goal is to complete three trials of righteousness set by Yondar to earn forgiveness. Notable reward: Atonement for their crime and restored standing with a major deity.",
     "Related": ["CHAR-002", "CHAR-003", "CHAR-005", "CHAR-007", "CHAR-026", "CHAR-027", "LOC-012", "EVENT-006", "EVENT-017", "QUEST-001"]
   },
