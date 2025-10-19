@@ -117,12 +117,25 @@ class CampaignWiki {
             name: name,
             content: content || 'No description available.',
             tags: tags,
-            session: parseInt(session) || 0, // Add session number to normalized node
+            session: this.parseSessionNumber(session), // Use proper session number parsing
             rawData: {
                 ...node,
                 Related: this.normalizeRelatedData(related)
             }
         };
+    }
+
+    // NEW METHOD: Properly parse session numbers
+    parseSessionNumber(session) {
+        if (typeof session === 'number') {
+            return session;
+        }
+        if (typeof session === 'string') {
+            // Extract numbers from strings like "25", "35-38", "0", etc.
+            const match = session.match(/(\d+)/);
+            return match ? parseInt(match[1]) : 0;
+        }
+        return 0;
     }
 
     normalizeRelatedData(relatedArray) {
@@ -364,6 +377,8 @@ class CampaignWiki {
         this.currentSort = sortBy;
         let sortedNodes;
         
+        console.log(`🔢 Sorting by: ${sortBy}`);
+        
         switch (sortBy) {
             case 'name':
                 sortedNodes = [...this.currentData].sort((a, b) => 
@@ -401,6 +416,7 @@ class CampaignWiki {
                 sortedNodes = [...this.currentData];
         }
         
+        console.log(`📊 Sorted ${sortedNodes.length} nodes`);
         this.renderSortedIndex(sortedNodes);
     }
 
