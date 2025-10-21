@@ -183,67 +183,63 @@ We enter "The Nest", another underground lair, with lots of caves. We move down,
 After the fight, Zara and Fern take some time healing the party. And them we head in further, and we find some trouble...
 We move on and head towards the second level of the prison, where we find even more kobolds, whom we defeat, and we also head down the other two tunnels, where we kill some more kobolds, free some Wildrunners, and find some more innocent young Bee-Rexes. After "The Nest"has been cleared, we head out and a stampede of different animals assualts Fern, Fern's family, who have been in search of Billy, finally found Fern, and after explaining that Billy's on his own path, the family will be heading back with Fern to guide them, and Fern to see to his own forest now. Goodbyes are had, tears are shed, and a very fine parting the party has.
 
+***Session 19:***
+We start off in "The Nest", taking a short rest, and finding some gems as well as a wanted poster of Colm. We move down to the south, where we find some more kobolds. After we defeat them, we find some useful magical items, and use an Aura of Vitality to heal the party up before moving on. We find an armory, the first layer being useless, the second layer being much much better, and the third layer layer ends up being a barracks, and we kill every kobold in sigh
 
-***Session 27:***
+We move on and head towards the second level of the prison, where we find even more kobolds, whom we defeat, and we also head down the other two tunnels, where we kill some more kobolds, free some Wildrunners, and find some more innocent young Bee-Rexes. After "The Nest"has been cleared, we head out and a stampede of different animals assualts Fern, Fern's family, who have been in search of Billy, finally found Fern, and after explaining that Billy's on his own path, the family will be heading back with Fern to guide them, and Fern to see to his own forest now. Goodbyes are had, tears are shed, and a very fine parting the party has.
+
+Session 27
 
 After a well-earned long rest, our party awakened with renewed strength, having advanced to level 7. We departed Thornscar Hold behind us, setting out along a trail that felt distinctly different from the wild paths we'd traveled before—this one was straighter, broader, and clearly maintained with machetes and heavy boots. Though the jungle still pressed in on both sides, alive with birdcalls and shadows, for the first time in days we walked a road with clear intention. Our destination was Stonehaven Shores, though the untamed landscape reminded us that civilization remained merely a promise, not yet a comfort.
-
 Midway through our journey, the trail divided around a moss-crusted boulder shaped like a jagged fang. With both routes showing signs of use but locals disagreeing about which was better, we chose the left path that wound over a ridge. This decision soon led us into confrontation with massive anacondas lurking in the jungle growth. After dispatching the serpents, Zara took the opportunity to examine their remains closely, slitting open a snake's belly and rubbing the blood on her hands. This sparked a philosophical discussion about whether snakes possess souls, with Brynd wondering aloud if goblins had souls either. The conversation turned to what threshold of intelligence might be required for soulhood, prompting Brynd to declare a personal quest to find a necromancer who could answer how stupid one must be to lack a soul. In a characteristically reckless move, Brynd decided to build resistance to snake venom by swallowing a few drops of poison, despite everyone's protests. The result was predictable yet dramatic—foaming at the mouth and violent illness, though he managed to summon enough ki energy to heal himself partially.
-
 Continuing our journey, we encountered another obstacle: a family of broad-shelled, long-necked dinosaurs lounging across the sunny path. Choosing stealth over confrontation, we successfully sneaked past them with only one minor stumble.
-
 By late afternoon, the jungle began to thin, replaced by salt-scented palms as the distant boom of waves carried inland. The trail widened into a proper road bearing the marks of steady traffic, leading us to Stonehaven Shores. The town proved to be predominantly populated by elderly goliaths, giving it the atmosphere of a retirement community. Concern immediately arose about Colm's bounty poster having been issued from this very town, with Zara and Brynd suggesting disguises to avoid recognition. Colm, however, walked forward with characteristic pride and indifference, while Zara offered to eliminate anyone who threatened him — an offer Colm pointedly ignored by looking away from her.
-
 Arya felt immediate relaxation upon reaching civilization and developed a powerful thirst for alcohol, which Zara accommodated by providing coins for drinks. The entire town moved at a leisurely pace, confirming its reputation as a goliath retirement haven. Our purpose here was to investigate why Colm's bounty originated so far from where the assassination had occurred, with Colm seeking connections between this place and his homeland, particularly any personal links back to the king.
-
 We found out the village leader is Valdrek Tidewatcher. Instead we visited the record keeper Elder Marrin Broadshoulder, who explained that they maintain archives containing records plus file from all retired record keepers. She revealed there were conflicting reports about what actually happened at the tournament, causing the warrant to be placed on hold. Most intriguingly, she confirmed that Tyber — the man Colm was accused of poisoning — had been sighted in multiple locations near Itinit after the tournament.
-
+record keeper show the following record
 "Partial Contents
-
-   Page 1 – Header
-   “Official Record of the Royal Summit Tournament, under the Glacier Throne of Itinit.”
-
-   Page 7 – Participant List (excerpt)
-   Colm Ursor — House Ursor of the Eastern Ridge Guard.
-   Aeowen Fidl — Captain of the Frostguard.
-   Wesper Troia — Heir of Frosthallow House Troia.
-   Noa Youtil — Duelist of the High Glacier.
-
-   Page 15 – The Final Match
-   “Combat commenced under ceremonial watch. Audience in full attendance. At the second exchange, the heir fell to one knee, clutching his chest. No visible wound beyond a single nick to the side. Physician’s record: tissue blackened within moments.
-   Ursor’s halberd examined and found coated with a viscous residue of unknown make.
-   Judgment: deliberate poisoning.”
-   (A faint smear near “unknown make” gleams green-gray under torchlight — an alchemical sheen invisible in the   cold north but reactive in humid air.)
-
-   Margin Note (faint, opposite side):
-   “Residue identical to sample confiscated from royal stores two nights prior — labeled ‘venin distillate –   ceremonial use only.’”
-
-   (Initialed: G. S.)
-
-   Page 19 – Royal Verdict
-   Final Decree
-   “Condemned: Colm Ursor, for unlawful use of toxin and fatal breach of royal conduct. Sentence: death by exile or execution upon return.”
-   Beneath the decree, in smaller hand:
-   “Entry amended at royal order. Original scribe struck from record.”
-"
-
+Page 1 – Header
+“Official Record of the Royal Summit Tournament, under the Glacier Throne of Itinit.”
+Page 7 – Participant List (excerpt)
+Colm Ursor — House Ursor of the Eastern Ridge Guard.
+Aeowen Fidl — Captain of the Frostguard.
+Wesper Troia — Heir of Frosthallow House Troia.
+Noa Youtil — Duelist of the High Glacier.
+Page 15 – The Final Match
+“Combat commenced under ceremonial watch. Audience in full attendance. At the second exchange, the heir fell to one knee, clutching his chest. No visible wound beyond a single nick to the side. Physician’s record: tissue blackened within moments.
+Ursor’s halberd examined and found coated with a viscous residue of unknown make.
+Judgment: deliberate poisoning.”
+(A faint smear near “unknown make” gleams green-gray under torchlight — an alchemical sheen invisible in the cold north but reactive in humid air.)
+Margin Note (faint, opposite side):
+“Residue identical to sample confiscated from royal stores two nights prior — labeled ‘venin distillate – ceremonial use only.’”
+(Initialed: G. S.)
+Page 19 – Royal Verdict
+Final Decree
+“Condemned: Colm Ursor, for unlawful use of toxin and fatal breach of royal conduct. Sentence: death by exile or execution upon return.”
+Beneath the decree, in smaller hand:
+“Entry amended at royal order. Original scribe struck from record.”
 The records themselves told a compelling story. Page 15 described the final match where the heir fell to one knee clutching his chest, with physicians noting his tissue blackened instantly. Colm's halberd was found coated with a viscous residue, leading to a judgment of deliberate poisoning. A critical margin note, however, revealed the residue matched samples confiscated from royal stores two nights earlier, labeled "venin distillate – ceremonial use only." Most damning of all was the note that the entry had been amended at royal order, with the original scribe struck from record.
-
-Colm described a recurring dream featuring a "silver and blue banner with an emblazoned crown and twisting vine, hanging from a ruined watchtower half-buried in snow with a hooded figure standing beside it." The record keeper didn't recognize this symbol but agreed to inquire about it. As we pieced together information, Colm realized that if the poison wasn't meant for Tyber, then Noa — who had helped Colm escape — might now be the actual target.
-
+Colm described a recurring dream featuring a "silver and blue banner with an emblazoned crown and twisting vine, hanging from a ruined watchtower half-buried in snow with a hooded figure standing beside it." The record keeper didn't recognize this symbol but agreed to inquire about it. As we pieced together information, Colm realized that if the poison wasn't meant for Tyber, then Noa the grand daughter of the former king of Itinit, King Yout, might be the actual target.
 The record keeper admitted her own confusion about the situation, noting the logistics of transporting Colm to Itinit would cost more than the bounty offered. Colm declared his determination to find who set him up and exact revenge, though he continued to avoid eye contact with Zara throughout the conversation so she does not start a massacre.
-
 When asked about unusual plants causing trouble, the record keeper had no specific records but had heard rumors. She mentioned several local events we could investigate: 
 - the Stoneball Classic tournament, 
 - a storyteller who wandered off and never returned, 
 - a crypt uncovered by violent tides that someone had poked at but not properly explored, and
 - retired wrestling champions who had started an open brawl.
-
 Zara thanked the record keepers while casually mentioning she'd have no problem killing them if they tried to take Colm. She also secured confirmation from the record keeper that snakes do indeed have souls, triumphantly informing Brynd that her position had been validated by an scholar.
-
 With travel north to Frosthallow to save Noa not feeling immediately urgent, the party decided to remain in Stonehaven Shores for a few days. On the way north to Itinit the party would pass by the land of Zepharok, where  the party could test our skills in the arena. Arya is growing bored with all the conversation, he bought everyone drinks, though Zara got herself a virgin daiquiri instead.
-
 The party decide to take on the first event to investigate. The party gathered at where Tom Bouldertstep's walking stick (an item he never parted with) washed up on shore. Arya walked into the sea, watching the waves erase his footprints, he immediately declear they could officially strike his name from the town records now. The situation took an odd turn when Tom returned to town a few days later, found naked and confused.
-
 With multiple options before us, we settled on investigating the crypt that had been uncovered by the violent tides. At least, as someone noted, it wouldn't move away from us.
+
+Session 28
+
+The party made their way to the crypt by the bay, where the sea lapped quietly against the sand and the wind carried the scent of salt and old stone. Near the entrance, shapes shifted in the gloom — a cluster of undead, half-buried in seaweed and sand. One stood taller than the rest, its form strangely reflective, pale like moonlit skin. Zara and Azren exchanged a look; it resembled other moon-touched creatures they had encountered before, though not of Luna’s blood. Perhaps this, too, was another symptom of the irregular lunar influence spreading across the land.
+The battle began in an instant. The old corpse struck Bryan with crushing force, nearly killing him. Before it could land another blow, Azren stepped forward, calm and steady, divine light flaring around his hand. He drew a dart, whispered a prayer, and hurled it with precision — the projectile streaked through the air like a falling star. When it hit, a surge of radiant energy burst outward, lighting the crypt in silver flame. The undead’s flesh blistered and cracked, the light pouring from its eyes and mouth before it disintegrated to dust, carried off by the sea breeze. The others, suddenly leaderless, fell easily after that.
+On the bodies, the party found a Ring of Water Walking and several relics stolen from the tomb — grim proof that these undead were once thieves who disturbed the dead. Azren suggested they return the remains to rest, and Arya, once a lumberjack fairy and never shy of hard work, took the lead in carrying and digging. He wove together a makeshift stretcher from coconut leaves and hauled the remains back into the crypt.
+With the duty done, the group lingered by the shore. Colm, stretching his shoulders, suggested that everyone join him in lifting his halberd 1,700 times. The others laughed and declined, leaving him to his self-imposed workout while they rested and watched the light fade across the water.
+That evening, they went searching for a retired wrestling champion to spar with, but the old man was long past his prime. Instead, they entered the Stoneball Classic, a local tournament that mixed strength and agility. The first round tested muscle, the second speed, and the third end up to be a complete mayhem. A dinosaur crashed onto the field mid-match, and in the scramble to contain it, Zara, Azren, and Arya all slipped in a pile of barf, earning roars of laughter from the crowd. Despite the ridiculous turn of events, the group managed to win, pocketing 15 gold pieces and a few bruised egos.
+As the moon rose over the bay, silver and strange, the party made plans to head north through the desert of Zepharok, bound for the Colosseum before heading to Itinit.
+
+
+
 
