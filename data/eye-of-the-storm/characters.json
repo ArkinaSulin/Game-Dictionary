@@ -516,7 +516,7 @@
     "Type": "NPC",
     "Name": "The Beholder",
     "Session": "41",
-    "Content": "Never met directly, revealed by Voraxik in Session 41. Powerful creature with hidden underground lair and multiple magically connected vaults across Eryndor. Extremely paranoid. Caught Voraxik, Shavara, and Kharzid robbing a seaside vault near Tempest's Watch. Spared their lives in exchange for stealing special blacksmithing tools. Collecting complete sets of tools (8 sets of 3 tools = 27 total), claims tools were stolen from it long ago. So dangerous that Voraxik refused to speak its name for fear of drawing its attention. Current status: Alive, actively collecting tools. The mastermind behind QUEST-002.",
+    "Content": "Never met directly, revealed by Voraxik in Session 41. Powerful creature with hidden underground lair and multiple magically connected vaults across Eryndor. Extremely paranoid. Caught Voraxik, Shavara, and Kharzid robbing a seaside vault near Tempest's Watch. Spared their lives in exchange for stealing special blacksmithing tools. Collecting complete sets of tools (9 sets of 3 tools = 27 total), claims tools were stolen from it long ago. So dangerous that Voraxik refused to speak its name for fear of drawing its attention. Current status: Alive, actively collecting tools. The mastermind behind QUEST-002.",
     "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-062", "CHAR-064", "QUEST-002"]
   }
 ]
