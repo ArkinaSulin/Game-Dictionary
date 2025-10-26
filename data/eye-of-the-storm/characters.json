@@ -5,7 +5,7 @@
     "Name": "Mask",
     "Session": "1",
     "Content": "Changeling who appears as a shifting humanoid figure with no fixed appearance. Former agent of The Gale who rebelled after gaining magical abilities from being struck by lightning at LOC-038, which also gave them a vision of Solara. Suffers from fractured mind and memory issues. Primary goal is to break free from The Gale's control, understand their origins, and heal their fractured mind (QUEST-001). Affiliation with The Gale has been severed after slashing their tattoo (EVENT-011) and openly defying them. Worships the moon goddess Tana. Notable capabilities include powerful fire magic (Fireball), spellcasting, and the ability to shift between multiple distinct personas: Flicker (talkative male Kender), Sage (male Gnome scholar), Dahlia (beautiful female Elf), Grit (strong male Giff), and Granny (old female Human). Key contributions include revealing The Gale's operations, protecting changeling refugees (QUEST-006), and confronting the parasitic persona Fendril in mindscape battles (EVENT-016). Current status: Mental control restored after defeating Fendril, but quest for complete understanding continues.",
-    "Related": ["CHAR-007", "CHAR-008", "CHAR-021", "CHAR-025", "CHAR-026", "CHAR-027", "CHAR-028", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-012", "LOC-013", "LOC-015", "LOC-017", "LOC-028", "LOC-029", "LOC-030", "LOC-031", "LOC-035", "LOC-036", "LOC-037", "LOC-038", "LOC-039", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-014", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-022", "EVENT-023", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "EVENT-036", "EVENT-037", "QUEST-001", "QUEST-003", "QUEST-005", "QUEST-006", "QUEST-011", "QUEST-012", "QUEST-013"]
+    "Related": ["CHAR-007", "CHAR-008", "CHAR-021", "CHAR-025", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-043", "CHAR-046", "CHAR-069", "CHAR-070", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-012", "LOC-013", "LOC-015", "LOC-017", "LOC-028", "LOC-029", "LOC-030", "LOC-031", "LOC-035", "LOC-036", "LOC-037", "LOC-038", "LOC-039", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-014", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-022", "EVENT-023", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "EVENT-036", "EVENT-037", "EVENT-039", "EVENT-040", "QUEST-001", "QUEST-003", "QUEST-005", "QUEST-006", "QUEST-011", "QUEST-012", "QUEST-013"]
   },
   {
     "ID": "CHAR-002",
@@ -13,7 +13,7 @@
     "Name": "Fauda",
     "Session": "1",
     "Content": "Tiefling with distinctive horns and red skin, though her sister Gloriosa now has blue skin. Skilled spellcaster who grew up on a farm near Tallyport (LOC-033) with her twin sister. Carries guilt over Elandra Hallowheart's murder (EVENT-006), for which she seeks redemption from Yondar (QUEST-011). Primary goal is to protect her friends and reconcile with her sister Gloriosa (EVENT-013). Affiliation with The Gale through former romantic involvement with Pinglin Gale, now severed. Notable capabilities include enchantment magic (Hypnotic Pattern, Cloud of Daggers), communication spells (Sending), deception, and loyalty to her companions. Key contributions include strategic spellcasting in combat (EVENT-002, EVENT-021), gathering information, and maintaining party cohesion during crises. After leaving her sister, she lived in The Haven (LOC-032) with her friend Olga Patter. Current status: Alive, reconciled with Gloriosa, and seeking redemption.",
-    "Related": ["CHAR-001", "CHAR-003", "CHAR-012", "CHAR-021", "CHAR-029", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-018", "LOC-019", "LOC-021", "LOC-022", "LOC-030", "LOC-032", "LOC-033", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-013", "EVENT-014", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-025", "EVENT-028", "EVENT-029", "EVENT-030", "EVENT-031", "EVENT-037", "QUEST-001", "QUEST-002", "QUEST-003", "QUEST-007", "QUEST-008", "QUEST-011"]
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-012", "CHAR-021", "CHAR-029", "CHAR-046", "CHAR-069", "CHAR-070", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-018", "LOC-019", "LOC-021", "LOC-022", "LOC-030", "LOC-032", "LOC-033", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-013", "EVENT-014", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-025", "EVENT-028", "EVENT-029", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-039", "EVENT-040", "QUEST-001", "QUEST-002", "QUEST-003", "QUEST-007", "QUEST-008", "QUEST-011"]
   },
   {
     "ID": "CHAR-003",
@@ -21,15 +21,15 @@
     "Name": "Vyphira",
     "Session": "1",
     "Content": "Dragonborn with distinctive scales, skilled artisan and warrior from Tempest's Watch (LOC-034). Practical and determined, with a strong sense of justice. Primary goal is to recover her stolen craftsmanship and tools (QUEST-002), and understand her Dragonborn heritage. Notable capabilities include exceptional armor craftsmanship, combat skills, Draconic language knowledge, and armor creation. Key contributions include crafting armor for the party, combat prowess (EVENT-002, EVENT-020, EVENT-021), and translating Draconic texts and conversations that revealed crucial plot information about dragon cults and ancient history. Carries guilt over Elandra Hallowheart's murder (EVENT-006) and seeks redemption (QUEST-011). Current status: Alive, successfully recovered one set of tools (EVENT-038), and pursuing the Beholder mastermind.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "LOC-001", "LOC-002", "LOC-004", "LOC-005", "LOC-008", "LOC-019", "LOC-027", "LOC-034", "EVENT-001", "EVENT-002", "EVENT-009", "EVENT-011", "EVENT-015", "EVENT-018", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-038", "QUEST-002", "QUEST-003", "QUEST-011"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-046", "CHAR-069", "CHAR-070", "LOC-001", "LOC-002", "LOC-004", "LOC-005", "LOC-008", "LOC-019", "LOC-027", "LOC-034", "EVENT-001", "EVENT-002", "EVENT-009", "EVENT-011", "EVENT-015", "EVENT-018", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-038", "EVENT-039", "EVENT-040", "QUEST-002", "QUEST-003", "QUEST-011"]
   },
   {
     "ID": "CHAR-004",
     "Type": "PC",
     "Name": "Arc en Ciel",
     "Session": "1",
-    "Content": "Skilled martial artist with a pragmatic and observant nature. Grew up after parents were killed for poaching, raised by disliked relatives at LOC-040. Primary goal is to protect the party she considers family and find her place in the world. No strong affiliations. Notable capabilities include hand-to-hand combat, tactical thinking, cooking skills, and keen observation. Key contributions include combat effectiveness (EVENT-002), gathering intelligence through observation (EVENT-008), and providing stability to the group during tense situations. Showed cultural appreciation by preparing a special snack for the kobold butler Tolliver (EVENT-026). Current status: Alive and loyal to the party.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-006", "CHAR-011", "CHAR-038", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-009", "LOC-013", "LOC-019", "LOC-040", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-008", "EVENT-019", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-034", "EVENT-037", "QUEST-003", "QUEST-009"]
+    "Content": "Skilled martial artist and dancer with supernatural flexibility - joints shift impossibly, arms/legs stretch like rubber, can extend/retract bones. Race unknown (possibly human with mutations). Pragmatic, observant, gourmet who prefers fresh meat simply grilled. Background: Parents killed for trespassing on hunting territory, raised by abusive Uncle Scam and Auntie Bag. Left to wander, worked as sailor, met dancer Rory who became best friend. After Rory's death and killing her manipulator Jack, trained in martial arts with mysterious beggar mentor. Primary goal is to protect party she considers family and find her place. Secondary goal: free Rory's ghost from Roseheart King. No strong affiliations. Notable capabilities: supernatural flexibility combat, cooking, sailing, dance. Current status: Alive, loyal to party, seeking to free Rory.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-006", "CHAR-011", "CHAR-038", "CHAR-066", "CHAR-067", "CHAR-068", "CHAR-069", "CHAR-070", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-009", "LOC-013", "LOC-019", "LOC-040", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-008", "EVENT-019", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-034", "EVENT-037", "EVENT-039", "EVENT-040", "QUEST-003", "QUEST-009", "QUEST-014"]
   },
   {
     "ID": "CHAR-005",
@@ -37,7 +37,7 @@
     "Name": "Sili",
     "Session": "1",
     "Content": "Nature-connected character with bond to animals and the god Azmir. Developed his connection in his wilderness home (LOC-041). Contemplative and spiritual, struggling with the moral implications of killing innocents (EVENT-006). Primary goal is to appease his god Azmir through a worthy hunt (QUEST-004) and protect natural balance. Notable capabilities include nature magic, animal communication, tracking, and the Entangle spell. Key contributions include controlling battlefield terrain (EVENT-002, EVENT-006), healing party members (EVENT-002), and establishing communication with natural creatures. His outposts at Cloudfoot Keep reported beings tracking the party (EVENT-024). Current status: Alive, seeking a worthy hunt to atone for Elandra's murder.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-008", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-019", "LOC-041", "EVENT-001", "EVENT-002", "EVENT-006", "EVENT-009", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "QUEST-003", "QUEST-004", "QUEST-011"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-008", "CHAR-046", "CHAR-069", "CHAR-070", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-019", "LOC-041", "EVENT-001", "EVENT-002", "EVENT-006", "EVENT-009", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-039", "EVENT-040", "QUEST-003", "QUEST-004", "QUEST-011"]
   },
   {
     "ID": "CHAR-006",
@@ -45,7 +45,7 @@
     "Name": "Lady Seriss",
     "Session": "16",
     "Content": "Met in Sessions 16-18 when she joined the party (EVENT-035). Noblewoman from House Stormrider, elegant and composed despite danger. Primary goal is to survive and maintain her noble responsibilities while being targeted by various factions. Currently held captive by The Gale operative (CHAR-008). Affiliation with House Stormrider remains strong. Notable capabilities include noble diplomacy, strategic thinking, and resilience under pressure. During encounters, she provided noble connections and strategic advice, was nearly killed by cannibals (saved by Sili's healing in EVENT-002), and was taken hostage by The Gale operative who seems to harbor particular hatred toward her (EVENT-007). Current status: Alive, held captive by The Gale (QUEST-005).",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-008", "CHAR-025", "CHAR-060", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-031", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-007", "EVENT-031", "EVENT-035", "EVENT-037", "QUEST-003", "QUEST-005", "QUEST-013"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-008", "CHAR-025", "CHAR-060", "CHAR-067", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-031", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-007", "EVENT-031", "EVENT-035", "EVENT-037", "QUEST-003", "QUEST-005", "QUEST-013"]
   },
   {
     "ID": "CHAR-007",
@@ -141,7 +141,7 @@
     "Name": "Voraxik Valarnn",
     "Session": "29",
     "Content": "Finally encountered directly in Session 41 during Ironhowl Forge theft (LOC-005, EVENT-038). Young Dragonborn from Tempest's Watch (LOC-034) who grew up with Vyphira. Shocked to see Vy, refused to strike her directly during fight. Revealed he, Shavara, and Kharzid were forced into thefts by a Beholder (CHAR-065) who caught them robbing its vault. The Beholder is collecting complete sets of special tools (8 sets of 3 tools each, 27 total) and threatened to kill them and possibly Vy's entire town if they refused. Sold Vyphira's armor to Sorrax Shieldweaver. Associated with Kharzid Tazek and Shavara Sablefang. Current status: Alive, captured and unconscious.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-062", "CHAR-064", "CHAR-065", "LOC-004", "LOC-005", "LOC-034", "EVENT-015", "EVENT-037", "EVENT-038", "QUEST-002"]
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-062", "CHAR-064", "CHAR-065", "CHAR-068", "LOC-004", "LOC-005", "LOC-034", "EVENT-015", "EVENT-037", "EVENT-038", "EVENT-039", "QUEST-002"]
   },
   {
     "ID": "CHAR-019",
@@ -157,7 +157,7 @@
     "Name": "Shavara Sablefang",
     "Session": "29",
     "Content": "Never met directly, but discussed in Session 29. Gemstone Dragonborn, white with gemstone scales. Grew up with Vyphira in Tempest's Watch (LOC-034). Known troublemaker, partner of Kharzid Tazek. Stole Sorrax Shieldweaver's tools. Part of the team that attempted to steal from Ironhowl Forge (EVENT-038). Current status: Alive, captured and unconscious.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-031", "LOC-004", "LOC-034", "EVENT-015", "EVENT-038", "QUEST-002"]
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-031", "CHAR-068", "LOC-004", "LOC-034", "EVENT-015", "EVENT-038", "EVENT-039", "QUEST-002"]
   },
   {
     "ID": "CHAR-021",
@@ -365,7 +365,7 @@
     "Name": "Jorren and Megara Vale",
     "Session": "30",
     "Content": "Never met directly, discussed as masters in Session 30. Gnome mage twins controlling one of Drifthold's walking legs, The Echoing Spire (LOC-026). Brutal leaders with army of goblins and orcs. Killed previous leg mage to claim control. Party bound to them by blood pact for city entry (EVENT-012). Considered vile and unpredictable by Gloriosa. Current status: Alive, controlling leg of Drifthold. Party has an outstanding obligation to them (QUEST-010).",
-    "Related": ["CHAR-012", "LOC-008", "LOC-026", "EVENT-012", "QUEST-010"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-069", "CHAR-070", "CHAR-071", "LOC-008", "LOC-026", "EVENT-012", "EVENT-040", "QUEST-010", "QUEST-015"]
   },
   {
     "ID": "CHAR-047",
@@ -484,8 +484,8 @@
     "Type": "NPC",
     "Name": "Korr",
     "Session": "41",
-    "Content": "Met in Session 41 during Ironhowl Forge theft attempt (LOC-005, EVENT-038). Massive armored creature resembling a rhinoceros with muscular humanoid build (Braxat). Mercenary working for Zrak'Torr, collapsed forge floor to access safe. Pragmatic and easily bribed, accepted 500 gold from Fauda to switch sides. Incredibly strong, hauled multi-hundred-pound safe back up from sewer. Current status: Alive, working temporarily for party.",
-    "Related": ["CHAR-002", "CHAR-062", "CHAR-063", "CHAR-064", "LOC-005", "EVENT-038", "QUEST-002"]
+    "Content": "Met in Session 41 during Ironhowl Forge theft attempt (LOC-005, EVENT-038). Massive armored creature resembling a rhinoceros with muscular humanoid build (Braxat). Mercenary working for Zrak'Torr, collapsed forge floor to access safe. Pragmatic and easily bribed, accepted 500 gold from Fauda to switch sides. Incredibly strong, hauled multi-hundred-pound safe back up from sewer. In Session 42, helped transport prisoners, explained he kills for money to provide for family but won't murder for free. Can be found at The Drowned Bell tavern or Bleeding Coin mercenary company HQ. Current status: Alive, available for future hire.",
+    "Related": ["CHAR-002", "CHAR-062", "CHAR-063", "CHAR-064", "LOC-005", "EVENT-038", "EVENT-039", "QUEST-002"]
   },
   {
     "ID": "CHAR-062",
@@ -518,5 +518,53 @@
     "Session": "41",
     "Content": "Never met directly, revealed by Voraxik in Session 41. Powerful creature with hidden underground lair and multiple magically connected vaults across Eryndor. Extremely paranoid. Caught Voraxik, Shavara, and Kharzid robbing a seaside vault near Tempest's Watch. Spared their lives in exchange for stealing special blacksmithing tools. Collecting complete sets of tools (9 sets of 3 tools = 27 total), claims tools were stolen from it long ago. So dangerous that Voraxik refused to speak its name for fear of drawing its attention. Current status: Alive, actively collecting tools. The mastermind behind QUEST-002.",
     "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-062", "CHAR-064", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-066",
+    "Type": "NPC",
+    "Name": "Rory",
+    "Session": "22",
+    "Content": "Met in Session 22 along travel route when her ghost was revealed by Lantern of Revealing. Human female dancer, Arc's former best friend and dance partner. Died from illness/fever after overworking to save money for her boyfriend Jack. Ghost appears as sickly woman with Arc's face, missing legs in spectral form, bound by spectral chains to wrists. Personality: grateful, nostalgic, misses dancing. Currently bound to serve the Ghost King (Roseheart King) in afterlife after Jack's ghost dragged her into servitude. Encounter: revealed her binding, explained need to find Roseheart King's body in Virelka to potentially free enslaved spirits. Drew rose-heart sigil for party. Current status: Deceased (Ghost bound to Roseheart King).",
+    "Related": ["CHAR-004", "CHAR-067", "LOC-061", "EVENT-039", "QUEST-014"]
+  },
+  {
+    "ID": "CHAR-067",
+    "Type": "NPC",
+    "Name": "The Roseheart King",
+    "Session": "22",
+    "Content": "Never met directly, discussed by Lady Seriss and Edrin Locke. Infamous historical figure who ruled centuries ago from Virelka, most powerful kingdom in Eryndor at time. Legend: killed/executed all ten wives, bathed in blood, went mad, starved people before assassination. Became boogeyman figure warning children and brides. Ghost King bound to wander Eryndor by spell cast by ghosts of his murdered wives, tied to his mortal remains. Wears rose-at-heart-center sigil over heart where stabbed in betrayal. Current status: Deceased (Powerful ghost bound to wander, seeking return to body).",
+    "Related": ["CHAR-004", "CHAR-006", "CHAR-066", "CHAR-068", "LOC-061", "EVENT-039", "QUEST-014"]
+  },
+  {
+    "ID": "CHAR-068",
+    "Type": "NPC",
+    "Name": "Edrin Locke",
+    "Session": "42",
+    "Content": "Met in Session 42 at his private prison in Drifthold. Human male, Chainwright and Ghostspeaker, worshipper of Kelgriss (Watcher of the River and Lord of Death). Speaks in whispery voice. Family has long served the dead. Runs supernatural prison service extracting souls into gems for 'correction' while bodies remain in stasis. Offers torment levels 1-10 priced at 50gp/month plus 25gp for correction. Knowledgeable about ghost lore, recognized Roseheart King's story. Offered Arc employment if she becomes a ghost. Current status: Alive, operating prison business.",
+    "Related": ["CHAR-004", "CHAR-018", "CHAR-020", "CHAR-062", "CHAR-066", "CHAR-067", "LOC-061", "EVENT-039", "QUEST-002", "QUEST-014"]
+  },
+  {
+    "ID": "CHAR-069",
+    "Type": "NPC",
+    "Name": "Lyanna Vale",
+    "Session": "42",
+    "Content": "Met in Session 42 at Vales' keep in Drifthold. Half-elf, half-gnome daughter of Jorren Vale and elf mother from Solara. Appears trapped in gilded captivity, disappointed party wasn't there to kill her parents. Revealed she's a mage but not strong enough to overthrow parents alone. Willing to accept almost any fate (marriage or otherwise) to escape current situation. Mother's fate unknown (maybe dead or run off). Current status: Alive, captive in parents' keep.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-070", "CHAR-071", "LOC-026", "EVENT-040", "QUEST-015"]
+  },
+  {
+    "ID": "CHAR-070",
+    "Type": "NPC",
+    "Name": "Jorren and Megara Vale",
+    "Session": "42",
+    "Content": "Met in Session 42 at their dining hall in Drifthold. Gnome mage twins controlling one of Drifthold's walking legs. Eccentric, unsettling, seated at opposite ends of enormous table. Came from Solara possibly as punishment, gathered army of orcs/goblins in nearby mountains, conquered their domain about 3 years ago. Plan to control every leg of Drifthold. Assigned party tasks after blood pact completion: deal with sewer mage and kill Garrick Rathorn. Threatened party with grotesque experimentation. Current status: Alive, controlling leg of Drifthold.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-069", "CHAR-071", "LOC-008", "LOC-026", "EVENT-040", "QUEST-010", "QUEST-015"]
+  },
+  {
+    "ID": "CHAR-071",
+    "Type": "NPC",
+    "Name": "Garrick Rathorn",
+    "Session": "42",
+    "Content": "Never met directly, discussed by Vales. Another leg mage of Drifthold, longest-tenured. Described by Vales as past his prime. Target of assassination plot so Lyanna Vale can take his domain. Current status: Alive, controlling leg of Drifthold.",
+    "Related": ["CHAR-069", "CHAR-070", "LOC-008", "QUEST-015"]
   }
 ]
