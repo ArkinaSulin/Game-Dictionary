@@ -254,5 +254,13 @@
     "Session": "28",
     "Content": "Session 28: The party entered the local Stoneball Classic tournament. The event tested strength, speed, and devolved into mayhem when a dinosaur crashed onto the field. Zara, Azren, and Arya all slipped in a pile of barf, much to the crowd's amusement. Despite this, the party won the tournament.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-052", "LOC-009", "QUEST-022"]
+  },
+  {
+    "ID": "EVENT-033",
+    "Type": "Event",
+    "Name": "Maiden Sea Voyage",
+    "Session": "29", 
+    "Content": "Session 29: The party's first ocean voyage aboard Kixxaez's fishing trawler. Major events included: Arya's severe seasickness and creative solution of tying himself to the mast with branches; ring-tossing contest where Arya set a ship record; wereshark attack after Brynd baited them with his blood; Brynd's near-fatal snake venom experiment; Bunyip sea monster attack; discovery of mysterious wreckage with coral rune; spotting of four shadowy shapes following the ship. Major outcomes: Party gained sea experience, concerns about potential lycanthropy from wereshark bites, Brynd nearly died from poison, established travel to new destinations.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-052", "CHAR-055", "CHAR-056", "LOC-022"]
   }
 ]
