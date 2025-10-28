@@ -166,5 +166,13 @@
     "Session": "20",
     "Content": "The floating sanctuary of The Radiant Coil, hidden in a secluded, mist-veiled mountain range within Drak'Moru. A temple of serene beauty and celestial power, accessible only to those who prove themselves pure of intent. It is the home and training ground of the order, and the dwelling place of the couatl Nual'Zahiir. Azren was raised here and is currently in exile from this place.",
     "Related": ["CHAR-052", "CHAR-053", "CHAR-054"]
+  },
+  {
+    "ID": "LOC-022",
+    "Type": "Location", 
+    "Name": "Kixxaez's Fishing Trawler",
+    "Session": "29",
+    "Content": "Session 29: A fishing boat hired by the party for sea passage, run by Captain Kixxaez and her lizardfolk crew. Significance: The party's first ocean voyage vessel. Points of interest: Main mast, deck, fishing areas. Key characters: Captain Kixxaez and her crew. During the visit: Party learned sailing, Arya got seasick and tied himself to mast, contests were held, weresharks and Bunyip attacked, mysterious wreckage was spotted.",
+    "Related": ["CHAR-055", "CHAR-056", "EVENT-033"]
   }
 ]
