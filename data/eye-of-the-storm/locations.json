@@ -36,7 +36,7 @@
     "Type": "location",
     "Name": "Ironhowl Forge",
     "Session": "29",
-    "Content": "Blacksmith forge in Drifthold located in The Forestride leg of the city. Contains custom-made safe under burning forge for valuable tools. Significant as target for Voraxik's attempted theft and location of third known set of special tools. Controlled by Torva Ironhowl. Key characters include Torva Ironhowl. During planned visit, party will set trap for thieves during Torva's 6-9pm dinner break.",
+    "Content": "Blacksmith forge in Drifthold located in The Forestride leg of the city. Contains custom-made safe under burning forge for valuable tools. Significant as target for Voraxik's attempted theft and location of third known set of special tools. Controlled by Torva Ironhowl. Key characters include Torva Ironhowl. During planned visit, party set trap for thieves during Torva's dinner break, leading to an ambush, a fight in the sewers below, and the recovery of the tools.",
     "Related": ["CHAR-003", "CHAR-030", "CHAR-061", "CHAR-062", "CHAR-064", "EVENT-018", "EVENT-038", "EVENT-039", "QUEST-002"]
   },
   {
@@ -60,8 +60,8 @@
     "Type": "location",
     "Name": "Drifthold",
     "Session": "30",
-    "Content": "Massive six-legged stone city built on high stone shelf with trailing mobile extension called The Tailstride. Divided into tiers: base level, Stormforged Ring (market tier), Sky Ward (noble tier). Contains universities, temples, markets, and residential districts. Significant as current major hub for refugees and location of major plot developments. Controlled by king and leg mages including Vale twins. Key characters include Gloriosa, Torva Ironhowl, Lord Crimm, and various job providers. During visits, party entered through brutal combat requirement, met Gloriosa, pursued various jobs, studied runes, and investigated dragon cult.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-030", "CHAR-035", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "EVENT-012", "EVENT-013", "EVENT-018", "EVENT-019", "EVENT-039", "EVENT-040", "QUEST-002", "QUEST-007", "QUEST-008", "QUEST-009", "QUEST-010", "QUEST-015"]
+    "Content": "Massive six-legged stone city built on high stone shelf with trailing mobile extension called The Tailstride. Divided into tiers: base level, Stormforged Ring, Sky Ward. Contains universities, temples, markets, and residential districts. Significant as current major hub for refugees and location of major plot developments. Controlled by king and leg mages including Vale twins. Key characters include Gloriosa, Torva Ironhowl, Lord Crimm, Jorren and Megara Vale, Lyanna Vale, and Lucien Shinwell. During visits, party entered through brutal combat requirement, met Gloriosa, pursued various jobs, studied runes, investigated dragon cult, fulfilled a blood pact, discovered a secret rebellion in the sewers, and is now facing an imminent giant invasion.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-030", "CHAR-035", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "CHAR-072", "CHAR-073", "CHAR-074", "EVENT-012", "EVENT-013", "EVENT-018", "EVENT-019", "EVENT-039", "EVENT-040", "EVENT-041", "EVENT-042", "QUEST-002", "QUEST-007", "QUEST-008", "QUEST-009", "QUEST-010", "QUEST-015", "QUEST-016", "QUEST-017"]
   },
   {
     "ID": "LOC-009",
@@ -83,25 +83,25 @@
     "ID": "LOC-011",
     "Type": "location",
     "Name": "Solara",
-    "Session": "",
+    "Session": "30",
     "Content": "Floating city above Eryndor, also called The Land of a Thousand Kingdoms. Contains myriad kingdoms within bottles, entire worlds existing side by side. Ruled by ancient Greatwyrms and powerful nobles. Significant as origin of changelings, headquarters of The Gale, and location of Gloriosa's search for her daughter. Controlled by Solaran rulers and Greatwyrms. Key characters include Broin, House Duskvale, and ancient dragon Voryxia. Not yet visited by party, but destination for future travels.",
-    "Related": ["CHAR-012", "CHAR-025", "CHAR-032", "CHAR-033", "QUEST-007"]
+    "Related": ["CHAR-012", "CHAR-025", "CHAR-032", "CHAR-033", "QUEST-007", "QUEST-012", "QUEST-016"]
   },
   {
     "ID": "LOC-012",
     "Type": "location",
     "Name": "The Ever-Burning Temple",
     "Session": "40",
-    "Content": "Great temple to Yondar in Drifthold, tallest in temple district. Contains carved stone entrance depicting Yondar's history, massive braziers, column of fire rising to glowing sphere tower. Significant as location where party communicated with Elandra through flames and learned about Yondari faith. Controlled by Yondari clergy. Key characters include Radiant priest, Flamebearer paladins, and Yeldur worshippers outside. During visit, party learned about Yondar-Yeldur prophecy, communicated with resurrected Elandra, and received offer of redemption trials.",
-    "Related": ["CHAR-001", "CHAR-007", "CHAR-026", "CHAR-027", "CHAR-034", "EVENT-017", "QUEST-001"]
+    "Content": "Great temple to Yondar in Drifthold, tallest in temple district. Contains carved stone entrance depicting Yondar's history, massive braziers, column of fire rising to glowing sphere tower. Significant as location where party communicated with Elandra through flames and learned about Yondari faith. Controlled by Yondari clergy. Key characters include Radiant priest Lucan Brightmere, Flamebearer paladins, and Yeldur worshippers outside. During visits, party learned about Yondar-Yeldur prophecy, communicated with resurrected Elandra, received offer of redemption trials, and had the corrupted Zrak'Torr purified.",
+    "Related": ["CHAR-001", "CHAR-007", "CHAR-026", "CHAR-027", "CHAR-034", "CHAR-062", "CHAR-076", "EVENT-017", "EVENT-039", "QUEST-001"]
   },
   {
     "ID": "LOC-013",
     "Type": "location",
     "Name": "Crimm Manor",
     "Session": "35",
-    "Content": "Massive stone manor in Drifthold's Sky Ward with crest featuring large 'C'. Contains grand study with bookshelves, paintings, sculptures, ornate chair on dais, enormous organ, fine desk, and leather workshops. Significant as home of copper dragon lord and location where party received draconic boons. Controlled by Lord Halen Crimm. Key characters include Lord Crimm, Alira Crimm, Teren Vallin, Tolliver, and various artists. During visits, party accepted rescue mission, returned with rescued Alira, received draconic boons and information about Solara.",
-    "Related": ["CHAR-035", "CHAR-036", "CHAR-037", "CHAR-038", "EVENT-019", "QUEST-009"]
+    "Content": "Massive stone manor in Drifthold's Sky Ward with crest featuring large 'C'. Contains grand study with bookshelves, paintings, sculptures, ornate chair on dais, enormous organ, fine desk, and leather workshops. Significant as home of copper dragon lord and location where party received draconic boons. Controlled by Lord Halen Crimm. Key characters include Lord Crimm, Alira Crimm, Teren Vallin, Tolliver, and various artists. During visits, party accepted rescue mission, returned with rescued Alira, received draconic boons and information about Solara, and in Session 43, used it as a base to gather information about 'Rusty' Lou and learned of the giant emissary's threat.",
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-037", "CHAR-038", "EVENT-019", "EVENT-027", "EVENT-041", "EVENT-042", "QUEST-009"]
   },
   {
     "ID": "LOC-014",
@@ -132,7 +132,7 @@
     "Type": "location",
     "Name": "Mossgate Hollow",
     "Session": "39",
-    "Content": "Luxury apartment building in Drifthold's Titan's Crown district. Contains hand-drawn elevator operated by ogre, penthouse suite with lavish sitting room. Significant as home of romance novelist Liora Quillheart. Controlled by Liora Quillheart. Key characters include Liora Quillheart and refined butler. During visit, party learned about Tana-Yondar history, The Lovers cult, and received directions to Ever-Burning Temple.",
+    "Content": "Luxury apartment building in Drifthold's Titan's Crown district. Contains hand-drawn elevator operated by ogre, penthouse suite with lavish sitting room. Significant as home of romance novelist Liora Quillheart. Controlled by Liora Quillheart. Key characters include Liora Quillheart and refined butler. During visit, party learned about Tana-Yondar history, The Lovers cult, and received directions to Ever-Burning Temple. In Session 42, Mask attended a gathering here as Dahlia.",
     "Related": ["CHAR-001", "CHAR-043", "EVENT-022"]
   },
   {
@@ -180,7 +180,7 @@
     "Type": "location",
     "Name": "Stormhaven",
     "Session": "5",
-    "Content": "City mentioned but not visited in current sessions. Larger and less subdued than Tempest's Refuge. Significant as location where party previously dealt with Johnny Whispers and had other adventures referenced by Gale operative. Controlled by city authorities. Key characters include Johnny Whispers (previous contact). Not visited in sessions 26-40, but referenced as previous location.",
+    "Content": "City mentioned but not visited in current sessions. Larger and less subdued than Tempest's Refuge. Significant as location where party previously dealt with Johnny Whispers and had other adventures referenced by Gale operative. Controlled by city authorities. Key characters include Johnny Whispers. Not visited in sessions 26-43, but referenced as previous location.",
     "Related": ["CHAR-008", "CHAR-056"]
   },
   {
@@ -204,8 +204,8 @@
     "Type": "location",
     "Name": "The Echoing Spire",
     "Session": "30",
-    "Content": "Location in Drifthold controlled by Jorren and Megara Vale. One of the six walking legs of the city. Contains Vale residence and operations center. Significant as headquarters of Vale mages who hold party's blood pact. Controlled by Vale twins. Key characters include Jorren and Megara Vale, Lyanna Vale. During visit in Session 42, party met Lyanna and then the Vales, received new tasks after blood pact completion.",
-    "Related": ["CHAR-046", "CHAR-069", "CHAR-070", "EVENT-040", "QUEST-010", "QUEST-015"]
+    "Content": "Location in Drifthold controlled by Jorren and Megara Vale. One of the six walking legs of the city. Contains Vale residence and operations center. Significant as headquarters of Vale mages who held the party's blood pact. Controlled by Vale twins. Key characters include Jorren and Megara Vale, Lyanna Vale. During visit in Session 42, party met Lyanna and then the Vales, received new tasks after blood pact completion. In Session 43, the party discovered and used a secret passage from here into the sewers to meet Lucien Shinwell.",
+    "Related": ["CHAR-046", "CHAR-069", "CHAR-070", "CHAR-072", "EVENT-040", "EVENT-041", "QUEST-010", "QUEST-015"]
   },
   {
     "ID": "LOC-027",
@@ -244,8 +244,8 @@
     "Type": "location",
     "Name": "Caeloria",
     "Session": "2",
-    "Content": "The kingdom ruled by House Stormrider. Known for its rapid growth, which attracted the attention of The Gale. Mask's original assignment from The Gale was to infiltrate this kingdom and discover the secret behind its growth. Lady Seriss is a noble from this kingdom. The party was traveling here when Lady Seriss joined them.",
-    "Related": ["CHAR-001", "CHAR-006", "CHAR-060", "EVENT-035"]
+    "Content": "The kingdom ruled by House Stormrider. Known for its rapid growth, which attracted the attention of The Gale. Mask's original assignment from The Gale was to infiltrate this kingdom and discover the secret behind its growth. Lady Seriss is a noble from this kingdom. The party was traveling here when Lady Seriss joined them. The great city and capital of The Blackcloud Reach, protected by the Stormheart Amulet. The party was hired to recover the stolen amulet and find Lady Seriss.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-060", "EVENT-035", "QUEST-013"]
   },
   {
     "ID": "LOC-032",
@@ -268,7 +268,7 @@
     "Type": "location",
     "Name": "Tempest's Watch",
     "Session": "2",
-    "Content": "The Dragonborn enclave where Vyphira, Voraxik Valarnn, Kharzid Tazek, and Shavara Sablefang all grew up together. It's where Vy first learned her craftsmanship and where her parents owned the special tools that were later stolen. The troublemakers Voraxik, Kharzid, and Shavara boasted of powerful associates from outside the enclave.",
+    "Content": "The Dragonborn enclave where Vyphira, Voraxik Valarnn, Kharzid Tazek, and Shavara Sablefang all grew up together. It's where Vy first learned her craftsmanship and where her parents owned the special tools that were later stolen. The troublemakers Voraxik, Kharzid, and Shavara boasted of powerful associates from outside the enclave. A Storm Outpost and Dragonborn enclave.",
     "Related": ["CHAR-003", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031"]
   },
   {
@@ -332,7 +332,7 @@
     "Type": "location",
     "Name": "Thunder's Respite",
     "Session": "1",
-    "Content": "A small, storm-rune-inscribed shack nestled in the Blackcloud Reach, featuring a coatroom, common room, guest quarters, and stables. Served as the initial gathering point for the party. Key characters include Eryx (barkeep), Mira (witch), and various patrons. During the visit, the party met, fought the Iron Tempests, and formed their alliance.",
+    "Content": "A small, storm-rune-inscribed shack nestled in the Blackcloud Reach, featuring a coatroom, common room, guest quarters, and stables. Served as the initial gathering point for the party. Key characters include Eryx, Mira, and various patrons. During the visit, the party met, fought the Iron Tempests, and formed their alliance.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-056", "EVENT-001"]
   },
   {
@@ -350,22 +350,6 @@
     "Session": "2",
     "Content": "A settlement or neighborhood where Fauda lived for a time after leaving her sister Gloriosa. It was here that she befriended the orcish woman Olga Patter. Represents a period of relative peace in Fauda's life.",
     "Related": ["CHAR-002", "CHAR-058"]
-  },
-  {
-    "ID": "LOC-045",
-    "Type": "location",
-    "Name": "Tempest's Watch",
-    "Session": "2",
-    "Content": "A Storm Outpost and Dragonborn enclave where Vyphira, Voraxik Valarnn, Kharzid Tazek, and Shavara Sablefang all grew up together. It's where Vy first learned her craftsmanship and where her parents owned the special tools that were later stolen.",
-    "Related": ["CHAR-003", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031"]
-  },
-  {
-    "ID": "LOC-046",
-    "Type": "location",
-    "Name": "Caeloria",
-    "Session": "2",
-    "Content": "The great city and capital of The Blackcloud Reach, ruled by House Stormrider. Protected by the Stormheart Amulet. The party was hired to recover the stolen amulet and find Lady Seriss.",
-    "Related": ["CHAR-001", "CHAR-006", "CHAR-060", "EVENT-035"]
   },
   {
     "ID": "LOC-047",
@@ -486,5 +470,13 @@
     "Session": "42",
     "Content": "Hidden prison in Drifthold's 'mid-city' tunnel network between city and underside. Accessed through hidden door in alley leading to plain wooden door marked with embossed shackle. Contains cramped room with single desk, cabinet with collection of gemstones for soul imprisonment. Significant as supernatural prison where party deposited Shavara, Voraxik, and Zrak'Torr. Controlled by Edrin Locke, Chainwright and Ghostspeaker. Key characters include Edrin Locke. During visit: party paid for prisoner 'correction', witnessed soul extraction into gems, learned about Roseheart King's ghostly binding.",
     "Related": ["CHAR-004", "CHAR-018", "CHAR-020", "CHAR-062", "CHAR-066", "CHAR-067", "CHAR-068", "EVENT-039", "QUEST-002", "QUEST-014"]
+  },
+  {
+    "ID": "LOC-062",
+    "Type": "location",
+    "Name": "Sewers beneath Vale Keep",
+    "Session": "43",
+    "Content": "The sewer network accessible through a secret ash chute and a hidden trap door within Vale Keep. Contains tunnels, sleeping two-headed rat-like abominations with octopus tentacle tails, and a hidden chamber created by the Stone Shape spell. Significant as the secret base of operations for Lucien Shinwell and the location where the party discovered the truth about Lyanna Vale's situation and the plot to reach Solara. Key characters include Lucien Shinwell and Lyanna Vale. During the visit, the party followed Lyanna, met Shinwell, learned his mission, and agreed to help him find 'Rusty' Lou.",
+    "Related": ["CHAR-069", "CHAR-072", "LOC-026", "EVENT-041"]
   }
 ]

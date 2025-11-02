@@ -12,7 +12,7 @@
     "Type": "Quest",
     "Name": "Recover Vyphira's Stolen Tools and Armor",
     "Session": "29",
-    "Content": "Status: In Progress (Major Development). A personal quest for Vyphira. She discovered her stolen armor for sale in Session 29. The goal is to track down the thieves and recover her stolen craftsmanship and Sorrax Shieldweaver's family heirlooms. In Session 41, the party ambushed the thieves at Ironhowl Forge, capturing Voraxik and Shavara, and killing Kharzid. They recovered Torva Ironhowl's tool set and learned from Voraxik that a powerful Beholder is forcing them to collect all existing sets of these tools, and that speaking its name would be fatal. The immediate tools are secured, but the mastermind remains.",
+    "Content": "Status: In Progress. A personal quest for Vyphira. She discovered her stolen armor for sale in Session 29. The goal is to track down the thieves and recover her stolen craftsmanship and Sorrax Shieldweaver's family heirlooms. In Session 41, the party ambushed the thieves at Ironhowl Forge, capturing Voraxik and Shavara, and killing Kharzid. They recovered Torva Ironhowl's tool set and learned from Voraxik and Shavara that a powerful Beholder named Xyrx the Collector is forcing them to collect all existing sets of these tools. The immediate tools are secured, but the mastermind remains. Casualties: Kharzid Tazek (deceased). Reward: One set of tools recovered, information about the true mastermind.",
     "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "CHAR-064", "CHAR-065", "CHAR-068", "LOC-004", "LOC-005", "LOC-027", "LOC-060", "LOC-061", "EVENT-015", "EVENT-018", "EVENT-038", "EVENT-039"]
   },
   {
@@ -20,7 +20,7 @@
     "Type": "Quest",
     "Name": "Journey to Tempest's Refuge",
     "Session": "26",
-    "Content": "Status: Completed (Session 26). Given by the party's need to find a healer for Mask. The goal was to travel from Cloudfoot Keep, through the Greenmurk Forest and plains, to reach the city of Tempest's Refuge. The journey included surviving an Imminent Convergence storm and a brutal encounter with cannibals. Notable reward: Reaching the city and accessing the healer Elandra Hallowheart.",
+    "Content": "Status: Completed. Given by the party's need to find a healer for Mask. The goal was to travel from Cloudfoot Keep, through the Greenmurk Forest and plains, to reach the city of Tempest's Refuge. The journey included surviving an Imminent Convergence storm and a brutal encounter with cannibals. Notable reward: Reaching the city and accessing the healer Elandra Hallowheart. Casualties: Five cannibals.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "LOC-001", "LOC-002", "LOC-006", "LOC-007", "EVENT-001", "EVENT-002", "EVENT-004"]
   },
   {
@@ -36,7 +36,7 @@
     "Type": "Quest",
     "Name": "Rescue Lady Seriss from The Gale",
     "Session": "27",
-    "Content": "Status: Ongoing. Forced upon the party by the slender Gale operative in Session 27. The goal was initially to find Flora Mourne to trade for Lady Seriss, but after Mask's betrayal of The Gale, it became a direct rescue mission. The party knows her location is unknown and that she is alive but captive. Notable reward: Freedom of their noble companion.",
+    "Content": "Status: Ongoing. Forced upon the party by the slender Gale operative in Session 27. The goal was initially to find Flora Mourne to trade for Lady Seriss, but after Mask's betrayal of The Gale, it became a direct rescue mission. The party knows her location is unknown and that she is alive but captive.",
     "Related": ["CHAR-006", "CHAR-008", "CHAR-025", "EVENT-007", "EVENT-009", "EVENT-011"]
   },
   {
@@ -44,7 +44,7 @@
     "Type": "Quest",
     "Name": "Aid the Changeling Refugees",
     "Session": "28",
-    "Content": "Status: Completed (Session 29). Given by Flora Mourne and Veil after the party discovered their safe-house in Session 28. The goal was to help smuggle the changeling refugees, including the pregnant Veil and several children, out of Tempest's Refuge to safety in Drifthold. The party successfully deceived the city guards and escorted them to the road. Notable reward: The gratitude of the refugees and a step toward redemption for Elandra's murder.",
+    "Content": "Status: Completed. Given by Flora Mourne and Veil after the party discovered their safe-house in Session 28. The goal was to help smuggle the changeling refugees, including the pregnant Veil and several children, out of Tempest's Refuge to safety in Drifthold. The party successfully deceived the city guards and escorted them to the road. Notable reward: The gratitude of the refugees and a step toward redemption for Elandra's murder.",
     "Related": ["CHAR-001", "CHAR-009", "CHAR-013", "CHAR-014", "CHAR-015", "LOC-003", "LOC-010", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014"]
   },
   {
@@ -68,7 +68,7 @@
     "Type": "Quest",
     "Name": "Find and Rescue Alira Crimm",
     "Session": "35-38",
-    "Content": "Status: Completed (Sessions 35-38). Given by Lord Halen Crimm in Session 35. The goal was to locate his missing daughter, ensure she had left willingly and safely, and convince her to return home. The party tracked her to a dragon cult, discovered she was a copper dragon, and rescued her from being sacrificed in a ritual. Notable reward: Draconic Boons, valuable items, and the favor of a powerful noble (and dragon).",
+    "Content": "Status: Completed. Given by Lord Halen Crimm in Session 35. The goal was to locate his missing daughter, ensure she had left willingly and safely, and convince her to return home. The party tracked her to a dragon cult, discovered she was a copper dragon, and rescued her from being sacrificed in a ritual. Notable reward: Draconic Boons, valuable items, and the favor of a powerful noble. Casualties: Seroth Kael, Brenna Kael, numerous dragon cultists.",
     "Related": ["CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-044", "LOC-013", "LOC-014", "LOC-015", "LOC-016", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030"]
   },
   {
@@ -76,7 +76,7 @@
     "Type": "Quest",
     "Name": "Fulfill the Blood Pact with the Vale Mages",
     "Session": "30",
-    "Content": "Status: Completed (Session 42). Forced upon the party as a condition of entry into Drifthold in Session 30. The goal was to meet with Jorren and Megara Vale, which the party did in Session 42. The blood pact sigils faded after the meeting, indicating completion. However, the Vales then assigned new dangerous tasks. Notable reward: Freedom from blood pact obligations.",
+    "Content": "Status: Completed. Forced upon the party as a condition of entry into Drifthold in Session 30. The goal was to meet with Jorren and Megara Vale, which the party did in Session 42. The blood pact sigils faded after the meeting, indicating completion. However, the Vales then assigned new dangerous tasks. Notable reward: Freedom from blood pact obligations.",
     "Related": ["CHAR-046", "CHAR-069", "CHAR-070", "LOC-008", "LOC-026", "EVENT-012", "EVENT-040"]
   },
   {
@@ -100,7 +100,7 @@
     "Type": "Quest",
     "Name": "Infiltrate House Stormrider (Original Gale Mission)",
     "Session": "0",
-    "Content": "Status: Failed/Abandoned (Pre-Session 1). Mask's original mission from The Gale, mentioned in backstory. The goal was to infiltrate the kingdom of Caeloria, ruled by House Stormrider, to discover the secret behind its rapid growth. Mask abandoned this mission after being struck by lightning and gaining magic, setting them on their current path. Notable reward: N/A - Mission was betrayed.",
+    "Content": "Status: Failed/Abandoned. Mask's original mission from The Gale, mentioned in backstory. The goal was to infiltrate the kingdom of Caeloria, ruled by House Stormrider, to discover the secret behind its rapid growth. Mask abandoned this mission after being struck by lightning and gaining magic, setting them on their current path. Notable reward: N/A - Mission was betrayed.",
     "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "CHAR-060", "LOC-031", "EVENT-035"]
   },
   {
@@ -116,7 +116,23 @@
     "Type": "Quest",
     "Name": "Deal with the Sewer Mage and Kill Garrick Rathorn",
     "Session": "42",
-    "Content": "Status: Ongoing. Given by Jorren and Megara Vale in Session 42 after blood pact completion. The goal has two parts: stop a mage who has been sneaking through Vales' sewers freeing their 'pets', and assassinate Garrick Rathorn, another leg mage of Drifthold, so Lyanna Vale can take his domain. The Vales threatened the party with grotesque experimentation if they refuse. Notable reward: Avoid being turned into 'better friends' through experimentation.",
-    "Related": ["CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "LOC-008", "LOC-026", "EVENT-040"]
+    "Content": "Status: Ongoing. Given by Jorren and Megara Vale in Session 42 after blood pact completion. The goal has two parts: stop a mage who has been sneaking through Vales' sewers freeing their 'pets', and assassinate Garrick Rathorn, another leg mage of Drifthold, so Lyanna Vale can take his domain. The Vales threatened the party with grotesque experimentation if they refuse. In Session 43, the party discovered the 'sewer mage' was actually Lucien Shinwell, Lyanna's uncle, and allied with him instead.",
+    "Related": ["CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "CHAR-072", "LOC-008", "LOC-026", "EVENT-040", "EVENT-041"]
+  },
+  {
+    "ID": "QUEST-016",
+    "Type": "Quest",
+    "Name": "Reach Solara",
+    "Session": "43",
+    "Content": "Status: Ongoing. A new quest emerging from Session 43, shared by Lucien Shinwell and the party. The goal is to find a way to reach the floating city of Solara to rescue Lyanna Vale's mother Anorra, help Lucien return home, and potentially find information about Faudana and The Gale. The party has agreed to help Lucien find 'Rusty' Lou as a potential contact. Notable reward: Access to Solara, rescue of Anorra, advancement of multiple character goals.",
+    "Related": ["CHAR-002", "CHAR-012", "CHAR-069", "CHAR-072", "CHAR-073", "LOC-011", "EVENT-041", "QUEST-007", "QUEST-012", "QUEST-015"]
+  },
+  {
+    "ID": "QUEST-017",
+    "Type": "Quest",
+    "Name": "Defend Drifthold from Branthor the Thunderheart",
+    "Session": "43",
+    "Content": "Status: Ongoing. A new urgent quest emerging from Session 43. The goal is to defend the city of Drifthold from the giant Branthor the Thunderheart and his storm-touched forces, who have infiltrated the city and issued threats of dominion. The party is currently engaged in street combat against the initial wave of attackers. Notable reward: Survival of Drifthold and its inhabitants, favor of the city's leadership.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-074", "LOC-008", "EVENT-042"]
   }
 ]

@@ -196,7 +196,7 @@
     "Type": "event",
     "Name": "Gloriosa's Family Revelations",
     "Session": "33",
-    "Content": "Session 33 - The Gull and Gasket tavern. Gloriosa revealed complicated family situation: two children with Broin, daughter Faudana (named for Fauda) missing for five years, son Rowan angry with her. Explained blue skin transformation after searching Nyxara temple ruins. Shared dreams of Faudana in silver pool similar to Mask's vision.",
+    "Content": "Session 33 - The Gull and Gasket tavern. Gloriosa revealed complicated family situation: two children with Broin, daughter Faudana missing for five years, son Rowan angry with her. Explained blue skin transformation after searching Nyxara temple ruins. Shared dreams of Faudana in silver pool similar to Mask's vision.",
     "Related": ["CHAR-002", "CHAR-012", "CHAR-032", "CHAR-033", "CHAR-048", "CHAR-049", "LOC-018", "QUEST-007"]
   },
   {
@@ -300,7 +300,7 @@
     "Type": "event",
     "Name": "Ironhowl Forge Ambush and Sewer Chase",
     "Session": "41",
-    "Content": "Session 41 - Ironhowl Forge and Sewers. The party set an ambush for the tool thieves. Shavara Sablefang and Kharzid Tazek entered the forge and were paralyzed by Sili's Hold Person. As the party attacked, Korr the Braxat collapsed the floor, dropping the safe into the sewers. A fight ensued against Korr, the kobold Zrak'Torr, an Earth Elemental, and Voraxik (who refused to strike Vy). Korr, a mercenary, accepted a new contract from Fauda mid-fight, helped retrieve the safe and bodies, and confirmed he had fulfilled his previous contract. The party captured Zrak'Torr, Shavara, and Voraxik. Interrogating Voraxik, they learned the tools were being collected for a Beholder who had spared their lives in exchange for the heists, and that speaking its name would mark the party for death.",
+    "Content": "Session 41 - Ironhowl Forge and Sewers. The party set an ambush for the tool thieves. Shavara Sablefang and Kharzid Tazek entered the forge and were paralyzed by Sili's Hold Person. As the party attacked, Korr the Braxat collapsed the floor, dropping the safe into the sewers. A fight ensued against Korr, the kobold Zrak'Torr, an Earth Elemental, and Voraxik. Korr, a mercenary, accepted a new contract from Fauda mid-fight, helped retrieve the safe and bodies, and confirmed he had fulfilled his previous contract. The party captured Zrak'Torr, Shavara, and Voraxik. Interrogating Voraxik, they learned the tools were being collected for a Beholder who had spared their lives in exchange for the heists, and that speaking its name would mark the party for death.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "CHAR-064", "LOC-005", "LOC-060", "QUEST-002"]
   },
   {
@@ -308,8 +308,8 @@
     "Type": "event",
     "Name": "Prisoner Interrogation and Imprisonment",
     "Session": "42",
-    "Content": "Session 42 - Ironhowl Forge and Drifthold. After capturing thieves, party interrogated Voraxik, Shavara, and Zrak'Torr, learning Beholder Xyrx the Collector is mastermind collecting tool sets. Korr helped transport prisoners to Edrin Locke's private prison where Shavara and Voraxik were soul-imprisoned for correction. Zrak'Torr taken to Ever-Burning Temple where Lucan performed purification ritual removing corruption. Learned about Roseheart King's ghostly binding from Edrin. Party dismissed Korr after payment.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-020", "CHAR-062", "CHAR-066", "CHAR-067", "CHAR-068", "CHAR-026", "LOC-005", "LOC-008", "LOC-061", "QUEST-002", "QUEST-014"]
+    "Content": "Session 42 - Ironhowl Forge and Drifthold. After capturing thieves, party interrogated Voraxik, Shavara, and Zrak'Torr, learning Beholder Xyrx the Collector is mastermind collecting tool sets. Korr helped transport prisoners to Edrin Locke's private prison where Shavara and Voraxik were soul-imprisoned for correction. Zrak'Torr taken to Ever-Burning Temple where Lucan Brightmere performed purification ritual removing corruption. Learned about Roseheart King's ghostly binding from Edrin. Party dismissed Korr after payment.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-020", "CHAR-062", "CHAR-066", "CHAR-067", "CHAR-068", "CHAR-076", "LOC-005", "LOC-008", "LOC-061", "QUEST-002", "QUEST-014"]
   },
   {
     "ID": "EVENT-040",
@@ -318,5 +318,21 @@
     "Session": "42",
     "Content": "Session 42 - Vales' keep in Drifthold. Party fulfilled blood pact by meeting Vales. Met Lyanna Vale who revealed her captivity. Met Jorren and Megara Vale in dining hall, who assigned new tasks after blood pact sigils faded: deal with mage freeing 'pets' from sewers, and assassinate Garrick Rathorn. Vales threatened party with grotesque experimentation. Party retreated to consult Lord Crimm before deciding.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "LOC-008", "LOC-026", "QUEST-010", "QUEST-015"]
+  },
+  {
+    "ID": "EVENT-041",
+    "Type": "event",
+    "Name": "Sewer Sanctuary Discovery",
+    "Session": "43",
+    "Content": "Session 43 - Sewers beneath Vale Keep. The party discovered a secret passage from Vale Keep into the sewers, where they found Lucien Shinwell, Lyanna Vale's uncle, in a hidden chamber. He revealed his mission to rescue Lyanna and her mother Anorra from Solara, and his stranded status after his planar magic failed during his Planar Galavant. The party agreed to help him find 'Rusty' Lou as a potential contact to reach Solara.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "CHAR-072", "LOC-062", "QUEST-015", "QUEST-016"]
+  },
+  {
+    "ID": "EVENT-042",
+    "Type": "event",
+    "Name": "The Giant's Threat and Street Ambush",
+    "Session": "43",
+    "Content": "Session 43 - Crimm Manor and Drifthold streets. Lord Crimm informed the party via message that he was at an emergency meeting with the King of Drifthold regarding an emissary from the giant Branthor the Thunderheart, who was threatening the city and claiming to have forces hidden within it. While heading to find 'Rusty' Lou, Fauda triggered an ambush by storm-touched soldiers and a lightning giant emerging from hay carts, initiating a street battle.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-074", "LOC-008", "LOC-013", "QUEST-017"]
   }
 ]
