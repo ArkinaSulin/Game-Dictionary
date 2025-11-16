@@ -13,7 +13,7 @@
     "Name": "Recover Vyphira's Stolen Tools and Armor",
     "Session": "29",
     "Content": "Status: In Progress. A personal quest for Vyphira. She discovered her stolen armor for sale in Session 29. The goal is to track down the thieves and recover her stolen craftsmanship and Sorrax Shieldweaver's family heirlooms. In Session 41, the party ambushed the thieves at Ironhowl Forge, capturing Voraxik and Shavara, and killing Kharzid. They recovered Torva Ironhowl's tool set and learned from Voraxik and Shavara that a powerful Beholder named Xyrx the Collector is forcing them to collect all existing sets of these tools. The immediate tools are secured, but the mastermind remains. Casualties: Kharzid Tazek (deceased). Reward: One set of tools recovered, information about the true mastermind.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "CHAR-064", "CHAR-065", "CHAR-068", "LOC-004", "LOC-005", "LOC-027", "LOC-060", "LOC-061", "EVENT-015", "EVENT-018", "EVENT-038", "EVENT-039"]
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "CHAR-064", "CHAR-065", "CHAR-068", "ITEM-009", "LOC-004", "LOC-005", "LOC-027", "LOC-060", "LOC-061", "EVENT-015", "EVENT-018", "EVENT-038", "EVENT-039"]
   },
   {
     "ID": "QUEST-003",
@@ -53,7 +53,7 @@
     "Name": "Find Gloriosa's Missing Daughter, Faudana",
     "Session": "30",
     "Content": "Status: Ongoing. Personal quest for Gloriosa, adopted by Fauda and the party after their reunion in Session 30. The goal is to locate Faudana, who vanished at age twelve during a lunar ceremony and is believed to be connected to the goddess Nyxara. Gloriosa has dreams of her in a silver pool, similar to Mask's vision. The trail leads to Solara. Notable reward: Family reunion and potentially key information about Nyxara and Tana.",
-    "Related": ["CHAR-002", "CHAR-012", "CHAR-033", "CHAR-048", "LOC-011", "EVENT-013", "EVENT-025", "QUEST-001"]
+    "Related": ["CHAR-002", "CHAR-012", "CHAR-033", "CHAR-048", "ITEM-008", "LOC-011", "EVENT-013", "EVENT-025", "QUEST-001"]
   },
   {
     "ID": "QUEST-008",
@@ -69,7 +69,7 @@
     "Name": "Find and Rescue Alira Crimm",
     "Session": "35-38",
     "Content": "Status: Completed. Given by Lord Halen Crimm in Session 35. The goal was to locate his missing daughter, ensure she had left willingly and safely, and convince her to return home. The party tracked her to a dragon cult, discovered she was a copper dragon, and rescued her from being sacrificed in a ritual. Notable reward: Draconic Boons, valuable items, and the favor of a powerful noble. Casualties: Seroth Kael, Brenna Kael, numerous dragon cultists.",
-    "Related": ["CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-044", "LOC-013", "LOC-014", "LOC-015", "LOC-016", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030"]
+    "Related": ["CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-044", "ITEM-010", "LOC-013", "LOC-014", "LOC-015", "LOC-016", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030"]
   },
   {
     "ID": "QUEST-010",
@@ -93,7 +93,7 @@
     "Name": "Uncover the Truth About Tana and The Gale",
     "Session": "28",
     "Content": "Status: Ongoing. A core campaign-spanning quest driven by Mask's devotion to Tana and the party's conflict with The Gale, beginning around Session 28. The goal is to discover the truth behind Tana's shattering, the nature of The Gale and its connection to Solara, and the rumored divine offspring of Tana and Yondar. The party has learned that The Gale serves Solara and that changelings were created there. Notable reward: Understanding the central cosmic and political conflicts of the campaign.",
-    "Related": ["CHAR-001", "CHAR-025", "CHAR-028", "CHAR-033", "CHAR-043", "CHAR-052", "LOC-011", "LOC-017", "EVENT-003", "EVENT-022", "EVENT-023", "QUEST-001", "QUEST-007"]
+    "Related": ["CHAR-001", "CHAR-025", "CHAR-028", "CHAR-033", "CHAR-043", "CHAR-052", "ITEM-002", "ITEM-003", "ITEM-005", "ITEM-006", "ITEM-007", "LOC-011", "LOC-017", "EVENT-003", "EVENT-022", "EVENT-023", "QUEST-001", "QUEST-007"]
   },
   {
     "ID": "QUEST-013",
@@ -101,7 +101,7 @@
     "Name": "Infiltrate House Stormrider (Original Gale Mission)",
     "Session": "0",
     "Content": "Status: Failed/Abandoned. Mask's original mission from The Gale, mentioned in backstory. The goal was to infiltrate the kingdom of Caeloria, ruled by House Stormrider, to discover the secret behind its rapid growth. Mask abandoned this mission after being struck by lightning and gaining magic, setting them on their current path. Notable reward: N/A - Mission was betrayed.",
-    "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "CHAR-060", "LOC-031", "EVENT-035"]
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "CHAR-060", "ITEM-001", "ITEM-004", "LOC-031", "EVENT-035"]
   },
   {
     "ID": "QUEST-014",
@@ -125,7 +125,7 @@
     "Name": "Reach Solara",
     "Session": "43",
     "Content": "Status: Ongoing. A new quest emerging from Session 43, shared by Lucien Shinwell and the party. The goal is to find a way to reach the floating city of Solara to rescue Lyanna Vale's mother Anorra, help Lucien return home, and potentially find information about Faudana and The Gale. The party has agreed to help Lucien find 'Rusty' Lou as a potential contact. Notable reward: Access to Solara, rescue of Anorra, advancement of multiple character goals.",
-    "Related": ["CHAR-002", "CHAR-012", "CHAR-069", "CHAR-072", "CHAR-073", "LOC-011", "EVENT-041", "QUEST-007", "QUEST-012", "QUEST-015"]
+    "Related": ["CHAR-002", "CHAR-012", "CHAR-069", "CHAR-072", "CHAR-073", "ITEM-011", "LOC-011", "EVENT-041", "EVENT-043", "QUEST-007", "QUEST-012", "QUEST-015"]
   },
   {
     "ID": "QUEST-017",
@@ -133,6 +133,14 @@
     "Name": "Defend Drifthold from Branthor the Thunderheart",
     "Session": "43",
     "Content": "Status: Ongoing. A new urgent quest emerging from Session 43. The goal is to defend the city of Drifthold from the giant Branthor the Thunderheart and his storm-touched forces, who have infiltrated the city and issued threats of dominion. The party is currently engaged in street combat against the initial wave of attackers. Notable reward: Survival of Drifthold and its inhabitants, favor of the city's leadership.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-074", "LOC-008", "EVENT-042"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-074", "ITEM-007", "ITEM-012", "LOC-008", "EVENT-042", "EVENT-044"]
+  },
+  {
+    "ID": "QUEST-018",
+    "Type": "Quest",
+    "Name": "Acquire Aetherglass",
+    "Session": "44",
+    "Content": "Status: Ongoing. A new quest emerging from Session 44. The goal is to travel to the Thundermaw Range to acquire Aetherglass for 'Rusty' Lou's teleportation machine. This substance is essential for reaching Solara and can be purchased from mountain tribes in the region. The party is currently traveling toward the Thundermaw Range with Cloudfoot Keep. Notable reward: Ability to power the teleportation machine to Solara.",
+    "Related": ["CHAR-073", "CHAR-077", "ITEM-011", "ITEM-012", "LOC-001", "EVENT-043", "EVENT-044", "EVENT-045", "QUEST-016"]
   }
 ]

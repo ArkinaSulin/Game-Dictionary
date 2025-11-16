@@ -1,0 +1,98 @@
+[
+  {
+    "ID": "ITEM-001",
+    "Type": "Item",
+    "Name": "Stormheart Amulet",
+    "Session": "2",
+    "Content": "A powerful red amulet made from the heart of a dragon slain by the first Stormrider. It protects the kingdom of Caeloria from the violent storms by powering protective runes. Stolen by Lady Seriss Stormrider, then stolen from her by Zephara Moonveil. The party was hired by Lord Kaelen Stormrider to recover it.",
+    "Related": ["EVENT-035", "QUEST-013", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-025", "CHAR-060"]
+  },
+  {
+    "ID": "ITEM-002",
+    "Type": "Item",
+    "Name": "Hammer and Crown Sigil Set",
+    "Session": "4",
+    "Content": "A pendant, ring, and owl statuette made of an unknown damascus-like metal with a crown over a hammer sigil. Found in a false-bottomed chest in an underground manor. The jeweler at The Shimmering Vault recognized their immense value, leading to a confrontation with Eldar Joven. Identified as belonging to the lost noble House Ironborn of Solara.",
+    "Related": ["EVENT-033", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-057"]
+  },
+  {
+    "ID": "ITEM-003",
+    "Type": "Item",
+    "Name": "Keledar Codex",
+    "Session": "9",
+    "Content": "A thick, locked tome with a telescope/eyeball sigil on the cover, written in an ancient runic code. Housed in Hargrave Manor. The party retrieved it for Johnny Whisper in exchange for information. It was written by the founders of the Thunderwell Library and is nearly impossible to decipher without a key book from that library.",
+    "Related": ["EVENT-032", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-056"]
+  },
+  {
+    "ID": "ITEM-004",
+    "Type": "Item",
+    "Name": "Zephara's Ring",
+    "Session": "15",
+    "Content": "A ring with an Eye and Sword sigil, stolen by Lady Seriss from Zephara Moonveil. The party found it beneath a couch in The Archivum. The sigil belongs to the 'Eye of the Everbound' of Solara. It was the key that triggered the trap in the high room of The Archivum.",
+    "Related": ["EVENT-035", "QUEST-013", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-025"]
+  },
+  {
+    "ID": "ITEM-005",
+    "Type": "Item",
+    "Name": "Cloudfoot Keep Pendant",
+    "Session": "18",
+    "Content": "A pendant with a Mouse and Sword sigil found on the mummified body of Revyn Trask in a forest caravan. It is the key that activates and grants mastery over the mobile, ancient fortress known as Cloudfoot Keep. The sigil belongs to House Truemouse of Solara.",
+    "Related": ["EVENT-034", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005"]
+  },
+  {
+    "ID": "ITEM-006",
+    "Type": "Item",
+    "Name": "House Goodhare Contract",
+    "Session": "19",
+    "Content": "A contractual receipt found in Cloudfoot Keep detailing an agreement between Revyn Trask (House Truemouse) and House Goodhare of Solara. It outlines the collection of flora, fauna, settlements, and local humanoids from the world, with a one-year time frame. Connects to mysteries like the vanishing of Varethis.",
+    "Related": ["EVENT-034", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-025"]
+  },
+  {
+    "ID": "ITEM-007",
+    "Type": "Item",
+    "Name": "Leon Gravix's Notes",
+    "Session": "17",
+    "Content": "Research notes from the rogue mage Leon Gravix, given to the party by Vanessa Quillspike. They contain the breakthrough that 'Solara' is a city and suggest that Stormhaven's advanced storm-harnessing knowledge appeared fully formed, not developed organically. A key to understanding the deeper world conspiracy.",
+    "Related": ["EVENT-031", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-077"]
+  },
+  {
+    "ID": "ITEM-008",
+    "Type": "Item",
+    "Name": "Fauda's Charm Bracelet",
+    "Session": "39",
+    "Content": "A charm bracelet belonging to Fauda that was gifted by her sister Gloriosa with a new blue stone charm featuring a crescent moon with a face resembling both sisters. The charm pulses with lunar and twin magic essence, serving as a symbolic reconciliation gift between the estranged sisters.",
+    "Related": ["EVENT-028", "EVENT-013", "QUEST-007", "CHAR-002", "CHAR-012"]
+  },
+  {
+    "ID": "ITEM-009",
+    "Type": "Item",
+    "Name": "Vy's Ancestral Tools",
+    "Session": "29",
+    "Content": "A set of specialized armor-making tools that were stolen from Vy by her former friend Voraxik Valarnn. The tools are essential for creating Vy's patented leather armor design and are being sought by a beholder named Xyrx the Collector who is forcing various thieves to acquire them.",
+    "Related": ["EVENT-015", "EVENT-038", "EVENT-039", "QUEST-002", "CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-065"]
+  },
+  {
+    "ID": "ITEM-010",
+    "Type": "Item",
+    "Name": "Draconic Boons",
+    "Session": "38",
+    "Content": "Magical enhancements bestowed by Lord Halen Crimm by inscribing draconic runes directly into the flesh of party members using his dragon claw. These boons provide permanent magical benefits and represent the gratitude of the dragon lord for rescuing his daughter Alira.",
+    "Related": ["EVENT-027", "EVENT-021", "QUEST-009", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-036"]
+  },
+  {
+    "ID": "ITEM-011",
+    "Type": "Item",
+    "Name": "Aetherglass",
+    "Session": "44",
+    "Content": "An extremely rare and valuable substance formed in mountains when natural gold deposits are struck by magically-imbued lightning and left to transform over at least a thousand years. Appears as rainbow-hued glass about as hard as a ruby. Difficult to mine. Used by 'Rusty' Lou for his teleportation machine to reach Solara. Can be purchased from tribes in the Thundermaw Range.",
+    "Related": ["EVENT-043", "QUEST-016", "QUEST-018", "CHAR-073", "CHAR-077"]
+  },
+  {
+    "ID": "ITEM-012",
+    "Type": "Item",
+    "Name": "Leon's Research Notebooks",
+    "Session": "45",
+    "Content": "Dozens of notebooks containing Leon Gravix's research on storm patterns and historical cataclysms. Reveal the 51-year cycle of destruction that targets Eryndor's most advanced cities and document historical artifacts like The Tempest's Prism, Yondar's Lantern, The Conductor's Crown, The Anchor of the Ancients, and The Veil of Ashara.",
+    "Related": ["EVENT-044", "QUEST-017", "QUEST-018", "CHAR-077"]
+  }
+]

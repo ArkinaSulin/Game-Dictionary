@@ -101,7 +101,7 @@
     "Name": "Gloriosa Reunion",
     "Session": "30",
     "Content": "Session 30 - The Tether's End Tavern and magistrate's office. Party found tavern watched by suspicious figures. Led to magistrate's office where Gloriosa waited. Emotional reunion after 20 years estrangement. Gloriosa revealed blue skin, role as Nyxara's prophet, missing daughter Faudana. Agreed to help Mask's mind healing.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-012", "LOC-018", "LOC-022", "QUEST-001", "QUEST-007"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-012", "ITEM-008", "LOC-018", "LOC-022", "QUEST-001", "QUEST-007"]
   },
   {
     "ID": "EVENT-014",
@@ -117,7 +117,7 @@
     "Name": "Stolen Armor Discovery",
     "Session": "29",
     "Content": "Session 29 - Shieldweaver's Armorer & Forge. Vy recognized her stolen armor for sale. Confronted Sorrax, learned about Voraxik Valarnn stealing tools. Discovered connection to Kharzid Tazek and Shavara Sablefang. Learned about third tool set at Ironhowl Forge in Drifthold.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "LOC-004", "QUEST-002"]
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "ITEM-009", "LOC-004", "QUEST-002"]
   },
   {
     "ID": "EVENT-016",
@@ -141,7 +141,7 @@
     "Name": "Ironhowl Forge Setup",
     "Session": "39",
     "Content": "Session 39 - Ironhowl Forge. Party met Torva Ironhowl, confirmed third tool set existence. Learned Voraxik had been there asking questions. Set trap plan for thieves during Torva's 6-9pm dinner break. Vy promised to recover tools if found.",
-    "Related": ["CHAR-003", "CHAR-030", "LOC-005", "QUEST-002"]
+    "Related": ["CHAR-003", "CHAR-030", "ITEM-009", "LOC-005", "QUEST-002"]
   },
   {
     "ID": "EVENT-019",
@@ -165,7 +165,7 @@
     "Name": "Hollow Basilica Dragon Cult Battle",
     "Session": "37-38",
     "Content": "Sessions 37-38 - The Hollow Basilica. Party found Seroth Kael in draconian form preparing to sacrifice Alira. Alira transformed to copper dragon mid-fall. Fauda summoned The Black Dove. Epic battle against cultists and Ghost Dragon of Khaimyrax. Vy and Sili repeatedly knocked unconscious, Derron helped as Giant Ape. Defeated cult, rescued Alira, discovered Dragonborn blood ritual supplements.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-042", "CHAR-044", "CHAR-045", "LOC-014", "QUEST-009"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-035", "CHAR-036", "CHAR-039", "CHAR-040", "CHAR-042", "CHAR-044", "CHAR-045", "ITEM-010", "LOC-014", "QUEST-009"]
   },
   {
     "ID": "EVENT-022",
@@ -213,7 +213,7 @@
     "Name": "Draconic Boons Bestowal",
     "Session": "38",
     "Content": "Session 38 - Crimm Manor study. After Alira rescue, Lord Crimm revealed true dragon nature. Offered Draconic Boons by inscribing runes into flesh with his claw. Also gave Vy magical ring and copper dragon figurine creating illusory Shaemir. Shared information about Solara origins and Dragonborn creation.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "LOC-013", "QUEST-009"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "ITEM-010", "LOC-013", "QUEST-009"]
   },
   {
     "ID": "EVENT-028",
@@ -221,7 +221,7 @@
     "Name": "Fauda's Charm Bracelet Gift",
     "Session": "39",
     "Content": "Session 39 - Outside Ironhowl Forge. During farewell with Gloriosa before her departure to Solara, Gloriosa brushed Fauda's charm bracelet and added new blue stone charm. Carved crescent moon with face resembling both sisters, pulsed with lunar and twin magic essence. Symbolic reconciliation gift.",
-    "Related": ["CHAR-002", "CHAR-012", "LOC-005"]
+    "Related": ["CHAR-002", "CHAR-012", "ITEM-008", "LOC-005"]
   },
   {
     "ID": "EVENT-029",
@@ -245,7 +245,7 @@
     "Name": "Party Formation in Stormhaven",
     "Session": "1-5",
     "Content": "Sessions 1-5 - Stormhaven. The party first came together in the city of Stormhaven. The exact circumstances are unclear, but they formed an adventuring group and began taking on local jobs. This is where they first encountered Johnny Whispers and likely had their initial confrontation with Eldar Joven.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-056", "CHAR-057", "LOC-023"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-056", "CHAR-057", "ITEM-007", "LOC-023"]
   },
   {
     "ID": "EVENT-032",
@@ -253,7 +253,7 @@
     "Name": "Confrontation with Johnny Whispers",
     "Session": "6",
     "Content": "Sessions 6-8 - Stormhaven. The party had a significant encounter with Johnny Whispers, a former agent of The Gale who had slashed his tattoo to break free. He warned them about the true nature of The Gale. This event was later referenced by the slender Gale operative as proof of his surveillance.",
-    "Related": ["CHAR-001", "CHAR-008", "CHAR-025", "CHAR-056", "LOC-023"]
+    "Related": ["CHAR-001", "CHAR-008", "CHAR-025", "CHAR-056", "ITEM-003", "LOC-023"]
   },
   {
     "ID": "EVENT-033",
@@ -261,7 +261,7 @@
     "Name": "Dealings with Eldar Joven",
     "Session": "9",
     "Content": "Sessions 9-11 - Location Unknown. The party had dealings with a figure named Eldar Joven. The nature of this interaction is unknown, but it was significant enough for The Gale to take note, as referenced by their operative in Session 27.",
-    "Related": ["CHAR-008", "CHAR-025", "CHAR-057"]
+    "Related": ["CHAR-008", "CHAR-025", "CHAR-057", "ITEM-002"]
   },
   {
     "ID": "EVENT-034",
@@ -269,7 +269,7 @@
     "Name": "Securing Cloudfoot Keep",
     "Session": "12",
     "Content": "Sessions 12-15 - Cloudfoot Keep. The party journeyed to and secured Cloudfoot Keep as their base of operations. They cleared it of previous inhabitants or threats and began establishing their individual bastion developments, such as Arc's mushroom garden and Vy's barracks.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-001"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "ITEM-005", "ITEM-006", "LOC-001"]
   },
   {
     "ID": "EVENT-035",
@@ -277,7 +277,7 @@
     "Name": "Lady Seriss Joins the Party",
     "Session": "16",
     "Content": "Sessions 16-18 - Caeloria or Travel. The noblewoman Lady Seriss of House Stormrider joined the party. The circumstances are unclear, but it involved the party's journey toward her kingdom, Caeloria, which was Mask's original Gale assignment to infiltrate.",
-    "Related": ["CHAR-001", "CHAR-006", "CHAR-008", "CHAR-025", "CHAR-060"]
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-008", "CHAR-025", "CHAR-060", "ITEM-001", "ITEM-004", "LOC-031"]
   },
   {
     "ID": "EVENT-036",
@@ -301,7 +301,7 @@
     "Name": "Ironhowl Forge Ambush and Sewer Chase",
     "Session": "41",
     "Content": "Session 41 - Ironhowl Forge and Sewers. The party set an ambush for the tool thieves. Shavara Sablefang and Kharzid Tazek entered the forge and were paralyzed by Sili's Hold Person. As the party attacked, Korr the Braxat collapsed the floor, dropping the safe into the sewers. A fight ensued against Korr, the kobold Zrak'Torr, an Earth Elemental, and Voraxik. Korr, a mercenary, accepted a new contract from Fauda mid-fight, helped retrieve the safe and bodies, and confirmed he had fulfilled his previous contract. The party captured Zrak'Torr, Shavara, and Voraxik. Interrogating Voraxik, they learned the tools were being collected for a Beholder who had spared their lives in exchange for the heists, and that speaking its name would mark the party for death.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "CHAR-064", "LOC-005", "LOC-060", "QUEST-002"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "CHAR-064", "ITEM-009", "LOC-005", "LOC-060", "QUEST-002"]
   },
   {
     "ID": "EVENT-039",
@@ -309,7 +309,7 @@
     "Name": "Prisoner Interrogation and Imprisonment",
     "Session": "42",
     "Content": "Session 42 - Ironhowl Forge and Drifthold. After capturing thieves, party interrogated Voraxik, Shavara, and Zrak'Torr, learning Beholder Xyrx the Collector is mastermind collecting tool sets. Korr helped transport prisoners to Edrin Locke's private prison where Shavara and Voraxik were soul-imprisoned for correction. Zrak'Torr taken to Ever-Burning Temple where Lucan Brightmere performed purification ritual removing corruption. Learned about Roseheart King's ghostly binding from Edrin. Party dismissed Korr after payment.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-020", "CHAR-062", "CHAR-066", "CHAR-067", "CHAR-068", "CHAR-076", "LOC-005", "LOC-008", "LOC-061", "QUEST-002", "QUEST-014"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-020", "CHAR-062", "CHAR-066", "CHAR-067", "CHAR-068", "CHAR-076", "ITEM-009", "LOC-005", "LOC-008", "LOC-061", "QUEST-002", "QUEST-014"]
   },
   {
     "ID": "EVENT-040",
@@ -334,5 +334,29 @@
     "Session": "43",
     "Content": "Session 43 - Crimm Manor and Drifthold streets. Lord Crimm informed the party via message that he was at an emergency meeting with the King of Drifthold regarding an emissary from the giant Branthor the Thunderheart, who was threatening the city and claiming to have forces hidden within it. While heading to find 'Rusty' Lou, Fauda triggered an ambush by storm-touched soldiers and a lightning giant emerging from hay carts, initiating a street battle.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-074", "LOC-008", "LOC-013", "QUEST-017"]
+  },
+  {
+    "ID": "EVENT-043",
+    "Type": "event",
+    "Name": "Negotiation at The Cogwheel",
+    "Session": "44",
+    "Content": "Session 44 - The Cogwheel workshop in Drifthold. The party negotiated with Mikk 'Scab' Snikk of The Glint Syndicate to secure 'Rusty' Lou's assistance. Fauda convinced Scab by exaggerating the Storm Lord threat to Drifthold's Underside. The party assumed responsibility for Lou's 100,000 gold debt in exchange for his help reaching Solara. Lou revealed he needed Aetherglass for his teleportation machine and knew sources in the Thundermaw Range.",
+    "Related": ["CHAR-002", "CHAR-073", "CHAR-078", "ITEM-011", "LOC-063", "LOC-064", "QUEST-016", "QUEST-018"]
+  },
+  {
+    "ID": "EVENT-044",
+    "Type": "event",
+    "Name": "Meeting with Leon Gravix",
+    "Session": "45",
+    "Content": "Session 45 - The Crackling Wand magic shop and Leon's apartment in Drifthold. The party found Leon Gravix living under the alias 'Vix' and warned him about the Storm Lord threat. Leon revealed his research on the 51-year cycle of cataclysms that destroy Eryndor's advanced cities. He documented historical artifacts and warned that the current conflict with Storm Lords might be the next cataclysm. The party evacuated Leon and his research notebooks from the city.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-077", "ITEM-007", "ITEM-012", "LOC-065", "LOC-066", "QUEST-017", "QUEST-018"]
+  },
+  {
+    "ID": "EVENT-045",
+    "Type": "event",
+    "Name": "Cloudfoot Keep Departure and Pursuer Discovery",
+    "Session": "45",
+    "Content": "Session 45 - Cloudfoot Keep and surrounding grasslands. The party gathered all allies at Cloudfoot Keep and set it in motion toward the Thundermaw Range. Sili's animal network discovered they were being closely followed by a group that had been tracking them for weeks. The party planned to use invisibility to ambush their pursuers while the keep continued traveling.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "LOC-001", "QUEST-018"]
   }
 ]
