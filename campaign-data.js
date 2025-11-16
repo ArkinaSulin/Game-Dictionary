@@ -44,19 +44,21 @@ async function loadSingleCampaign(campaignInfo, campaignName) {
         const basePath = `./data/${campaignInfo.folder}`;
         console.log(`🔍 Loading from: ${basePath}`);
         
-        // Load all JSON files for this campaign
-        const [characters, locations, events, quests] = await Promise.all([
+        // Load all JSON files for this campaign including items
+        const [characters, locations, events, quests, items] = await Promise.all([
             fetch(`${basePath}/characters.json`).then(handleFetchError),
             fetch(`${basePath}/locations.json`).then(handleFetchError),
             fetch(`${basePath}/events.json`).then(handleFetchError),
-            fetch(`${basePath}/quests.json`).then(handleFetchError)
+            fetch(`${basePath}/quests.json`).then(handleFetchError),
+            fetch(`${basePath}/items.json`).then(handleFetchError)
         ]);
 
         console.log(`📊 Campaign ${campaignName} data:`, {
             characters: characters?.length || 0,
             locations: locations?.length || 0,
             events: events?.length || 0,
-            quests: quests?.length || 0
+            quests: quests?.length || 0,
+            items: items?.length || 0
         });
 
         return {
@@ -67,7 +69,8 @@ async function loadSingleCampaign(campaignInfo, campaignName) {
                     "Character": characters || [],
                     "Location": locations || [],
                     "Event": events || [],
-                    "Quest": quests || []
+                    "Quest": quests || [],
+                    "Item": items || []
                 }
             ]
         };

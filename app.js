@@ -7,6 +7,7 @@ class CampaignWiki {
         this.currentNode = null;
         this.dataLoaded = false;
         this.currentSort = 'name'; // Track current sort method
+        this.currentOrder = 'asc'; // Track current sort order
     }
 
     async init() {
@@ -74,7 +75,7 @@ class CampaignWiki {
         // Handle the nested structure
         const campaignNodes = campaignData.nodes[0];
         if (campaignNodes && typeof campaignNodes === 'object') {
-            const categories = ['Character', 'Location', 'Event', 'Quest'];
+            const categories = ['Character', 'Location', 'Event', 'Quest', 'Item'];
             
             categories.forEach(category => {
                 if (Array.isArray(campaignNodes[category])) {
@@ -145,7 +146,8 @@ class CampaignWiki {
                 Character: [],
                 Location: [],
                 Event: [],
-                Quest: []
+                Quest: [],
+                Item: []
             };
         }
 
@@ -154,7 +156,8 @@ class CampaignWiki {
             Character: [],
             Location: [],
             Event: [],
-            Quest: []
+            Quest: [],
+            Item: []
         };
 
         relatedArray.forEach(item => {
@@ -167,6 +170,8 @@ class CampaignWiki {
                     related.Event.push(item);
                 } else if (item.startsWith('QUEST-') || item.includes('Quest')) {
                     related.Quest.push(item);
+                } else if (item.startsWith('ITEM-') || item.includes('Item')) {
+                    related.Item.push(item);
                 } else {
                     // Default to Character if no prefix detected
                     related.Character.push(item);
@@ -333,7 +338,7 @@ class CampaignWiki {
 
     // ADD THIS METHOD - It was missing!
     renderIndex() {
-        this.sortIndex('name'); // Default to alphabetical sort
+        this.sortIndex('name', 'asc'); // Default to alphabetical sort ascending
     }
 
     setupSortControls() {
@@ -346,18 +351,23 @@ class CampaignWiki {
         const sortControls = document.createElement('div');
         sortControls.className = 'sort-controls';
         sortControls.innerHTML = `
-            <button class="sort-btn active" data-sort="name">A-Z</button>
-            <button class="sort-btn" data-sort="type">Type</button>
-            <button class="sort-btn" data-sort="session">Session#</button>
-            <button class="sort-btn" data-sort="session-reverse">Rev. Session#</button>
+            <div class="sort-type-group">
+                <button class="sort-btn active" data-sort="name">Name</button>
+                <button class="sort-btn" data-sort="type">Type</button>
+                <button class="sort-btn" data-sort="session">Session#</button>
+            </div>
+            <div class="sort-order-group">
+                <button class="sort-order-btn active" data-order="asc">A-Z</button>
+                <button class="sort-order-btn" data-order="desc">Z-A</button>
+            </div>
         `;
         
         const leftPanel = document.querySelector('.left-panel');
         const indexList = document.getElementById('indexList');
         leftPanel.insertBefore(sortControls, indexList);
         
-        // Add event listeners for sort buttons
-        sortControls.addEventListener('click', (e) => {
+        // Add event listeners for sort type buttons
+        sortControls.querySelector('.sort-type-group').addEventListener('click', (e) => {
             if (e.target.classList.contains('sort-btn')) {
                 // Update active state
                 sortControls.querySelectorAll('.sort-btn').forEach(btn => {
@@ -365,51 +375,66 @@ class CampaignWiki {
                 });
                 e.target.classList.add('active');
                 
+                // Get current order
+                const currentOrder = sortControls.querySelector('.sort-order-btn.active').dataset.order;
+                
                 // Sort the data
-                this.sortIndex(e.target.dataset.sort);
+                this.sortIndex(e.target.dataset.sort, currentOrder);
+            }
+        });
+        
+        // Add event listeners for sort order buttons
+        sortControls.querySelector('.sort-order-group').addEventListener('click', (e) => {
+            if (e.target.classList.contains('sort-order-btn')) {
+                // Update active state
+                sortControls.querySelectorAll('.sort-order-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                e.target.classList.add('active');
+                
+                // Get current sort type
+                const currentSort = sortControls.querySelector('.sort-btn.active').dataset.sort;
+                
+                // Sort the data
+                this.sortIndex(currentSort, e.target.dataset.order);
             }
         });
     }
 
-    sortIndex(sortBy) {
+    sortIndex(sortBy, order = 'asc') {
         if (!this.currentData.length) return;
         
         this.currentSort = sortBy;
+        this.currentOrder = order;
         let sortedNodes;
         
-        console.log(`🔢 Sorting by: ${sortBy}`);
+        console.log(`🔢 Sorting by: ${sortBy} (${order})`);
         
         switch (sortBy) {
             case 'name':
-                sortedNodes = [...this.currentData].sort((a, b) => 
-                    a.name.localeCompare(b.name)
-                );
+                sortedNodes = [...this.currentData].sort((a, b) => {
+                    const compare = a.name.localeCompare(b.name);
+                    return order === 'asc' ? compare : -compare;
+                });
                 break;
             case 'type':
                 sortedNodes = [...this.currentData].sort((a, b) => {
                     const typeCompare = a.type.localeCompare(b.type);
                     if (typeCompare === 0) {
-                        return a.name.localeCompare(b.name);
+                        const nameCompare = a.name.localeCompare(b.name);
+                        return order === 'asc' ? nameCompare : -nameCompare;
                     }
-                    return typeCompare;
+                    return order === 'asc' ? typeCompare : -typeCompare;
                 });
                 break;
             case 'session':
                 sortedNodes = [...this.currentData].sort((a, b) => {
                     const sessionCompare = a.session - b.session;
                     if (sessionCompare === 0) {
-                        return a.name.localeCompare(b.name);
+                        const nameCompare = a.name.localeCompare(b.name);
+                        return order === 'asc' ? nameCompare : -nameCompare;
                     }
-                    return sessionCompare;
-                });
-                break;
-            case 'session-reverse':
-                sortedNodes = [...this.currentData].sort((a, b) => {
-                    const sessionCompare = b.session - a.session;
-                    if (sessionCompare === 0) {
-                        return a.name.localeCompare(b.name);
-                    }
-                    return sessionCompare;
+                    return order === 'asc' ? sessionCompare : -sessionCompare;
                 });
                 break;
             default:
@@ -626,7 +651,8 @@ class CampaignWiki {
             ...(related.Character || []),
             ...(related.Location || []),
             ...(related.Event || []),
-            ...(related.Quest || [])
+            ...(related.Quest || []),
+            ...(related.Item || [])
         ];
 
         if (allRelatedIds.length === 0) {
