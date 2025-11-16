@@ -180,7 +180,7 @@
     "Type": "Location",
     "Name": "Ancient Coral Ruins (Below Zepharok)",
     "Session": "30",
-    "Content": "A sunken city of coral and pearl, now a ghost town, located in the dying sea below Zepharok. The party fought through several chambers here, including a great hall with a Coral Drake, a hallway with water vortexes, and a final chamber with a Marid.",
+    "Content": "A sunken city of coral and pearl, now a ghost town, located in the dying sea east of Zepharok. The party fought through several chambers here, including a great hall with a Coral Drake, a hallway with water vortexes, and a final chamber with a Marid.",
     "Related": ["CHAR-057", "CHAR-058", "EVENT-035", "QUEST-029", "ITEM-002"]
   }
 ]
