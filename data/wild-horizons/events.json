@@ -85,7 +85,7 @@
     "Name": "Mysterious Stone Investigation",
     "Session": "07",
     "Content": "Session 07: The party investigated the mysterious glowing stone on Maeven's farm in Emberfell. They experienced strange dreams, communicated with possessed sheep, and explored an underground tunnel that opened near the stone. Major outcomes: Discovered the stone was part of Nyx, fought an Ashy Entity, learned it was a celestial binding point being used for corruption, and removed the stone to disperse its negative effects.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-042", "LOC-004", "QUEST-008", "QUEST-010", "QUEST-027"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-042", "LOC-004", "QUEST-008", "QUEST-010", "QUEST-027", "ITEM-001"]
   },
   {
     "ID": "EVENT-012",
@@ -188,7 +188,7 @@
     "Type": "Event",
     "Name": "Dinosaur Stealth Passage",
     "Session": "27",
-    "Content": "Session 27: The party encountered a family of broad-shelled, long-necked dinosaurs lounging across the sunny path. Choosing stealth over confrontation, they successfully sneaked past with only one minor stumble. Major outcomes: Demonstrated the party's growing competence and provided a peaceful resolution to a potential combat encounter.",
+    "Content": "Session 27: The party encountered a family of broad-shelled, long-necked dinosaurs lounging across the sunny path. Choosing stealth over confrontation, they successfully sneaked past them with only one minor stumble. Major outcomes: Demonstrated the party's growing competence and provided a peaceful resolution to a potential combat encounter.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026"]
   },
   {
@@ -196,7 +196,7 @@
     "Type": "Event",
     "Name": "Colm's Bounty Tension in Stonehaven",
     "Session": "27",
-    "Content": "Session 27: Upon arriving in Stonehaven Shores, concern arose about Colm's bounty poster originating from the town. Zara and Brynd suggested disguises, but Colm walked forward with pride and indifference. Zara offered to kill anyone who threatened him, which Colm pointedly ignored. Major outcomes: Highlighted the tension around Colm's bounty and the complex dynamics between party members.",
+    "Content": "Session 27: Upon arriving in Stonehaven Shores, concern arose about Colm's bounty poster having been issued from this very town, with Zara and Brynd suggesting disguises to avoid recognition. Colm, however, walked forward with characteristic pride and indifference, while Zara offered to eliminate anyone who threatened him — an offer Colm pointedly ignored by looking away from her. Major outcomes: Highlighted the tension around Colm's bounty and the complex dynamics between party members.",
     "Related": ["CHAR-001", "CHAR-004", "CHAR-026", "LOC-009"]
   },
   {
@@ -244,23 +244,39 @@
     "Type": "Event",
     "Name": "Crypt Investigation and Undead Fight",
     "Session": "28",
-    "Content": "Session 28: The party investigated the crypt uncovered by the tides. They were attacked by a group of undead, they resembled other luna corrupted creatures the party encountered before. Azren destroyed the leader with a powerful radiant attack, after which the remaining undead fell easily. Looted a Ring of Water Walking and returned stolen relics to the crypt to lay the dead to rest. Arya built a stretcher to help with the task.",
-    "Related": ["CHAR-002", "CHAR-052", "LOC-009", "QUEST-013", "ITEM-001"]
+    "Content": "The party investigated a crypt uncovered by violent tides near Stonehaven Shores. They were attacked by a group of undead, including a leader with pale, moonlit skin that resembled other luna-corrupted creatures. The leader nearly killed Brynd with a single blow before Azren destroyed it with a powerful radiant attack from a thrown dart, causing it to disintegrate. The remaining undead fell easily afterward. The party found a Ring of Water Walking and stolen relics on the bodies, confirming they were grave robbers. Following Azren's suggestion and with Arya building a makeshift stretcher, they returned the remains to the crypt to lay the dead to rest. Colm later attempted to convince the party to join him in lifting his halberd 1,700 times, but was declined.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-026", "CHAR-052", "LOC-009", "QUEST-013"]
   },
   {
     "ID": "EVENT-032",
     "Type": "Event",
     "Name": "Stoneball Classic Tournament",
     "Session": "28",
-    "Content": "Session 28: The party entered the local Stoneball Classic tournament. The event tested strength, speed, and devolved into mayhem when a dinosaur crashed onto the field. Zara, Azren, and Arya all slipped in a pile of barf, much to the crowd's amusement. Despite this, the party won the tournament.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-052", "LOC-009", "QUEST-022"]
+    "Content": "The party entered the local Stoneball Classic tournament in Stonehaven Shores after failing to find a worthwhile sparring partner. The event tested strength and speed, but the final round devolved into mayhem when a dinosaur crashed onto the field. In the ensuing scramble, Zara, Azren, and Arya all slipped in a pile of barf, much to the crowd's amusement. Despite the embarrassment, the party won the tournament. They earned 15 gold pieces and made plans to head north to Zepharok's colosseum and then to Itinit.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-026", "CHAR-052", "LOC-009", "QUEST-022"]
   },
   {
     "ID": "EVENT-033",
     "Type": "Event",
-    "Name": "Maiden Sea Voyage",
-    "Session": "29", 
-    "Content": "Session 29: The party's first ocean voyage aboard Kixxaez's fishing trawler. Major events included: Arya's severe seasickness and creative solution of tying himself to the mast with branches; ring-tossing contest where Arya set a ship record; wereshark attack after Brynd baited them with his blood; Brynd's near-fatal snake venom experiment; Bunyip sea monster attack; discovery of mysterious wreckage with coral rune; spotting of four shadowy shapes following the ship. Major outcomes: Party gained sea experience, concerns about potential lycanthropy from wereshark bites, Brynd nearly died from poison, established travel to new destinations.",
+    "Name": "Maiden Voyage & Wereshark Attack",
+    "Session": "29",
+    "Content": "The party hired Captain Kixxaez's trawler. Arya suffered seasickness, tying himself to the mast. The crew performed a calm voyage ritual, and a tossing contest was held, which Arya won before being outclassed by the captain. Brynd lured weresharks with his blood, leading to a battle. The weresharks reverted to humanoid form upon death, ruining Brynd's meal plans. Brynd later nearly died from a snake venom experiment, saved by Azren. Concerns arose about potential lycanthropy from bites.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-052", "CHAR-055", "CHAR-056", "LOC-022"]
+  },
+  {
+    "ID": "EVENT-034",
+    "Type": "Event",
+    "Name": "Bunyip Attack & Ominous Wreckage",
+    "Session": "29",
+    "Content": "The next morning, a Bunyip sea monster attacked and boarded the ship. The party defeated it, after which Zara butchered it with gusto and Brynd carved it up, declaring the meat tasted 'like chicken.' Later, a raft of wreckage with a barrel marked by an unreadable coral rune drifted past, reminding Zara of a forgotten coastal war. The session ended with four shadowy shapes spotted following the ship.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-055", "CHAR-056", "LOC-022"]
+  },
+  {
+    "ID": "EVENT-035",
+    "Type": "Event",
+    "Name": "Triton Plea & Coral Ruin Delve",
+    "Session": "30",
+    "Content": "Tritons, led by Neressa, boarded the ship. She begged for help, explaining a crystal shard was killing the sea. The party followed her to ancient coral ruins. They fought a Coral Drake (which sprayed its offspring on Colm), two water vortexes with an undead triton, and in a final chamber, a Marid and two Sahuagin Barons. After the battle, they found journals on shells that detailed the shard's corrupting song.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-057", "CHAR-058", "LOC-023", "QUEST-029", "ITEM-002"]
   }
 ]

@@ -5,7 +5,7 @@
     "Name": "Zara",
     "Session": "01",
     "Content": "Half-elf (Pallid Elf mother, infernal father). Pale elf features with an otherworldly presence. Daughter of the Pallid Elf king and queen; her half-brother is the current regent who sent her away. Her birth father is an entity of the Nine Hells. Personality is intense, protective, and prone to dark whispers and bloodlust. Her goal is to uncover her heritage and the mystery of her father. Wields a whispering bow that grants Hellish Rebuke and connects to a mysterious patron. A key combatant and tracker for the party.",
-    "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-045", "CHAR-046", "LOC-001", "LOC-002", "LOC-012", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-023", "EVENT-025", "EVENT-026", "EVENT-027", "EVENT-030", "QUEST-001", "QUEST-004", "QUEST-010", "QUEST-015", "QUEST-017", "QUEST-020", "QUEST-026","CHAR-055", "CHAR-056", "EVENT-033", "LOC-022"]
+    "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-045", "CHAR-046", "LOC-001", "LOC-002", "LOC-012", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-023", "EVENT-025", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-032", "EVENT-033", "EVENT-034", "EVENT-035", "QUEST-001", "QUEST-004", "QUEST-010", "QUEST-015", "QUEST-017", "QUEST-020", "QUEST-026"]
   },
   {
     "ID": "CHAR-002",
@@ -13,7 +13,7 @@
     "Name": "Arya",
     "Session": "01",
     "Content": "Male Fairy Guardian. Stocky, muscular build with small, stubby wings, unlike typical fairies. A lumberjack who struggled for 60 years to form a binding contract. Observed personality is earnest, self-doubting, but ultimately self-accepting and hardworking. His goal was to find a charge; he is now bound to the party. Contributes in battle by shedding fairy dust to illuminate enemies and using his warhammer, Honeydrop, for battlefield control. Converts stamina from his charges into fairy dust for magic and equipment maintenance.",
-    "Related": ["CHAR-007", "CHAR-008", "CHAR-009", "CHAR-022", "LOC-001", "EVENT-001", "EVENT-004", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-016", "EVENT-019", "EVENT-024", "EVENT-026", "EVENT-028", "EVENT-030", "QUEST-001", "QUEST-016", "QUEST-017", "QUEST-026","CHAR-055", "CHAR-056", "EVENT-033", "LOC-022"]
+    "Related": ["CHAR-007", "CHAR-008", "CHAR-009", "CHAR-022", "LOC-001", "EVENT-001", "EVENT-004", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-016", "EVENT-019", "EVENT-024", "EVENT-026", "EVENT-028", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-033", "QUEST-001", "QUEST-016", "QUEST-017", "QUEST-026"]
   },
   {
     "ID": "CHAR-003",
@@ -29,7 +29,7 @@
     "Name": "Colm",
     "Session": "01",
     "Content": "A bounty hunter with a bounty on his head, accused of poisoning a competitor. Personality is proud, indifferent, and vengeful. His goal is to clear his name and find out who framed him for the murder. A formidable martial combatant. Avoids eye contact with Zara to prevent her from starting a massacre on his behalf.",
-    "Related": ["CHAR-012", "CHAR-013", "CHAR-021", "CHAR-028", "CHAR-029", "CHAR-038", "CHAR-050", "CHAR-051", "LOC-001", "LOC-009", "LOC-015", "LOC-017", "LOC-018", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-015", "EVENT-016", "EVENT-019", "EVENT-020", "EVENT-024", "EVENT-025", "EVENT-030", "QUEST-001", "QUEST-004", "QUEST-017", "QUEST-020", "QUEST-025", "QUEST-026"]
+    "Related": ["CHAR-012", "CHAR-013", "CHAR-021", "CHAR-028", "CHAR-029", "CHAR-038", "CHAR-050", "CHAR-051", "LOC-001", "LOC-009", "LOC-015", "LOC-017", "LOC-018", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-015", "EVENT-016", "EVENT-019", "EVENT-020", "EVENT-024", "EVENT-025", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "QUEST-001", "QUEST-004", "QUEST-017", "QUEST-020", "QUEST-025", "QUEST-026"]
   },
   {
     "ID": "CHAR-005",
@@ -168,12 +168,44 @@
     "Related": ["CHAR-004", "CHAR-027", "CHAR-028", "CHAR-029", "CHAR-030", "CHAR-038", "LOC-009", "EVENT-009", "EVENT-015", "QUEST-004", "QUEST-013", "QUEST-014", "QUEST-022", "QUEST-023"]
   },
   {
+    "ID": "CHAR-022",
+    "Type": "Organization",
+    "Name": "Arya's Fairy Clan",
+    "Session": "01",
+    "Content": "A clan of Guardian Fairies, led by Elder Lunimaraevanthorion. Their purpose is to form binding contracts with intelligent beings to convert stamina into fairy dust. The party encountered them through Arya's backstory. Key interaction is Arya finally forming a contract with the party. The relationship is positive, with Arya sending most of his fairy dust back to the clan.",
+    "Related": ["CHAR-002", "CHAR-007", "CHAR-008", "CHAR-044", "EVENT-012", "QUEST-016"]
+  },
+  {
+    "ID": "CHAR-023",
+    "Type": "Organization",
+    "Name": "Belba's Merchant Organization",
+    "Session": "01",
+    "Content": "A merchant organization that runs Sunreach. Purpose is trade and city governance. Headquarters is Sunreach. The party encountered them through Auntie Belba Mossfoot. Key interactions: hiring the party for initial investigations and providing information and rewards. Current relationship is positive and professional.",
+    "Related": ["CHAR-012", "LOC-001", "QUEST-001"]
+  },
+  {
+    "ID": "CHAR-024",
+    "Type": "Organization",
+    "Name": "Wildrunner Clan",
+    "Session": "11",
+    "Content": "A clan of Halfling Bee-Rex herders in Drak'Moru. Their purpose is to care for and breed Bee Rexes. Headquarters is Snagroot Village. The party encountered them while delivering a barrel for Brack and later helping with the Emberfang kobold problem. Key interactions: rewarding the party for rescuing Bee Rexes and providing information. Current relationship is very positive.",
+    "Related": ["CHAR-014", "CHAR-032", "CHAR-033", "CHAR-043", "LOC-008", "EVENT-007", "EVENT-014", "QUEST-003", "QUEST-006", "QUEST-009", "QUEST-011", "QUEST-021", "QUEST-028"]
+  },
+  {
+    "ID": "CHAR-025",
+    "Type": "Organization",
+    "Name": "Emberfang Kobolds",
+    "Session": "15",
+    "Content": "A tribe of fire-loving kobolds raiding the Wildrunner clan. Their main camp was 'The Nest.' The party encountered them in Sessions 15-18. Key interactions: the party attacked and cleared their outposts and main camp, freeing captured Bee Rexes. The organization was largely eradicated by the party.",
+    "Related": ["LOC-008", "LOC-014", "EVENT-007", "QUEST-006", "QUEST-011"]
+  },
+  {
     "ID": "CHAR-026",
     "Type": "PC",
     "Name": "Brynd",
     "Session": "20",
-    "Content": "Met in Session 20. Philosophical and reckless, he wondered about the souls of snakes and goblins, then attempted to build resistance to snake venom by swallowing it, resulting in violent illness. Uses ki energy. Alive.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "LOC-009", "LOC-017", "EVENT-009", "EVENT-023", "EVENT-024", "EVENT-025", "QUEST-024", "QUEST-026","CHAR-055", "CHAR-056", "EVENT-033", "LOC-022"]
+    "Content": "Met in Session 20. Philosophical and reckless. He wondered about the souls of snakes and goblins, then attempted to build resistance to snake venom by swallowing it, resulting in violent illness. Uses ki energy. Has developed a habit of using himself as bait to taunt and attract sea creatures in hopes of a fresh seafood meal, a tactic that has successfully lured in threats like weresharks but often with unintended consequences.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-052", "LOC-009", "LOC-017", "EVENT-009", "EVENT-023", "EVENT-024", "EVENT-025", "EVENT-031", "EVENT-033", "QUEST-024", "QUEST-026"]
   },
   {
     "ID": "CHAR-027",
@@ -301,7 +333,7 @@
     "Name": "Maeven Thornholt",
     "Session": "07",
     "Content": "Met in Session 07. A farmer in Emberfell whose sheep were acting strangely due to the mysterious stone on their property. Paid the party 100 gp for removing the stone. Alive.",
-    "Related": ["LOC-004", "EVENT-011", "QUEST-008", "QUEST-027"]
+    "Related": ["LOC-004", "EVENT-011", "QUEST-008", "QUEST-027", "ITEM-001"]
   },
   {
     "ID": "CHAR-043",
@@ -380,8 +412,8 @@
     "Type": "PC",
     "Name": "Azren",
     "Session": "20",
-    "Content": "A 26-year-old Aasimar and an Oath of Glory Paladin (following Devotion tenets) of The Radiant Coil. He is currently in temporary exile from his order for executing a captive warlord in a fit of rigid, uncompromising justice. He was raised in the floating sanctuary of Xotalan and is one of the youngest ever to achieve knighthood. Skilled with throwing knives, he seeks to understand the balance between violence and peace. For each conflict, he collects a feather: bright if resolved peacefully, white if violence was the only option, and dark if violence was used unnecessarily. His mother is a member of the order. He seeks redemption to eventually return home.",
-    "Related": ["CHAR-053", "CHAR-054", "LOC-021", "ITEM-001", "EVENT-031", "QUEST-013","CHAR-055", "CHAR-056", "EVENT-033", "LOC-022"]
+    "Content": "A 26-year-old Aasimar and an Oath of Glory Paladin (following Devotion tenets) of The Radiant Coil. He is currently in temporary exile from his order for executing a captive warlord in a fit of rigid, uncompromising justice. He was raised in the floating sanctuary of Xotalan and is one of the youngest ever to achieve knighthood. Skilled with throwing knives, he seeks to understand the balance between violence and peace. For each conflict, he collects a feather: bright if resolved peacefully, white if violence was the only option, and dark if violence was used unnecessarily. His mother is a member of the order. He seeks redemption to eventually return home. In Session 28, he delivered the final, radiant blow that destroyed the moon-touched undead leader in the crypt.",
+    "Related": ["CHAR-053", "CHAR-054", "LOC-021", "EVENT-031", "EVENT-032", "EVENT-033", "EVENT-034", "EVENT-035", "QUEST-013"]
   },
   {
     "ID": "CHAR-053",
@@ -400,51 +432,35 @@
     "Related": ["CHAR-052", "CHAR-053", "LOC-021"]
   },
   {
-    "ID": "CHAR-022",
-    "Type": "Organization",
-    "Name": "Arya's Fairy Clan",
-    "Session": "01",
-    "Content": "A clan of Guardian Fairies, led by Elder Lunimaraevanthorion. Their purpose is to form binding contracts with intelligent beings to convert stamina into fairy dust. The party encountered them through Arya's backstory. Key interaction is Arya finally forming a contract with the party. The relationship is positive, with Arya sending most of his fairy dust back to the clan.",
-    "Related": ["CHAR-002", "CHAR-007", "CHAR-008", "CHAR-044", "EVENT-012", "QUEST-016"]
-  },
-  {
-    "ID": "CHAR-023",
-    "Type": "Organization",
-    "Name": "Belba's Merchant Organization",
-    "Session": "01",
-    "Content": "A merchant organization that runs Sunreach. Purpose is trade and city governance. Headquarters is Sunreach. The party encountered them through Auntie Belba Mossfoot. Key interactions: hiring the party for initial investigations and providing information and rewards. Current relationship is positive and professional.",
-    "Related": ["CHAR-012", "LOC-001", "QUEST-001"]
-  },
-  {
-    "ID": "CHAR-024",
-    "Type": "Organization",
-    "Name": "Wildrunner Clan",
-    "Session": "11",
-    "Content": "A clan of Halfling Bee-Rex herders in Drak'Moru. Their purpose is to care for and breed Bee Rexes. Headquarters is Snagroot Village. The party encountered them while delivering a barrel for Brack and later helping with the Emberfang kobold problem. Key interactions: rewarding the party for rescuing Bee Rexes and providing information. Current relationship is very positive.",
-    "Related": ["CHAR-014", "CHAR-032", "CHAR-033", "CHAR-043", "LOC-008", "EVENT-007", "EVENT-014", "QUEST-003", "QUEST-006", "QUEST-009", "QUEST-011", "QUEST-021", "QUEST-028"]
-  },
-  {
-    "ID": "CHAR-025",
-    "Type": "Organization",
-    "Name": "Emberfang Kobolds",
-    "Session": "15",
-    "Content": "A tribe of fire-loving kobolds raiding the Wildrunner clan. Their main camp was 'The Nest.' The party encountered them in Sessions 15-18. Key interactions: the party attacked and cleared their outposts and main camp, freeing captured Bee Rexes. The organization was largely eradicated by the party.",
-    "Related": ["LOC-008", "LOC-014", "EVENT-007", "QUEST-006", "QUEST-011"]
-  },
-  {
     "ID": "CHAR-055",
     "Type": "NPC",
-    "Name": "Kixxaez",
+    "Name": "Captain Kixxaez",
     "Session": "29",
-    "Content": "Met in Session 29 as captain of the fishing trawler hired by the party. A pink-scaled lizardwoman, formidable and experienced sailor. Observed as confident and challenging, testing her passengers with contests. She leads a crew of muscular lizardfolk and charged 250 gp for passage. Current status: Alive.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-052", "CHAR-056", "EVENT-033"]
+    "Content": "The pink-scaled Lizardfolk captain of a fishing trawler. A formidable and respected leader, skilled in sailing and combat. Known for her prowess in shipboard games, easily outmatching her passengers. Hired by the party for their sea voyage.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-052", "CHAR-056", "LOC-022", "EVENT-033", "EVENT-034"]
   },
   {
     "ID": "CHAR-056",
-    "Type": "Organization", 
+    "Type": "Organization",
     "Name": "Kixxaez's Lizardfolk Crew",
     "Session": "29",
-    "Content": "Met in Session 29 aboard the fishing trawler. A crew of muscular lizardfolk sailors serving under Captain Kixxaez. Purpose is operating their fishing vessel and transporting passengers. The party encountered them when hiring passage for their sea voyage. Key interactions: teaching sailing/fishing skills, performing calm voyage rituals, cheering during contests. Current relationship: Professional and positive.",
-    "Related": ["CHAR-055", "EVENT-033"]
+    "Content": "The capable and hardy Lizardfolk crew of Captain Kixxaez's trawler. Skilled sailors and fishermen, they perform rituals for safe voyages and respect strength and skill. Their morale is high, and they cheered for Arya's contest win.",
+    "Related": ["CHAR-055", "LOC-022", "EVENT-033"]
+  },
+  {
+    "ID": "CHAR-057",
+    "Type": "NPC",
+    "Name": "Neressa",
+    "Session": "30",
+    "Content": "Leader of Myral's Guard, a group of Tritons. A friend of Captain Kixxaez. She boarded the ship to beg for aid, explaining that a humming crystal shard is poisoning the sea, twisting the tides, and turning their guardians against them.",
+    "Related": ["CHAR-055", "CHAR-058", "LOC-023", "EVENT-035", "QUEST-029"]
+  },
+  {
+    "ID": "CHAR-058",
+    "Type": "Organization",
+    "Name": "Myral's Guard (Tritons)",
+    "Session": "30",
+    "Content": "A group of Tritons from below Zepharok, led by Neressa. Their home is being destroyed by a mysterious crystal shard's corruption. They sought out surface dwellers for help, as they are immune to the shard's call.",
+    "Related": ["CHAR-057", "LOC-023", "EVENT-035", "QUEST-029"]
   }
 ]

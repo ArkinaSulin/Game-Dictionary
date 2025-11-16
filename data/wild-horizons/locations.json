@@ -29,7 +29,7 @@
     "Name": "Emberfell",
     "Session": "06",
     "Content": "An old, generational town the party visited on the way to Drak'Moru. Points of interest: The inn run by Bryn Ashwell, the 'Singing Tree' which hid a sinkhole to a mushroom cavern, Maeven's farm with the mysterious stone. The party discovered ancient carvings of a fallen star and fought creatures in the underground caverns.",
-    "Related": ["CHAR-003", "CHAR-041", "CHAR-042", "EVENT-005", "EVENT-011", "EVENT-018", "QUEST-008", "QUEST-027"]
+    "Related": ["CHAR-003", "CHAR-041", "CHAR-042", "EVENT-005", "EVENT-011", "EVENT-018", "QUEST-008", "QUEST-027", "ITEM-001"]
   },
   {
     "ID": "LOC-005",
@@ -169,10 +169,18 @@
   },
   {
     "ID": "LOC-022",
-    "Type": "Location", 
-    "Name": "Kixxaez's Fishing Trawler",
+    "Type": "Location",
+    "Name": "Kixxaez's Trawler",
     "Session": "29",
-    "Content": "Session 29: A fishing boat hired by the party for sea passage, run by Captain Kixxaez and her lizardfolk crew. Significance: The party's first ocean voyage vessel. Points of interest: Main mast, deck, fishing areas. Key characters: Captain Kixxaez and her crew. During the visit: Party learned sailing, Arya got seasick and tied himself to mast, contests were held, weresharks and Bunyip attacked, mysterious wreckage was spotted.",
-    "Related": ["CHAR-055", "CHAR-056", "EVENT-033"]
+    "Content": "A fishing trawler captained by the Lizardfolk Kixxaez, hired by the party for their sea voyage. The site of several events including a tossing contest, a wereshark attack, and a Bunyip attack.",
+    "Related": ["CHAR-055", "CHAR-056", "EVENT-033", "EVENT-034"]
+  },
+  {
+    "ID": "LOC-023",
+    "Type": "Location",
+    "Name": "Ancient Coral Ruins (Below Zepharok)",
+    "Session": "30",
+    "Content": "A sunken city of coral and pearl, now a ghost town, located in the dying sea below Zepharok. The party fought through several chambers here, including a great hall with a Coral Drake, a hallway with water vortexes, and a final chamber with a Marid.",
+    "Related": ["CHAR-057", "CHAR-058", "EVENT-035", "QUEST-029", "ITEM-002"]
   }
 ]
