@@ -4,7 +4,7 @@
     "Type": "Artifact",
     "Name": "Nyx-Fragment",
     "Session": "07",
-    "Content": "A beachball-sized stone that glows with a faint internal light and hums with celestial energy. It was dug up on Maeven's farm in Emberfell and was part of a celestial binding point where the influences of all three moons intersected. The stone causes strange dreams, communicates through possessed animals, and its ancient lunar power is being used to spread corruption. The party removed it from its source to disperse its negative effects.",
+    "Content": "A beachball-sized stone that glows with a faint internal light and hums with celestial energy. It was dug up on Maeven's farm in Emberfell and was part of a celestial binding point where the influences of all three moons intersected. The stone causes strange dreams, communicates through possessed animals, and its ancient lunar power is being used to spread corruption. Touching the fragment causes a mark to briefly appear on the hand, and licking it distorts the creature's voice for a short time. The party removed it from its source to disperse its negative effects.",
     "Related": ["CHAR-042", "LOC-004", "EVENT-011", "QUEST-008", "QUEST-010", "QUEST-027"]
   },
   {
@@ -12,7 +12,7 @@
     "Type": "Artifact",
     "Name": "Tide-Twister Shard",
     "Session": "30",
-    "Content": "A pulsating crystal that emits a heartbeat-like hum and glows with an eerie blue light. Found deep in the trench below Zepharok, it has cracked open and now emits a corrupting 'song' that twists ocean tides, bleaches coral reefs, kills marine life, and turns sea guardians hostile. Its power is lunar in nature, connecting it to the larger celestial corruption affecting the land.",
-    "Related": ["CHAR-057", "CHAR-058", "LOC-023", "EVENT-035", "QUEST-010", "QUEST-029"]
+    "Content": "A pulsating crystal that emits a heartbeat-like hum and glows with an eerie blue light. Found deep in the trench below Zepharok, it has cracked open and now emits a corrupting 'song' that twists ocean tides, bleaches coral reefs, kills marine life, and turns sea guardians hostile. Its power is lunar in nature, connecting it to the larger celestial corruption affecting the land. Emits a supernatural beacon effect that attracts dangerous sea creatures and causes environmental disturbances like shifting reefs and unnatural fog. Currently secured in a tow behind Kixxaze's ship.",
+    "Related": ["CHAR-057", "CHAR-058", "LOC-023", "EVENT-035", "QUEST-010", "QUEST-029","CHAR-002", "CHAR-003", "LOC-022", "EVENT-036"]
   }
 ]

@@ -278,5 +278,13 @@
     "Session": "30",
     "Content": "Tritons, led by Neressa, boarded the ship. She begged for help, explaining a crystal shard was killing the sea. The party followed her to ancient coral ruins. They fought a Coral Drake (which sprayed its offspring on Colm), two water vortexes with an undead triton, and in a final chamber, a Marid and two Sahuagin Barons. After the battle, they found journals on shells that detailed the shard's corrupting song.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-057", "CHAR-058", "LOC-023", "QUEST-029", "ITEM-002"]
-  }
+  },
+{
+  "ID": "EVENT-036",
+  "Type": "Event", 
+  "Name": "Luna Rock Sea Voyage Crisis",
+  "Session": "30",
+  "Content": "Session 30: During sea voyage, Arya experimented with the Luna Rock, causing temporary marks and vocal distortion. Captain Kixxaez and crew secured the rock in a tow behind the ship. Colm purged magical items including Bryan's venom. The rock attracted multiple sea creature attacks including a sea drake, Karkinoi, giant squids, and a devil fish with slaughtermaw lamprey. Environmental changes included shifting reefs and unnatural fog. The party deduced the Luna Rock was acting as a dangerous beacon.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-055", "LOC-022", "QUEST-010", "ITEM-003"]
+}
 ]

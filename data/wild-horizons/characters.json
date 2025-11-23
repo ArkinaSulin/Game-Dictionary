@@ -431,14 +431,14 @@
     "Content": "An ancient couatl, the serene and sorrowful leader of The Radiant Coil. It was Nual'Zahiir who pronounced Azren's temporary exile, tasking him to learn the balance between sword and soul. It speaks with soft, echoing authority.",
     "Related": ["CHAR-052", "CHAR-053", "LOC-021"]
   },
-  {
-    "ID": "CHAR-055",
-    "Type": "NPC",
-    "Name": "Captain Kixxaez",
-    "Session": "29",
-    "Content": "The pink-scaled Lizardfolk captain of a fishing trawler. A formidable and respected leader, skilled in sailing and combat. Known for her prowess in shipboard games, easily outmatching her passengers. Hired by the party for their sea voyage.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-052", "CHAR-056", "LOC-022", "EVENT-033", "EVENT-034"]
-  },
+{
+  "ID": "CHAR-055",
+  "Type": "NPC",
+  "Name": "Captain Kixxaez",
+  "Session": "29",
+  "Content": "The pink-scaled Lizardfolk captain of a fishing trawler. A formidable and respected leader, skilled in sailing and combat. Known for her prowess in shipboard games, easily outmatching her passengers. Hired by the party for their sea voyage. In Session 30, she helped secure the Luna Rock behind the ship.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-052", "CHAR-056", "LOC-022", "EVENT-033", "EVENT-034", "EVENT-036"]
+},
   {
     "ID": "CHAR-056",
     "Type": "Organization",
