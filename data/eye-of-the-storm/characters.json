@@ -647,12 +647,12 @@
     "Content": "Met in Session 46 inside the magical bottle prison. A well-dressed, very large elf bounty hunter from Solara. Hovered above the battlefield to negotiate. Stated he was paid 8,000 gold by House Duskvale to capture and return the party, specifically believing Fauda to be Gloriosa. The bounty was issued because the party destroyed a gathering facility operated by House Honey, causing financial loss for powerful individuals. Open to negotiation as a mercenary but committed to his job. Notable capabilities include flight, charming magic, and use of magical imprisonment technology. Current status: Alive, in combat with the party inside the bottle prison.",
     "Related": ["CHAR-002", "CHAR-012", "CHAR-082"]
   },
-  {
+{
     "ID": "CHAR-082",
     "Type": "NPC",
-    "Name": "Lloyd",
-    "Session": "45",
-    "Content": "First mentioned by name in Session 45, attendant of Cloudfoot Keep. Described as having an oiled and chiseled body, sunbathing on the keep's roof. Casual and familiar with the party, particularly Arc en Ciel with whom he spent private time. Knowledgeable about Solara's Bottle Kingdoms, identifying the mountain with a carved face from Lady Seriss's description as being located in one of them. In Session 46, he followed the party out of concern for Arc, was drawn into the magical bottle prison during the ambush, and was thrown into a mysterious black pyramid within the prison, from which he cannot exit. Current status: Alive, trapped inside the pyramid within the bottle prison.",
-    "Related": ["CHAR-004", "CHAR-006", "CHAR-081"]
-  }
+    "Name": "Lloyd Pershing",
+    "Session": "23",
+    "Content": "First appeared in Session 23 as Lord Bainridge's Solaran Honor Guard. A handsome, easygoing man who served House Honey of Solara. Captured by the party after they defeated The Protector/Collector. Initially arrogant, he became cooperative when offered freedom in exchange for assistance. Can read runes, demonstrating this ability in Cloudfoot Keep. Has extensive knowledge of Solara's society, including its magical accessibility and Bottle Kingdoms. Became a resident attendant of Cloudfoot Keep, developing a close relationship with Arc en Ciel. In Session 46, he followed the party out of concern during an ambush, was drawn into a magical bottle prison, and was thrown into a mysterious black pyramid within the prison realm from which he cannot exit. Current status: Alive, trapped inside the pyramid within the bottle prison.",
+    "Related": ["CHAR-004", "CHAR-006", "CHAR-081", "LOC-001", "LOC-068"]
+}
 ]
