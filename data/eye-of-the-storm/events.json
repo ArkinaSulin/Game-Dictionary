@@ -352,11 +352,11 @@
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-077", "ITEM-007", "ITEM-012", "LOC-065", "LOC-066", "QUEST-017", "QUEST-018"]
   },
   {
-    "ID": "EVENT-045",
-    "Type": "event",
-    "Name": "Cloudfoot Keep Departure and Pursuer Discovery",
-    "Session": "45",
-    "Content": "Session 45 - Cloudfoot Keep and surrounding grasslands. The party gathered all allies at Cloudfoot Keep and set it in motion toward the Thundermaw Range. Sili's animal network discovered they were being closely followed by a group that had been tracking them for weeks. The party planned to use invisibility to ambush their pursuers while the keep continued traveling.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "LOC-001", "QUEST-018"]
-  }
+  "ID": "EVENT-045",
+  "Type": "event",
+  "Name": "Cloudfoot Keep Departure and Pursuer Discovery",
+  "Session": "45",
+  "Content": "Session 45 - Cloudfoot Keep and surrounding grasslands. The party gathered all allies at Cloudfoot Keep and set it in motion toward the Thundermaw Range. Sili's animal network discovered they were being closely followed by a group that had been tracking them for weeks. The party planned to use invisibility to ambush their pursuers while the keep continued traveling.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "LOC-001", "QUEST-018"]
+}
 ]

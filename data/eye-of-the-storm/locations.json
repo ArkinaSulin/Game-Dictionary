@@ -4,8 +4,8 @@
     "Type": "location",
     "Name": "Cloudfoot Keep",
     "Session": "19",
-    "Content": "The party's home base and bastion located in the wilderness. Fortified keep where characters have personal quarters and can develop their resources. Contains Arc's mushroom garden, Vyphira's barracks with cloud-energy defenders, Fauda's stocked storehouse, Mask's spy network, and Sili's animal nests and outposts. Serves as a safe haven between adventures, currently well-maintained by servants. Controlled by the party. Key characters include all party members and keep servants. During visits, characters received updates on their bastion developments and planned their next moves. In Session 45, the keep was set in motion toward The Thundermaw Range, traveling over muddy grasslands with the party and their new allies aboard.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-072", "CHAR-077", "CHAR-079", "CHAR-080", "ITEM-005", "ITEM-006", "EVENT-001", "QUEST-002", "QUEST-018"]
+    "Content": "The party's home base and bastion located in the wilderness. Fortified keep where characters have personal quarters and can develop their resources. Contains Arc's mushroom garden, Vyphira's barracks with cloud-energy defenders, Fauda's stocked storehouse, Mask's spy network, and Sili's animal nests and outposts. Serves as a safe haven between adventures, currently well-maintained by servants. Controlled by the party. Key characters include all party members and keep servants. During visits, characters received updates on their bastion developments and planned their next moves. In Session 45, the keep was set in motion toward The Thundermaw Range, traveling over muddy grasslands with the party and their new allies aboard. Session 46, the Keep was ambushed by Solaran bounty hunters, leading to most of the party being captured and transported into a magical bottle realm. The Keep continues its journey southwest, now potentially under threat or observation.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-072", "CHAR-077", "CHAR-079", "CHAR-080", "ITEM-005", "ITEM-006", "EVENT-001", "QUEST-002", "QUEST-018", "LOC-068"]
   },
   {
     "ID": "LOC-002",
@@ -84,8 +84,8 @@
     "Type": "location",
     "Name": "Solara",
     "Session": "30",
-    "Content": "Floating city above Eryndor, also called The Land of a Thousand Kingdoms. Contains myriad kingdoms within bottles, entire worlds existing side by side. Ruled by ancient Greatwyrms and powerful nobles. Significant as origin of changelings, headquarters of The Gale, and location of Gloriosa's search for her daughter. Controlled by Solaran rulers and Greatwyrms. Key characters include Broin, House Duskvale, and ancient dragon Voryxia. Not yet visited by party, but destination for future travels. In Session 45, Lady Seriss was revealed to be held captive in one of Solara's Bottle Kingdoms, being prepared for marriage.",
-    "Related": ["CHAR-012", "CHAR-025", "CHAR-032", "CHAR-033", "CHAR-035", "CHAR-060", "CHAR-069", "CHAR-072", "QUEST-007", "QUEST-012", "QUEST-016"]
+    "Content": "Floating city above Eryndor, also called The Land of a Thousand Kingdoms. Contains myriad Bottle Kingdoms—entire worlds existing side by side. Ruled by ancient Greatwyrms and powerful noble houses. Significant as origin of changelings, headquarters of The Gale, and home to bounty hunter Calyx Newdusk. Controlled by Solaran rulers. Key characters include Broin, House Duskvale, House Honey, Lord Bainridge, and ancient dragon Voryxia. In Session 46, the party learned that House Duskvale hired Calyx to capture them in retaliation for destroying a House Honey gathering facility.",
+    "Related": ["CHAR-012", "CHAR-025", "CHAR-032", "CHAR-033", "CHAR-035", "CHAR-060", "CHAR-069", "CHAR-072", "CHAR-079", "QUEST-007", "QUEST-012", "QUEST-016", "LOC-068"]
   },
   {
     "ID": "LOC-012",
@@ -518,5 +518,13 @@
     "Session": "45",
     "Content": "Tavern in Drifthold where Korr the Braxat can often be found when not working. Contains bar area where mercenaries gather for work. Significant as one of Korr's regular locations. Controlled by tavern owners. Key characters include Korr. During visit, party found Korr here and warned him about the Storm Lord threat, prompting him to immediately evacuate his family.",
     "Related": ["CHAR-061", "EVENT-044"]
+  },
+  {
+    "ID": "LOC-068",
+    "Type": "location",
+    "Name": "Calyx Newdusk's Bottle Realm",
+    "Session": "46",
+    "Content": "A pocket dimension contained within a magical bottle carried by the bounty hunter Calyx Newdusk. Contains two tents housing mercenaries, a large manor, and a central black smoky-glass pyramid covered in runes. The pyramid acts as a one-way prison; Lloyd was thrown inside and cannot escape. Significant as the location where most of the party was trapped after being hit by compressed powder pellets. Controlled by Calyx Newdusk and his mercenary team. Key characters include Calyx Newdusk, several mercenaries, and two four-armed giants. During the ambush, the party was transported here and fought until Calyx offered negotiation.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-079", "EVENT-045"]
   }
 ]

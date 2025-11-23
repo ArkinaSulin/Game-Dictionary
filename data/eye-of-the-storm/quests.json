@@ -119,14 +119,14 @@
     "Content": "Status: Ongoing. Given by Jorren and Megara Vale in Session 42 after blood pact completion. The goal has two parts: stop a mage who has been sneaking through Vales' sewers freeing their 'pets', and assassinate Garrick Rathorn, another leg mage of Drifthold, so Lyanna Vale can take his domain. The Vales threatened the party with grotesque experimentation if they refuse. In Session 43, the party discovered the 'sewer mage' was actually Lucien Shinwell, Lyanna's uncle, and allied with him instead.",
     "Related": ["CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "CHAR-072", "LOC-008", "LOC-026", "EVENT-040", "EVENT-041"]
   },
-  {
-    "ID": "QUEST-016",
-    "Type": "Quest",
-    "Name": "Reach Solara",
-    "Session": "43",
-    "Content": "Status: Ongoing. A new quest emerging from Session 43, shared by Lucien Shinwell and the party. The goal is to find a way to reach the floating city of Solara to rescue Lyanna Vale's mother Anorra, help Lucien return home, and potentially find information about Faudana and The Gale. The party has agreed to help Lucien find 'Rusty' Lou as a potential contact. Notable reward: Access to Solara, rescue of Anorra, advancement of multiple character goals.",
-    "Related": ["CHAR-002", "CHAR-012", "CHAR-069", "CHAR-072", "CHAR-073", "ITEM-011", "LOC-011", "EVENT-041", "EVENT-043", "QUEST-007", "QUEST-012", "QUEST-015"]
-  },
+ {
+  "ID": "QUEST-016",
+  "Type": "Quest",
+  "Name": "Reach Solara",
+  "Session": "43",
+  "Content": "Status: Ongoing. A new quest emerging from Session 43, shared by Lucien Shinwell and the party. The goal is to find a way to reach the floating city of Solara to rescue Lyanna Vale's mother Anorra, help Lucien return home, and potentially find information about Faudana and The Gale. The party has agreed to help Lucien find 'Rusty' Lou as a potential contact. Notable reward: Access to Solara, rescue of Anorra, advancement of multiple character goals.",
+  "Related": ["CHAR-002", "CHAR-012", "CHAR-069", "CHAR-072", "CHAR-073", "CHAR-077", "ITEM-011", "LOC-011", "EVENT-041", "EVENT-043", "QUEST-007", "QUEST-012", "QUEST-015"]
+},
   {
     "ID": "QUEST-017",
     "Type": "Quest",
@@ -135,12 +135,12 @@
     "Content": "Status: Ongoing. A new urgent quest emerging from Session 43. The goal is to defend the city of Drifthold from the giant Branthor the Thunderheart and his storm-touched forces, who have infiltrated the city and issued threats of dominion. The party is currently engaged in street combat against the initial wave of attackers. Notable reward: Survival of Drifthold and its inhabitants, favor of the city's leadership.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-074", "ITEM-007", "ITEM-012", "LOC-008", "EVENT-042", "EVENT-044"]
   },
-  {
-    "ID": "QUEST-018",
-    "Type": "Quest",
-    "Name": "Acquire Aetherglass",
-    "Session": "44",
-    "Content": "Status: Ongoing. A new quest emerging from Session 44. The goal is to travel to the Thundermaw Range to acquire Aetherglass for 'Rusty' Lou's teleportation machine. This substance is essential for reaching Solara and can be purchased from mountain tribes in the region. The party is currently traveling toward the Thundermaw Range with Cloudfoot Keep. Notable reward: Ability to power the teleportation machine to Solara.",
-    "Related": ["CHAR-073", "CHAR-077", "ITEM-011", "ITEM-012", "LOC-001", "EVENT-043", "EVENT-044", "EVENT-045", "QUEST-016"]
-  }
+{
+  "ID": "QUEST-018",
+  "Type": "Quest",
+  "Name": "Acquire Aetherglass",
+  "Session": "44",
+  "Content": "Status: Ongoing. A new quest emerging from Session 44. The goal is to travel to the Thundermaw Range to acquire Aetherglass for 'Rusty' Lou's teleportation machine. This substance is essential for reaching Solara and can be purchased from mountain tribes in the region. The party is currently traveling toward the Thundermaw Range with Cloudfoot Keep. Notable reward: Ability to power the teleportation machine to Solara.",
+  "Related": ["CHAR-073", "CHAR-077", "ITEM-011", "ITEM-012", "LOC-001", "EVENT-043", "EVENT-044", "EVENT-045", "QUEST-016"]
+}
 ]
