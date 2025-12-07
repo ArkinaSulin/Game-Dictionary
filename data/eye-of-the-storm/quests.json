@@ -88,12 +88,12 @@
     "Related": ["CHAR-002", "CHAR-003", "CHAR-005", "CHAR-007", "CHAR-026", "CHAR-027", "LOC-012", "EVENT-006", "EVENT-017", "QUEST-001"]
   },
   {
-    "ID": "QUEST-012",
-    "Type": "Quest",
-    "Name": "Uncover the Truth About Tana and The Gale",
-    "Session": "28",
-    "Content": "Status: Ongoing. A core campaign-spanning quest driven by Mask's devotion to Tana and the party's conflict with The Gale, beginning around Session 28. The goal is to discover the truth behind Tana's shattering, the nature of The Gale and its connection to Solara, and the rumored divine offspring of Tana and Yondar. The party has learned that The Gale serves Solara and that changelings were created there. Notable reward: Understanding the central cosmic and political conflicts of the campaign.",
-    "Related": ["CHAR-001", "CHAR-025", "CHAR-028", "CHAR-033", "CHAR-043", "CHAR-052", "ITEM-002", "ITEM-003", "ITEM-005", "ITEM-006", "ITEM-007", "LOC-011", "LOC-017", "EVENT-003", "EVENT-022", "EVENT-023", "QUEST-001", "QUEST-007"]
+  "ID": "QUEST-012",
+  "Type": "Quest",
+  "Name": "Uncover the Truth About Tana and The Gale",
+  "Session": "28",
+  "Content": "Status: Ongoing. A core campaign-spanning quest driven by Mask's devotion to Tana and the party's conflict with The Gale, beginning around Session 28. The goal is to discover the truth behind Tana's shattering, the nature of The Gale and its connection to Solara, and the rumored divine offspring of Tana and Yondar. The party has learned that The Gale serves Solara and that changelings were created there. In Session 48, the party discovered the Dagger of the Broken Moon, made from a shard of Tana, which radiates power from both Tana and Nyxara, revealing they are 'one but not identical' and both alive. Notable reward: Understanding the central cosmic and political conflicts of the campaign.",
+  "Related": ["CHAR-001", "CHAR-025", "CHAR-028", "CHAR-033", "CHAR-043", "CHAR-052", "CHAR-069", "ITEM-002", "ITEM-003", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-013", "LOC-011", "LOC-017", "EVENT-003", "EVENT-022", "EVENT-023", "EVENT-049", "QUEST-001", "QUEST-007"]
   },
   {
     "ID": "QUEST-013",
@@ -140,7 +140,7 @@
   "Type": "Quest",
   "Name": "Acquire Aetherglass",
   "Session": "44",
-  "Content": "Status: Ongoing. A new quest emerging from Session 44. The goal is to travel to the Thundermaw Range to acquire Aetherglass for 'Rusty' Lou's teleportation machine. This substance is essential for reaching Solara and can be purchased from mountain tribes in the region. The party is currently traveling toward the Thundermaw Range with Cloudfoot Keep. Notable reward: Ability to power the teleportation machine to Solara.",
-  "Related": ["CHAR-073", "CHAR-077", "ITEM-011", "ITEM-012", "LOC-001", "EVENT-043", "EVENT-044", "EVENT-045", "QUEST-016"]
+  "Content": "Status: Ongoing. A new quest emerging from Session 44. The goal is to travel to the Thundermaw Range to acquire Aetherglass for 'Rusty' Lou's teleportation machine. This substance is essential for reaching Solara and can be purchased from mountain tribes in the region. The party is currently traveling toward the Thundermaw Range with Cloudfoot Keep. In Session 47-48, they helped halfling shepherds recover stolen Thunder Rams and Sheep while en route, battling elven hunters and acquiring a breeding pair of the magical animals. Notable reward: Ability to power the teleportation machine to Solara.",
+  "Related": ["CHAR-073", "CHAR-077", "ITEM-011", "ITEM-012", "LOC-001", "EVENT-043", "EVENT-044", "EVENT-045", "EVENT-047", "QUEST-016"]
 }
 ]

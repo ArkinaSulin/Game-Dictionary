@@ -94,5 +94,21 @@
     "Session": "45",
     "Content": "Dozens of notebooks containing Leon Gravix's research on storm patterns and historical cataclysms. Reveal the 51-year cycle of destruction that targets Eryndor's most advanced cities and document historical artifacts like The Tempest's Prism, Yondar's Lantern, The Conductor's Crown, The Anchor of the Ancients, and The Veil of Ashara.",
     "Related": ["EVENT-044", "QUEST-017", "QUEST-018", "CHAR-077"]
-  }
+  },
+{
+  "ID": "ITEM-013",
+  "Type": "Item",
+  "Name": "Dagger of the Broken Moon",
+  "Session": "48",
+  "Content": "Discovered in Session 48 when Lyanna Vale used it in combat. A magical dagger with a blade made from a sharp shard of pale white moon-rock, likely a piece of the goddess Tana. Gifted to Lyanna by her mother when she was seven years old. Requires attunement. Magical properties: anyone stabbed by it becomes frightened of the wielder. When examined by Mask and Fauda through prayer, the dagger glowed with both Tana's purple light and Nyxara's blue light. Divine insight revealed it contains equal power from both goddesses, that both are alive, and that they are 'one but not identical'. Only Lyanna Vale can use this particular dagger. Enhances Lyanna's innate magical abilities, though she claims no knowledge of where her magic originates.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-069", "CHAR-028", "CHAR-033", "EVENT-047"]
+},
+{
+  "ID": "ITEM-014",
+  "Type": "Item",
+  "Name": "Vyphira's Custom Armor",
+  "Session": "29",
+  "Content": "A custom suit of armor being crafted by Vyphira herself, representing her skill as an artisan and her Dragonborn heritage. The project began after she discovered her original stolen armor design for sale in Tempest's Refuge. The armor incorporates special materials and design elements: 1) Sharkskin armor plating and cured boar hide for additional protection, worked on in Session 47; 2) Plans for 'Version 2.0' with improved design, mentioned in Session 47; 3) Incorporation of craftsmanship knowledge from the special tools she seeks to recover. This armor is more than equipment - it's a personal project tied to her identity, quest for stolen tools, and understanding of her heritage. Current status: In development, with multiple components being crafted.",
+  "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "ITEM-009", "QUEST-002"]
+}
 ]

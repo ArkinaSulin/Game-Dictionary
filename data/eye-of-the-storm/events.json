@@ -351,12 +351,28 @@
     "Content": "Session 45 - The Crackling Wand magic shop and Leon's apartment in Drifthold. The party found Leon Gravix living under the alias 'Vix' and warned him about the Storm Lord threat. Leon revealed his research on the 51-year cycle of cataclysms that destroy Eryndor's advanced cities. He documented historical artifacts and warned that the current conflict with Storm Lords might be the next cataclysm. The party evacuated Leon and his research notebooks from the city.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-077", "ITEM-007", "ITEM-012", "LOC-065", "LOC-066", "QUEST-017", "QUEST-018"]
   },
-  {
+{
   "ID": "EVENT-045",
   "Type": "event",
-  "Name": "Cloudfoot Keep Departure and Pursuer Discovery",
+  "Name": "Departing Cloudfoot Keep",
   "Session": "45",
-  "Content": "Session 45 - Cloudfoot Keep and surrounding grasslands. The party gathered all allies at Cloudfoot Keep and set it in motion toward the Thundermaw Range. Sili's animal network discovered they were being closely followed by a group that had been tracking them for weeks. The party planned to use invisibility to ambush their pursuers while the keep continued traveling.",
-  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "LOC-001", "QUEST-018"]
-}
+  "Content": "Session 45 - Cloudfoot Keep. The party gathered all allies (Lyanna, Lucien, 'Rusty' Lou, Leon, Korr and his family) at Cloudfoot Keep and set it in motion toward the Thundermaw Range, continuing their quest to acquire Aetherglass for Lou's teleportation machine to Solara.",
+  "Related": ["CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "LOC-001", "QUEST-018"]
+},
+{
+  "ID": "EVENT-046",
+  "Type": "event",
+  "Name": "Ambushers ambushed by Calyx Newdusk",
+  "Session": "46-47",
+  "Content": "Sessions 46-47 - Grasslands en route to Thundermaw Range. Sili's animal network discovered the party was being closely followed by a group that had been tracking them for weeks. The party devised a plan to use invisibility to ambush their pursuers while the keep continued traveling. However, they were themselves ambushed by the bounty hunter Calyx Newdusk and his team, who trapped them in a magical bottle prison. Inside, a battle ensued. Vyphira was charmed into attacking Arc en Ciel before being freed. Fauda and Vy were both knocked unconscious and revived. When Calyx was severely injured, he smoke-stepped into the shrinking black pyramid containing Lloyd Pershing. The bottle prison shattered, scattering the party into the grasslands. Calyx and Lloyd disappeared, while Calyx's remaining guards dissolved into ash. Fauda later messaged the captured Lloyd, who confirmed he was alive in a cell with Calyx.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-081", "CHAR-082"]
+},
+  {
+    "ID": "EVENT-047",
+    "Type": "event",
+    "Name": "Thunder Herd Rescue and Dagger Revelation",
+    "Session": "47",
+    "Content": "Sessions 47-48 - Foothills of the Thundermaw Range. The party helped halfling shepherds recover their stolen Thunder Rams and Sheep, battling elven hunters, a Shepherd Drake, and Aural insects. In the battle, Lyanna Vale used her unique dagger to save Arc en Ciel. Mask identified it as 'The Dagger of the Broken Moon', made from a shard of Tana. Through prayer, Mask and Fauda discovered it contained equal power from both Tana and Nyxara, that both goddesses were alive, and 'one but not identical'. The party received a breeding pair of Thunder animals as reward.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "ITEM-013"]
+  }
 ]
