@@ -271,20 +271,20 @@
     "Content": "The next morning, a Bunyip sea monster attacked and boarded the ship. The party defeated it, after which Zara butchered it with gusto and Brynd carved it up, declaring the meat tasted 'like chicken.' Later, a raft of wreckage with a barrel marked by an unreadable coral rune drifted past, reminding Zara of a forgotten coastal war. The session ended with four shadowy shapes spotted following the ship.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "CHAR-055", "CHAR-056", "LOC-022"]
   },
-  {
-    "ID": "EVENT-035",
-    "Type": "Event",
-    "Name": "Triton Plea & Coral Ruin Delve",
-    "Session": "30",
-    "Content": "Tritons, led by Neressa, boarded the ship. She begged for help, explaining a crystal shard was killing the sea. The party followed her to ancient coral ruins. They fought a Coral Drake (which sprayed its offspring on Colm), two water vortexes with an undead triton, and in a final chamber, a Marid and two Sahuagin Barons. After the battle, they found journals on shells that detailed the shard's corrupting song.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-057", "CHAR-058", "LOC-023", "QUEST-029", "ITEM-002"]
-  },
+{
+  "ID": "EVENT-035",
+  "Type": "Event",
+  "Name": "Triton Plea & Coral Ruin Delve",
+  "Session": "30",
+  "Content": "Tritons, led by Neressa, boarded the ship. She begged for help, explaining a crystal shard was killing the sea. The party followed her to ancient coral ruins. They fought a Coral Drake (which sprayed its offspring on Colm), two water vortexes with an undead triton, and in a final chamber, a Marid and two Sahuagin Barons. After the battle, they found journals on shells that detailed the shard's corrupting song. Arya, recalling the similar Nyx-Fragment from earlier, tested the recovered Luna Rock by touching it (no visible mark this time) and licking it (revealing only a metallic taste, no vocal distortion). The rock was later secured and towed behind the ship.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-057", "CHAR-058", "LOC-023", "QUEST-029", "ITEM-001", "ITEM-002"]
+},
 {
   "ID": "EVENT-036",
-  "Type": "Event", 
+  "Type": "Event",
   "Name": "Luna Rock Sea Voyage Crisis",
-  "Session": "30",
-  "Content": "Session 30: During sea voyage, Arya experimented with the Luna Rock, causing temporary marks and vocal distortion. Captain Kixxaez and crew secured the rock in a tow behind the ship. Colm purged magical items including Bryan's venom. The rock attracted multiple sea creature attacks including a sea drake, Karkinoi, giant squids, and a devil fish with slaughtermaw lamprey. Environmental changes included shifting reefs and unnatural fog. The party deduced the Luna Rock was acting as a dangerous beacon.",
-  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-055", "LOC-022", "QUEST-010", "ITEM-003"]
+  "Session": "31",
+  "Content": "Sessions 31-32: After securing the Tide-Twister Shard (Luna Rock) in a tow behind Kixxaze's trawler, its supernatural beacon began attracting continuous sea creature attacks. Colm purged other magical items from the ship, including Bryan's venom. Initial encounters included a sea drake, multiple Karkinoi, two giant squids, and a devil fish with slaughtermaw lamprey. Environmental disturbances like shifting reefs and unnatural fog accompanied the assaults. Attacks escalated with a lamprey and devilfish nearly killing Colm, followed by a hermit crab and mindclaw crab, then a coral golem with two coral clusters that damaged the ship. After repairs, jellyfish and a giant sea star attacked—the starfish swallowing Arya whole and the jellyfish nearly electrocuting Zara. The rock has attracted over 12 distinct creature encounters over 3 days so far, with attacks increasing in frequency and intensity. The situation remains critical, with more attacks expected if the crystal continues emitting its dangerous beacon.",
+  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-055", "LOC-022", "QUEST-010", "QUEST-029", "ITEM-002"]
 }
 ]

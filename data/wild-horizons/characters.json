@@ -5,7 +5,7 @@
     "Name": "Zara",
     "Session": "01",
     "Content": "Half-elf (Pallid Elf mother, infernal father). Pale elf features with an otherworldly presence. Daughter of the Pallid Elf king and queen; her half-brother is the current regent who sent her away. Her birth father is an entity of the Nine Hells. Personality is intense, protective, and prone to dark whispers and bloodlust. Her goal is to uncover her heritage and the mystery of her father. Wields a whispering bow that grants Hellish Rebuke and connects to a mysterious patron. A key combatant and tracker for the party.",
-    "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-045", "CHAR-046", "LOC-001", "LOC-002", "LOC-012", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-023", "EVENT-025", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-032", "EVENT-033", "EVENT-034", "EVENT-035", "QUEST-001", "QUEST-004", "QUEST-010", "QUEST-015", "QUEST-017", "QUEST-020", "QUEST-026"]
+    "Related": ["CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-045", "CHAR-046", "LOC-001", "LOC-002", "LOC-012", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-023", "EVENT-025", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-032", "EVENT-033", "EVENT-034", "EVENT-035", "EVENT-036", "QUEST-001", "QUEST-004", "QUEST-010", "QUEST-015", "QUEST-017", "QUEST-020", "QUEST-026"]
   },
   {
     "ID": "CHAR-002",
@@ -13,7 +13,7 @@
     "Name": "Arya",
     "Session": "01",
     "Content": "Male Fairy Guardian. Stocky, muscular build with small, stubby wings, unlike typical fairies. A lumberjack who struggled for 60 years to form a binding contract. Observed personality is earnest, self-doubting, but ultimately self-accepting and hardworking. His goal was to find a charge; he is now bound to the party. Contributes in battle by shedding fairy dust to illuminate enemies and using his warhammer, Honeydrop, for battlefield control. Converts stamina from his charges into fairy dust for magic and equipment maintenance.",
-    "Related": ["CHAR-007", "CHAR-008", "CHAR-009", "CHAR-022", "LOC-001", "EVENT-001", "EVENT-004", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-016", "EVENT-019", "EVENT-024", "EVENT-026", "EVENT-028", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-033", "QUEST-001", "QUEST-016", "QUEST-017", "QUEST-026"]
+    "Related": ["CHAR-007", "CHAR-008", "CHAR-009", "CHAR-022", "LOC-001", "EVENT-001", "EVENT-004", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-016", "EVENT-019", "EVENT-024", "EVENT-026", "EVENT-028", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-033", "EVENT-035", "EVENT-036", "QUEST-001", "QUEST-016", "QUEST-017", "QUEST-026"]
   },
   {
     "ID": "CHAR-003",
@@ -21,7 +21,7 @@
     "Name": "Fern",
     "Session": "01",
     "Content": "A druid connected to nature, possibly a plant-like being. Uses a magical pipe and is searching for Billy, a missing Treant. Observed as chill and connected to the natural world, but can be annoyed (e.g., by Arya during cooking). Contributes through druidic magic, communication with plants and animals, and combat support. His personal goal is to be reunited with his walking tree, Billy.",
-    "Related": ["CHAR-010", "CHAR-011", "CHAR-048", "CHAR-049", "LOC-001", "LOC-003", "LOC-004", "LOC-006", "LOC-007", "LOC-008", "EVENT-001", "EVENT-003", "EVENT-004", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-010", "EVENT-011", "EVENT-016", "EVENT-018", "EVENT-019", "EVENT-021", "EVENT-022", "EVENT-024", "EVENT-028", "EVENT-030", "QUEST-001", "QUEST-002", "QUEST-010", "QUEST-017", "QUEST-020", "QUEST-026"]
+    "Related": ["CHAR-010", "CHAR-011", "CHAR-048", "CHAR-049", "LOC-001", "LOC-003", "LOC-004", "LOC-006", "LOC-007", "LOC-008", "EVENT-001", "EVENT-003", "EVENT-004", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-010", "EVENT-011", "EVENT-016", "EVENT-018", "EVENT-019", "EVENT-021", "EVENT-022", "EVENT-024", "EVENT-028", "EVENT-030", "EVENT-036",  "QUEST-001", "QUEST-002", "QUEST-010", "QUEST-017", "QUEST-020", "QUEST-026"]
   },
   {
     "ID": "CHAR-004",
@@ -29,7 +29,7 @@
     "Name": "Colm",
     "Session": "01",
     "Content": "A bounty hunter with a bounty on his head, accused of poisoning a competitor. Personality is proud, indifferent, and vengeful. His goal is to clear his name and find out who framed him for the murder. A formidable martial combatant. Avoids eye contact with Zara to prevent her from starting a massacre on his behalf.",
-    "Related": ["CHAR-012", "CHAR-013", "CHAR-021", "CHAR-028", "CHAR-029", "CHAR-038", "CHAR-050", "CHAR-051", "LOC-001", "LOC-009", "LOC-015", "LOC-017", "LOC-018", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-015", "EVENT-016", "EVENT-019", "EVENT-020", "EVENT-024", "EVENT-025", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "QUEST-001", "QUEST-004", "QUEST-017", "QUEST-020", "QUEST-025", "QUEST-026"]
+    "Related": ["CHAR-012", "CHAR-013", "CHAR-021", "CHAR-028", "CHAR-029", "CHAR-038", "CHAR-050", "CHAR-051", "LOC-001", "LOC-009", "LOC-015", "LOC-017", "LOC-018", "EVENT-001", "EVENT-004", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-015", "EVENT-016", "EVENT-019", "EVENT-020", "EVENT-024", "EVENT-025", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "EVENT-036", "QUEST-001", "QUEST-004", "QUEST-017", "QUEST-020", "QUEST-025", "QUEST-026"]
   },
   {
     "ID": "CHAR-005",
@@ -205,7 +205,7 @@
     "Name": "Brynd",
     "Session": "20",
     "Content": "Met in Session 20. Philosophical and reckless. He wondered about the souls of snakes and goblins, then attempted to build resistance to snake venom by swallowing it, resulting in violent illness. Uses ki energy. Has developed a habit of using himself as bait to taunt and attract sea creatures in hopes of a fresh seafood meal, a tactic that has successfully lured in threats like weresharks but often with unintended consequences.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-052", "LOC-009", "LOC-017", "EVENT-009", "EVENT-023", "EVENT-024", "EVENT-025", "EVENT-031", "EVENT-033", "QUEST-024", "QUEST-026"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-052", "LOC-009", "LOC-017", "EVENT-009", "EVENT-023", "EVENT-024", "EVENT-025", "EVENT-031", "EVENT-033", "EVENT-036", "QUEST-024", "QUEST-026"]
   },
   {
     "ID": "CHAR-027",
@@ -413,7 +413,7 @@
     "Name": "Azren",
     "Session": "20",
     "Content": "A 26-year-old Aasimar and an Oath of Glory Paladin (following Devotion tenets) of The Radiant Coil. He is currently in temporary exile from his order for executing a captive warlord in a fit of rigid, uncompromising justice. He was raised in the floating sanctuary of Xotalan and is one of the youngest ever to achieve knighthood. Skilled with throwing knives, he seeks to understand the balance between violence and peace. For each conflict, he collects a feather: bright if resolved peacefully, white if violence was the only option, and dark if violence was used unnecessarily. His mother is a member of the order. He seeks redemption to eventually return home. In Session 28, he delivered the final, radiant blow that destroyed the moon-touched undead leader in the crypt.",
-    "Related": ["CHAR-053", "CHAR-054", "LOC-021", "EVENT-031", "EVENT-032", "EVENT-033", "EVENT-034", "EVENT-035", "QUEST-013"]
+    "Related": ["CHAR-053", "CHAR-054", "LOC-021", "EVENT-031", "EVENT-032", "EVENT-033", "EVENT-034", "EVENT-035", "EVENT-036", "QUEST-013"]
   },
   {
     "ID": "CHAR-053",

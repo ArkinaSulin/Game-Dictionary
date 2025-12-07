@@ -77,7 +77,7 @@
     "Name": "Investigate the Lunar Corruption",
     "Session": "01",
     "Content": "Status: Ongoing. Emergent main story quest developing through multiple sessions. Goal: Understand and stop the lunar rot/night sickness that is corrupting creatures and land, connected to something from the moon that broke off long ago. Notable casualties: Various corrupted creatures including Gurruk, Bloody Bones, Bog Bodies, corrupted humanoid, Echo Wraith, Moonshadow Beast, zombies, Waxling, Candlekin. Reward: Ongoing; crucial for world salvation.",
-    "Related": ["CHAR-001", "CHAR-003", "CHAR-009", "CHAR-011", "CHAR-015", "CHAR-016", "CHAR-017", "CHAR-033", "CHAR-046", "LOC-003", "LOC-004", "LOC-008", "LOC-019", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-004", "EVENT-011", "EVENT-013", "ITEM-001", "ITEM-002"]
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-009", "CHAR-011", "CHAR-015", "CHAR-016", "CHAR-017", "CHAR-033", "CHAR-046", "LOC-003", "LOC-004", "LOC-008", "LOC-019", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-004", "EVENT-011", "EVENT-013", "EVENT-036", "ITEM-001", "ITEM-002"]
   },
   {
     "ID": "QUEST-011",
@@ -229,6 +229,6 @@
     "Name": "Silence the Crystal Shard",
     "Session": "30",
     "Content": "Status: In Progress. Given by the Triton leader Neressa. Goal: Find and silence/destroy the humming crystal shard that is poisoning the sea below Zepharok, corrupting the tides and turning sea guardians hostile. The party has cleared the initial ancient coral ruins and learned more from journals found there.",
-    "Related": ["CHAR-057", "CHAR-058", "LOC-023", "EVENT-035", "QUEST-010", "ITEM-002"]
+    "Related": ["CHAR-057", "CHAR-058", "LOC-023", "EVENT-035", "EVENT-036", "QUEST-010", "ITEM-001", "ITEM-002"]
   }
 ]
