@@ -117,15 +117,15 @@
     "Name": "The Scaleforge Torc",
     "Session": "56",
     "Content": "A copper torc with a dragon head on each end, left for Vyphira by her mother Kalithyra. Found wrapped in brown paper on her mother's desk in Tempest's Watch. Vibrates with energy and magic. Only a member of Vy's family can wear it. When worn, half of the torc transforms into Aetherglass while the other half remains copper. A family heirloom tied to the Hidebinder's Blessing tools.",
-    "Related": ["CHAR-003", "CHAR-084", "CHAR-088", "ITEM-009", "EVENT-057", "LOC-003"]
+    "Related": ["CHAR-003", "CHAR-084", "CHAR-088", "ITEM-009", "ITEM-016","EVENT-057", "LOC-003"]
   },
-  {
+{
     "ID": "ITEM-016",
     "Type": "Item",
     "Name": "The Hidebinder's Blessing (Copper Tools)",
     "Session": "69",
     "Content": "Vyphira's family heirloom leatherworker's tools, stolen from her mother and recovered from Xyrx's extradimensional storage after his defeat. One of the nine legendary Tools of Creation, associated with Copper Dragonborn. When Vy reacquired them, the tools felt different—thrumming with strange energy as if they had chosen her. Vy now works in harmony with them rather than merely using them. Current status: In Vy's possession.",
-    "Related": ["CHAR-003", "CHAR-084", "CHAR-065", "ITEM-009", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
+    "Related": ["ITEM-017", "ITEM-018", "ITEM-019", "ITEM-025", "ITEM-026", "ITEM-027", "ITEM-028", "ITEM-029", "CHAR-003", "CHAR-084", "CHAR-065", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
   },
   {
     "ID": "ITEM-017",
@@ -133,7 +133,7 @@
     "Name": "The Bonewright's Instruments (Amethyst Tools)",
     "Session": "69",
     "Content": "A set of bone-carver's tools belonging to Velkor Astryx, passed down from his grandfather. Used to inscribe and mark the bones of dragons and dragonborn with Draconic runes to preserve their history. One of the nine legendary Tools of Creation, associated with Amethyst Dragonborn. Recovered from Xyrx's extradimensional storage after his defeat. Current status: Returned to Velkor Astryx, now allied with the party.",
-    "Related": ["CHAR-085", "CHAR-084", "CHAR-065", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
+    "Related": ["ITEM-016", "ITEM-018", "ITEM-019", "ITEM-025", "ITEM-026", "ITEM-027", "ITEM-028", "ITEM-029", "CHAR-085", "CHAR-084", "CHAR-065", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
   },
   {
     "ID": "ITEM-018",
@@ -141,7 +141,7 @@
     "Name": "The Weaver's Tongue (Red Tools)",
     "Session": "69",
     "Content": "A set of tools associated with Red Dragonborn. One of the nine Tools of Creation. Previously collected by Xyrx from Sorrax Shieldweaver of Tempest's Refuge. Recovered from Xyrx's extradimensional storage after his defeat. Current status: In party's possession.",
-    "Related": ["CHAR-084", "CHAR-016", "CHAR-065", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
+    "Related": ["ITEM-016", "ITEM-017", "ITEM-019", "ITEM-025", "ITEM-026", "ITEM-027", "ITEM-028", "ITEM-029", "CHAR-084", "CHAR-016", "CHAR-065", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
   },
   {
     "ID": "ITEM-019",
@@ -149,7 +149,7 @@
     "Name": "The Sparkwright's Trio (Brass Tools)",
     "Session": "61",
     "Content": "A set of three artificer's tools (caliper, small hammer, screwdriver) found hidden inside a fine leather case within a damaged clock face of Harmonia's clocktower. They bear a strange, almost draconic mark similar to but not identical with Vy's own tool markings. One of the nine legendary Tools of Creation, associated with Brass Dragonborn. The tools carry powerful magical resonance and were used in the construction of Harmonia's machinery. Recovered by Vy during the Harmonia loops.",
-    "Related": ["CHAR-003", "CHAR-084", "CHAR-065", "LOC-076", "LOC-080", "EVENT-058", "EVENT-061", "QUEST-002", "QUEST-018", "QUEST-021"]
+    "Related": ["ITEM-016", "ITEM-017", "ITEM-018", "ITEM-025", "ITEM-026", "ITEM-027", "ITEM-028", "ITEM-029", "CHAR-003", "CHAR-084", "CHAR-065", "LOC-076", "LOC-080", "EVENT-058", "EVENT-061", "QUEST-002", "QUEST-018", "QUEST-021"]
   },
   {
     "ID": "ITEM-020",
@@ -190,5 +190,45 @@
     "Session": "70",
     "Content": "A set of designs and plans for experimental gloves intended to enhance and manipulate lightning-based powers. Created by Eredan Windsight, Beaconmaster of Tempest's Watch, before he abandoned his experiments after an accident. Includes notes on gemstone configurations (Ruby-Emerald-Crystal-Crystal-Emerald-Ruby to convert lightning to fire, and other combinations). Accompanied by a crate of gemstone disks (Crystal, Ruby, Emerald, Sapphire, Topaz, Amethyst, Diamond, Aetherglass). Given to Mask as thanks for the party's actions. Vy plans to construct the gloves. Current status: Schematics and gemstones in party's possession.",
     "Related": ["CHAR-001", "CHAR-003", "CHAR-088", "LOC-003", "EVENT-066", "EVENT-067", "QUEST-024"]
+  },
+{
+    "ID": "ITEM-025",
+    "Type": "Item",
+    "Name": "The Scaled Forge (Black Tools)",
+    "Session": "68",
+    "Content": "One of the nine legendary Tools of Creation, associated with Black (Chromatic) Dragonborn. Its purpose is related to forging and metalwork, but the exact function is unknown. According to Xyrx's ledger, the tools are located in Drifthold. Current status: Not yet acquired by the party; location known but ownership unclear.",
+    "Related": ["ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-026", "ITEM-027", "ITEM-028", "ITEM-029", "QUEST-021", "CHAR-097", "LOC-008", "EVENT-063"]
+  },
+  {
+    "ID": "ITEM-026",
+    "Type": "Item",
+    "Name": "The Crucible of Breath (Blue Tools)",
+    "Session": "68",
+    "Content": "One of the nine legendary Tools of Creation, associated with Blue (Chromatic) Dragonborn. Its purpose is unknown but likely related to harnessing or shaping breath or elemental energy. According to Xyrx's ledger, the tools are located in Aetherspire. Current status: Not yet acquired; location known.",
+    "Related": ["ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-025", "ITEM-027", "ITEM-028", "ITEM-029", "QUEST-021", "CHAR-097", "EVENT-063"]
+  },
+  {
+    "ID": "ITEM-027",
+    "Type": "Item",
+    "Name": "The Veins of Gold (Gold Tools)",
+    "Session": "68",
+    "Content": "One of the nine legendary Tools of Creation, associated with Gold (Metallic) Dragonborn. Its purpose is unknown but likely related to wealth, alchemy, or refinement. According to Xyrx's ledger, the tools are located in Galecross. Current status: Not yet acquired; location known.",
+    "Related": ["ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-025", "ITEM-026", "ITEM-028", "ITEM-029", "QUEST-021", "CHAR-097", "EVENT-063"]
+  },
+  {
+    "ID": "ITEM-028",
+    "Type": "Item",
+    "Name": "The Pulse of the Deep (Sapphire Tools)",
+    "Session": "68",
+    "Content": "One of the nine legendary Tools of Creation, associated with Sapphire (Gem) Dragonborn. Its purpose is unknown but may be tied to divination, water, or deep earth magic. According to Xyrx's ledger, the tools are located in Rimefall. Current status: Not yet acquired; location known.",
+    "Related": ["ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-025", "ITEM-026", "ITEM-027", "ITEM-029", "QUEST-021", "CHAR-097", "EVENT-063"]
+  },
+  {
+    "ID": "ITEM-029",
+    "Type": "Item",
+    "Name": "The Song of Embers (Crystal Tools)",
+    "Session": "68",
+    "Content": "One of the nine legendary Tools of Creation, associated with Crystal (Gem) Dragonborn. Its purpose is unknown but may involve fire, sound, or resonance. According to Xyrx's ledger, the tools are located in Rook's Rest. Current status: Not yet acquired; location known.",
+    "Related": ["ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-025", "ITEM-026", "ITEM-027", "ITEM-028", "QUEST-021", "CHAR-097", "EVENT-063"]
   }
 ]
