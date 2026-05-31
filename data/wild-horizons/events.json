@@ -286,5 +286,109 @@
   "Session": "31",
   "Content": "Sessions 31-32: After securing the Tide-Twister Shard (Luna Rock) in a tow behind Kixxaze's trawler, its supernatural beacon began attracting continuous sea creature attacks. Colm purged other magical items from the ship, including Bryan's venom. Initial encounters included a sea drake, multiple Karkinoi, two giant squids, and a devil fish with slaughtermaw lamprey. Environmental disturbances like shifting reefs and unnatural fog accompanied the assaults. Attacks escalated with a lamprey and devilfish nearly killing Colm, followed by a hermit crab and mindclaw crab, then a coral golem with two coral clusters that damaged the ship. After repairs, jellyfish and a giant sea star attacked—the starfish swallowing Arya whole and the jellyfish nearly electrocuting Zara. The rock has attracted over 12 distinct creature encounters over 3 days so far, with attacks increasing in frequency and intensity. The situation remains critical, with more attacks expected if the crystal continues emitting its dangerous beacon.",
   "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-055", "LOC-022", "QUEST-010", "QUEST-029", "ITEM-002"]
-}
+},
+ {
+    "ID": "EVENT-037",
+    "Type": "event",
+    "Name": "Merfolk Trials and Survivor Rescue",
+    "Session": "34",
+    "Content": "After the kraken battle, the ship was stopped by three merfolk who demanded three trials. The party passed them (acrobatics, appetite, etc.). Later, they rescued survivors from a raft: two teenage traders (Kalen and Mara) and a talking pelican (Galiber). The survivors had been attacked by the same kraken days earlier.",
+    "Related": ["CHAR-055", "CHAR-059", "CHAR-060", "CHAR-061", "LOC-022"]
+  },
+  {
+    "ID": "EVENT-038",
+    "Type": "event",
+    "Name": "Contract with Blackwake",
+    "Session": "36",
+    "Content": "The party took a contract to capture the pirate Thalos 'Blackwake' Virel (reward 2,500 gold). Instead of fighting, Blackwake offered them 5,000 gold to rob a sunken temple, with payment up front and first pick of loot. The party accepted.",
+    "Related": ["CHAR-062", "LOC-024", "QUEST-030"]
+  },
+  {
+    "ID": "EVENT-039",
+    "Type": "event",
+    "Name": "Sunken Temple Exploration (Part 1)",
+    "Session": "36-38",
+    "Content": "The party explored a sunken temple for Blackwake. They fought sea creatures, a dracotaur, an orc champion, and in the inner sanctum, a wastrilith and a yuan-ti abomination. Azren and Colm fell but were revived. After victory, they received 5,000 gold plus 10,000 gold hazard pay.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-026", "CHAR-052", "LOC-032", "QUEST-030"]
+  },
+  {
+    "ID": "EVENT-040",
+    "Type": "event",
+    "Name": "Khelarion Shopping and Downtime",
+    "Session": "39",
+    "Content": "The party spent time upgrading equipment in Khelarion. Arya got drunk and fell off a bench, becoming an impromptu drinking game obstacle. They also completed a food delivery job (150 gold) and took a contract to investigate a murdered bard (Ilyen Vael).",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-026", "LOC-024"]
+  },
+  {
+    "ID": "EVENT-041",
+    "Type": "event",
+    "Name": "Murdered Bard Warehouse Ambush",
+    "Session": "40",
+    "Content": "Investigating Ilyen Vael's murder, the party broke into a warehouse and found a clerk, Kael Veyran. While trying to question him, they were shot by hidden attackers with poisoned bolts. After defeating them, they used Speak with Dead to learn that 'Harbour Marker 3' paid them. They completed the job for 900 gold.",
+    "Related": ["CHAR-063", "LOC-033", "QUEST-032"]
+  },
+  {
+    "ID": "EVENT-042",
+    "Type": "event",
+    "Name": "Necromancer in the Graveyard",
+    "Session": "40",
+    "Content": "Following strange occurrences (a dead police officer returning to duty, a handless cook, etc.), the party discovered a mausoleum with a trapdoor leading to a hidden chamber. They confronted a young necromancer, Pelion Var, who was raising the dead 'for science.' After destroying his undead, he surrendered and was arrested, earning the party 500 gold.",
+    "Related": ["CHAR-064", "LOC-034", "QUEST-032"]
+  },
+  {
+    "ID": "EVENT-043",
+    "Type": "event",
+    "Name": "Sewer Hydra Rescue",
+    "Session": "41",
+    "Content": "Neressa Valmour hired the party to retrieve a missing venom gland and rescue a young urchin. In the sewers, they fought a four-headed hydra. Azren used fire to stop head regeneration. After defeating it, Zara found the urchin alive in the hydra's stomach, along with a large amount of coins.",
+    "Related": ["CHAR-001", "CHAR-026", "CHAR-052", "CHAR-065", "LOC-035", "QUEST-033"]
+  },
+  {
+    "ID": "EVENT-044",
+    "Type": "event",
+    "Name": "Desert Scorpion Temple",
+    "Session": "42-43",
+    "Content": "Using Wind Walk, the party was transported to a different desert by a sandstorm. They entered a massive scorpion statue temple, fighting cultists, giant beetle riders, and a 'Spiteful Hole' that insulted them. They collected five numbered gems, placed them, and defeated a mummy and four scorpion creatures. They retrieved treasure.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-026", "CHAR-052", "LOC-036", "EVENT-045"]
+  },
+  {
+    "ID": "EVENT-045",
+    "Type": "event",
+    "Name": "Mother Bug and Portable Castle",
+    "Session": "44",
+    "Content": "After the temple, the party was attacked by two large centipedes and a massive mother bug. They used the portable castle to escape. Zara transformed into a giant ape and threw Colm inside. After the battle, they opened the portable hole and discovered a friendly flumph (which later stayed with Joonie).",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-037", "LOC-036"]
+  },
+  {
+    "ID": "EVENT-046",
+    "Type": "event",
+    "Name": "Renn's Coming-of-Age Hunt",
+    "Session": "45",
+    "Content": "The party helped a nervous young hunter named Renn in his coming-of-age hunt. They fought six mammoths, with Colm growing giant and Renn landing the final blow on the Alpha Mammoth. Renn proved himself and was accepted. Later, Zara kissed him four times at the village entrance.",
+    "Related": ["CHAR-001", "CHAR-004", "CHAR-067", "EVENT-045"]
+  },
+  {
+    "ID": "EVENT-047",
+    "Type": "event",
+    "Name": "Lunarfall Tribe Feast and Moon Rock Experiment",
+    "Session": "45",
+    "Content": "The party was invited to a werebeing tribe living in caves with hot springs. The elder explained the history of a failed ritual that caused moon shards to fall. Hence the Tribe name. A feast was held. Bryan secretly took a young wereboar to test a moon rock; opening the bag produced three gallons of mayonnaise, and the wereboar transformed and ran away. It was captured and tied up.",
+    "Related": ["CHAR-026", "CHAR-068", "CHAR-071", "CHAR-072", "LOC-029", "QUEST-010"]
+  },
+  {
+    "ID": "EVENT-048",
+    "Type": "event",
+    "Name": "Ferris Village Reed Investigation",
+    "Session": "46-47",
+    "Content": "The party arrived at Ferris village and was hired to investigate strange reeds spreading across a lake. They followed a trail to a swamp house, fought eel-hounds and a giant reed with a red eye. Inside, they found the dead tracker Nahl Fry. Two women, Liori and Ijith, and six Children of the Briar (twig blights) attacked. After defeating them, the village rewarded the party with 500 gold.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-026", "CHAR-052", "CHAR-069", "CHAR-070", "LOC-030", "LOC-031", "QUEST-035"]
+  },
+  {
+    "ID": "EVENT-049",
+    "Type": "event",
+    "Name": "Arena Recruitment and Maw Pit Battles",
+    "Session": "47-48",
+    "Content": "The party was recruited for the arenas of Tharokh Vale. They entered the Maw Pit and fought three matches: giant insects, Cats of Ulthar and Hieracosphinxes, and finally bladefish, a Slaughtermaw Lamprey, and a Mosasaurus in a flooded arena. They won all three matches and received rewards, with two more matches scheduled for the next day.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-026", "CHAR-052", "LOC-025", "LOC-026", "QUEST-036"]
+  }
 ]

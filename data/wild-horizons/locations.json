@@ -182,5 +182,109 @@
     "Session": "30",
     "Content": "A sunken city of coral and pearl, now a ghost town, located in the dying sea below Zepharok. The party fought through several chambers here, including a great hall with a Coral Drake, a hallway with water vortexes, and a final chamber with a Marid.",
     "Related": ["CHAR-057", "CHAR-058", "EVENT-035", "QUEST-029", "ITEM-002"]
+  },
+{
+    "ID": "LOC-024",
+    "Type": "location",
+    "Name": "Khelarion",
+    "Session": "35",
+    "Content": "A large harbor city with stone docks, white towers, and a statue-lighthouse. Ruled by the Pentarchate (five Archons: Harbors, Coin, Law, Works, Defense). The city has a secondhand magic shop, a market, a warehouse district, a graveyard, and an upper city. The party arrived here after their sea voyage and used it as a base for several quests. Current status: Active.",
+    "Related": ["CHAR-062", "CHAR-063", "CHAR-064", "CHAR-065", "EVENT-038", "EVENT-040", "EVENT-041", "QUEST-030", "QUEST-032", "QUEST-033"]
+  },
+  {
+    "ID": "LOC-025",
+    "Type": "location",
+    "Name": "Tharokh Vale",
+    "Session": "47",
+    "Content": "A city or region known for its arenas. The party was recruited here and entered the Maw Pit. It is located on the far side of a lake. Current status: Not yet fully explored.",
+    "Related": ["LOC-026", "LOC-027", "LOC-028", "EVENT-049", "QUEST-036"]
+  },
+  {
+    "ID": "LOC-026",
+    "Type": "location",
+    "Name": "The Maw Pit",
+    "Session": "48",
+    "Content": "One of the arenas in Tharokh Vale, focusing on team battles and monster fights. The party fought three matches here (giant insects, Cats of Ulthar and Hieracosphinxes, and aquatic monsters in a flooded arena). They won all three and advanced to future matches. Current status: Active arena.",
+    "Related": ["LOC-025", "EVENT-049", "QUEST-036"]
+  },
+  {
+    "ID": "LOC-027",
+    "Type": "location",
+    "Name": "The Sun Scar Coliseum",
+    "Session": "47",
+    "Content": "An arena in Tharokh Vale specializing in maze battles, jousting, magic events, and archery. Not yet visited by the party. Current status: Active.",
+    "Related": ["LOC-025"]
+  },
+  {
+    "ID": "LOC-028",
+    "Type": "location",
+    "Name": "The Amber Ring",
+    "Session": "47",
+    "Content": "A fire-themed arena in Tharokh Vale. Not yet visited by the party. Current status: Active.",
+    "Related": ["LOC-025"]
+  },
+  {
+  "ID": "LOC-029",
+  "Type": "location",
+  "Name": "Lunarfall Tribe Caves",
+  "Session": "45",
+  "Content": "A series of caves on the northern edge of the Zepharok desert, containing hot springs and mushroom farms. Home to the Lunarfall tribe of werebeings. The tribe's name commemorates the founders' escape from the cataclysmic fall of moon shards in Nyxara. The party was invited here after Renn's successful hunt. Current status: Active cave.",
+  "Related": ["CHAR-067", "CHAR-068", "CHAR-071", "CHAR-072", "EVENT-047"]
+},
+  {
+    "ID": "LOC-030",
+    "Type": "location",
+    "Name": "Ferris",
+    "Session": "46",
+    "Content": "A village near a lake where strange reeds were spreading. The party was hired by the village elder to investigate. Current status: Active village.",
+    "Related": ["EVENT-048", "QUEST-035"]
+  },
+  {
+    "ID": "LOC-031",
+    "Type": "location",
+    "Name": "Swamp House (Reed Investigation)",
+    "Session": "46",
+    "Content": "A small house covered in reeds in the swamp near Ferris. It was the lair of Liori and Ijith, who were creating Children of the Briar. Inside, the party found the body of the missing tracker Nahl Fry. The area was protected by eel-hounds and a giant reed creature. Current status: Cleared.",
+    "Related": ["CHAR-069", "CHAR-070", "EVENT-048", "QUEST-035"]
+  },
+  {
+    "ID": "LOC-032",
+    "Type": "location",
+    "Name": "Sunken Temple (Blackwake's Contract)",
+    "Session": "36",
+    "Content": "An ancient, water‑filled temple ruin beneath the sea near Khelarion. The party explored it for Blackwake, fighting dracotaurs, orcs, a wastrilith, and a yuan‑ti abomination. It contained treasure and hazard pay. Current status: Looted, likely abandoned.",
+    "Related": ["CHAR-062", "EVENT-039", "QUEST-030"]
+  },
+  {
+    "ID": "LOC-033",
+    "Type": "location",
+    "Name": "Warehouse (Bard Murder Investigation)",
+    "Session": "40",
+    "Content": "A warehouse in Khelarion where the party tracked leads in the murder of Ilyen Vael. Inside they found clerk Kael Veyran and were ambushed by hidden attackers with poisoned bolts. The warehouse was used as a base for the killers. Current status: Cleared.",
+    "Related": ["CHAR-063", "EVENT-041", "QUEST-032"]
+  },
+  {
+    "ID": "LOC-034",
+    "Type": "location",
+    "Name": "Mausoleum and Necromancer's Lair",
+    "Session": "40",
+    "Content": "A mausoleum in Khelarion's graveyard with a trapdoor leading to a hidden chamber where the necromancer Pelion Var conducted his experiments. The party destroyed his undead and arrested him. Current status: Cleared.",
+    "Related": ["CHAR-064", "EVENT-042", "QUEST-032"]
+  },
+  {
+    "ID": "LOC-035",
+    "Type": "location",
+    "Name": "Sewers under Velmour's Verdant Remedies",
+    "Session": "41",
+    "Content": "The sewer system beneath Neressa Valmour's shop in Khelarion. The party fought a four‑headed hydra here and rescued a young urchin. Current status: Cleared, but hydra is dead.",
+    "Related": ["CHAR-065", "EVENT-043", "QUEST-033"]
+  },
+  {
+    "ID": "LOC-036",
+    "Type": "location",
+    "Name": "Scorpion Temple (Desert)",
+    "Session": "42",
+    "Content": "A massive temple carved into a scorpion statue in a desert reached after a sandstorm. The party fought cultists, giant beetles, a Spiteful Hole, and a mummy. They collected five numbered gems and found treasure. Current status: Cleared.",
+    "Related": ["EVENT-044", "EVENT-045"]
   }
 ]

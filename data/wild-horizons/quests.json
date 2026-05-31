@@ -230,5 +230,61 @@
     "Session": "30",
     "Content": "Status: In Progress. Given by the Triton leader Neressa. Goal: Find and silence/destroy the humming crystal shard that is poisoning the sea below Zepharok, corrupting the tides and turning sea guardians hostile. The party has cleared the initial ancient coral ruins and learned more from journals found there.",
     "Related": ["CHAR-057", "CHAR-058", "LOC-023", "EVENT-035", "EVENT-036", "QUEST-010", "ITEM-001", "ITEM-002"]
+  },
+{
+    "ID": "QUEST-030",
+    "Type": "Quest",
+    "Name": "Sunken Temple Heist for Blackwake",
+    "Session": "36",
+    "Content": "Status: Completed. The party accepted a contract from the pirate Thalos 'Blackwake' Virel to rob a sunken temple. They explored the temple, fought monsters, and earned 5,000 gold plus 10,000 gold hazard pay. Their agreement with Blackwake is that they will return to capture him afterward.",
+    "Related": ["CHAR-062", "LOC-032", "EVENT-038", "EVENT-039"]
+  },
+  {
+    "ID": "QUEST-031",
+    "Type": "Quest",
+    "Name": "Food Delivery to the Upper City",
+    "Session": "39",
+    "Content": "Status: Completed. The party took a job delivering food to the upper city of Khelarion. The delivery included keeping the food warm, delivering a living green salad, and leaving expensive cheese at a doorstep. They earned 150 gold.",
+    "Related": ["LOC-024", "EVENT-040"]
+  },
+  {
+    "ID": "QUEST-032",
+    "Type": "Quest",
+    "Name": "Investigate the Murdered Bard",
+    "Session": "39",
+    "Content": "Status: Completed. The party took a contract to investigate the murder of Ilyen Vael. They traced the killers to a warehouse, fought assassins, and used Speak with Dead to learn that 'Harbour Marker 3' paid them. They earned 900 gold. They also dealt with a necromancer (Pelion Var) in a separate but related investigation, earning 500 gold.",
+    "Related": ["CHAR-063", "CHAR-064", "LOC-033", "LOC-034", "EVENT-041", "EVENT-042"]
+  },
+  {
+    "ID": "QUEST-033",
+    "Type": "Quest",
+    "Name": "Retrieve the Venom Gland and Rescue the Urchin",
+    "Session": "41",
+    "Content": "Status: Completed. Neressa Valmour hired the party to retrieve a missing venom gland and rescue a young urchin from the sewers. They fought and killed a four‑headed hydra, finding the urchin alive inside its stomach. They also recovered a large amount of coins.",
+    "Related": ["CHAR-065", "LOC-035", "EVENT-043"]
+  },
+  {
+    "ID": "QUEST-034",
+    "Type": "Quest",
+    "Name": "Explore the Scorpion Temple",
+    "Session": "42",
+    "Content": "Status: Completed. After being transported to a different desert by a sandstorm, the party entered a massive scorpion statue temple. They fought cultists, beetles, a Spiteful Hole, and a mummy, collecting five gems and treasure.",
+    "Related": ["LOC-036", "EVENT-044", "EVENT-045"]
+  },
+  {
+    "ID": "QUEST-035",
+    "Type": "Quest",
+    "Name": "Investigate the Spreading Reeds",
+    "Session": "46",
+    "Content": "Status: Completed. The party was hired by the village of Ferris to investigate strange reeds spreading across a lake. They traced the source to a swamp house, fought eel-hounds, a giant reed creature, and two women (Liori and Ijith) who were creating Children of the Briar. They earned 500 gold.",
+    "Related": ["CHAR-069", "CHAR-070", "LOC-030", "LOC-031", "EVENT-048"]
+  },
+  {
+    "ID": "QUEST-036",
+    "Type": "Quest",
+    "Name": "Maw Pit Arena Battles",
+    "Session": "48",
+    "Content": "Status: In Progress. The party entered the Maw Pit arena in Tharokh Vale. They have won three matches (giant insects, Cats of Ulthar and Hieracosphinxes, and aquatic monsters). Two more matches are scheduled for the next day.",
+    "Related": ["LOC-025", "LOC-026", "EVENT-049"]
   }
 ]
