@@ -4,8 +4,8 @@
     "Type": "location",
     "Name": "Cloudfoot Keep",
     "Session": "19",
-    "Content": "The party's home base and bastion located in the wilderness. Fortified keep where characters have personal quarters and can develop their resources. Contains Arc's mushroom garden, Vyphira's barracks with cloud-energy defenders, Fauda's stocked storehouse, Mask's spy network, and Sili's animal nests and outposts. Serves as a safe haven between adventures, currently well-maintained by servants. Controlled by the party. Key characters include all party members and keep servants. During visits, characters received updates on their bastion developments and planned their next moves. In Session 45, the keep was set in motion toward The Thundermaw Range, traveling over muddy grasslands with the party and their new allies aboard. Session 46, the Keep was ambushed by Solaran bounty hunters, leading to most of the party being captured and transported into a magical bottle realm. The Keep continues its journey southwest, now potentially under threat or observation.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-072", "CHAR-077", "CHAR-079", "CHAR-080", "ITEM-005", "ITEM-006", "EVENT-001", "QUEST-002", "QUEST-018", "LOC-068"]
+    "Content": "The party's home base and bastion located in the wilderness. Fortified keep where characters have personal quarters and can develop their resources. Contains Arc's mushroom garden, Vyphira's barracks with cloud-energy defenders, Fauda's stocked storehouse, Mask's spy network, and Sili's animal nests and outposts. Serves as a safe haven between adventures, currently well-maintained by servants. Controlled by the party. Key characters include all party members and keep servants. During visits, characters received updates on their bastion developments and planned their next moves. In Session 45, the keep was set in motion toward The Thundermaw Range, traveling over muddy grasslands with the party and their new allies aboard. Session 46, the Keep was ambushed by Solaran bounty hunters, leading to most of the party being captured and transported into a magical bottle realm. The Keep continues its journey southwest. In Session 71, the party used Transport Via Plants to return here for downtime, training, and crafting before heading toward Gloomwatch Sanctum.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "CHAR-085", "CHAR-086", "CHAR-098", "ITEM-005", "ITEM-006", "ITEM-014", "EVENT-001", "EVENT-034", "EVENT-045", "EVENT-046", "EVENT-067", "QUEST-002", "QUEST-018", "QUEST-025"]
   },
   {
     "ID": "LOC-002",
@@ -13,15 +13,15 @@
     "Name": "Travel Route to Tempest's Refuge",
     "Session": "26",
     "Content": "Overland route through plains northwest of Greenmurk Forest, about two days travel on foot. Features open fields, foothills with caves, and known traveler shelters. Significant as the path where party experienced Imminent Convergence storm and cannibal cave encounter. Points of interest include storm-shelter caves. Key characters encountered include cannibals and storm refugees. During travel, party survived massive storm through Epic Skill Challenge, took shelter in cannibal cave, fought cannibals, and continued toward Tempest's Refuge.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "EVENT-001", "QUEST-003"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "EVENT-001", "EVENT-002", "QUEST-003"]
   },
   {
     "ID": "LOC-003",
     "Type": "location",
     "Name": "Tempest's Refuge",
     "Session": "26",
-    "Content": "Mountain settlement carved into mountainsides bearing large glowing storm runes. More subdued than Stormhaven, serves as refuge from storms. Contains stone gates, market districts, residential areas, and tunnel systems. Significant as location where Mask's healing attempt turned into murder investigation. Controlled by city guards and mages. Key characters include Elandra Hallowheart, Flora Mourne, Drayce Goldmere, Oswin Fellcrest, and Gale operative. During visits, party sought healing for Mask, murdered Elandra, fled authorities, confronted Gale operative, and helped changeling refugees escape.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-007", "CHAR-008", "CHAR-009", "CHAR-010", "CHAR-011", "EVENT-002", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "QUEST-001", "QUEST-005", "QUEST-006"]
+    "Content": "Mountain settlement carved into mountainsides bearing large glowing storm runes. More subdued than Stormhaven, serves as refuge from storms. Contains stone gates, market districts, residential areas, and tunnel systems. Significant as location where Mask's healing attempt turned into murder investigation. Controlled by city guards and mages. Key characters include Elandra Hallowheart, Flora Mourne, Drayce Goldmere, Oswin Fellcrest, and Gale operative. During visits, party sought healing for Mask, murdered Elandra, fled authorities, confronted Gale operative, and helped changeling refugees escape. Later, the party returned after defeating Xyrx, reuniting Vy with her family and meeting Callie Black and Eredan Windsight.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-008", "CHAR-009", "CHAR-010", "CHAR-011", "CHAR-055", "CHAR-084", "CHAR-087", "CHAR-088", "CHAR-098", "EVENT-002", "EVENT-004", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-056", "EVENT-057", "EVENT-065", "EVENT-066", "QUEST-001", "QUEST-005", "QUEST-006"]
   },
   {
     "ID": "LOC-004",
@@ -37,7 +37,7 @@
     "Name": "Ironhowl Forge",
     "Session": "29",
     "Content": "Blacksmith forge in Drifthold located in The Forestride leg of the city. Contains custom-made safe under burning forge for valuable tools. Significant as target for Voraxik's attempted theft and location of third known set of special tools. Controlled by Torva Ironhowl. Key characters include Torva Ironhowl. During planned visit, party set trap for thieves during Torva's dinner break, leading to an ambush, a fight in the sewers below, and the recovery of the tools.",
-    "Related": ["CHAR-003", "CHAR-030", "CHAR-061", "CHAR-062", "CHAR-064", "ITEM-009", "EVENT-018", "EVENT-038", "EVENT-039", "QUEST-002"]
+    "Related": ["CHAR-003", "CHAR-030", "CHAR-061", "CHAR-062", "ITEM-009", "EVENT-018", "EVENT-038", "EVENT-039", "QUEST-002"]
   },
   {
     "ID": "LOC-006",
@@ -51,7 +51,7 @@
     "ID": "LOC-007",
     "Type": "location",
     "Name": "Greenmurk Forest",
-    "Session": "18-26",
+    "Session": "18",
     "Content": "Forest area party traveled through before reaching plains. Starting point of journey to Tempest's Refuge. Contains dense woodland paths. Significant as departure point from civilization. No key characters specifically mentioned. During travel, party left forest and entered storm-prone plains.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "QUEST-003"]
   },
@@ -61,7 +61,7 @@
     "Name": "Drifthold",
     "Session": "30",
     "Content": "Massive six-legged stone city built on high stone shelf with trailing mobile extension called The Tailstride. Divided into tiers: base level, Stormforged Ring, Sky Ward. Contains universities, temples, markets, and residential districts. Significant as current major hub for refugees and location of major plot developments. Controlled by king and leg mages including Vale twins. Key characters include Gloriosa, Torva Ironhowl, Lord Crimm, Jorren and Megara Vale, Lyanna Vale, and Lucien Shinwell. During visits, party entered through brutal combat requirement, met Gloriosa, pursued various jobs, studied runes, investigated dragon cult, fulfilled a blood pact, discovered a secret rebellion in the sewers, and is now facing an imminent giant invasion. In Sessions 44-45, the city became the battleground against Storm Lord forces and the party's departure point for their journey to the Thundermaw Range.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-030", "CHAR-035", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "CHAR-072", "CHAR-073", "CHAR-074", "CHAR-077", "CHAR-078", "ITEM-008", "ITEM-009", "ITEM-010", "ITEM-013", "ITEM-014", "EVENT-012", "EVENT-013", "EVENT-018", "EVENT-019", "EVENT-039", "EVENT-040", "EVENT-041", "EVENT-042", "EVENT-043", "EVENT-044", "QUEST-002", "QUEST-007", "QUEST-008", "QUEST-009", "QUEST-010", "QUEST-015", "QUEST-016", "QUEST-017"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-030", "CHAR-035", "CHAR-046", "CHAR-069", "CHAR-071", "CHAR-072", "CHAR-073", "CHAR-074", "CHAR-077", "CHAR-078", "ITEM-008", "ITEM-009", "ITEM-010", "ITEM-013", "ITEM-014", "EVENT-012", "EVENT-013", "EVENT-018", "EVENT-019", "EVENT-039", "EVENT-040", "EVENT-041", "EVENT-042", "EVENT-043", "EVENT-044", "QUEST-002", "QUEST-007", "QUEST-008", "QUEST-009", "QUEST-010", "QUEST-015", "QUEST-016", "QUEST-017"]
   },
   {
     "ID": "LOC-009",
@@ -69,7 +69,7 @@
     "Name": "Tranquil Hollow Healing House & Hospital",
     "Session": "26",
     "Content": "Healing facility in quieter market district of Tempest's Refuge. Contains stone pedestal for diagnostic rituals, healing supplies, and records. Significant as location where Elandra Hallowheart diagnosed Mask and was subsequently murdered. Controlled by Elandra Hallowheart. Key characters include Elandra Hallowheart and Flora Mourne. During visit, Elandra used flame ritual to diagnose Mask's fractured mind, then was murdered by party, leading to city-wide manhunt.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-007", "CHAR-009", "EVENT-002", "EVENT-008"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-007", "CHAR-009", "EVENT-005", "EVENT-006", "EVENT-008"]
   },
   {
     "ID": "LOC-010",
@@ -84,8 +84,8 @@
     "Type": "location",
     "Name": "Solara",
     "Session": "30",
-    "Content": "Floating city above Eryndor, also called The Land of a Thousand Kingdoms. Contains myriad Bottle Kingdoms—entire worlds existing side by side. Ruled by ancient Greatwyrms and powerful noble houses. Significant as origin of changelings, headquarters of The Gale, and home to bounty hunter Calyx Newdusk. Controlled by Solaran rulers. Key characters include Broin, House Duskvale, House Honey, Lord Bainridge, and ancient dragon Voryxia. In Session 46, the party learned that House Duskvale hired Calyx to capture them in retaliation for destroying a House Honey gathering facility.",
-    "Related": ["CHAR-012", "CHAR-025", "CHAR-032", "CHAR-033", "CHAR-035", "CHAR-060", "CHAR-069", "CHAR-072", "CHAR-079", "QUEST-007", "QUEST-012", "QUEST-016", "LOC-068"]
+    "Content": "Floating city above Eryndor, also called The Land of a Thousand Kingdoms. Contains myriad Bottle Kingdoms—entire worlds existing side by side. Ruled by ancient Greatwyrms and powerful noble houses. Significant as origin of changelings, headquarters of The Gale, and home to bounty hunter Calyx Newdusk. Controlled by Solaran rulers. Key characters include Broin, House Duskvale, House Honey, Lord Bainridge, and ancient dragon Voryxia. In Session 46, the party learned that House Duskvale hired Calyx to capture them in retaliation for destroying a House Honey gathering facility. Later, the party discovered House Octo's involvement with Xyrx and that Lady Seriss is being held there for marriage. Current status: The party's ultimate destination.",
+    "Related": ["CHAR-012", "CHAR-025", "CHAR-032", "CHAR-033", "CHAR-035", "CHAR-060", "CHAR-069", "CHAR-072", "CHAR-079", "CHAR-097", "ITEM-013", "LOC-068", "QUEST-007", "QUEST-012", "QUEST-016", "QUEST-022", "QUEST-023"]
   },
   {
     "ID": "LOC-012",
@@ -205,7 +205,7 @@
     "Name": "The Echoing Spire",
     "Session": "30",
     "Content": "Location in Drifthold controlled by Jorren and Megara Vale. One of the six walking legs of the city. Contains Vale residence and operations center. Significant as headquarters of Vale mages who held the party's blood pact. Controlled by Vale twins. Key characters include Jorren and Megara Vale, Lyanna Vale. During visit in Session 42, party met Lyanna and then the Vales, received new tasks after blood pact completion. In Session 43, the party discovered and used a secret passage from here into the sewers to meet Lucien Shinwell.",
-    "Related": ["CHAR-046", "CHAR-069", "CHAR-070", "CHAR-072", "EVENT-040", "EVENT-041", "QUEST-010", "QUEST-015"]
+    "Related": ["CHAR-046", "CHAR-069", "CHAR-072", "EVENT-040", "EVENT-041", "QUEST-010", "QUEST-015"]
   },
   {
     "ID": "LOC-027",
@@ -244,8 +244,8 @@
     "Type": "location",
     "Name": "Caeloria",
     "Session": "2",
-    "Content": "The kingdom ruled by House Stormrider. Known for its rapid growth, which attracted the attention of The Gale. Mask's original assignment from The Gale was to infiltrate this kingdom and discover the secret behind its growth. Lady Seriss is a noble from this kingdom. The party was traveling here when Lady Seriss joined them. The great city and capital of The Blackcloud Reach, protected by the Stormheart Amulet. The party was hired to recover the stolen amulet and find Lady Seriss.",
-    "Related": ["CHAR-001", "CHAR-006", "CHAR-060", "ITEM-001", "ITEM-004", "EVENT-035", "QUEST-013"]
+    "Content": "The kingdom ruled by House Stormrider. Known for its rapid growth, which attracted the attention of The Gale. Mask's original assignment from The Gale was to infiltrate this kingdom and discover the secret behind its growth. Lady Seriss is a noble from this kingdom. The party was traveling here when Lady Seriss joined them. The great city and capital of The Blackcloud Reach, protected by the Stormheart Amulet. The party was hired to recover the stolen amulet and find Lady Seriss. Current status: Concern is growing that Lady Seriss will marry in Solara, and the Blackcloud Coven cannot contact her.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-060", "CHAR-087", "ITEM-001", "ITEM-004", "EVENT-035", "QUEST-013", "QUEST-023"]
   },
   {
     "ID": "LOC-032",
@@ -525,6 +525,206 @@
     "Name": "Calyx Newdusk's Bottle Realm",
     "Session": "46",
     "Content": "A pocket dimension contained within a magical bottle carried by the bounty hunter Calyx Newdusk. Contains two tents housing mercenaries, a large manor, and a central black smoky-glass pyramid covered in runes. The pyramid acts as a one-way prison; Lloyd was thrown inside and cannot escape. Significant as the location where most of the party was trapped after being hit by compressed powder pellets. Controlled by Calyx Newdusk and his mercenary team. Key characters include Calyx Newdusk, several mercenaries, and two four-armed giants. During the ambush, the party was transported here and fought until Calyx offered negotiation.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-079", "EVENT-045"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-079", "EVENT-046"]
+  },
+  {
+    "ID": "LOC-069",
+    "Type": "location",
+    "Name": "Duskwatch",
+    "Session": "49",
+    "Content": "A town near the Thundermaw Mountain Range, now under Storm Lord control. Infiltrated and suffered a massacre consistent with Storm Lord tactics. Contains a conversion barn where captured citizens are turned into Storm-Touched soldiers. Many buildings destroyed or smoldering. Key landmark: a large barn with a skylight where lightning strikes down into a conversion apparatus. The town's tavern owner Manfred helped refugees escape through basement tunnels. Current status: Occupied by Storm Lord forces, conversion facility destroyed by party in Session 50.",
+    "Related": ["CHAR-083", "LOC-070", "EVENT-048", "EVENT-049", "EVENT-050", "QUEST-019"]
+  },
+  {
+    "ID": "LOC-070",
+    "Type": "location",
+    "Name": "Duskwatch Conversion Barn",
+    "Session": "49",
+    "Content": "A large barn in Duskwatch used by the Storm Lord to create Storm-Touched soldiers. Contains a glass tank, green and yellow crystals feeding energy into the chamber, and a larger blue crystal similar to lightning batteries. The blue crystal collects lightning from the storm above and distributes it to the other crystals. Dead bodies stacked in some horse stalls, living captives in others. Newly converted soldiers are sent out through a separate door. The party scouted it via Arc's flight and later raided it, destroying the main crystal. Current status: Facility destroyed, crystal exploded in Session 50.",
+    "Related": ["LOC-069", "EVENT-049", "EVENT-050", "QUEST-019"]
+  },
+  {
+    "ID": "LOC-071",
+    "Type": "location",
+    "Name": "The Prophet",
+    "Session": "49",
+    "Content": "An ancient, enormous statue now weathered into a stone pillar, located near the chasm leading to Duskwatch. Once depicted a great deity but its features have been worn away by storms over centuries. Visible from miles away and serves as a landmark guiding travelers to the bridge across the chasm. Mentioned by Manfred as a navigation point. Current status: Standing landmark, no active significance.",
+    "Related": ["LOC-072", "EVENT-048"]
+  },
+  {
+    "ID": "LOC-072",
+    "Type": "location",
+    "Name": "Bridge over the Chasm",
+    "Session": "49",
+    "Content": "A sturdy, magically reinforced bridge spanning a 150‑foot gap, the narrowest point of an immense chasm that drops into dark, swirling oblivion. Debris and powerful gusts rise from below. The bridge is located near The Prophet landmark and provides the only safe crossing to approach Duskwatch. The party crossed it in the late afternoon. Current status: Intact, used by travelers.",
+    "Related": ["LOC-071", "EVENT-048"]
+  },
+  {
+    "ID": "LOC-073",
+    "Type": "location",
+    "Name": "The Egg (Council of Keledar Facility)",
+    "Session": "51",
+    "Content": "An enormous egg-shaped structure at least 80 feet tall, made of strange black metal identical to the metal of the hammer-and-crown signet ring. Located near Duskwatch. Glows with bioluminescent green light through seams. Contains multiple interior chambers: a lower chamber with drained energy crystals and metal constructs, a voidling (sentient entity), a glass-and-metal chamber with synthetic amniotic fluid and signs of a giant's birth, an illusion chamber showing the rise of Ormen the World-Breaker and other Storm Lords, an empty armory, a rune chamber, and an exit 80 feet above ground. The facility was used to create and indoctrinate giants as Storm Lords. Controlled by the Council of Keledar. Key entities: the voidling. The party explored it, dispelled mind-controlled guardians, and took a long rest inside. Current status: Abandoned after the giant left.",
+    "Related": ["CHAR-075", "CHAR-096", "ITEM-002", "EVENT-051", "QUEST-018", "QUEST-020"]
+  },
+  {
+    "ID": "LOC-074",
+    "Type": "location",
+    "Name": "Thundermaw Mountain Peaks",
+    "Session": "52",
+    "Content": "The high peaks of the Thundermaw Mountain Range, featuring treacherous climbing, narrow ledges, and extreme cold. The party ascended using magical flight and climbing gear. Contains a giant roc nest and later encountered wyvern riders. The area is home to strange dwarves and the entrance to the underground dwarf kingdom. The party camped here and fought rocs. Current status: Traversed by the party.",
+    "Related": ["LOC-075", "EVENT-052", "EVENT-053"]
+  },
+  {
+    "ID": "LOC-075",
+    "Type": "location",
+    "Name": "Thundermaw Dwarf Kingdom",
+    "Session": "54",
+    "Content": "Underground kingdom of dwarves who have been fused with their tools and Aetherglass. Accessible via elevator shaft and winding tunnels that shift and close behind travelers. Ruled by a dwarven king fused with incredible armor. The dwarves worship Khazul, the god of Aetherglass and metamorphosis. Contains the Walk, a sacred trial path through chambers testing submission, sacrifice, and combat against Aetherglass entities. The party undertook the Walk, made sacrifices to Khazul, and received Aetherglass blessings. The kingdom also has a great hall, kitchens, and quarters for visitors. Current status: Party left with a large chunk of Aetherglass, welcome to return.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "CHAR-084", "CHAR-085", "ITEM-011", "ITEM-015", "ITEM-016", "EVENT-054", "EVENT-055", "EVENT-056", "QUEST-018"]
+  },
+  {
+    "ID": "LOC-076",
+    "Type": "location",
+    "Name": "Harmonia",
+    "Session": "57",
+    "Content": "A seemingly idyllic town under a bright, temperate sky, without storm runes. Ruled by Mayor Alton Fairwright and maintained by automatons (WES, Poppy, Tilly, etc.). The town runs on a loop that resets every few hours, with most citizens having no memory of previous loops. Contains a sawmill, bank, clocktower, jail, school, mess hall, general store, company houses, chapel, tavern, and wellness center. It is actually a constructed experiment of Xyrx the Collector, designed to perfect society. The citizens are either clones or transformed beings. The party experienced multiple loops, discovered the truth, and eventually defeated Xyrx. The town is now bottled and kept at Cloudfoot Keep. Current status: Bottled, under Professor Hubert's supervision.",
+    "Related": ["CHAR-065", "CHAR-086", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "CHAR-095", "CHAR-096", "LOC-077", "LOC-078", "LOC-079", "LOC-080", "LOC-081", "LOC-082", "LOC-083", "LOC-084", "LOC-085", "LOC-086", "LOC-087", "LOC-088", "LOC-089", "EVENT-058", "EVENT-059", "EVENT-060", "EVENT-061", "EVENT-064"]
+  },
+  {
+    "ID": "LOC-077",
+    "Type": "location",
+    "Name": "Harmonia Sawmill",
+    "Session": "57",
+    "Content": "A large sawmill powered by water wheels, with smoke billowing from stacks. Contains a massive cutting saw that malfunctioned, causing an accident that severed Lyanna's arm. The machinery is primarily engineering-based rather than magical, bearing the hammer-and-chisel maker's mark. Statues of Francis Fairwright are in the lobby. The sawmill is central to Harmonia's economy. Controlled by the Fairwright family. Key characters: Foreman, workers. The party investigated it across multiple loops. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-069", "CHAR-094", "CHAR-095", "LOC-076", "EVENT-058"]
+  },
+  {
+    "ID": "LOC-078",
+    "Type": "location",
+    "Name": "Harmonia Bank",
+    "Session": "58",
+    "Content": "A bank in Harmonia with a large vault containing multiple smaller vaults. Robbed by thieves in one loop, resulting in an explosion that killed the robbers. Contains a vault that held Lyanna's dagger and other valuables. An automaton teller named Poppy operates here. The party investigated the vault and found hidden keys and clues. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-069", "ITEM-013", "LOC-076", "EVENT-059"]
+  },
+  {
+    "ID": "LOC-079",
+    "Type": "location",
+    "Name": "Harmonia Mayor's Office",
+    "Session": "59",
+    "Content": "Office and residence of Mayor Alton Fairwright. Contains paintings of Francis and Manfred Fairwright, a mirror that shows eyes when cleaned, a history book with missing pages, and a hidden chest containing a map of the underground platforms. An automaton guard (Tilly) stands watch. The party questioned Alton here, discovered clues, and found the map. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-094", "CHAR-095", "CHAR-096", "LOC-076", "EVENT-060"]
+  },
+  {
+    "ID": "LOC-080",
+    "Type": "location",
+    "Name": "Harmonia Clocktower",
+    "Session": "57",
+    "Content": "A massive four-story clocktower, the tallest structure in Harmonia, with six clock faces. Two faces are often under repair. The clock governs the town's schedule and has never had all six faces broken at once. Inside are intricate mechanical systems, gears bearing the hammer-and-chisel maker's mark, and a hidden compartment containing the Tinkerer's Tools (Sparkwright's Trio). Broken clock faces point to the location of the day's disaster. The party investigated and recovered the tools. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-003", "ITEM-019", "LOC-076", "EVENT-058"]
+  },
+  {
+    "ID": "LOC-081",
+    "Type": "location",
+    "Name": "Harmonia Mine Shaft and Elevator",
+    "Session": "58",
+    "Content": "An old mine shaft outside the western wall of Harmonia, containing a freight elevator. The elevator was rigged to plunge and kill users unless unlocked with a special iron key. Leads down to Dave (the mouth entity) and Frank (the bone door), then further into the abyss and Xyrx's lair. The area smells of rotting meat and exhales hot breath. The party discovered the key in the bank painting and used it to descend safely. Current status: Connected to Xyrx's lair, now probably inactive after his defeat.",
+    "Related": ["LOC-090", "EVENT-059", "EVENT-060"]
+  },
+  {
+    "ID": "LOC-082",
+    "Type": "location",
+    "Name": "Harmonia Wellness Center",
+    "Session": "57",
+    "Content": "A medical facility run by Dr. Lysa Fenwick, a cleric of Yondar. Contains examination rooms, supplies, and a jar of Vitalis Root. The doctor cannot regrow limbs but can stabilize patients. The party took Lyanna here after her arm was severed. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-069", "CHAR-093", "LOC-076", "EVENT-058"]
+  },
+  {
+    "ID": "LOC-083",
+    "Type": "location",
+    "Name": "Harmonia Chapel",
+    "Session": "60",
+    "Content": "A multi-faith chapel containing paintings and statues of many gods. Behind the pulpit is a large painted symbol of the Eye of Wu, with the word 'Perfect' hidden within it. The reverend was absent during the party's visit. Fauda discovered the clue here. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-002", "LOC-076", "EVENT-060"]
+  },
+  {
+    "ID": "LOC-084",
+    "Type": "location",
+    "Name": "The Even Hand (Harmonia Tavern)",
+    "Session": "57",
+    "Content": "Harmonia's tavern, run by Maribel Tey, a firbolg. Mill workers eat and drink here. The party visited during tours and later used it as a gathering point. Old Tamsin was often arrested for causing disturbances here. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-091", "LOC-076", "EVENT-058"]
+  },
+  {
+    "ID": "LOC-085",
+    "Type": "location",
+    "Name": "Harmonia Schoolhouse",
+    "Session": "61",
+    "Content": "A school with a halfling teacher, Mrs. Underbough. Contains a classroom and art supplies. Arc disguised herself as a student and attended class. A heart with initials 'GL+EH' was scratched into the wall. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-004", "LOC-076", "EVENT-061"]
+  },
+  {
+    "ID": "LOC-086",
+    "Type": "location",
+    "Name": "Harmonia Company Houses",
+    "Session": "60",
+    "Content": "Residential buildings owned by the sawmill company. They caught fire in one loop, causing deaths. The fire was started by a donkey knocking over a lantern. The party observed the disaster from a distance. Current status: In the bottled Harmonia.",
+    "Related": ["LOC-076", "EVENT-060"]
+  },
+  {
+    "ID": "LOC-087",
+    "Type": "location",
+    "Name": "Harmonia General Store",
+    "Session": "61",
+    "Content": "A store run by Jonah Pell. Accepts only Company Credit or Harmonia Bucks. Sells mining equipment at discount. The owner mentioned Crownway Provisions as the supplier. The party searched for clues here but found no hidden words. Current status: In the bottled Harmonia.",
+    "Related": ["LOC-076", "EVENT-061"]
+  },
+  {
+    "ID": "LOC-088",
+    "Type": "location",
+    "Name": "Harmonia Jail",
+    "Session": "60",
+    "Content": "A jail run by Sheriff Gorrum Hale, with Deputy Piprik Coilwhistle and automaton Brim. Old Tamsin was frequently held here. Contains a painting of Francis Fairwright with a hidden word 'The'. The party investigated and found clues. Current status: In the bottled Harmonia.",
+    "Related": ["CHAR-091", "CHAR-092", "LOC-076", "EVENT-060"]
+  },
+  {
+    "ID": "LOC-089",
+    "Type": "location",
+    "Name": "Harmonia Mess Hall",
+    "Session": "61",
+    "Content": "A large dining hall where townsfolk eat. Run by Tansy the cook. Contains a wooden chest refrigerator filled with shredded humanoid remains, and a blood-stained wheelbarrow leading to the river. The party discovered the remains and connected them to the automatons' disposal methods. Current status: In the bottled Harmonia.",
+    "Related": ["LOC-076", "EVENT-061"]
+  },
+  {
+    "ID": "LOC-090",
+    "Type": "location",
+    "Name": "Underground Caverns beneath Harmonia",
+    "Session": "59",
+    "Content": "A vast underground network accessible via the mine shaft. Contains Dave (a large mouth entity embedded in the floor) and Frank (a bone door that requires magic words). Further down are a poison room, rickety minecart tracks over an abyss, and a massive amorphous creature (The Hunger) that devours intruders. The party navigated these using Vitalis Root, Drowse Root sedatives, and the correct phrase 'The Perfect Truth of Dreams'. The caverns lead to Xyrx's lair. Current status: Explored by party, creature sedated.",
+    "Related": ["LOC-081", "LOC-091", "EVENT-060", "EVENT-061"]
+  },
+  {
+    "ID": "LOC-091",
+    "Type": "location",
+    "Name": "Xyrx's Lair",
+    "Session": "64",
+    "Content": "The subterranean lair of Xyrx the Collector, accessed via the underground caverns. Contains multiple chambers: a teleportation platform with rune circles, a cloning chamber, a Transfusion Room (for creating draconic hybrids), a Dream-Creation Chamber (with orb view of Harmonia), a Vision Chamber (surveillance of Eryndor), Zrak'tor's quarters, and Xyrx's personal chambers. The lair is filled with magical items, bottled prisoners, and Beholder-created minions. The party fought Xyrx and his forces here, defeated him, and rescued many prisoners. Current status: Abandoned after Xyrx's death, but teleportation circles remain.",
+    "Related": ["CHAR-065", "CHAR-086", "CHAR-062", "CHAR-084", "CHAR-085", "ITEM-020", "ITEM-021", "ITEM-022", "ITEM-023", "LOC-090", "EVENT-061", "EVENT-062", "EVENT-063", "EVENT-064"]
+  },
+  {
+    "ID": "LOC-092",
+    "Type": "location",
+    "Name": "Teleportation Platform (Xyrx's Lair)",
+    "Session": "64",
+    "Content": "A platform within Xyrx's lair containing a rune circle network. One rune connects to Harmonia, one to Solara's Central Teleportation Hub, one directly to House Octo's keep in Solara, and eight others to various vaults across Eryndor. The party used it to return to Tempest's Watch. The rune sequences were copied for future use. Current status: Accessible if the party returns to the lair.",
+    "Related": ["LOC-091", "EVENT-063", "QUEST-018", "QUEST-022"]
+  },
+  {
+    "ID": "LOC-093",
+    "Type": "location",
+    "Name": "Gloomwatch Sanctum",
+    "Session": "71",
+    "Content": "A subterranean city located at the outer edge of the Blackstorm Peaks within the Upper Underdark. Ruled primarily by Upper Drow (who differ from Deep Drow). A major mining city populated by Upper Drow, Duergar, and Dwarves, though many other races can also be found. The party is traveling there as their next destination after leaving Cloudfoot Keep. Current status: Not yet visited, but the party is en route.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-001", "EVENT-067", "QUEST-025"]
   }
 ]

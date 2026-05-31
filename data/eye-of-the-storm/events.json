@@ -301,7 +301,7 @@
     "Name": "Ironhowl Forge Ambush and Sewer Chase",
     "Session": "41",
     "Content": "Session 41 - Ironhowl Forge and Sewers. The party set an ambush for the tool thieves. Shavara Sablefang and Kharzid Tazek entered the forge and were paralyzed by Sili's Hold Person. As the party attacked, Korr the Braxat collapsed the floor, dropping the safe into the sewers. A fight ensued against Korr, the kobold Zrak'Torr, an Earth Elemental, and Voraxik. Korr, a mercenary, accepted a new contract from Fauda mid-fight, helped retrieve the safe and bodies, and confirmed he had fulfilled his previous contract. The party captured Zrak'Torr, Shavara, and Voraxik. Interrogating Voraxik, they learned the tools were being collected for a Beholder who had spared their lives in exchange for the heists, and that speaking its name would mark the party for death.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "CHAR-064", "ITEM-009", "LOC-005", "LOC-060", "QUEST-002"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-031", "CHAR-055", "CHAR-061", "CHAR-062", "ITEM-009", "LOC-005", "LOC-060", "QUEST-002"]
   },
   {
     "ID": "EVENT-039",
@@ -317,7 +317,7 @@
     "Name": "Vale Blood Pact Meeting and New Tasks",
     "Session": "42",
     "Content": "Session 42 - Vales' keep in Drifthold. Party fulfilled blood pact by meeting Vales. Met Lyanna Vale who revealed her captivity. Met Jorren and Megara Vale in dining hall, who assigned new tasks after blood pact sigils faded: deal with mage freeing 'pets' from sewers, and assassinate Garrick Rathorn. Vales threatened party with grotesque experimentation. Party retreated to consult Lord Crimm before deciding.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-071", "LOC-008", "LOC-026", "QUEST-010", "QUEST-015"]
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-069", "CHAR-071", "LOC-008", "LOC-026", "QUEST-010", "QUEST-015"]
   },
   {
     "ID": "EVENT-041",
@@ -351,28 +351,188 @@
     "Content": "Session 45 - The Crackling Wand magic shop and Leon's apartment in Drifthold. The party found Leon Gravix living under the alias 'Vix' and warned him about the Storm Lord threat. Leon revealed his research on the 51-year cycle of cataclysms that destroy Eryndor's advanced cities. He documented historical artifacts and warned that the current conflict with Storm Lords might be the next cataclysm. The party evacuated Leon and his research notebooks from the city.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-077", "ITEM-007", "ITEM-012", "LOC-065", "LOC-066", "QUEST-017", "QUEST-018"]
   },
-{
-  "ID": "EVENT-045",
-  "Type": "event",
-  "Name": "Departing Cloudfoot Keep",
-  "Session": "45",
-  "Content": "Session 45 - Cloudfoot Keep. The party gathered all allies (Lyanna, Lucien, 'Rusty' Lou, Leon, Korr and his family) at Cloudfoot Keep and set it in motion toward the Thundermaw Range, continuing their quest to acquire Aetherglass for Lou's teleportation machine to Solara.",
-  "Related": ["CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "LOC-001", "QUEST-018"]
-},
-{
-  "ID": "EVENT-046",
-  "Type": "event",
-  "Name": "Ambushers ambushed by Calyx Newdusk",
-  "Session": "46-47",
-  "Content": "Sessions 46-47 - Grasslands en route to Thundermaw Range. Sili's animal network discovered the party was being closely followed by a group that had been tracking them for weeks. The party devised a plan to use invisibility to ambush their pursuers while the keep continued traveling. However, they were themselves ambushed by the bounty hunter Calyx Newdusk and his team, who trapped them in a magical bottle prison. Inside, a battle ensued. Vyphira was charmed into attacking Arc en Ciel before being freed. Fauda and Vy were both knocked unconscious and revived. When Calyx was severely injured, he smoke-stepped into the shrinking black pyramid containing Lloyd Pershing. The bottle prison shattered, scattering the party into the grasslands. Calyx and Lloyd disappeared, while Calyx's remaining guards dissolved into ash. Fauda later messaged the captured Lloyd, who confirmed he was alive in a cell with Calyx.",
-  "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-081", "CHAR-082"]
-},
+  {
+    "ID": "EVENT-045",
+    "Type": "event",
+    "Name": "Departing Cloudfoot Keep",
+    "Session": "45",
+    "Content": "Session 45 - Cloudfoot Keep. The party gathered all allies (Lyanna, Lucien, 'Rusty' Lou, Leon, Korr and his family) at Cloudfoot Keep and set it in motion toward the Thundermaw Range, continuing their quest to acquire Aetherglass for Lou's teleportation machine to Solara.",
+    "Related": ["CHAR-072", "CHAR-073", "CHAR-077", "CHAR-079", "CHAR-080", "LOC-001", "QUEST-018"]
+  },
+  {
+    "ID": "EVENT-046",
+    "Type": "event",
+    "Name": "Ambushers ambushed by Calyx Newdusk",
+    "Session": "46-47",
+    "Content": "Sessions 46-47 - Grasslands en route to Thundermaw Range. Sili's animal network discovered the party was being closely followed by a group that had been tracking them for weeks. The party devised a plan to use invisibility to ambush their pursuers while the keep continued traveling. However, they were themselves ambushed by the bounty hunter Calyx Newdusk and his team, who trapped them in a magical bottle prison. Inside, a battle ensued. Vyphira was charmed into attacking Arc en Ciel before being freed. Fauda and Vy were both knocked unconscious and revived. When Calyx was severely injured, he smoke-stepped into the shrinking black pyramid containing Lloyd Pershing. The bottle prison shattered, scattering the party into the grasslands. Calyx and Lloyd disappeared, while Calyx's remaining guards dissolved into ash. Fauda later messaged the captured Lloyd, who confirmed he was alive in a cell with Calyx.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-081", "CHAR-082"]
+  },
   {
     "ID": "EVENT-047",
     "Type": "event",
     "Name": "Thunder Herd Rescue and Dagger Revelation",
-    "Session": "47",
+    "Session": "47-48",
     "Content": "Sessions 47-48 - Foothills of the Thundermaw Range. The party helped halfling shepherds recover their stolen Thunder Rams and Sheep, battling elven hunters, a Shepherd Drake, and Aural insects. In the battle, Lyanna Vale used her unique dagger to save Arc en Ciel. Mask identified it as 'The Dagger of the Broken Moon', made from a shard of Tana. Through prayer, Mask and Fauda discovered it contained equal power from both Tana and Nyxara, that both goddesses were alive, and 'one but not identical'. The party received a breeding pair of Thunder animals as reward.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "ITEM-013"]
+  },
+  {
+    "ID": "EVENT-048",
+    "Type": "event",
+    "Name": "Refugee Encounter at Duskwatch",
+    "Session": "49",
+    "Content": "Session 49 – Plains near Duskwatch. The party met Manfred and a group of about a dozen refugees (including injured children and adolescents in bloodstained militia armor) fleeing Duskwatch after a Storm Lord massacre. Manfred explained the town had been infiltrated, and he helped citizens escape through secret tunnels. Fauda healed the wounded. The party advised them to seek refuge at Duskriven Hold, then to possibly travel to Thornheath. Manfred gave the party his tavern key and warned them about the chasm and The Prophet. Outcome: Refugees directed to safety, party learned about the conversion facility.",
+    "Related": ["CHAR-083", "LOC-069", "LOC-071", "LOC-072", "QUEST-019"]
+  },
+  {
+    "ID": "EVENT-049",
+    "Type": "event",
+    "Name": "Conversion Facility Reconnaissance",
+    "Session": "49",
+    "Content": "Session 49 – Duskwatch. Arc used Lyanna's Fly spell and Fauda's spyglass to scout the conversion barn from above. She observed the glass tank, green/yellow/blue crystals, lightning collection, and the process of creating Storm-Touched soldiers. She counted about 10 various soldiers and commanders running the operation. She also saw dead bodies stacked and living captives held in horse stalls. Outcome: Party gained critical intelligence and decided to raid the facility.",
+    "Related": ["CHAR-004", "CHAR-069", "LOC-069", "LOC-070", "EVENT-050", "QUEST-019"]
+  },
+  {
+    "ID": "EVENT-050",
+    "Type": "event",
+    "Name": "Raid on Duskwatch Conversion Barn",
+    "Session": "50",
+    "Content": "Session 50 – Duskwatch conversion barn. Sili burrowed underground to create entry. Party emerged, engaged guards. Grit (Mask as giant ape) picked up the main blue crystal and used it as a weapon, damaging it. A guard fled to summon reinforcements. Lyanna cast Fly on the entire group. Party flew out with the damaged crystal, then dropped it from height; the impact caused an explosion. Sili was knocked unconscious but caught by Grit. Two eagle-shaped storm‑touched creatures followed, but party hid using Silent Image spells. Outcome: Facility destroyed, party escaped with no permanent casualties.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "LOC-069", "LOC-070", "EVENT-049", "QUEST-019"]
+  },
+  {
+    "ID": "EVENT-051",
+    "Type": "event",
+    "Name": "The Egg Discovery and Storm Lord Vision",
+    "Session": "51",
+    "Content": "Session 51 – Near Duskwatch. The party discovered an enormous egg-shaped metal structure (Council of Keledar facility). They dispelled mind control from guardians (dire wolves, chuuls, scavver) and entered. Inside, they explored chambers with drained crystals, synthetic amniotic fluid (giant gestation), and a powerful illusion showing Ormen the World-Breaker and other Storm Lords fighting and conquering cities. The illusion looped as indoctrination for the giant. They also found an empty armory and took giant-sized vials. The facility was confirmed as a giant creation and training site. Outcome: Party learned the origin of Storm Lords and the Council of Keledar's involvement.",
+    "Related": ["CHAR-075", "CHAR-096", "LOC-073", "ITEM-002", "QUEST-018", "QUEST-020"]
+  },
+  {
+    "ID": "EVENT-052",
+    "Type": "event",
+    "Name": "Mountain Ascent and Roc Battle",
+    "Session": "52",
+    "Content": "Session 52 – Thundermaw Mountains. The party ascended the mountains using magical flight, climbing gear, and Sili's wild shape. They camped at the peak, where Arc found a roc nest with two eggs. During the night, a giant roc attacked, tearing off the tent roof. The party fought and killed the roc and two juveniles. The roc shattered the eggs. Vy skinned the roc for hide, and Arc harvested meat. Outcome: Party gained roc materials, continued toward the dwarf kingdom.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "LOC-074"]
+  },
+  {
+    "ID": "EVENT-053",
+    "Type": "event",
+    "Name": "Wyvern Riders Encounter",
+    "Session": "53",
+    "Content": "Session 53 – Thundermaw Mountains. The party encountered four wyvern riders hired to destroy an Aarakocra tribe. They learned about the fused dwarves of the mountains and that Aetherglass is considered a god (Khazul) to them, not to be mined by outsiders. The riders warned that the dwarves are dangerous and that Aetherglass is calcified pieces of their god. The party declined to join the riders' mission and continued toward the dwarf kingdom. Outcome: Party gained crucial information about Aetherglass and dwarven religion.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-074", "QUEST-018"]
+  },
+  {
+    "ID": "EVENT-054",
+    "Type": "event",
+    "Name": "Balhannoth and Cave Fisher Battle",
+    "Session": "53-54",
+    "Content": "Sessions 53-54 – Thundermaw underground tunnels. The party descended via an elevator into smooth stone tunnels that shifted behind them. They were attacked by falling rocks from a fused dwarf, then encountered two Balhannoths (disguised as stalagmites) and three albino Cave Fishers. After defeating them, a larger Elder Balhannoth emerged and was also defeated. Arc harvested Balhannoth meat, Vy collected Cave Fisher chitin. Outcome: Party cleared the area, rested, and prepared for the next challenge.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-075"]
+  },
+  {
+    "ID": "EVENT-055",
+    "Type": "event",
+    "Name": "The Walk (Khazul's Trials)",
+    "Session": "54-55",
+    "Content": "Sessions 54-55 – Thundermaw Dwarf Kingdom. The party undertook the Walk, a sacred trial to prove worthiness to Khazul. They passed through the Chamber of Submission (defeated warped dwarves), the Serpent Chamber (an enormous Aetherglass snake, bypassed with self-sacrifice), and the final chamber against an Aspect of Khazul. One initiate died. After defeating the Aspect, Khazul appeared and required sacrifices: Mask sacrificed the Grit persona (gaining Khazul persona), Arc gave teeth (gained Aetherglass teeth), Sili gave an eye (gained Aetherglass eye), Fauda gave a leg (gained Aetherglass leg), Vy gave scales (gained Aetherglass scales). Each could later reclaim what they gave. Outcome: Party received Aetherglass blessings and a large chunk of Aetherglass from the king.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "LOC-075", "QUEST-018"]
+  },
+  {
+    "ID": "EVENT-056",
+    "Type": "event",
+    "Name": "Return, Khazul Persona, and Darren Maximus",
+    "Session": "56",
+    "Content": "Session 56 – Thundermaw Dwarf Kingdom to Tempest's Watch. The party returned to the dwarf king, who presented them with Aetherglass. Lyanna was healed of her partial petrification. Mask's new Khazul persona emerged (a dwarf fused with Aetherglass tools). The party feasted, then departed through a southern tunnel into the Thunder Wastes. They met Darren Maximus (Yondar's Chosen), who flew them to Tempest's Watch in his golden chariot. Darren explained Yondar sent him to help because of a darkness even Yondar cannot see (Xyrx). Outcome: Party arrived at Tempest's Watch, Darren left to fight Yeldur cultists.",
+    "Related": ["CHAR-001", "CHAR-055", "CHAR-069", "CHAR-084", "LOC-003", "LOC-075"]
+  },
+  {
+    "ID": "EVENT-057",
+    "Type": "event",
+    "Name": "Tempest's Watch: Mother Missing",
+    "Session": "56",
+    "Content": "Session 56 – Tempest's Watch. The party entered Tempest's Watch and learned that over twenty people had gone missing in recent months, including Vy's mother, Kalithyra. Beaconmaster Eredan Windsight explained that people vanish from their beds overnight, leaving shoes behind. The party shared what they knew about Xyrx. Eredan showed them maps of nearby caves, and they identified a likely location for Xyrx's vault. Vy visited her family home, met her sister Fyrinna, twin brothers, and her father. Her mother had left a copper torc (The Scaleforge Torc) for Vy. Outcome: Party resolved to investigate the caves.",
+    "Related": ["CHAR-003", "CHAR-084", "CHAR-088", "ITEM-015", "LOC-003"]
+  },
+  {
+    "ID": "EVENT-058",
+    "Type": "event",
+    "Name": "Harmonia First Loop",
+    "Session": "57",
+    "Content": "Session 57 – Harmonia (first loop). The party took a scuttling crab construct down the cliffside to the caves, found Xyrx's vault, and used a teleportation device to arrive at Harmonia. They were greeted by Hearthwin Lorn and given a tour by WES. At the sawmill, an accident severed Lyanna's arm. The bank was robbed, and during the fight, an explosion killed the robbers. The party later died in the mine shaft elevator crash. They experienced death and were sent to Yondar's Flames, where Yondar spoke to them. Outcome: First loop reset, party learned of Harmonia's time loop.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "LOC-076", "LOC-077", "LOC-078", "LOC-080", "LOC-081", "LOC-082"]
+  },
+  {
+    "ID": "EVENT-059",
+    "Type": "event",
+    "Name": "Harmonia Second Loop",
+    "Session": "58",
+    "Content": "Session 58 – Harmonia (second loop). The party respawned at the gates. They avoided the sawmill and instead investigated the bank. They discovered a hidden key in a painting, which unlocked the mine elevator, allowing safe descent. Below, they met Dave (a mouth entity) and Frank (a bone door). They attempted to learn the magic words but were buried in a collapse and died again. Yondar's Flames again. Outcome: Party learned about Dave, Frank, and the need for magic words.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-076", "LOC-081", "LOC-090"]
+  },
+  {
+    "ID": "EVENT-060",
+    "Type": "event",
+    "Name": "Harmonia Third Loop",
+    "Session": "59-60",
+    "Content": "Sessions 59-60 – Harmonia (third loop). The party spoke with Mayor Alton Fairwright, gaining the history book and discovering the word 'Dreams' in a painting. They investigated the chapel, finding 'Perfect', and the jail, finding 'The'. A fire broke out at the company houses. They also found the word 'Of' on a statue. The party assembled the phrase 'The Perfect Truth of Dreams', which opened Frank. They descended into the poison room; all but Mask and Vy died. Mask and Vy proceeded on a minecart and were devoured by a massive abyssal creature. Outcome: Party learned the correct phrase but died again.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-094", "LOC-076", "LOC-081", "LOC-083", "LOC-086", "LOC-088", "LOC-090"]
+  },
+  {
+    "ID": "EVENT-061",
+    "Type": "event",
+    "Name": "Harmonia Fourth Loop",
+    "Session": "61-62",
+    "Content": "Sessions 61-62 – Harmonia (fourth loop). The party gathered Drowse Root from the river, sedated the abyssal creature, and descended safely. They found a memory machine guarded by Zrak'tor clones, a Memory Keeper, and automatons. After a difficult battle, they destroyed the Memory Keeper, releasing a flood of memories. They then used runes to teleport to a platform network (Xyrx's lair). There, they were ambushed and captured by Xyrx's minions (including clones of Shavara, Voraxik, and Kharzid) and imprisoned in bottles. Outcome: Party captured, taken to Xyrx's lair.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-062", "CHAR-065", "LOC-090", "LOC-091", "LOC-092"]
+  },
+  {
+    "ID": "EVENT-062",
+    "Type": "event",
+    "Name": "Imprisonment and Xyrx's Plan",
+    "Session": "63",
+    "Content": "Session 63 – Xyrx's lair. The party was held in bottles on shelves. They communicated telepathically. Xyrx appeared and explained he intended to create perfect copies of them for Harmonia. Vy's mother was also imprisoned. The party learned that Xyrx was backed by House Octo of Solara. They observed other prisoners and planned their escape. Outcome: Party devised a plan to escape during the cloning process.",
+    "Related": ["CHAR-003", "CHAR-065", "CHAR-084", "CHAR-086", "CHAR-097", "ITEM-021", "LOC-091"]
+  },
+  {
+    "ID": "EVENT-063",
+    "Type": "event",
+    "Name": "Escape from Bottles and First Xyrx Battle",
+    "Session": "64",
+    "Content": "Session 64 – Xyrx's lair. During the cloning process, Professor Hubert secretly helped the party escape. They fought Xyrx while he wore his impenetrable armor. The party jammed the armor's gears, and Vy used a key to remove it. The armor teleported away, and Xyrx retreated. The party then fought his minions, including a draconic hybrid carrying Weaver's Tools. They recovered additional tools and learned about the nine sets. Outcome: Xyrx fled, party gained several Tools of Creation.",
+    "Related": ["CHAR-003", "CHAR-065", "CHAR-084", "CHAR-085", "CHAR-086", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "LOC-091"]
+  },
+  {
+    "ID": "EVENT-064",
+    "Type": "event",
+    "Name": "Xyrx Defeated and Harmonia Bottled",
+    "Session": "65-66",
+    "Content": "Sessions 65-66 – Harmonia and Xyrx's lair. The party pursued Xyrx into Harmonia. In a final battle, with the help of a summoned unicorn (Bojangles) and Velkor Astryx, they killed Xyrx. Vy and Arc harvested his body parts. They found a contract with House Octo and recovered the remaining tools. They bottled Harmonia and returned to Tempest's Watch with all prisoners. Outcome: Xyrx defeated, nine tools partially recovered, Harmonia preserved, prisoners freed.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-065", "CHAR-084", "CHAR-085", "CHAR-086", "CHAR-099", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-022", "ITEM-023", "LOC-076", "LOC-091", "QUEST-002"]
+  },
+  {
+    "ID": "EVENT-065",
+    "Type": "event",
+    "Name": "Tempest's Watch Aftermath and Callie Black",
+    "Session": "66",
+    "Content": "Session 66 – Tempest's Watch. The party returned with over 80 rescued individuals. Eredan organized a council to integrate them. Vy reunited with her family, left Voraxik in a bottle at home, and gave her parents privacy. The party shopped with discounts. Fauda met Callie Black (a witch from the Blackcloud Coven), who gave her a charm, kissed her, and vanished. Callie warned that Caeloria is concerned about Lady Seriss's upcoming marriage and that the Blackcloud Coven cannot contact her. Outcome: Party rested, gathered supplies, and learned of new concerns about Lady Seriss.",
+    "Related": ["CHAR-002", "CHAR-003", "CHAR-084", "CHAR-087", "CHAR-088", "LOC-003"]
+  },
+  {
+    "ID": "EVENT-066",
+    "Type": "event",
+    "Name": "Eredan's Vision and Glove Schematics",
+    "Session": "66",
+    "Content": "Session 66 – Tempest's Watch. Mask spoke privately with Eredan, who shared his vision from when he was struck by lightning: a tranquil night path, a red building with steep roofs, filled with ghosts and frogfolk, and the words: 'The cradle is still in this house of wonder, and protects what must remain unbroken.' Eredan also gave Mask schematics for experimental lightning-enhancing gloves and gemstone disks. Outcome: Party gained a new lead (the red building) and crafting project.",
+    "Related": ["CHAR-001", "CHAR-088", "ITEM-024", "LOC-003", "QUEST-024"]
+  },
+  {
+    "ID": "EVENT-067",
+    "Type": "event",
+    "Name": "Cloudfoot Keep Downtime",
+    "Session": "71",
+    "Content": "Session 71 – Cloudfoot Keep. The party traveled via Transport Via Plants to Cloudfoot Keep, which was three days from Gloomwatch Sanctum. They spent three days in downtime: Fauda and Mask trained with Drath to achieve Tier 1 Rune Magic; Vy completed her Patented Armor Version 2.0 (using Beholder skin) and worked on Eredan's gloves; Mask experimented with gemstone configurations; Arc trained Myconids and cooked with 'Rusty' Lou; Sili studied runes; Velkor crafted a cloak for Vy; the changeling children played with Tarr. Professor Hubert became involved with Talzira Frostfang. Outcome: Party leveled up, gained new abilities, and prepared for Gloomwatch Sanctum.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-015", "CHAR-073", "CHAR-085", "CHAR-086", "CHAR-098", "ITEM-014", "LOC-001", "LOC-093", "QUEST-008", "QUEST-024", "QUEST-025"]
   }
 ]

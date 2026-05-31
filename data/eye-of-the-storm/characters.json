@@ -4,48 +4,48 @@
     "Type": "PC",
     "Name": "Mask",
     "Session": "1",
-    "Content": "Changeling who appears as a shifting humanoid figure with no fixed appearance. Former agent of The Gale who rebelled after gaining magical abilities from being struck by lightning, which also gave them a vision of Solara. Suffers from fractured mind and memory issues. Primary goal is to break free from The Gale's control, understand their origins, and heal their fractured mind. Affiliation with The Gale has been severed after slashing their tattoo and openly defying them. Worships the moon goddess Tana. Notable capabilities include powerful fire magic, spellcasting, and the ability to shift between multiple distinct personas: Flicker, Sage, Dahlia, Grit, and Granny. Key contributions include revealing The Gale's operations, protecting changeling refugees, and confronting the parasitic persona Fendril in mindscape battles. Current status: Mental control restored after defeating Fendril, but quest for complete understanding continues.",
-    "Related": ["CHAR-007", "CHAR-008", "CHAR-021", "CHAR-025", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-043", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-077", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-010", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-012", "LOC-013", "LOC-015", "LOC-017", "LOC-028", "LOC-029", "LOC-030", "LOC-031", "LOC-035", "LOC-036", "LOC-037", "LOC-038", "LOC-039", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-014", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-022", "EVENT-023", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "EVENT-036", "EVENT-037", "EVENT-039", "EVENT-040", "QUEST-001", "QUEST-003", "QUEST-005", "QUEST-006", "QUEST-011", "QUEST-012", "QUEST-013"]
+    "Content": "Changeling who appears as a shifting humanoid figure with no fixed appearance. Former agent of The Gale who rebelled after gaining magical abilities from being struck by lightning, which also gave them a vision of Solara. Suffers from fractured mind and memory issues. Primary goal is to break free from The Gale's control, understand their origins, and heal their fractured mind. Affiliation with The Gale has been severed after slashing their tattoo and openly defying them. Worships the moon goddess Tana. Notable capabilities include powerful fire magic, spellcasting, and the ability to shift between multiple distinct personas: Flicker, Sage, Dahlia, Grit, Granny, and later Khazul (a dwarf fused with Aetherglass tools, created during The Walk in the Thundermaw Mountains). Key contributions include revealing The Gale's operations, protecting changeling refugees, confronting the parasitic persona Fendril in mindscape battles, and in later sessions, creating the Khazul persona after sacrificing the Grit persona to the god Khazul. In Harmonia, Khazul became the primary persona used, and Mask developed a close relationship with Lyanna Vale. Mask also conducted experiments with gemstone‑based magic using Eredan's schematics. Current status: Mental control restored, Khazul persona active, traveling with the party toward Gloomwatch Sanctum and Solara.",
+    "Related": ["CHAR-007", "CHAR-008", "CHAR-021", "CHAR-025", "CHAR-026", "CHAR-027", "CHAR-028", "CHAR-043", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-077", "CHAR-082", "CHAR-084", "CHAR-085", "CHAR-086", "CHAR-088", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "CHAR-095", "CHAR-096", "CHAR-097", "CHAR-099", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-010", "ITEM-013", "ITEM-015", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-020", "ITEM-021", "ITEM-022", "ITEM-023", "ITEM-024", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-012", "LOC-013", "LOC-015", "LOC-017", "LOC-028", "LOC-029", "LOC-030", "LOC-031", "LOC-035", "LOC-036", "LOC-037", "LOC-038", "LOC-039", "LOC-068", "LOC-069", "LOC-070", "LOC-071", "LOC-072", "LOC-073", "LOC-074", "LOC-075", "LOC-076", "LOC-077", "LOC-078", "LOC-079", "LOC-080", "LOC-081", "LOC-082", "LOC-083", "LOC-084", "LOC-085", "LOC-086", "LOC-087", "LOC-088", "LOC-089", "LOC-090", "LOC-091", "LOC-092", "LOC-093", "EVENT-001", "EVENT-002", "EVENT-003", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-013", "EVENT-014", "EVENT-016", "EVENT-017", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-022", "EVENT-023", "EVENT-030", "EVENT-031", "EVENT-032", "EVENT-035", "EVENT-036", "EVENT-037", "EVENT-039", "EVENT-040", "EVENT-042", "EVENT-043", "EVENT-044", "EVENT-045", "EVENT-046", "EVENT-047", "EVENT-048", "EVENT-049", "EVENT-050", "EVENT-051", "EVENT-052", "EVENT-053", "EVENT-054", "EVENT-055", "EVENT-056", "EVENT-057", "EVENT-058", "EVENT-059", "EVENT-060", "EVENT-061", "EVENT-062", "EVENT-063", "EVENT-064", "EVENT-065", "EVENT-066", "EVENT-067", "QUEST-001", "QUEST-003", "QUEST-005", "QUEST-006", "QUEST-008", "QUEST-011", "QUEST-012", "QUEST-013", "QUEST-016", "QUEST-017", "QUEST-018", "QUEST-019", "QUEST-020", "QUEST-021", "QUEST-022", "QUEST-023", "QUEST-024", "QUEST-025"]
   },
   {
     "ID": "CHAR-002",
     "Type": "PC",
     "Name": "Fauda",
     "Session": "1",
-    "Content": "Tiefling with distinctive horns and red skin, though her sister Gloriosa now has blue skin. Skilled spellcaster who grew up on a farm near Tallyport with her twin sister. Carries guilt over Elandra Hallowheart's murder, for which she seeks redemption from Yondar. Primary goal is to protect her friends and reconcile with her sister. Affiliation with The Gale through former romantic involvement with Pinglin Gale, now severed. Notable capabilities include enchantment magic, communication spells, deception, and loyalty to her companions. Key contributions include strategic spellcasting in combat, gathering information, and maintaining party cohesion during crises. After leaving her sister, she lived in The Haven with her friend Olga Patter.In Session 44, successfully negotiated with The Glint Syndicate to secure 'Rusty' Lou's assistance. Current status: Alive, reconciled with Gloriosa, and seeking redemption.",
-    "Related": ["CHAR-001", "CHAR-003", "CHAR-012", "CHAR-021", "CHAR-029", "CHAR-046", "CHAR-069", "CHAR-070", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-008", "ITEM-010", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-018", "LOC-019", "LOC-021", "LOC-022", "LOC-030", "LOC-032", "LOC-033", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-013", "EVENT-014", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-025", "EVENT-028", "EVENT-029", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-039", "EVENT-040", "EVENT-042", "QUEST-001", "QUEST-002", "QUEST-003", "QUEST-007", "QUEST-008", "QUEST-011", "QUEST-016", "QUEST-017"]
+    "Content": "Tiefling with distinctive horns and red skin, though her sister Gloriosa now has blue skin. Skilled spellcaster who grew up on a farm near Tallyport with her twin sister. Carries guilt over Elandra Hallowheart's murder, for which she seeks redemption from Yondar. Primary goal is to protect her friends and reconcile with her sister. Affiliation with The Gale through former romantic involvement with Pinglin Gale, now severed. Notable capabilities include enchantment magic, communication spells, deception, and loyalty to her companions. Key contributions include strategic spellcasting in combat, gathering information, and maintaining party cohesion during crises. After leaving her sister, she lived in The Haven with her friend Olga Patter. In Session 44, successfully negotiated with The Glint Syndicate to secure 'Rusty' Lou's assistance. In Harmonia, she helped decipher the magic words and faced Xyrx. Later, in Tempest's Watch, she was approached by Callie Black (sister of Mira Black), who added a star-shaped charm to Fauda's bracelet, enhancing its magic, and kissed her before vanishing. Fauda also used the Ivy Crown of Prophecy. Current status: Alive, reconciled with Gloriosa, seeking redemption, and now aware of growing concerns in Caeloria regarding Lady Seriss.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-012", "CHAR-021", "CHAR-029", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-083", "CHAR-084", "CHAR-085", "CHAR-086", "CHAR-087", "CHAR-088", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "CHAR-095", "CHAR-096", "CHAR-097", "CHAR-099", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-008", "ITEM-010", "ITEM-013", "ITEM-015", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-020", "ITEM-021", "ITEM-022", "ITEM-023", "ITEM-024", "LOC-001", "LOC-002", "LOC-003", "LOC-008", "LOC-009", "LOC-010", "LOC-018", "LOC-019", "LOC-021", "LOC-022", "LOC-030", "LOC-032", "LOC-033", "LOC-068", "LOC-069", "LOC-070", "LOC-071", "LOC-072", "LOC-073", "LOC-074", "LOC-075", "LOC-076", "LOC-077", "LOC-078", "LOC-079", "LOC-080", "LOC-081", "LOC-082", "LOC-083", "LOC-084", "LOC-085", "LOC-086", "LOC-087", "LOC-088", "LOC-089", "LOC-090", "LOC-091", "LOC-092", "LOC-093", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-006", "EVENT-007", "EVENT-008", "EVENT-009", "EVENT-010", "EVENT-011", "EVENT-012", "EVENT-013", "EVENT-014", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-025", "EVENT-028", "EVENT-029", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-039", "EVENT-040", "EVENT-042", "EVENT-043", "EVENT-044", "EVENT-045", "EVENT-046", "EVENT-047", "EVENT-048", "EVENT-049", "EVENT-050", "EVENT-051", "EVENT-052", "EVENT-053", "EVENT-054", "EVENT-055", "EVENT-056", "EVENT-057", "EVENT-058", "EVENT-059", "EVENT-060", "EVENT-061", "EVENT-062", "EVENT-063", "EVENT-064", "EVENT-065", "EVENT-066", "EVENT-067", "QUEST-001", "QUEST-002", "QUEST-003", "QUEST-007", "QUEST-008", "QUEST-011", "QUEST-012", "QUEST-016", "QUEST-017", "QUEST-018", "QUEST-019", "QUEST-020", "QUEST-021", "QUEST-022", "QUEST-023", "QUEST-024", "QUEST-025"]
   },
   {
     "ID": "CHAR-003",
     "Type": "PC",
     "Name": "Vyphira",
     "Session": "1",
-    "Content": "Dragonborn with distinctive scales, skilled artisan and warrior from Tempest's Watch. Practical and determined, with a strong sense of justice. Primary goal is to recover her stolen craftsmanship and tools, and understand her Dragonborn heritage. Notable capabilities include exceptional armor craftsmanship, combat skills, Draconic language knowledge, and armor creation. Key contributions include crafting armor for the party, combat prowess, and translating Draconic texts and conversations that revealed crucial plot information about dragon cults and ancient history. Carries guilt over Elandra Hallowheart's murder and seeks redemption. Current status: Alive, successfully recovered one set of tools, and pursuing the Beholder mastermind.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-046", "CHAR-069", "CHAR-070", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-009", "ITEM-010", "ITEM-014", "LOC-001", "LOC-002", "LOC-004", "LOC-005", "LOC-008", "LOC-019", "LOC-027", "LOC-034", "EVENT-001", "EVENT-002", "EVENT-009", "EVENT-011", "EVENT-015", "EVENT-018", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-038", "EVENT-039", "EVENT-040", "EVENT-042", "QUEST-002", "QUEST-003", "QUEST-011", "QUEST-017"]
+    "Content": "Dragonborn with distinctive scales, skilled artisan and warrior from Tempest's Watch. Practical and determined, with a strong sense of justice. Primary goal is to recover her stolen craftsmanship and tools, and understand her Dragonborn heritage. Notable capabilities include exceptional armor craftsmanship, combat skills, Draconic language knowledge, and armor creation. Key contributions include crafting armor for the party, combat prowess, and translating Draconic texts that revealed crucial plot information about dragon cults and ancient history. Carries guilt over Elandra Hallowheart's murder and seeks redemption. During the Harmonia loops, she recovered the Tinkerer's Tools (Sparkwright's Trio) from the clocktower and later, after defeating Xyrx, reclaimed her family's tools (The Hidebinder's Blessing). She also received the Scaleforge Torc from her mother. During The Walk, she sacrificed her scales and gained Aetherglass scales. She developed a close relationship with Velkor Astryx. She completed her Patented Armor Version 2.0 using Beholder hide. Current status: Alive, tools recovered, working on Eredan's glove schematics, and in a relationship with Velkor.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-016", "CHAR-017", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-083", "CHAR-084", "CHAR-085", "CHAR-086", "CHAR-087", "CHAR-088", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "CHAR-095", "CHAR-096", "CHAR-097", "CHAR-098", "CHAR-099", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-009", "ITEM-010", "ITEM-011", "ITEM-012", "ITEM-013", "ITEM-014", "ITEM-015", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-020", "ITEM-021", "ITEM-022", "ITEM-023", "ITEM-024", "LOC-001", "LOC-002", "LOC-003", "LOC-004", "LOC-005", "LOC-008", "LOC-019", "LOC-027", "LOC-034", "LOC-068", "LOC-069", "LOC-070", "LOC-071", "LOC-072", "LOC-073", "LOC-074", "LOC-075", "LOC-076", "LOC-077", "LOC-078", "LOC-079", "LOC-080", "LOC-081", "LOC-082", "LOC-083", "LOC-084", "LOC-085", "LOC-086", "LOC-087", "LOC-088", "LOC-089", "LOC-090", "LOC-091", "LOC-092", "LOC-093", "EVENT-001", "EVENT-002", "EVENT-009", "EVENT-011", "EVENT-015", "EVENT-018", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-038", "EVENT-039", "EVENT-040", "EVENT-042", "EVENT-044", "EVENT-045", "EVENT-046", "EVENT-047", "EVENT-048", "EVENT-049", "EVENT-050", "EVENT-051", "EVENT-052", "EVENT-053", "EVENT-054", "EVENT-055", "EVENT-056", "EVENT-057", "EVENT-058", "EVENT-059", "EVENT-060", "EVENT-061", "EVENT-062", "EVENT-063", "EVENT-064", "EVENT-065", "EVENT-066", "EVENT-067", "QUEST-002", "QUEST-003", "QUEST-008", "QUEST-011", "QUEST-016", "QUEST-017", "QUEST-018", "QUEST-019", "QUEST-020", "QUEST-021", "QUEST-022", "QUEST-024", "QUEST-025"]
   },
   {
     "ID": "CHAR-004",
     "Type": "PC",
     "Name": "Arc en Ciel",
     "Session": "1",
-    "Content": "Skilled martial artist and dancer with supernatural flexibility - joints shift impossibly, arms/legs stretch like rubber, can extend/retract bones. Race unknown. Pragmatic, observant, gourmet who prefers fresh meat simply grilled. Background: Parents killed for trespassing on hunting territory, raised by abusive relatives. Left to wander, worked as sailor, met dancer Rory who became best friend. After Rory's death and killing her manipulator Jack, trained in martial arts with mysterious beggar mentor. Primary goal is to protect party she considers family and find her place. Secondary goal: free Rory's ghost from the Roseheart King. No strong affiliations. Notable capabilities: supernatural flexibility combat, cooking, sailing, dance. Current status: Alive, loyal to party, seeking to free Rory.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-011", "CHAR-038", "CHAR-066", "CHAR-067", "CHAR-068", "CHAR-069", "CHAR-070", "CHAR-073", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-010", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-009", "LOC-013", "LOC-019", "LOC-040", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-008", "EVENT-019", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-034", "EVENT-037", "EVENT-039", "EVENT-040", "EVENT-041", "EVENT-042", "QUEST-003", "QUEST-009", "QUEST-014", "QUEST-017"]
+    "Content": "Skilled martial artist and dancer with supernatural flexibility - joints shift impossibly, arms/legs stretch like rubber, can extend/retract bones. Race unknown. Pragmatic, observant, gourmet who prefers fresh meat simply grilled. Background: Parents killed for trespassing on hunting territory, raised by abusive relatives. Left to wander, worked as sailor, met dancer Rory who became best friend. After Rory's death and killing her manipulator Jack, trained in martial arts with mysterious beggar mentor. Primary goal is to protect party she considers family and find her place. Secondary goal: free Rory's ghost from the Roseheart King. During The Walk, she sacrificed her teeth and gained Aetherglass teeth. In Harmonia, she attended school under disguise, cooked feasts, and fought Xyrx. She also formed a bond with 'Rusty' Lou, who built her a specialized stove. Current status: Alive, loyal to party, seeking to free Rory, and enjoying her role as cook and performer.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-005", "CHAR-011", "CHAR-038", "CHAR-066", "CHAR-067", "CHAR-068", "CHAR-069", "CHAR-070", "CHAR-073", "CHAR-082", "CHAR-084", "CHAR-085", "CHAR-086", "CHAR-087", "CHAR-088", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "CHAR-095", "CHAR-096", "CHAR-097", "CHAR-098", "CHAR-099", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-010", "ITEM-011", "ITEM-012", "ITEM-013", "ITEM-014", "ITEM-015", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-020", "ITEM-021", "ITEM-022", "ITEM-023", "ITEM-024", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-009", "LOC-013", "LOC-019", "LOC-040", "LOC-068", "LOC-069", "LOC-070", "LOC-071", "LOC-072", "LOC-073", "LOC-074", "LOC-075", "LOC-076", "LOC-077", "LOC-078", "LOC-079", "LOC-080", "LOC-081", "LOC-082", "LOC-083", "LOC-084", "LOC-085", "LOC-086", "LOC-087", "LOC-088", "LOC-089", "LOC-090", "LOC-091", "LOC-092", "LOC-093", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-008", "EVENT-019", "EVENT-026", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-034", "EVENT-037", "EVENT-039", "EVENT-040", "EVENT-041", "EVENT-042", "EVENT-045", "EVENT-046", "EVENT-047", "EVENT-048", "EVENT-049", "EVENT-050", "EVENT-051", "EVENT-052", "EVENT-053", "EVENT-054", "EVENT-055", "EVENT-056", "EVENT-057", "EVENT-058", "EVENT-059", "EVENT-060", "EVENT-061", "EVENT-062", "EVENT-063", "EVENT-064", "EVENT-065", "EVENT-066", "EVENT-067", "QUEST-003", "QUEST-008", "QUEST-009", "QUEST-014", "QUEST-016", "QUEST-017", "QUEST-018", "QUEST-019", "QUEST-020", "QUEST-021", "QUEST-022", "QUEST-023", "QUEST-024", "QUEST-025"]
   },
   {
     "ID": "CHAR-005",
     "Type": "PC",
     "Name": "Sili",
     "Session": "1",
-    "Content": "Nature-connected character with bond to animals and the god Azmir. Developed his connection in his wilderness home. Contemplative and spiritual, struggling with the moral implications of killing innocents. Primary goal is to appease his god Azmir through a worthy hunt and protect natural balance. Notable capabilities include nature magic, animal communication, tracking, and the Entangle spell. Key contributions include controlling battlefield terrain, healing party members, and establishing communication with natural creatures. His outposts at Cloudfoot Keep reported beings tracking the party. Current status: Alive, seeking a worthy hunt to atone for Elandra's murder.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-008", "CHAR-046", "CHAR-069", "CHAR-070", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-010", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-019", "LOC-041", "EVENT-001", "EVENT-002", "EVENT-006", "EVENT-009", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-039", "EVENT-040", "EVENT-041", "EVENT-042", "QUEST-003", "QUEST-004", "QUEST-011", "QUEST-017"]
+    "Content": "Nature-connected character with bond to animals and the god Azmir. Developed his connection in his wilderness home. Contemplative and spiritual, struggling with the moral implications of killing innocents. Primary goal is to appease his god Azmir through a worthy hunt and protect natural balance. Notable capabilities include nature magic, animal communication, tracking, and the Entangle spell. Key contributions include controlling battlefield terrain, healing party members, and establishing communication with natural creatures. During The Walk, he sacrificed his eye and gained an Aetherglass eye, which can transform into a crystal serpent named Shiny. He also learned Transport Via Plants, enabling fast travel. In Harmonia, he helped decipher clues and fought Xyrx. Current status: Alive, seeking a worthy hunt to atone for Elandra's murder, now with enhanced senses.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-008", "CHAR-046", "CHAR-069", "CHAR-070", "CHAR-084", "CHAR-085", "CHAR-086", "CHAR-087", "CHAR-088", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "CHAR-095", "CHAR-096", "CHAR-097", "CHAR-099", "ITEM-001", "ITEM-002", "ITEM-003", "ITEM-004", "ITEM-005", "ITEM-006", "ITEM-007", "ITEM-010", "ITEM-011", "ITEM-012", "ITEM-013", "ITEM-014", "ITEM-015", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-020", "ITEM-021", "ITEM-022", "ITEM-023", "ITEM-024", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-008", "LOC-019", "LOC-041", "LOC-068", "LOC-069", "LOC-070", "LOC-071", "LOC-072", "LOC-073", "LOC-074", "LOC-075", "LOC-076", "LOC-077", "LOC-078", "LOC-079", "LOC-080", "LOC-081", "LOC-082", "LOC-083", "LOC-084", "LOC-085", "LOC-086", "LOC-087", "LOC-088", "LOC-089", "LOC-090", "LOC-091", "LOC-092", "LOC-093", "EVENT-001", "EVENT-002", "EVENT-006", "EVENT-009", "EVENT-019", "EVENT-020", "EVENT-021", "EVENT-027", "EVENT-030", "EVENT-031", "EVENT-037", "EVENT-039", "EVENT-040", "EVENT-041", "EVENT-042", "EVENT-045", "EVENT-046", "EVENT-047", "EVENT-048", "EVENT-049", "EVENT-050", "EVENT-051", "EVENT-052", "EVENT-053", "EVENT-054", "EVENT-055", "EVENT-056", "EVENT-057", "EVENT-058", "EVENT-059", "EVENT-060", "EVENT-061", "EVENT-062", "EVENT-063", "EVENT-064", "EVENT-065", "EVENT-066", "EVENT-067", "QUEST-003", "QUEST-004", "QUEST-008", "QUEST-011", "QUEST-016", "QUEST-017", "QUEST-018", "QUEST-019", "QUEST-020", "QUEST-021", "QUEST-022", "QUEST-024", "QUEST-025"]
   },
   {
     "ID": "CHAR-006",
     "Type": "NPC",
     "Name": "Lady Seriss",
     "Session": "16",
-    "Content": "Met in Sessions 16-18 when she joined the party. Noblewoman from House Stormrider, elegant and composed despite danger. Primary goal is to survive and maintain her noble responsibilities while being targeted by various factions. Currently held captive by The Gale operative. Affiliation with House Stormrider remains strong. Notable capabilities include noble diplomacy, strategic thinking, and resilience under pressure. During encounters, she provided noble connections and strategic advice, was nearly killed by cannibals, and was taken hostage by The Gale operative who seems to harbor particular hatred toward her. In Session 45, communicated via message that she is being fitted for a wedding gown and is to be married to a prince in one of Solara's Bottle Kingdoms, identified by a mountain with a handsome face carved into it. Current status: Alive, held captive in Solara, being prepared for an arranged marriage.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-008", "CHAR-025", "CHAR-060", "CHAR-067", "ITEM-001", "ITEM-004", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-031", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-007", "EVENT-031", "EVENT-035", "EVENT-037", "QUEST-003", "QUEST-005", "QUEST-013"]
+    "Content": "Noblewoman from House Stormrider, elegant and composed despite danger. Primary goal is to survive and maintain her noble responsibilities while being targeted by various factions. Currently held captive by The Gale operative. Affiliation with House Stormrider remains strong. Notable capabilities include noble diplomacy, strategic thinking, and resilience under pressure. During encounters, she provided noble connections and strategic advice, was nearly killed by cannibals, and was taken hostage by The Gale operative who seems to harbor particular hatred toward her. In Session 45, communicated via message that she is being fitted for a wedding gown and is to be married to a prince in one of Solara's Bottle Kingdoms, identified by a mountain with a handsome face carved into it. Later, Callie Black reported that concern is growing in Caeloria that Lady Seriss will soon marry and return home, but the Blackcloud Coven cannot contact her. Current status: Alive, held captive in Solara, being prepared for an arranged marriage.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-004", "CHAR-005", "CHAR-007", "CHAR-008", "CHAR-025", "CHAR-060", "CHAR-067", "CHAR-087", "CHAR-096", "ITEM-001", "ITEM-004", "LOC-001", "LOC-002", "LOC-003", "LOC-006", "LOC-031", "EVENT-001", "EVENT-002", "EVENT-005", "EVENT-007", "EVENT-031", "EVENT-035", "EVENT-037", "EVENT-065", "QUEST-003", "QUEST-005", "QUEST-013", "QUEST-023"]
   },
   {
     "ID": "CHAR-007",
@@ -100,7 +100,7 @@
     "Type": "NPC",
     "Name": "Veil",
     "Session": "29",
-    "Content": "Met in Session 29 in church basement safe-room in Tempest's Refuge. Changeling female, heavily pregnant, scarred at wrists and ankles from prolonged captivity by The Gale. Kind but firm, spent years working for The Gale before being used to produce more changelings. Explained The Gale's brainwashing of changeling children. Currently alive and safely escaped to Drifthold's Tailstride with other changeling refugees.",
+    "Content": "Met in Session 29 in church basement safe-room in Tempest's Refuge. Changeling female, heavily pregnant, scarred at wrists and ankles from prolonged captivity by The Gale. Kind but firm, spent years working for The Gale before being used to produce more changelings. Explained The Gale's brainwashing of changeling children. Currently alive and safely escaped to Drifthold's Tailstride with other changeling refugees. In Session 71, she remains heavily pregnant with a few weeks to a month remaining before childbirth.",
     "Related": ["CHAR-001", "CHAR-014", "CHAR-015", "CHAR-025", "LOC-010", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014", "QUEST-006"]
   },
   {
@@ -108,7 +108,7 @@
     "Type": "NPC",
     "Name": "Shagra Wordbinder",
     "Session": "29",
-    "Content": "Met in Session 29 in church basement. Orcish woman, priestess of Shy'rah, the Tusked Mother. Protective and distrustful of party initially. Wife of Drath Wordbinder, helping smuggle changelings to safety. Currently alive and safely in Drifthold.",
+    "Content": "Met in Session 29 in church basement. Orcish woman, priestess of Shy'rah, the Tusked Mother. Protective and distrustful of party initially. Wife of Drath Wordbinder, helping smuggle changelings to safety. Currently alive and safely in Drifthold. Later, she helped construct a worship space in Cloudfoot Keep.",
     "Related": ["CHAR-013", "CHAR-015", "LOC-010", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014", "QUEST-006"]
   },
   {
@@ -116,16 +116,16 @@
     "Type": "NPC",
     "Name": "Drath Wordbinder",
     "Session": "29",
-    "Content": "Met in Session 29 in church basement. Orcish man, professor and expert in Runic Theory from Drifthold. Husband of Shagra, uses rune-inscribed tent that provides storm protection and invisibility. Little magical ability himself, focuses on runic theory. Currently alive and teaching at Drifthold university, where he tutors the party in runic theory.",
-    "Related": ["CHAR-013", "CHAR-014", "LOC-008", "LOC-010", "LOC-020", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014", "EVENT-029", "QUEST-006", "QUEST-008"]
+    "Content": "Met in Session 29 in church basement. Orcish man, professor and expert in Runic Theory from Drifthold. Husband of Shagra, uses rune-inscribed tent that provides storm protection and invisibility. Little magical ability himself, focuses on runic theory. Currently alive and teaching at Drifthold university, where he tutors the party in runic theory. In Session 71, he trained Fauda and Mask to Tier 1 Rune Magic proficiency.",
+    "Related": ["CHAR-013", "CHAR-014", "LOC-008", "LOC-010", "LOC-020", "LOC-025", "LOC-030", "EVENT-010", "EVENT-014", "EVENT-029", "EVENT-067", "QUEST-006", "QUEST-008"]
   },
   {
     "ID": "CHAR-016",
     "Type": "NPC",
     "Name": "Sorrax Shieldweaver",
     "Session": "29",
-    "Content": "Met in Session 29 at Shieldweaver's Armorer & Forge in Tempest's Refuge. Heavy-set red Dragonborn, devastated by theft of family heirloom tools. Owns one of three known sets of special tools with distinctive maker's mark. Helpful and appreciative when Vyphira promised to recover his tools. Currently alive and running his forge.",
-    "Related": ["CHAR-003", "CHAR-017", "CHAR-018", "CHAR-030", "CHAR-031", "ITEM-009", "LOC-004", "EVENT-015", "QUEST-002"]
+    "Content": "Met in Session 29 at Shieldweaver's Armorer & Forge in Tempest's Refuge. Heavy-set red Dragonborn, devastated by theft of family heirloom tools. Owns one of three known sets of special tools with distinctive maker's mark. Helpful and appreciative when Vyphira promised to recover his tools. His tools (The Weaver's Tongue) were later recovered from Xyrx. Currently alive and running his forge.",
+    "Related": ["CHAR-003", "CHAR-017", "CHAR-018", "CHAR-030", "CHAR-031", "ITEM-009", "ITEM-018", "LOC-004", "EVENT-015", "QUEST-002"]
   },
   {
     "ID": "CHAR-017",
@@ -140,15 +140,15 @@
     "Type": "NPC",
     "Name": "Voraxik Valarnn",
     "Session": "29",
-    "Content": "Finally encountered directly in Session 41 during Ironhowl Forge theft. Young Dragonborn from Tempest's Watch who grew up with Vyphira. Shocked to see Vy, refused to strike her directly during fight. Revealed he, Shavara, and Kharzid were forced into thefts by a Beholder who caught them robbing its vault. The Beholder is collecting complete sets of special tools and threatened to kill them and possibly Vy's entire town if they refused. Sold Vyphira's armor to Sorrax Shieldweaver. Associated with Kharzid Tazek and Shavara Sablefang. In Session 42, was interrogated and corroborated Shavara's story before being imprisoned for 'correction' by Edrin Locke. Current status: Soul imprisoned for correction, body in stasis.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-062", "CHAR-064", "CHAR-065", "CHAR-068", "ITEM-009", "LOC-004", "LOC-005", "LOC-034", "EVENT-015", "EVENT-037", "EVENT-038", "EVENT-039", "QUEST-002"]
+    "Content": "Young Dragonborn from Tempest's Watch who grew up with Vyphira. Shocked to see Vy, refused to strike her directly during fight. Revealed he, Shavara, and Kharzid were forced into thefts by a Beholder (Xyrx). Was imprisoned for 'correction' by Edrin Locke. Later seen in Xyrx's lair as a prisoner or clone? In Session 64, a version of Voraxik appeared with Shavara and Kharzid, seemingly under Xyrx's control. Vy later left him in a bottle at her family home after negotiating with her mother. Current status: Imprisoned in a bottle at Vy's family home in Tempest's Watch.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-062", "CHAR-064", "CHAR-065", "CHAR-068", "CHAR-083", "ITEM-009", "LOC-004", "LOC-005", "LOC-034", "LOC-061", "EVENT-015", "EVENT-038", "EVENT-039", "QUEST-002"]
   },
   {
     "ID": "CHAR-019",
     "Type": "NPC",
     "Name": "Kharzid Tazek",
     "Session": "29",
-    "Content": "Never met directly, but discussed in Session 29. Earth Dragonborn, sandy-colored. Grew up with Vyphira in Tempest's Watch. Known troublemaker with powerful associates. Stole Sorrax Shieldweaver's tools with Shavara Sablefang. Part of the team that attempted to steal from Ironhowl Forge. Current status: Deceased, killed during the Ironhowl Forge ambush.",
+    "Content": "Earth Dragonborn, sandy-colored. Grew up with Vyphira in Tempest's Watch. Known troublemaker with powerful associates. Stole Sorrax Shieldweaver's tools with Shavara Sablefang. Part of the team that attempted to steal from Ironhowl Forge. Believed dead, but a clone or version appeared in Xyrx's lair in Session 64. Current status: Original deceased? Clone active under Xyrx.",
     "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-020", "CHAR-031", "ITEM-009", "LOC-004", "LOC-034", "EVENT-015", "EVENT-038", "QUEST-002"]
   },
   {
@@ -156,7 +156,7 @@
     "Type": "NPC",
     "Name": "Shavara Sablefang",
     "Session": "29",
-    "Content": "Never met directly, but discussed in Session 29. Gemstone Dragonborn, white with gemstone scales. Grew up with Vyphira in Tempest's Watch. Known troublemaker, partner of Kharzid Tazek. Stole Sorrax Shieldweaver's tools. Part of the team that attempted to steal from Ironhowl Forge. In Session 42, was interrogated and revealed the Beholder's name as Xyrx the Collector before being imprisoned for 'correction' by Edrin Locke. Current status: Soul imprisoned for correction, body in stasis.",
+    "Content": "Gemstone Dragonborn, white with gemstone scales. Grew up with Vyphira in Tempest's Watch. Known troublemaker, partner of Kharzid Tazek. Stole Sorrax Shieldweaver's tools. Part of the team that attempted to steal from Ironhowl Forge. Was interrogated and revealed the Beholder's name as Xyrx the Collector before being imprisoned for 'correction' by Edrin Locke. Later seen in Xyrx's lair, seemingly under his control. Current status: Imprisoned or cloned? Possibly still in stasis.",
     "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-031", "CHAR-068", "ITEM-009", "LOC-004", "LOC-034", "EVENT-015", "EVENT-038", "EVENT-039", "QUEST-002"]
   },
   {
@@ -205,14 +205,14 @@
     "Name": "Yondari Faith",
     "Session": "26",
     "Content": "First encountered in Session 26 through Elandra Hallowheart at Tranquil Hollow. Religious organization worshipping Yondar, the Everflame. Focus on redemption, light, and moral rigidity. Led by Luminarch Velma Hallowheart. Headquarters in Thornheath, northern city. Major temple in Drifthold called The Ever-Burning Temple. Key interactions: party murdered their Chosen, Elandra, but were offered a path to redemption through trials. Current status: Neutral to party, offering path to redemption despite Elandra's murder.",
-    "Related": ["CHAR-001", "CHAR-007", "CHAR-008", "CHAR-009", "CHAR-027", "CHAR-028", "CHAR-034", "CHAR-052", "CHAR-053", "CHAR-054", "LOC-009", "LOC-012", "LOC-024", "LOC-029", "EVENT-005", "EVENT-006", "EVENT-008", "EVENT-017", "QUEST-001", "QUEST-011"]
+    "Related": ["CHAR-001", "CHAR-007", "CHAR-008", "CHAR-009", "CHAR-027", "CHAR-028", "CHAR-034", "CHAR-052", "CHAR-053", "CHAR-054", "CHAR-088", "LOC-009", "LOC-012", "LOC-024", "LOC-029", "EVENT-005", "EVENT-006", "EVENT-008", "EVENT-017", "QUEST-001", "QUEST-011"]
   },
   {
     "ID": "CHAR-027",
     "Type": "NPC",
     "Name": "Yondar, the Everflame",
     "Session": "26",
-    "Content": "Deity, never physically met but communicated through Elandra Hallowheart and temple flames. God of fire, light, and redemption. Former lover of Tana according to rumors. Twin brother of Yeldur. Forbids his followers from bringing faith to Solara. Offers redemption through three trials. Current status: Divine being, communicating through chosen followers.",
+    "Content": "Deity, never physically met but communicated through Elandra Hallowheart and temple flames. God of fire, light, and redemption. Former lover of Tana according to rumors. Twin brother of Yeldur. Forbids his followers from bringing faith to Solara. Offers redemption through three trials. In Harmonia loops, the party experienced death and were sent to Yondar's Flames, where Yondar spoke to them directly, remarking on their failures. Current status: Divine being, communicating through chosen followers.",
     "Related": ["CHAR-007", "CHAR-026", "CHAR-028", "CHAR-033", "CHAR-034", "CHAR-043", "CHAR-052", "CHAR-055", "LOC-012", "LOC-029", "EVENT-017", "QUEST-001", "QUEST-011", "QUEST-012"]
   },
   {
@@ -220,8 +220,8 @@
     "Type": "NPC",
     "Name": "Tana",
     "Session": "1",
-    "Content": "Deity, never physically met. Moon goddess worshipped by Mask, shattered but not dead. Essence scattered throughout world, strongest in Solara. Rumored former lover of Yondar, may have produced divine offspring. Shattered herself willingly according to Yondar. Current status: Divine essence scattered, worshipped by followers including Mask. The truth of her shattering is a key quest.",
-    "Related": ["CHAR-001", "CHAR-026", "CHAR-027", "CHAR-033", "CHAR-034", "CHAR-043", "CHAR-052", "LOC-011", "EVENT-003", "EVENT-017", "EVENT-022", "QUEST-001", "QUEST-012"]
+    "Content": "Deity, never physically met. Moon goddess worshipped by Mask, shattered but not dead. Essence scattered throughout world, strongest in Solara. Rumored former lover of Yondar, may have produced divine offspring. Shattered herself willingly according to Yondar. The Dagger of the Broken Moon (ITEM-013) is a shard of her. Current status: Divine essence scattered, worshipped by followers including Mask.",
+    "Related": ["CHAR-001", "CHAR-026", "CHAR-027", "CHAR-033", "CHAR-034", "CHAR-043", "CHAR-052", "ITEM-013", "LOC-011", "EVENT-003", "EVENT-017", "EVENT-022", "QUEST-001", "QUEST-012"]
   },
   {
     "ID": "CHAR-029",
@@ -244,7 +244,7 @@
     "Type": "NPC",
     "Name": "Voraxik Valarnn Associates",
     "Session": "29",
-    "Content": "Group of Dragonborn thieves including Voraxik, Kharzid Tazek, and Shavara Sablefang. All grew up with Vyphira in Tempest's Watch. Known troublemakers boasting of powerful associates. Stole Vyphira's armor design and Sorrax's tools. Attempted to steal from Ironhowl Forge. Current status: Kharzid deceased, Voraxik and Shavara captured and soul-imprisoned.",
+    "Content": "Group of Dragonborn thieves including Voraxik, Kharzid Tazek, and Shavara Sablefang. All grew up with Vyphira in Tempest's Watch. Known troublemakers boasting of powerful associates. Stole Vyphira's armor design and Sorrax's tools. Attempted to steal from Ironhowl Forge. Current status: Kharzid deceased (or cloned), Voraxik and Shavara captured, cloned, or imprisoned.",
     "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "ITEM-009", "LOC-004", "LOC-005", "LOC-034", "EVENT-015", "EVENT-038", "QUEST-002"]
   },
   {
@@ -260,8 +260,8 @@
     "Type": "NPC",
     "Name": "Nyxara",
     "Session": "30",
-    "Content": "Deity, never physically met. Supposedly 'dead god' on Solara but actually alive according to Gloriosa. Connected to Tana's essence and power. Blue-skinned deity, Gloriosa is head priest. Worshippers scattered throughout Solara. Gloriosa believes Faudana's disappearance is connected to her. Current status: Divine being, actively worshipped by hidden followers.",
-    "Related": ["CHAR-012", "CHAR-027", "CHAR-028", "CHAR-048", "LOC-011", "EVENT-025", "QUEST-007", "QUEST-012"]
+    "Content": "Deity, never physically met. Supposedly 'dead god' on Solara but actually alive according to Gloriosa. Connected to Tana's essence and power. Blue-skinned deity, Gloriosa is head priest. Worshippers scattered throughout Solara. Gloriosa believes Faudana's disappearance is connected to her. The Dagger of the Broken Moon contains equal power from Tana and Nyxara. Current status: Divine being, actively worshipped by hidden followers.",
+    "Related": ["CHAR-012", "CHAR-027", "CHAR-028", "CHAR-048", "ITEM-013", "LOC-011", "EVENT-025", "QUEST-007", "QUEST-012"]
   },
   {
     "ID": "CHAR-034",
@@ -364,8 +364,8 @@
     "Type": "NPC",
     "Name": "Jorren and Megara Vale",
     "Session": "30",
-    "Content": "Never met directly, discussed as masters in Session 30. Gnome mage twins controlling one of Drifthold's walking legs, The Echoing Spire. Brutal leaders with army of goblins and orcs. Killed previous leg mage to claim control. Party bound to them by blood pact for city entry. Considered vile and unpredictable by Gloriosa. In Session 42, the party finally met them in their dining hall. They assigned the party new tasks after the blood pact completion: deal with a sewer mage and kill Garrick Rathorn. They threatened the party with grotesque experimentation. Current status: Alive, controlling leg of Drifthold. Party has an outstanding obligation to them.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-012", "CHAR-069", "CHAR-070", "CHAR-071", "LOC-008", "LOC-026", "EVENT-012", "EVENT-040", "QUEST-010", "QUEST-015"]
+    "Content": "Met in Session 42 at their dining hall in Drifthold. Gnome mage twins controlling one of Drifthold's walking legs. Eccentric, unsettling, seated at opposite ends of enormous table. Came from Solara possibly as punishment, gathered army of orcs/goblins in nearby mountains, conquered their domain about 3 years ago. Plan to control every leg of Drifthold. In Session 42, assigned party tasks after blood pact completion: deal with sewer mage and kill Garrick Rathorn. Threatened party with grotesque experimentation. Current status: Alive, controlling leg of Drifthold.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-069", "CHAR-071", "LOC-008", "LOC-026", "EVENT-040", "QUEST-010", "QUEST-015"]
   },
   {
     "ID": "CHAR-047",
@@ -380,7 +380,7 @@
     "Type": "NPC",
     "Name": "Faudana",
     "Session": "30",
-    "Content": "Never met, discussed by Gloriosa. Gloriosa's missing daughter, blue-skinned like Nyxara's light. Named after Fauda. Vanished during lunar ceremony at age twelve. Believed connected to Nyxara, appears in dreams in blue place with silver pool. Current status: Missing for five years, whereabouts unknown. The focus of QUEST-007.",
+    "Content": "Never met, discussed by Gloriosa. Gloriosa's missing daughter, blue-skinned like Nyxara's light. Named after Fauda. Vanished during lunar ceremony at age twelve. Believed connected to Nyxara, appears in dreams in blue place with silver pool. Current status: Missing for years, whereabouts unknown. Focus of QUEST-007.",
     "Related": ["CHAR-002", "CHAR-012", "CHAR-032", "CHAR-033", "LOC-011", "EVENT-025", "QUEST-007", "QUEST-016"]
   },
   {
@@ -436,8 +436,8 @@
     "Type": "NPC",
     "Name": "Darren Maximus",
     "Session": "40",
-    "Content": "Never met, discussed by Elandra. Other living Chosen of Yondar, southerner from Lightning Fields. Destined to marry Elandra and produce children who might become Yondar's Champion. Current status: Alive, whereabouts unknown.",
-    "Related": ["CHAR-007", "CHAR-027"]
+    "Content": "Never met initially, discussed by Elandra as other living Chosen of Yondar. Finally met in Session 56 near Tempest's Watch. A tall, impossibly strong and handsome man with flowing golden hair, wearing a toga and carrying a magical spear, riding a golden chariot pulled by Ki-Rin. Extremely simple-minded but powerful. Yondar sent him to assist the party because there is a spot of darkness even Yondar cannot see, believed connected to Xyrx. After dropping the party at Tempest's Watch, he flew off south to kill Yeldur cultists in the Shard Wastes. Current status: Alive, traveling south.",
+    "Related": ["CHAR-007", "CHAR-027", "LOC-003", "EVENT-056"]
   },
   {
     "ID": "CHAR-056",
@@ -476,31 +476,31 @@
     "Type": "Organization",
     "Name": "House Stormrider",
     "Session": "16",
-    "Content": "Never encountered as organization, represented by Lady Seriss. Noble house from Caeloria kingdom, rapid growth attracted The Gale's attention. Lady Seriss carries their signet ring. Mask was sent to infiltrate them originally. Current status: Active, Lady Seriss is member. Their rapid growth was the reason for The Gale's interest.",
-    "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "ITEM-001", "LOC-031", "EVENT-035", "QUEST-013"]
+    "Content": "Never encountered as organization, represented by Lady Seriss. Noble house from Caeloria kingdom, rapid growth attracted The Gale's attention. Lady Seriss carries their signet ring. Mask was sent to infiltrate them originally. Concern is growing that Lady Seriss will marry and return home, but the Blackcloud Coven cannot contact her. Current status: Active, Lady Seriss is member.",
+    "Related": ["CHAR-001", "CHAR-006", "CHAR-025", "CHAR-087", "CHAR-096", "ITEM-001", "LOC-031", "EVENT-035", "QUEST-013", "QUEST-023"]
   },
   {
     "ID": "CHAR-061",
     "Type": "NPC",
     "Name": "Korr",
     "Session": "41",
-    "Content": "Met in Session 41 during Ironhowl Forge theft attempt. Massive armored creature resembling a rhinoceros with muscular humanoid build (A Braxat). Mercenary working for Zrak'Torr, collapsed forge floor to access safe. Pragmatic and easily bribed, accepted 500 gold from Fauda to switch sides. Incredibly strong, hauled multi-hundred-pound safe back up from sewer. In Session 42, helped transport prisoners, explained he kills for money to provide for family but won't murder for free. Can be found at The Drowned Bell tavern or Bleeding Coin mercenary company HQ. In Session 45, immediately evacuated his family from Drifthold when warned about the Storm Lord threat, joining the party without charging for his services. Current status: Alive, traveling with wife Yedda and son Tarr, available for future hire.",
-    "Related": ["CHAR-002", "CHAR-062", "CHAR-063", "CHAR-064", "CHAR-079", "CHAR-080", "ITEM-009", "LOC-005", "LOC-067", "EVENT-038", "EVENT-039", "QUEST-002"]
+    "Content": "Massive Braxat mercenary. Helped party at Ironhowl Forge, later evacuated his family. In Session 71, his son Tarr is playing with changeling children at Cloudfoot Keep. Current status: Alive, traveling with family.",
+    "Related": ["CHAR-002", "CHAR-062", "CHAR-063", "CHAR-064", "CHAR-079", "CHAR-080", "ITEM-009", "LOC-005", "LOC-067", "EVENT-038", "EVENT-039", "EVENT-045", "EVENT-067", "QUEST-002"]
   },
   {
     "ID": "CHAR-062",
     "Type": "NPC",
     "Name": "Zrak'Torr",
     "Session": "41",
-    "Content": "Met in Session 41 during Ironhowl Forge theft attempt. Strange kobold with third eye on forehead and eyestalks sprouting from body. Telekinetic abilities, pulled Shavara to safety and manipulated safe. Hired Korr for theft. Working for mysterious Beholder collecting special tools. In Session 42, was interrogated; revealed he was one of many Zrak'Torrs serving as right hand to Xyrx the Collector. Was purified of corruption at the Ever-Burning Temple by Lucan Brightmere. Current status: Alive, undergoing redemption at the Ever-Burning Temple.",
-    "Related": ["CHAR-003", "CHAR-061", "CHAR-063", "CHAR-064", "CHAR-065", "ITEM-009", "LOC-005", "EVENT-038", "QUEST-002"]
+    "Content": "Strange kobold with third eye and eyestalks, served Xyrx. Purified at Ever-Burning Temple. In Xyrx's lair, clones of Zrak'Torr were present, and Zrak'Torr Prime escaped via teleportation circle, possibly to Solara. Current status: Prime escaped, clones destroyed.",
+    "Related": ["CHAR-003", "CHAR-061", "CHAR-063", "CHAR-064", "CHAR-065", "CHAR-068", "CHAR-076", "ITEM-009", "ITEM-020", "ITEM-021", "LOC-005", "LOC-061", "EVENT-038", "EVENT-039", "EVENT-061", "EVENT-062", "QUEST-002"]
   },
   {
     "ID": "CHAR-063",
     "Type": "NPC",
     "Name": "Earth Elemental",
     "Session": "41",
-    "Content": "Met in Session 41 during Ironhowl Forge theft attempt. Elemental creature assisting theft team. Present during sewer confrontation but role unclear. Current status: Unknown, possibly defeated or escaped.",
+    "Content": "Elemental assisting theft team. Current status: Unknown.",
     "Related": ["CHAR-061", "CHAR-062", "LOC-005", "EVENT-038"]
   },
   {
@@ -508,23 +508,23 @@
     "Type": "NPC",
     "Name": "Voraxik Valarnn (Updated)",
     "Session": "29",
-    "Content": "Finally encountered directly in Session 41 during Ironhowl Forge theft. Young Dragonborn from Tempest's Watch who grew up with Vyphira. Shocked to see Vy, refused to strike her directly during fight. Revealed he, Shavara, and Kharzid were forced into thefts by a Beholder who caught them robbing its vault. The Beholder is collecting complete sets of special tools and threatened to kill them and possibly Vy's entire town if they refused. In Session 42, was interrogated and corroborated Shavara's story before being imprisoned for 'correction' by Edrin Locke. Current status: Soul imprisoned for correction, body in stasis.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-031", "CHAR-062", "CHAR-065", "ITEM-009", "LOC-004", "LOC-005", "LOC-034", "EVENT-015", "EVENT-038", "QUEST-002"]
+    "Content": "Duplicate of CHAR-018. See CHAR-018 for details. Included for reference only.",
+    "Related": ["CHAR-003", "CHAR-018"]
   },
   {
     "ID": "CHAR-065",
     "Type": "NPC",
     "Name": "Xyrx the Collector",
     "Session": "42",
-    "Content": "Never met directly, revealed by Voraxik and Shavara in Session 42. A powerful Beholder with a hidden underground lair and multiple magically connected vaults across Eryndor. Extremely paranoid. Unlike typical Beholders, adorns himself with jewelry and some form of armor or metallic plating. Caught Voraxik, Shavara, and Kharzid robbing a seaside vault near Tempest's Watch. Spared their lives in exchange for stealing special blacksmithing tools. Collecting complete sets of tools, claims tools were stolen from it long ago. So dangerous that speaking his name is believed to draw his attention. Current status: Alive, actively collecting tools. The mastermind behind the tool thefts.",
-    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-062", "CHAR-064", "ITEM-009", "QUEST-002"]
+    "Content": "Powerful Beholder with armored shell, collecting nine Tools of Creation to impose perfect order. Had backing from House Octo of Solara. Defeated by party in Harmonia in Session 69. His armor teleported away, and he was killed. Body harvested for parts. Current status: Deceased.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-062", "CHAR-064", "CHAR-084", "CHAR-097", "CHAR-099", "ITEM-009", "ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-022", "ITEM-023", "LOC-076", "LOC-091", "EVENT-061", "EVENT-062", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021", "QUEST-022"]
   },
   {
     "ID": "CHAR-066",
     "Type": "NPC",
     "Name": "Rory",
     "Session": "22",
-    "Content": "Met in Session 22 along travel route when her ghost was revealed by Lantern of Revealing. Human female dancer, Arc's former best friend and dance partner. Died from illness/fever after overworking to save money for her boyfriend Jack. Ghost appears as sickly woman with Arc's face, missing legs in spectral form, bound by spectral chains to wrists. Personality: grateful, nostalgic, misses dancing. Currently bound to serve the Ghost King in afterlife after Jack's ghost dragged her into servitude. Encounter: revealed her binding, explained need to find Roseheart King's body in Virelka to potentially free enslaved spirits. Drew rose-heart sigil for party. Current status: Deceased, Ghost bound to Roseheart King.",
+    "Content": "Ghost of Arc's best friend, bound to Roseheart King. Unchanged.",
     "Related": ["CHAR-004", "CHAR-067", "CHAR-068", "LOC-061", "EVENT-039", "QUEST-014"]
   },
   {
@@ -532,7 +532,7 @@
     "Type": "NPC",
     "Name": "The Roseheart King",
     "Session": "22",
-    "Content": "Never met directly, discussed by Lady Seriss and Edrin Locke. Infamous historical figure who ruled centuries ago from Virelka, most powerful kingdom in Eryndor at time. Legend: killed/executed all ten wives, bathed in blood, went mad, starved people before assassination. Became boogeyman figure warning children and brides. Ghost King bound to wander Eryndor by spell cast by ghosts of his murdered wives, tied to his mortal remains. Wears rose-at-heart-center sigil over heart where stabbed in betrayal. Current status: Deceased, Powerful ghost bound to wander, seeking return to body.",
+    "Content": "Ghost king bound to wander, needing his remains to be freed. Unchanged.",
     "Related": ["CHAR-004", "CHAR-006", "CHAR-066", "CHAR-068", "LOC-061", "EVENT-039", "QUEST-014"]
   },
   {
@@ -540,7 +540,7 @@
     "Type": "NPC",
     "Name": "Edrin Locke",
     "Session": "42",
-    "Content": "Met in Session 42 at his private prison in Drifthold. Human male, Chainwright and Ghostspeaker, worshipper of Kelgriss. Speaks in whispery voice. Family has long served the dead. Runs supernatural prison service extracting souls into gems for 'correction' while bodies remain in stasis. Offers torment levels 1-10 priced at 50gp/month plus 25gp for correction. Knowledgeable about ghost lore, recognized Roseheart King's story. Offered Arc employment if she becomes a ghost. In Session 42, imprisoned Voraxik and Shavara for the party. Current status: Alive, operating prison business.",
+    "Content": "Chainwright and Ghostspeaker, runs private prison. Unchanged.",
     "Related": ["CHAR-004", "CHAR-018", "CHAR-020", "CHAR-062", "CHAR-066", "CHAR-067", "ITEM-009", "LOC-061", "EVENT-039", "QUEST-002", "QUEST-014"]
   },
   {
@@ -548,23 +548,23 @@
     "Type": "NPC",
     "Name": "Lyanna Vale",
     "Session": "42",
-    "Content": "Met in Session 42 at Vales' keep in Drifthold. Half-elf, half-gnome daughter of Jorren Vale and elf mother from Solara. Appears trapped in gilded captivity, disappointed party wasn't there to kill her parents. Revealed she's a mage but not strong enough to overthrow parents alone. Willing to accept almost any fate to escape current situation. Mother's fate unknown. In Session 43, initially lied about being the sewer mage, then led the party to the real mage, Lucien Shinwell, revealing he is her uncle. Later left Drifthold with the party. Joined the journey to the Thundermaw Mountains as the expert best suited to identify Aetherglass and contribute in combat. In Session 48, fought alongside the party against elven hunters and Aural insects, saving Arc en Ciel's life by stabbing an attacker with her unique dagger. The dagger, a gift from her mother called 'The Dagger of the Broken Moon', is made from a shard of the goddess Tana and radiates power from both Tana and Nyxara. Lyanna's own magical abilities are enhanced by it, though she claims no knowledge of their origin and has only fragmented memories of her mother. Current status: Alive, captive in parents' keep, seeking escape to Solara.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-070", "CHAR-071", "CHAR-072", "LOC-026", "EVENT-040", "EVENT-041", "QUEST-015", "QUEST-016"]
+    "Content": "Half-elf, half-gnome daughter of Jorren and Megara Vale. Escaped Drifthold with party. During The Walk in the Thundermaw Mountains, she was partially turned to Aetherglass but saved by dwarven clerics. In Harmonia, she lost her arm in a sawmill accident but was later stabilized. She was unconscious during the final battle but recovered. She and Mask developed a close relationship, and she accompanied the party to Tempest's Watch. Current status: Alive, recovering from memory loss due to Harmonia loops, in a relationship with Mask.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-070", "CHAR-071", "CHAR-072", "CHAR-083", "CHAR-084", "CHAR-085", "CHAR-086", "CHAR-087", "CHAR-088", "CHAR-089", "CHAR-090", "CHAR-091", "CHAR-092", "CHAR-093", "CHAR-094", "CHAR-095", "CHAR-096", "CHAR-097", "CHAR-099", "ITEM-013", "LOC-026", "LOC-075", "LOC-076", "LOC-077", "LOC-082", "EVENT-040", "EVENT-041", "EVENT-047", "EVENT-049", "EVENT-050", "EVENT-051", "EVENT-052", "EVENT-055", "EVENT-056", "EVENT-058", "EVENT-064", "EVENT-067", "QUEST-015", "QUEST-016"]
   },
   {
     "ID": "CHAR-070",
     "Type": "NPC",
-    "Name": "Jorren and Megara Vale",
+    "Name": "Jorren and Megara Vale (Updated)",
     "Session": "42",
-    "Content": "Met in Session 42 at their dining hall in Drifthold. Gnome mage twins controlling one of Drifthold's walking legs. Eccentric, unsettling, seated at opposite ends of enormous table. Came from Solara possibly as punishment, gathered army of orcs/goblins in nearby mountains, conquered their domain about 3 years ago. Plan to control every leg of Drifthold. In Session 42, assigned party tasks after blood pact completion: deal with sewer mage and kill Garrick Rathorn. Threatened party with grotesque experimentation. Current status: Alive, controlling leg of Drifthold.",
-    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-046", "CHAR-069", "CHAR-071", "LOC-008", "LOC-026", "EVENT-040", "QUEST-010", "QUEST-015"]
+    "Content": "Duplicate of CHAR-046. See CHAR-046 for details. Included for reference only.",
+    "Related": ["CHAR-046"]
   },
   {
     "ID": "CHAR-071",
     "Type": "NPC",
     "Name": "Garrick Rathorn",
     "Session": "42",
-    "Content": "Never met directly, discussed by Vales. Another leg mage of Drifthold, longest-tenured. Described by Vales as past his prime. Target of assassination plot so Lyanna Vale can take his domain. Current status: Alive, controlling leg of Drifthold.",
+    "Content": "Leg mage of Drifthold targeted for assassination by Vales. Unchanged.",
     "Related": ["CHAR-069", "CHAR-070", "LOC-008", "QUEST-015"]
   },
   {
@@ -572,23 +572,23 @@
     "Type": "NPC",
     "Name": "Lucien Shinwell",
     "Session": "43",
-    "Content": "Met in Session 43 in a hidden chamber within the sewers beneath Vale Keep. A young man from the Shinwell Family of the Astral Order and Astral Academy, of mixed human and elf heritage. Well-dressed in fine clothes. Intelligent, determined, and stranded on Eryndor after his planar travel magic failed during his Planar Galavant. Revealed himself as Lyanna Vale's uncle, sent to rescue her and her mother Anorra (his sister) who is still trapped in Solara. Knowledgeable about cosmic lore, including the mythic Thunderwell Library and the giant Ormen the World-Breaker. Seeking a way back to Solara with Lyanna, with 'Rusty' Lou as a potential lead. Current status: Alive, allied with the party to reach Solara.",
-    "Related": ["CHAR-069", "CHAR-073", "CHAR-075", "LOC-008", "LOC-062", "EVENT-041", "QUEST-015", "QUEST-016"]
+    "Content": "Young mage from Solara, Lyanna's uncle, stranded on Eryndor. Helped party. After Xyrx's defeat, he remained with the party. Current status: Alive, likely at Cloudfoot Keep.",
+    "Related": ["CHAR-069", "CHAR-073", "CHAR-075", "LOC-008", "LOC-062", "EVENT-041", "EVENT-045", "QUEST-015", "QUEST-016"]
   },
   {
     "ID": "CHAR-073",
     "Type": "NPC",
     "Name": "\"Rusty\" Lou",
     "Session": "44",
-    "Content": "Met in Session 44 at The Cogwheel workshop. A stocky gnome (possibly half-gnome, half-dwarf) with soot-marked appearance. Brilliant but desperate inventor and teleportation specialist. Owes The Glint Syndicate 100,000 gold for Aetherglass purchased to help Zephara Moonveil return to Solara. Created a teleportation machine capable of reaching Solara, which he dismantled and packed into Bags of Holding for transport. Knowledgeable about Aetherglass sources in the Thundermaw Range. Currently has a Glint Syndicate debt mark burned into his arm for tracking. After Lloyd Pershing's disappearance in Session 47, Lou attempted to fill the empty spot beside Arc en Ciel. To display his skills and value, he built a functional camping stove for her in approximately two hours while residing at Cloudfoot Keep. Current status: Alive, allied with the party, traveling with them to acquire Aetherglass and rebuild his machine.",
-    "Related": ["CHAR-004","CHAR-072", "CHAR-078", "ITEM-011", "LOC-063", "LOC-064", "EVENT-043", "QUEST-016", "QUEST-018"]
+    "Content": "Gnome-dwarf tinkerer and teleportation specialist. Helped party reach Solara. In Session 71, he built a specialized stove for Arc using Beholder components. He shares Arc's taste for unusual cuisine. Current status: Alive, at Cloudfoot Keep, working on teleportation machine.",
+    "Related": ["CHAR-004", "CHAR-072", "CHAR-078", "ITEM-011", "LOC-063", "LOC-064", "EVENT-043", "EVENT-045", "EVENT-067", "QUEST-016", "QUEST-018"]
   },
   {
     "ID": "CHAR-074",
     "Type": "NPC",
     "Name": "Branthor the Thunderheart",
     "Session": "43",
-    "Content": "Heard of in Session 43 through Lord Crimm's message. A giant who claims the title 'Storm Lord.' Has sent an emissary to Drifthold to declare dominion over the city, claiming his forces are already hidden within it. Negotiations are ongoing with the King of Drifthold. Current status: Alive, location unknown, threatening Drifthold.",
+    "Content": "Giant Storm Lord threatening Drifthold. Unchanged.",
     "Related": ["CHAR-035", "EVENT-042", "QUEST-017"]
   },
   {
@@ -596,15 +596,15 @@
     "Type": "NPC",
     "Name": "Ormen the World-Breaker",
     "Session": "43",
-    "Content": "Heard of in Session 43 from Lucien Shinwell. A powerful giant who laid claim to the city of Vortemark, north of Drifthold. Arrived with an army of storm-touched soldiers and, over two days, slaughtered and destroyed much of the city before declaring himself the 'Storm Lord' and ruler of the land. Wields powerful and mysterious storm magic himself. Considered extremely dangerous even by the powerful mage Shinwell. Current status: Alive, ruling Vortemark.",
-    "Related": ["CHAR-072"]
+    "Content": "Giant Storm Lord who conquered Vortemark. Seen in vision inside the egg. Unchanged.",
+    "Related": ["CHAR-072", "LOC-073", "EVENT-051"]
   },
   {
     "ID": "CHAR-076",
     "Type": "NPC",
     "Name": "Lucan Brightmere",
     "Session": "42",
-    "Content": "Met in Session 42 at The Ever-Burning Temple. The Radiant (High Priest) of the temple. Agreed to help with the party's prisoner Zrak'Torr. Performed a powerful purification ritual using Yondar's flame, drawing out and capturing a corrupting essence from Zrak'Torr, removing his extra eyestalks. Explained Yondar's teachings on redemption, that it does not exempt from punishment but extends to the eternal soul. Confirmed Zrak'Torr possessed a true soul. Current status: Alive, leading the Ever-Burning Temple and overseeing Zrak'Torr's redemption.",
+    "Content": "Radiant (High Priest) of Ever-Burning Temple. Purified Zrak'Torr. Unchanged.",
     "Related": ["CHAR-026", "CHAR-062", "LOC-012", "EVENT-039"]
   },
   {
@@ -612,15 +612,15 @@
     "Type": "NPC",
     "Name": "Leon Gravix (\"Vix\")",
     "Session": "45",
-    "Content": "Met in Session 45 at The Crackling Wand magic shop. Young man living under the alias 'Vix', working as an enchanter. Former researcher from Stormhaven who uncovered patterns in the storms. Carries dozens of notebooks detailing his research. Revealed the 51-year cycle of cataclysms that destroy Eryndor's advanced cities. Knowledgeable about historical artifacts like The Tempest's Prism and Yondar's Lantern. Warned the party about the imminent cataclysm, possibly manifesting as the war with Storm Lords. Current status: Alive, evacuated from Drifthold and traveling with the party.",
-    "Related": ["ITEM-007", "ITEM-012", "LOC-065", "LOC-066", "EVENT-044", "QUEST-017", "QUEST-018"]
+    "Content": "Researcher who uncovered 51-year cataclysm cycle. Evacuated with party. In Session 56, Mask asked him for storm data from Tempest's Watch, which Eredan agreed to gather. Current status: Alive, at Cloudfoot Keep, analyzing data.",
+    "Related": ["ITEM-007", "ITEM-012", "LOC-065", "LOC-066", "EVENT-044", "EVENT-045", "QUEST-017", "QUEST-018"]
   },
   {
     "ID": "CHAR-078",
     "Type": "NPC",
     "Name": "Mikk \"Scab\" Snikk",
     "Session": "44",
-    "Content": "Met in Session 44 at The Cogwheel. Well-dressed Skaven (ratfolk) debt collector for The Glint Syndicate, working for his brother and sister-in-law. Pragmatic and business-focused. Initially demanded payment for 'Rusty' Lou's debt, but negotiated with Fauda after learning about the Storm Lord threat to Drifthold. Allowed the party to take Lou in exchange for assuming responsibility for the debt. Burned the Glint Syndicate tracking mark into Lou's arm. Current status: Alive, managing Syndicate operations in Drifthold.",
+    "Content": "Skaven debt collector for Glint Syndicate. Unchanged.",
     "Related": ["CHAR-073", "ITEM-011", "LOC-063", "EVENT-043"]
   },
   {
@@ -628,31 +628,167 @@
     "Type": "NPC",
     "Name": "Yedda",
     "Session": "45",
-    "Content": "Mentioned in Session 45. Wife of Korr the Braxat. Evacuated from Drifthold with their son Tarr due to the Storm Lord threat. Traveling with the party for protection. Current status: Alive, traveling with the group.",
-    "Related": ["CHAR-061"]
+    "Content": "Korr's wife. Unchanged.",
+    "Related": ["CHAR-061", "EVENT-045"]
   },
   {
     "ID": "CHAR-080",
     "Type": "NPC",
     "Name": "Tarr",
     "Session": "45",
-    "Content": "Mentioned in Session 45. Son of Korr and Yedda. Evacuated from Drifthold with his parents due to the Storm Lord threat. Traveling with the party for protection. Current status: Alive, traveling with the group.",
-    "Related": ["CHAR-061", "CHAR-079"]
+    "Content": "Korr's son. In Session 71, playing with changeling children at Cloudfoot Keep. Current status: Alive.",
+    "Related": ["CHAR-061", "CHAR-079", "EVENT-067"]
   },
-{
+  {
     "ID": "CHAR-081",
     "Type": "NPC",
     "Name": "Calyx Newdusk",
     "Session": "46",
-    "Content": "Met in Session 46 inside the magical bottle prison. A well-dressed, very large elf bounty hunter from Solara. Hovered above the battlefield to negotiate. Stated he was paid 8,000 gold by House Duskvale to capture and return the party, specifically believing Fauda to be Gloriosa. The bounty was issued because the party destroyed a gathering facility operated by House Honey, causing financial loss for powerful individuals. Open to negotiation as a mercenary but committed to his job. Notable capabilities include flight, charming magic, and use of magical imprisonment technology. After being severely injured in Session 47, he smoke-stepped through the air and dove into the shrinking black pyramid where Lloyd Pershing was trapped. The bottle prison then shattered. Current status: Alive, escaped into the pyramid with Lloyd Pershing. Whereabouts unknown.",
-    "Related": ["CHAR-002", "CHAR-012", "CHAR-082"]
+    "Content": "Elf bounty hunter from Solara. Trapped in pyramid with Lloyd. Unchanged.",
+    "Related": ["CHAR-002", "CHAR-012", "CHAR-082", "EVENT-046"]
   },
-{
+  {
     "ID": "CHAR-082",
     "Type": "NPC",
     "Name": "Lloyd Pershing",
     "Session": "23",
-    "Content": "First appeared in Session 23 as Lord Bainridge's Solaran Honor Guard. A handsome, easygoing man who served House Honey of Solara. Captured by the party after they defeated The Protector/Collector. Initially arrogant, he became cooperative when offered freedom in exchange for assistance. Can read runes, demonstrating this ability in Cloudfoot Keep. Has extensive knowledge of Solara's society, including its magical accessibility and Bottle Kingdoms. Became a resident attendant of Cloudfoot Keep, developing a close relationship with Arc en Ciel. In Session 46, he followed the party out of concern during an ambush, was drawn into a magical bottle prison, and was thrown into a mysterious black pyramid within the prison realm from which he cannot exit. In Session 47, after the bottle shattered, he was taken with Calyx Newdusk. Communicated via message to Fauda that he is alive in a cell somewhere, hooded and moved, but does not know if he is safe. Current status: Alive, captured with Calyx Newdusk.",
-    "Related": ["CHAR-004", "CHAR-006", "CHAR-081", "LOC-001", "LOC-068"]
-}
+    "Content": "Former Solaran honor guard, now captive with Calyx. Unchanged.",
+    "Related": ["CHAR-004", "CHAR-006", "CHAR-081", "LOC-001", "LOC-068", "EVENT-046"]
+  },
+  {
+    "ID": "CHAR-083",
+    "Type": "NPC",
+    "Name": "Manfred",
+    "Session": "49",
+    "Content": "Human male in his sixties, former soldier, tavern owner from Duskwatch. Led refugees from Storm Lord massacre. Gave party key to his tavern. Current status: Alive, leading refugees toward Duskriven Hold.",
+    "Related": ["LOC-069", "LOC-070", "LOC-071", "LOC-072", "EVENT-048", "QUEST-019"]
+  },
+  {
+    "ID": "CHAR-084",
+    "Type": "NPC",
+    "Name": "Kalithyra Xylan (Kali)",
+    "Session": "57",
+    "Content": "Vyphira's mother, a lithe female dragonborn and skilled crafter. Was trapped in Harmonia as a clone, working on the clocktower, and did not recognize Vy initially. After Xyrx's defeat, she was rescued and reunited with her family in Tempest's Watch. She now serves on a council to help integrate rescued captives. She is the original owner of The Hidebinder's Blessing tools. Current status: Alive, reunited with family, serving on council.",
+    "Related": ["CHAR-003", "CHAR-018", "CHAR-065", "CHAR-086", "CHAR-088", "ITEM-015", "ITEM-016", "LOC-003", "LOC-076", "EVENT-052", "EVENT-057", "EVENT-062", "EVENT-064", "EVENT-065", "QUEST-002"]
+  },
+  {
+    "ID": "CHAR-085",
+    "Type": "NPC",
+    "Name": "Velkor Astryx",
+    "Session": "64",
+    "Content": "Amethyst Dragonborn, owner of the Bonewright's Instruments (Amethyst tools). Came to Xyrx's lair seeking his stolen tools. Was petrified during the fight with Xyrx but restored by a summoned unicorn. He is a skilled carver and knife-fighter. He developed a romantic relationship with Vyphira and accompanied the party to Cloudfoot Keep, where he began crafting a cloak for her. Current status: Alive, at Cloudfoot Keep, in a relationship with Vy.",
+    "Related": ["CHAR-003", "CHAR-084", "CHAR-099", "ITEM-017", "LOC-001", "EVENT-052", "EVENT-063", "EVENT-064", "EVENT-067", "QUEST-002", "QUEST-021"]
+  },
+  {
+    "ID": "CHAR-086",
+    "Type": "NPC",
+    "Name": "Professor Hubert Aurelio Threxian Valamyr Greywhisker",
+    "Session": "64",
+    "Content": "A rabbit-like humanoid from Solara, a prisoner forced to work for Xyrx. He is a skilled replicator and creator of clones. He helped the party by jamming Xyrx's armor and later provided bottles and rune knowledge. After Xyrx's defeat, he chose to come to Cloudfoot Keep to oversee the bottled Harmonia. He showed interest in Vy's mother but was rejected, and later became involved with Talzira Frostfang. Current status: Alive, at Cloudfoot Keep, managing Harmonia bottle.",
+    "Related": ["CHAR-084", "CHAR-090", "CHAR-097", "CHAR-098", "ITEM-023", "LOC-001", "LOC-068", "LOC-076", "EVENT-052", "EVENT-063", "EVENT-064", "EVENT-067", "QUEST-002", "QUEST-021"]
+  },
+  {
+    "ID": "CHAR-087",
+    "Type": "NPC",
+    "Name": "Callie Black",
+    "Session": "70",
+    "Content": "A strikingly beautiful young woman wearing a black dress and black witch's hat. Sister of Mira Black from the Blackcloud Coven (thirteen sisters). She is friendly but carries an amused, secretive demeanor. She knows Gloriosa well and approached Fauda in Tempest's Watch. She gave Fauda a yellow-metal bracelet charm shaped like a star with a face, attached it to Fauda's bracelet, then kissed Fauda and vanished. She warned that concern is growing in Caeloria about Lady Seriss's upcoming marriage and that the Blackcloud Coven cannot contact her. Current status: Alive, whereabouts unknown.",
+    "Related": ["CHAR-002", "CHAR-006", "CHAR-012", "CHAR-060", "LOC-003", "EVENT-065", "QUEST-023"]
+  },
+  {
+    "ID": "CHAR-088",
+    "Type": "NPC",
+    "Name": "Eredan Windsight (Beaconmaster)",
+    "Session": "56",
+    "Content": "Beaconmaster of Tempest's Watch, a man with half his body scarred by lightning. He was struck by lightning while repairing the beacon and survived, gaining lightning powers. He experienced a vision of a red building on a tranquil path with words: 'The cradle is still in this house of wonder, and protects what must remain unbroken.' He is of mixed heritage (pointed ears, greenish skin, bridgeless nose). He provided Mask with schematics for experimental gloves and gemstone disks. He also agreed to gather storm data for Leon Gravix. Current status: Alive, running Tempest's Watch.",
+    "Related": ["CHAR-001", "CHAR-077", "ITEM-024", "LOC-003", "EVENT-057", "EVENT-066", "QUEST-024"]
+  },
+  {
+    "ID": "CHAR-089",
+    "Type": "NPC",
+    "Name": "Hearthwin Lorn",
+    "Session": "57",
+    "Content": "A plump firbolg who serves as the greeter at the entrance of Harmonia. He welcomes newcomers with excessive cheerfulness and offers tours. He appears in every loop, unaware of the repetitions. Current status: Clone? Inhabitant of Harmonia, still in the bottled town.",
+    "Related": ["LOC-076", "EVENT-058"]
+  },
+  {
+    "ID": "CHAR-090",
+    "Type": "NPC",
+    "Name": "WES (Protocol W-35)",
+    "Session": "57",
+    "Content": "A cloud-folk figure (floating cloud with a face) who serves as the official tour guide of Harmonia. He is obsessively dedicated to giving tours, even when his hut burns down. He wears clothing but hovers. He is bound to serve Harmonia similarly to Cloudfoot Keep's servants. Current status: In Harmonia bottle.",
+    "Related": ["CHAR-086", "LOC-076", "EVENT-058"]
+  },
+  {
+    "ID": "CHAR-091",
+    "Type": "NPC",
+    "Name": "Old Tamsin",
+    "Session": "57",
+    "Content": "A towering, broad, wild-eyed man, nearly feral, over 10 feet tall. He is the only resident of Harmonia who remembers the loops, repeatedly warning of 'the hunger below.' He is frequently jailed for causing disturbances. He directed the party to the mine shaft. Current status: In Harmonia bottle.",
+    "Related": ["LOC-076", "EVENT-058", "EVENT-060"]
+  },
+  {
+    "ID": "CHAR-092",
+    "Type": "NPC",
+    "Name": "Sheriff Gorrum Hale",
+    "Session": "57",
+    "Content": "An orc dressed as sheriff, carrying an advanced repeating rifle. He is strict, efficient, and extremely accurate with his firearm. He was originally a creature from the Plane of Mechanus before being transformed by Xyrx. He does not remember loops. Current status: In Harmonia bottle.",
+    "Related": ["LOC-076", "EVENT-058", "EVENT-060"]
+  },
+  {
+    "ID": "CHAR-093",
+    "Type": "NPC",
+    "Name": "Dr. Lysa Fenwick",
+    "Session": "57",
+    "Content": "A halfling doctor and cleric of Yondar who runs the Harmonia Wellness Center. She cannot regrow limbs but can stabilize patients. She was captured and cloned. Current status: In Harmonia bottle.",
+    "Related": ["CHAR-026", "LOC-076", "EVENT-058"]
+  },
+  {
+    "ID": "CHAR-094",
+    "Type": "NPC",
+    "Name": "Alton Fairwright",
+    "Session": "59",
+    "Content": "The rotund, jovial mayor of Harmonia, wearing an eyeball pendant necklace. He is the grandson of founder Francis Fairwright. He is friendly but forgetful, especially when pressed about the town's history. He gave the party a history book with missing pages. Current status: In Harmonia bottle.",
+    "Related": ["CHAR-095", "CHAR-096", "CHAR-097", "LOC-076", "LOC-079", "EVENT-060", "EVENT-064"]
+  },
+  {
+    "ID": "CHAR-095",
+    "Type": "NPC",
+    "Name": "Francis Fairwright",
+    "Session": "59",
+    "Content": "Deceased founder of Harmonia and the sawmill, depicted in statues and paintings with an unnaturally wide smile and a third eye on his forehead. His face is carved into statues throughout the town. He is the grandfather of Alton Fairwright. Historical figure, not encountered alive.",
+    "Related": ["CHAR-094", "LOC-076", "LOC-077", "EVENT-060"]
+  },
+  {
+    "ID": "CHAR-096",
+    "Type": "NPC",
+    "Name": "Manfred Fairwright",
+    "Session": "60",
+    "Content": "Son of Francis Fairwright and father of Alton. He ruled Harmonia for only eight years before disappearing. He became paranoid and obsessive about a Beholder (Xyrx) in his dreams. He began mining beneath Harmonia, believing something important was buried. His journal revealed he may have murdered his father. A living skin husk of Manfred was fought in Xyrx's lair. Current status: Deceased, but his husk was destroyed.",
+    "Related": ["CHAR-065", "CHAR-094", "LOC-068", "EVENT-052", "EVENT-064"]
+  },
+  {
+    "ID": "CHAR-097",
+    "Type": "Organization",
+    "Name": "House Octo",
+    "Session": "67",
+    "Content": "A noble house from Solara that funded and supported Xyrx the Collector. They provided him with magical armor, funding, and workers (including Professor Hubert) in exchange for his work creating perfect cities. Their sigil is an octopus. They are the current antagonists backing Xyrx's operations. Current status: Active in Solara, likely aware of Xyrx's defeat.",
+    "Related": ["CHAR-065", "CHAR-086", "ITEM-021", "ITEM-023", "LOC-011", "LOC-068", "LOC-091", "EVENT-052", "EVENT-062", "EVENT-064", "QUEST-018", "QUEST-021", "QUEST-022"]
+  },
+  {
+    "ID": "CHAR-098",
+    "Type": "NPC",
+    "Name": "Talzira Frostfang",
+    "Session": "71",
+    "Content": "A young Dragonborn alchemist from Tempest's Watch, known to Vyphira in passing. She is a skilled potion craftsperson. She became involved with Professor Hubert after the feast, and he plans to bring her to Cloudfoot Keep. Current status: Alive, possibly traveling with Hubert.",
+    "Related": ["CHAR-003", "CHAR-086", "LOC-003", "EVENT-067"]
+  },
+  {
+    "ID": "CHAR-099",
+    "Type": "NPC",
+    "Name": "Bojangles the Unicorn",
+    "Session": "69",
+    "Content": "An unusually relaxed and easygoing unicorn summoned by Mask's Wild Magic during the battle with Xyrx in Harmonia. He restored Velkor from petrification and then flew up and vanished back to the Feywild. Not a recurring NPC, but notable.",
+    "Related": ["CHAR-001", "CHAR-085", "EVENT-064"]
+  }
 ]

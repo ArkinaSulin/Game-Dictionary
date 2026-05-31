@@ -5,7 +5,7 @@
     "Name": "Stormheart Amulet",
     "Session": "2",
     "Content": "A powerful red amulet made from the heart of a dragon slain by the first Stormrider. It protects the kingdom of Caeloria from the violent storms by powering protective runes. Stolen by Lady Seriss Stormrider, then stolen from her by Zephara Moonveil. The party was hired by Lord Kaelen Stormrider to recover it.",
-    "Related": ["EVENT-035", "QUEST-013", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-025", "CHAR-060"]
+    "Related": ["EVENT-035", "QUEST-013", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-025", "CHAR-060", "LOC-031"]
   },
   {
     "ID": "ITEM-002",
@@ -13,15 +13,15 @@
     "Name": "Hammer and Crown Sigil Set",
     "Session": "4",
     "Content": "A pendant, ring, and owl statuette made of an unknown damascus-like metal with a crown over a hammer sigil. Found in a false-bottomed chest in an underground manor. The jeweler at The Shimmering Vault recognized their immense value, leading to a confrontation with Eldar Joven. Identified as belonging to the lost noble House Ironborn of Solara.",
-    "Related": ["EVENT-033", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-057"]
+    "Related": ["EVENT-033", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-057", "LOC-073"]
   },
   {
     "ID": "ITEM-003",
     "Type": "Item",
     "Name": "Keledar Codex",
     "Session": "9",
-    "Content": "A thick, locked tome with a telescope/eyeball sigil on the cover, written in an ancient runic code. Housed in Hargrave Manor. The party retrieved it for Johnny Whisper in exchange for information. It was written by the founders of the Thunderwell Library and is nearly impossible to decipher without a key book from that library.",
-    "Related": ["EVENT-032", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-056"]
+    "Content": "A thick, locked tome with a telescope/eyeball sigil on the cover, written in an ancient runic code. Housed in Hargrave Manor. The party retrieved it for Johnny Whisper in exchange for information. It was written by the founders of the Thunderwell Library and is nearly impossible to decipher without a key book from that library. Connected to the Council of Keledar.",
+    "Related": ["EVENT-032", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-056", "LOC-053", "LOC-054", "QUEST-020"]
   },
   {
     "ID": "ITEM-004",
@@ -29,7 +29,7 @@
     "Name": "Zephara's Ring",
     "Session": "15",
     "Content": "A ring with an Eye and Sword sigil, stolen by Lady Seriss from Zephara Moonveil. The party found it beneath a couch in The Archivum. The sigil belongs to the 'Eye of the Everbound' of Solara. It was the key that triggered the trap in the high room of The Archivum.",
-    "Related": ["EVENT-035", "QUEST-013", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-025"]
+    "Related": ["EVENT-035", "QUEST-013", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-006", "CHAR-025", "LOC-031", "LOC-052"]
   },
   {
     "ID": "ITEM-005",
@@ -37,7 +37,7 @@
     "Name": "Cloudfoot Keep Pendant",
     "Session": "18",
     "Content": "A pendant with a Mouse and Sword sigil found on the mummified body of Revyn Trask in a forest caravan. It is the key that activates and grants mastery over the mobile, ancient fortress known as Cloudfoot Keep. The sigil belongs to House Truemouse of Solara.",
-    "Related": ["EVENT-034", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005"]
+    "Related": ["EVENT-034", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-001"]
   },
   {
     "ID": "ITEM-006",
@@ -45,31 +45,31 @@
     "Name": "House Goodhare Contract",
     "Session": "19",
     "Content": "A contractual receipt found in Cloudfoot Keep detailing an agreement between Revyn Trask (House Truemouse) and House Goodhare of Solara. It outlines the collection of flora, fauna, settlements, and local humanoids from the world, with a one-year time frame. Connects to mysteries like the vanishing of Varethis.",
-    "Related": ["EVENT-034", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-025"]
+    "Related": ["EVENT-034", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-025", "LOC-001"]
   },
   {
     "ID": "ITEM-007",
     "Type": "Item",
     "Name": "Leon Gravix's Notes",
     "Session": "17",
-    "Content": "Research notes from the rogue mage Leon Gravix, given to the party by Vanessa Quillspike. They contain the breakthrough that 'Solara' is a city and suggest that Stormhaven's advanced storm-harnessing knowledge appeared fully formed, not developed organically. A key to understanding the deeper world conspiracy.",
-    "Related": ["EVENT-031", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-077"]
+    "Content": "Research notes from the rogue mage Leon Gravix, given to the party by Vanessa Quillspike. They contain the breakthrough that 'Solara' is a city and suggest that Stormhaven's advanced storm-harnessing knowledge appeared fully formed, not developed organically. A key to understanding the deeper world conspiracy. Expanded by later notebooks.",
+    "Related": ["EVENT-031", "QUEST-012", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-077", "LOC-065", "LOC-066", "EVENT-044"]
   },
   {
     "ID": "ITEM-008",
     "Type": "Item",
     "Name": "Fauda's Charm Bracelet",
     "Session": "39",
-    "Content": "A charm bracelet belonging to Fauda that was gifted by her sister Gloriosa with a new blue stone charm featuring a crescent moon with a face resembling both sisters. The charm pulses with lunar and twin magic essence, serving as a symbolic reconciliation gift between the estranged sisters.",
-    "Related": ["EVENT-028", "EVENT-013", "QUEST-007", "CHAR-002", "CHAR-012"]
+    "Content": "A charm bracelet belonging to Fauda that was gifted by her sister Gloriosa with a new blue stone charm featuring a crescent moon with a face resembling both sisters. The charm pulses with lunar and twin magic essence, serving as a symbolic reconciliation gift between the estranged sisters. Later enhanced by Callie Black with an additional star charm.",
+    "Related": ["EVENT-028", "EVENT-013", "QUEST-007", "CHAR-002", "CHAR-012", "CHAR-087"]
   },
   {
     "ID": "ITEM-009",
     "Type": "Item",
     "Name": "Vy's Ancestral Tools",
     "Session": "29",
-    "Content": "A set of specialized armor-making tools that were stolen from Vy by her former friend Voraxik Valarnn. The tools are essential for creating Vy's patented leather armor design and are being sought by a beholder named Xyrx the Collector who is forcing various thieves to acquire them.",
-    "Related": ["EVENT-015", "EVENT-038", "EVENT-039", "QUEST-002", "CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-065"]
+    "Content": "A set of specialized armor-making tools that were stolen from Vy by her former friend Voraxik Valarnn. The tools are essential for creating Vy's patented leather armor design and are being sought by a beholder named Xyrx the Collector who is forcing various thieves to acquire them. One of the nine Tools of Creation (Hidebinder's Blessing, later recovered).",
+    "Related": ["EVENT-015", "EVENT-038", "EVENT-039", "QUEST-002", "CHAR-003", "CHAR-016", "CHAR-018", "CHAR-019", "CHAR-020", "CHAR-030", "CHAR-062", "CHAR-065", "LOC-004", "LOC-005", "LOC-027", "LOC-034", "EVENT-015", "EVENT-038", "EVENT-039"]
   },
   {
     "ID": "ITEM-010",
@@ -77,15 +77,15 @@
     "Name": "Draconic Boons",
     "Session": "38",
     "Content": "Magical enhancements bestowed by Lord Halen Crimm by inscribing draconic runes directly into the flesh of party members using his dragon claw. These boons provide permanent magical benefits and represent the gratitude of the dragon lord for rescuing his daughter Alira.",
-    "Related": ["EVENT-027", "EVENT-021", "QUEST-009", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-036"]
+    "Related": ["EVENT-027", "EVENT-021", "QUEST-009", "CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-035", "CHAR-036", "LOC-013"]
   },
   {
     "ID": "ITEM-011",
     "Type": "Item",
     "Name": "Aetherglass",
     "Session": "44",
-    "Content": "An extremely rare and valuable substance formed in mountains when natural gold deposits are struck by magically-imbued lightning and left to transform over at least a thousand years. Appears as rainbow-hued glass about as hard as a ruby. Difficult to mine. Used by 'Rusty' Lou for his teleportation machine to reach Solara. Can be purchased from tribes in the Thundermaw Range.",
-    "Related": ["EVENT-043", "QUEST-016", "QUEST-018", "CHAR-073", "CHAR-077"]
+    "Content": "An extremely rare and valuable substance formed in mountains when natural gold deposits are struck by magically-imbued lightning and left to transform over at least a thousand years. Appears as rainbow-hued glass about as hard as a ruby. Difficult to mine. Used by 'Rusty' Lou for his teleportation machine to reach Solara. Can be purchased from tribes in the Thundermaw Range. The party obtained a large chunk after completing The Walk.",
+    "Related": ["EVENT-043", "QUEST-016", "QUEST-018", "CHAR-073", "CHAR-077", "LOC-075", "EVENT-055"]
   },
   {
     "ID": "ITEM-012",
@@ -93,22 +93,102 @@
     "Name": "Leon's Research Notebooks",
     "Session": "45",
     "Content": "Dozens of notebooks containing Leon Gravix's research on storm patterns and historical cataclysms. Reveal the 51-year cycle of destruction that targets Eryndor's most advanced cities and document historical artifacts like The Tempest's Prism, Yondar's Lantern, The Conductor's Crown, The Anchor of the Ancients, and The Veil of Ashara.",
-    "Related": ["EVENT-044", "QUEST-017", "QUEST-018", "CHAR-077"]
+    "Related": ["EVENT-044", "QUEST-017", "QUEST-018", "CHAR-077", "LOC-065", "LOC-066"]
   },
-{
-  "ID": "ITEM-013",
-  "Type": "Item",
-  "Name": "Dagger of the Broken Moon",
-  "Session": "48",
-  "Content": "Discovered in Session 48 when Lyanna Vale used it in combat. A magical dagger with a blade made from a sharp shard of pale white moon-rock, likely a piece of the goddess Tana. Gifted to Lyanna by her mother when she was seven years old. Requires attunement. Magical properties: anyone stabbed by it becomes frightened of the wielder. When examined by Mask and Fauda through prayer, the dagger glowed with both Tana's purple light and Nyxara's blue light. Divine insight revealed it contains equal power from both goddesses, that both are alive, and that they are 'one but not identical'. Only Lyanna Vale can use this particular dagger. Enhances Lyanna's innate magical abilities, though she claims no knowledge of where her magic originates.",
-  "Related": ["CHAR-001", "CHAR-002", "CHAR-069", "CHAR-028", "CHAR-033", "EVENT-047"]
-},
-{
-  "ID": "ITEM-014",
-  "Type": "Item",
-  "Name": "Vyphira's Custom Armor",
-  "Session": "29",
-  "Content": "A custom suit of armor being crafted by Vyphira herself, representing her skill as an artisan and her Dragonborn heritage. The project began after she discovered her original stolen armor design for sale in Tempest's Refuge. The armor incorporates special materials and design elements: 1) Sharkskin armor plating and cured boar hide for additional protection, worked on in Session 47; 2) Plans for 'Version 2.0' with improved design, mentioned in Session 47; 3) Incorporation of craftsmanship knowledge from the special tools she seeks to recover. This armor is more than equipment - it's a personal project tied to her identity, quest for stolen tools, and understanding of her heritage. Current status: In development, with multiple components being crafted.",
-  "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "ITEM-009", "QUEST-002"]
-}
+  {
+    "ID": "ITEM-013",
+    "Type": "Item",
+    "Name": "Dagger of the Broken Moon",
+    "Session": "48",
+    "Content": "Discovered in Session 48 when Lyanna Vale used it in combat. A magical dagger with a blade made from a sharp shard of pale white moon-rock, likely a piece of the goddess Tana. Gifted to Lyanna by her mother when she was seven years old. Requires attunement. Magical properties: anyone stabbed by it becomes frightened of the wielder. When examined by Mask and Fauda through prayer, the dagger glowed with both Tana's purple light and Nyxara's blue light. Divine insight revealed it contains equal power from both goddesses, that both are alive, and that they are 'one but not identical'. Only Lyanna Vale can use this particular dagger. Enhances Lyanna's innate magical abilities.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-069", "CHAR-028", "CHAR-033", "EVENT-047", "LOC-076", "LOC-078"]
+  },
+  {
+    "ID": "ITEM-014",
+    "Type": "Item",
+    "Name": "Vyphira's Custom Armor",
+    "Session": "29",
+    "Content": "A custom suit of armor being crafted by Vyphira herself, representing her skill as an artisan and her Dragonborn heritage. The project began after she discovered her original stolen armor design for sale in Tempest's Refuge. The armor incorporates special materials and design elements: sharkskin armor plating, cured boar hide, and later Beholder hide for Version 2.0. Completed in Session 71 as Patented Armor Version 2.0 using Xyrx's hide. This armor is more than equipment - it's a personal project tied to her identity, quest for stolen tools, and understanding of her heritage. Current status: Completed.",
+    "Related": ["CHAR-003", "CHAR-016", "CHAR-018", "ITEM-009", "ITEM-022", "QUEST-002", "LOC-001", "EVENT-067"]
+  },
+  {
+    "ID": "ITEM-015",
+    "Type": "Item",
+    "Name": "The Scaleforge Torc",
+    "Session": "56",
+    "Content": "A copper torc with a dragon head on each end, left for Vyphira by her mother Kalithyra. Found wrapped in brown paper on her mother's desk in Tempest's Watch. Vibrates with energy and magic. Only a member of Vy's family can wear it. When worn, half of the torc transforms into Aetherglass while the other half remains copper. A family heirloom tied to the Hidebinder's Blessing tools.",
+    "Related": ["CHAR-003", "CHAR-084", "CHAR-088", "ITEM-009", "EVENT-057", "LOC-003"]
+  },
+  {
+    "ID": "ITEM-016",
+    "Type": "Item",
+    "Name": "The Hidebinder's Blessing (Copper Tools)",
+    "Session": "69",
+    "Content": "Vyphira's family heirloom leatherworker's tools, stolen from her mother and recovered from Xyrx's extradimensional storage after his defeat. One of the nine legendary Tools of Creation, associated with Copper Dragonborn. When Vy reacquired them, the tools felt different—thrumming with strange energy as if they had chosen her. Vy now works in harmony with them rather than merely using them. Current status: In Vy's possession.",
+    "Related": ["CHAR-003", "CHAR-084", "CHAR-065", "ITEM-009", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
+  },
+  {
+    "ID": "ITEM-017",
+    "Type": "Item",
+    "Name": "The Bonewright's Instruments (Amethyst Tools)",
+    "Session": "69",
+    "Content": "A set of bone-carver's tools belonging to Velkor Astryx, passed down from his grandfather. Used to inscribe and mark the bones of dragons and dragonborn with Draconic runes to preserve their history. One of the nine legendary Tools of Creation, associated with Amethyst Dragonborn. Recovered from Xyrx's extradimensional storage after his defeat. Current status: Returned to Velkor Astryx, now allied with the party.",
+    "Related": ["CHAR-085", "CHAR-084", "CHAR-065", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
+  },
+  {
+    "ID": "ITEM-018",
+    "Type": "Item",
+    "Name": "The Weaver's Tongue (Red Tools)",
+    "Session": "69",
+    "Content": "A set of tools associated with Red Dragonborn. One of the nine Tools of Creation. Previously collected by Xyrx from Sorrax Shieldweaver of Tempest's Refuge. Recovered from Xyrx's extradimensional storage after his defeat. Current status: In party's possession.",
+    "Related": ["CHAR-084", "CHAR-016", "CHAR-065", "LOC-091", "EVENT-063", "EVENT-064", "QUEST-002", "QUEST-021"]
+  },
+  {
+    "ID": "ITEM-019",
+    "Type": "Item",
+    "Name": "The Sparkwright's Trio (Brass Tools)",
+    "Session": "61",
+    "Content": "A set of three artificer's tools (caliper, small hammer, screwdriver) found hidden inside a fine leather case within a damaged clock face of Harmonia's clocktower. They bear a strange, almost draconic mark similar to but not identical with Vy's own tool markings. One of the nine legendary Tools of Creation, associated with Brass Dragonborn. The tools carry powerful magical resonance and were used in the construction of Harmonia's machinery. Recovered by Vy during the Harmonia loops.",
+    "Related": ["CHAR-003", "CHAR-084", "CHAR-065", "LOC-076", "LOC-080", "EVENT-058", "EVENT-061", "QUEST-002", "QUEST-018", "QUEST-021"]
+  },
+  {
+    "ID": "ITEM-020",
+    "Type": "Item",
+    "Name": "Ivy Crown of Prophecy",
+    "Session": "71",
+    "Content": "A decorative crown found beneath Zrak'tor Prime's bed within Xyrx's lair. Identified by Fauda as capable of casting the Divination spell once per day. A magical item of significant power, likely used by Xyrx or his servants for planning. Current status: In party's possession.",
+    "Related": ["CHAR-002", "CHAR-062", "CHAR-065", "LOC-091", "EVENT-062"]
+  },
+  {
+    "ID": "ITEM-021",
+    "Type": "Item",
+    "Name": "House Octo Medallion",
+    "Session": "67",
+    "Content": "A medallion made of fine, unidentifiable metal similar to the House Ironborn signet ring. Bears a sigil in the shape of an octopus. Found lodged within a chair cushion in Zrak'tor Prime's quarters after he teleported away. Likely a signet or badge of House Octo, a Solaran noble house that funded and supported Xyrx. May have fallen from a chain or necklace. Current status: In party's possession.",
+    "Related": ["CHAR-084", "CHAR-062", "CHAR-097", "LOC-068", "LOC-091", "EVENT-062", "QUEST-022"]
+  },
+  {
+    "ID": "ITEM-022",
+    "Type": "Item",
+    "Name": "Xyrx's Beholder Parts (Harvested)",
+    "Session": "69",
+    "Content": "After defeating Xyrx the Collector, Vy and Arc skinned the Beholder and harvested his massive central eye, all twenty smaller eyes, and his teeth. These components are extremely rare and valuable for magical crafting, potions, and armor. The hide was later used by Vy to complete her Patented Armor Version 2.0 (ITEM-014). Current status: Various parts stored or used.",
+    "Related": ["CHAR-003", "CHAR-004", "CHAR-065", "ITEM-014", "EVENT-064", "LOC-091"]
+  },
+  {
+    "ID": "ITEM-023",
+    "Type": "Item",
+    "Name": "Xyrx's Contract with House Octo",
+    "Session": "69",
+    "Content": "A contract discovered inside a map tube within Xyrx's extradimensional storage. Outlines an agreement between Xyrx the Collector and House Octo, a noble house from Solara. House Octo promised funding, magical armor, and workers in exchange for Xyrx's efforts in creating and perfecting cities, towns, and citizens (such as Harmonia). A key piece of evidence linking Solaran powers to the Beholder's operations. Current status: In party's possession.",
+    "Related": ["CHAR-065", "CHAR-097", "CHAR-086", "LOC-068", "LOC-091", "EVENT-064", "QUEST-018", "QUEST-022"]
+  },
+  {
+    "ID": "ITEM-024",
+    "Type": "Item",
+    "Name": "Eredan's Glove Schematics",
+    "Session": "70",
+    "Content": "A set of designs and plans for experimental gloves intended to enhance and manipulate lightning-based powers. Created by Eredan Windsight, Beaconmaster of Tempest's Watch, before he abandoned his experiments after an accident. Includes notes on gemstone configurations (Ruby-Emerald-Crystal-Crystal-Emerald-Ruby to convert lightning to fire, and other combinations). Accompanied by a crate of gemstone disks (Crystal, Ruby, Emerald, Sapphire, Topaz, Amethyst, Diamond, Aetherglass). Given to Mask as thanks for the party's actions. Vy plans to construct the gloves. Current status: Schematics and gemstones in party's possession.",
+    "Related": ["CHAR-001", "CHAR-003", "CHAR-088", "LOC-003", "EVENT-066", "EVENT-067", "QUEST-024"]
+  }
 ]
