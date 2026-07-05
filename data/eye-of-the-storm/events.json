@@ -534,5 +534,45 @@
     "Session": "71",
     "Content": "Session 71 – Cloudfoot Keep. The party traveled via Transport Via Plants to Cloudfoot Keep, which was three days from Gloomwatch Sanctum. They spent three days in downtime: Fauda and Mask trained with Drath to achieve Tier 1 Rune Magic; Vy completed her Patented Armor Version 2.0 (using Beholder skin) and worked on Eredan's gloves; Mask experimented with gemstone configurations; Arc trained Myconids and cooked with 'Rusty' Lou; Sili studied runes; Velkor crafted a cloak for Vy; the changeling children played with Tarr. Professor Hubert became involved with Talzira Frostfang. Outcome: Party leveled up, gained new abilities, and prepared for Gloomwatch Sanctum.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-015", "CHAR-073", "CHAR-085", "CHAR-086", "CHAR-098", "ITEM-014", "LOC-001", "LOC-093", "QUEST-008", "QUEST-024", "QUEST-025"]
+  },
+ {
+    "ID": "EVENT-048",
+    "Type": "event",
+    "Name": "Arrival at Gloomwatch Sanctum",
+    "Session": "71",
+    "Content": "The party arrived at Gloomwatch Sanctum via Transport Via Plants. They observed the city, met Denim Dan, and Mask sent a message to Jin arranging a meeting at Moonshadow Hall. They also discovered Umberlings and Vy acquired one as a pet.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-069", "CHAR-101", "LOC-024", "QUEST-021"]
+  },
+  {
+    "ID": "EVENT-049",
+    "Type": "event",
+    "Name": "Meeting Jin and The Gale's Plot Revealed",
+    "Session": "72",
+    "Content": "Mask met Jin at Moonshadow Hall. Jin revealed The Whispering Gale's plot to assassinate Queen Nythra and Princess Liriel, marry Prince Adrien to Morra Blackblood, and control Gloomwatch Sanctum to access a titan corpse unearthed beneath the city. The party learned about the real Dronin Telarran, whose identity Jin had stolen.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-069", "CHAR-103", "CHAR-104", "CHAR-105", "CHAR-107", "CHAR-108", "LOC-024", "QUEST-021"]
+  },
+  {
+    "ID": "EVENT-050",
+    "Type": "event",
+    "Name": "Confrontation at The Crystal Loom",
+    "Session": "73",
+    "Content": "The party followed Kalen to The Crystal Loom. Rhogar attacked Mask with Cone of Cold. Crystallite constructs formed from shattered vases. Kalen, Rhogar, and Pinglin escaped. City guards arrived. The party fled, and Fauda found a photograph of Gloriosa's family. Pinglin confirmed he was still in the city via message.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-025", "CHAR-029", "LOC-024", "EVENT-051"]
+  },
+  {
+    "ID": "EVENT-051",
+    "Type": "event",
+    "Name": "Simultaneous Attacks and Queen's Dinner",
+    "Session": "74-75",
+    "Content": "Attacks occurred at Guard HQ (chimeric rat) and Denim Dan's (Shambling Mound). The party defended both locations. Captain Greyjaw escorted them to meet Queen Nythra. At dinner, the party observed Morra Blackblood, Prince Adrien, Princess Liriel, and Merrick Stonesong. Mask identified Morra as a Gale agent. Fauda accepted an invitation from Princess Liriel to meet at Moonveil Springs.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-100", "CHAR-101", "CHAR-102", "CHAR-103", "CHAR-104", "CHAR-105", "CHAR-106", "CHAR-107", "LOC-024", "QUEST-021"]
+  },
+  {
+    "ID": "EVENT-052",
+    "Type": "event",
+    "Name": "Rescue of Dronin Telarran",
+    "Session": "76",
+    "Content": "The party entered the abandoned mine at 5:30 AM. They fought mercenaries, Glass Wardens, and a Tabaxling mage who escaped via Plane Shift. Mask was trapped in a Glass Warden Jailer but freed. The real Dronin was rescued, badly injured but alive. The party plans to reunite him with Princess Liriel.",
+    "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "CHAR-108", "CHAR-109", "LOC-026", "EVENT-051", "QUEST-021"]
   }
 ]

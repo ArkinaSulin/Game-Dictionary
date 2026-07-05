@@ -198,5 +198,13 @@
     "Session": "71",
     "Content": "Status: In Progress. The party set Cloudfoot Keep in motion toward Gloomwatch Sanctum, a subterranean city in the Upper Underdark. Their next destination after leaving Tempest's Watch. Goal: Arrive at Gloomwatch Sanctum, likely to resupply, gather information, or pursue leads related to Solara or the Tools of Creation. Notable reward: New allies, resources, and plot hooks.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-001", "LOC-093", "EVENT-067"]
+  },
+ {
+    "ID": "QUEST-021",
+    "Type": "Quest",
+    "Name": "Expose The Whispering Gale in Gloomwatch Sanctum",
+    "Session": "72",
+    "Content": "Status: In Progress. Given by Jin's revelations in Session 72. The party has learned that The Whispering Gale plans to assassinate Queen Nythra and Princess Liriel, marry Prince Adrien to Morra Blackblood, and control Gloomwatch Sanctum to access a titan corpse. The party must rescue the real Dronin Telarran (completed in Session 76), expose The Gale's plot to the Queen, and help House Do'ar counter the conspiracy. Casualties: Several mercenaries and Glass Wardens. Reward: Favor of House Do'ar, stopping The Gale's expansion.",
+    "Related": ["CHAR-025", "CHAR-069", "CHAR-103", "CHAR-104", "CHAR-105", "CHAR-107", "CHAR-108", "LOC-024", "LOC-026", "EVENT-049", "EVENT-050", "EVENT-051", "EVENT-052"]
   }
 ]

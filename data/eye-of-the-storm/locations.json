@@ -726,5 +726,37 @@
     "Session": "71",
     "Content": "A subterranean city located at the outer edge of the Blackstorm Peaks within the Upper Underdark. Ruled primarily by Upper Drow (who differ from Deep Drow). A major mining city populated by Upper Drow, Duergar, and Dwarves, though many other races can also be found. The party is traveling there as their next destination after leaving Cloudfoot Keep. Current status: Not yet visited, but the party is en route.",
     "Related": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-005", "LOC-001", "EVENT-067", "QUEST-025"]
+  },
+{
+    "ID": "LOC-024",
+    "Type": "location",
+    "Name": "Gloomwatch Sanctum",
+    "Session": "71",
+    "Content": "A subterranean mining city located at the outer edge of the Blackstorm Peaks within the Upper Underdark. Ruled primarily by House Do'ar and Queen Nythra. The city is built into spaces carved from mining operations, with a grand castle overlooking it. Notable features: The Crystal Loom (Gale front), Denim Dan's Dapper Denim Depot, Moonshadow Hall, The Broken Pick, Guard Headquarters, and the Old District with The Last Lantern tavern. The city recently unearthed a titan corpse over 100 feet long with a 50-foot sword beneath it. Current status: Active; under threat from The Whispering Gale's conspiracy.",
+    "Related": ["CHAR-100", "CHAR-101", "CHAR-103", "CHAR-104", "CHAR-105", "CHAR-106", "CHAR-107", "CHAR-109", "CHAR-025", "CHAR-069", "EVENT-048", "EVENT-049", "EVENT-050", "EVENT-051", "QUEST-021"]
+  },
+  {
+    "ID": "LOC-025",
+    "Type": "location",
+    "Name": "Denim Dan's Dapper Denim Depot",
+    "Session": "72",
+    "Content": "A shop in Gloomwatch Sanctum run by Denim Dan and his wife Stellinda. They invented denim, a durable blue fabric. The shop was attacked by a Shambling Mound sent by The Whispering Gale. The party defended it, and Vy formed a close relationship with Dan and Stellinda. The shop also sells denim accessories and pet carriers. Current status: Damaged but operational.",
+    "Related": ["CHAR-101", "CHAR-102", "CHAR-003", "LOC-024", "EVENT-050", "EVENT-051"]
+  },
+  {
+    "ID": "LOC-026",
+    "Type": "location",
+    "Name": "Abandoned Mine (Dronin's Prison)",
+    "Session": "76",
+    "Content": "An old, long-abandoned mine shaft beneath Gloomwatch Sanctum, likely either Mine 17 or Mine 18. It was used by The Whispering Gale to imprison the real Dronin Telarran. The tunnels are boarded off at the entrance. Inside, the party fought mercenaries and Glass Wardens. The mine contains old mining equipment, mineral deposits, and distinctive fungus. Dronin was held in a stone cell embedded in rock with a barred grate above. Current status: Party has located and partially explored it.",
+    "Related": ["CHAR-108", "CHAR-109", "LOC-024", "EVENT-052", "QUEST-021"]
+  },
+  {
+    "ID": "LOC-027",
+    "Type": "location",
+    "Name": "The Last Lantern (Tavern)",
+    "Session": "75",
+    "Content": "The oldest tavern in Gloomwatch Sanctum, located in the Old District. It has a hole in the floor at the back that leads directly into the mines beneath the city. Patrons are primarily elderly Dwarves and Duergar miners. Mask and Arc met Darden Broadshield here, who helped identify the abandoned mine where Dronin was imprisoned. Current status: Active.",
+    "Related": ["CHAR-109", "LOC-024", "EVENT-051"]
   }
 ]

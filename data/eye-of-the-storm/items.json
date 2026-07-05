@@ -230,5 +230,21 @@
     "Session": "68",
     "Content": "One of the nine legendary Tools of Creation, associated with Crystal (Gem) Dragonborn. Its purpose is unknown but may involve fire, sound, or resonance. According to Xyrx's ledger, the tools are located in Rook's Rest. Current status: Not yet acquired; location known.",
     "Related": ["ITEM-016", "ITEM-017", "ITEM-018", "ITEM-019", "ITEM-025", "ITEM-026", "ITEM-027", "ITEM-028", "QUEST-021", "CHAR-097", "EVENT-063"]
+  },
+{
+    "ID": "ITEM-025",
+    "Type": "Item",
+    "Name": "Crystal Ball of Scrying",
+    "Session": "74",
+    "Content": "A crystal ball recovered from The Crystal Loom in Gloomwatch Sanctum after the party's confrontation with The Whispering Gale. Mask attuned to it and successfully used it to scry on Dronin Telarran, the imprisoned man whose identity Jin had stolen. The Crystal Ball allows the user to cast Scrying once per day (or similar). A powerful divination tool. Current status: In Mask's possession.",
+    "Related": ["CHAR-001", "CHAR-077", "LOC-024", "EVENT-052", "QUEST-021"]
+  },
+  {
+    "ID": "ITEM-026",
+    "Type": "Item",
+    "Name": "Large Aetherglass Chunk",
+    "Session": "74",
+    "Content": "A substantial chunk of Aetherglass stolen from The Crystal Loom during the party's escape. It is large enough to power Rusty Lou's teleportation machine for one additional use, providing another opportunity to reach Solara. Aetherglass is rare and valuable, formed in mountains when gold deposits are struck by magically-imbued lightning and left to transform for over a thousand years. Current status: In party's possession.",
+    "Related": ["CHAR-073", "ITEM-011", "LOC-024", "EVENT-052", "QUEST-018", "QUEST-021"]
   }
 ]
